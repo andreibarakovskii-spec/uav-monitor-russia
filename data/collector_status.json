@@ -1,62 +1,106 @@
 {
-  "updated_at": "2026-08-22T11:59:34.892764+00:00",
-  "incoming": 0,
-  "total": 7,
+  "updated_at": "2026-08-22T12:13:36.263930+00:00",
+  "incoming": 175,
+  "total": 182,
   "sources": {
     "nn52signal": {
       "ok": true,
-      "events": 0,
-      "error": null
+      "events": 13,
+      "error": null,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 13,
+      "parsed": 13
     },
     "radar_nizhniinovgorod": {
       "ok": true,
-      "events": 0,
-      "error": null
+      "events": 15,
+      "error": null,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 15,
+      "parsed": 15
     },
     "radarrussiia": {
       "ok": true,
-      "events": 0,
-      "error": null
+      "events": 20,
+      "error": null,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 20,
+      "parsed": 20
     },
     "locatorru": {
       "ok": true,
-      "events": 0,
-      "error": null
+      "events": 19,
+      "error": null,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 19,
+      "parsed": 19
     },
     "vrv_radar": {
       "ok": true,
-      "events": 0,
-      "error": null
+      "events": 19,
+      "error": null,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 19,
+      "parsed": 19
     },
     "radar_voronezh": {
       "ok": true,
-      "events": 0,
-      "error": null
+      "events": 19,
+      "error": null,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 19,
+      "parsed": 19
     },
     "radar_peterburg": {
       "ok": true,
-      "events": 0,
-      "error": null
+      "events": 12,
+      "error": null,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 12,
+      "parsed": 12
     },
     "RDFradar": {
       "ok": true,
-      "events": 0,
-      "error": null
+      "events": 18,
+      "error": null,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 18,
+      "parsed": 18
     },
     "radar_tatarstann": {
       "ok": true,
-      "events": 0,
-      "error": null
+      "events": 15,
+      "error": null,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 15,
+      "parsed": 15
     },
     "radar_tatarstan": {
       "ok": true,
-      "events": 0,
-      "error": null
+      "events": 16,
+      "error": null,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 16,
+      "parsed": 16
     },
     "tatalert": {
       "ok": true,
-      "events": 0,
-      "error": null
+      "events": 9,
+      "error": null,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 9,
+      "parsed": 9
     }
   }
 }
