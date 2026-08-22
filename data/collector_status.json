@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-22T12:56:36.744066+00:00",
-  "incoming": 174,
-  "total": 189,
+  "updated_at": "2026-08-22T13:37:56.516332+00:00",
+  "incoming": 172,
+  "total": 212,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -31,16 +31,16 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 20,
+      "events": 19,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 20,
-      "parsed": 20,
+      "with_bpla": 19,
+      "parsed": 19,
       "region_from_channel": 0,
-      "place_found": 19
+      "place_found": 18
     },
     "locatorru": {
       "ok": true,
@@ -57,16 +57,16 @@
     },
     "vrv_radar": {
       "ok": true,
-      "events": 20,
+      "events": 19,
       "error": null,
       "configured_region": "Россия",
       "source_type": "regional-network",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 20,
-      "parsed": 20,
+      "with_bpla": 19,
+      "parsed": 19,
       "region_from_channel": 0,
-      "place_found": 19
+      "place_found": 18
     },
     "radar_voronezh": {
       "ok": true,
@@ -105,7 +105,7 @@
       "with_bpla": 17,
       "parsed": 17,
       "region_from_channel": 15,
-      "place_found": 13
+      "place_found": 10
     },
     "radar_tatarstann": {
       "ok": true,

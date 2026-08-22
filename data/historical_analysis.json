@@ -1,0 +1,72 @@
+{
+  "generated_at": "2026-08-22T13:37:56.574115+00:00",
+  "archive_delay_hours": 24,
+  "total_events": 212,
+  "archived_events": 55,
+  "regions": {
+    "Республика Татарстан": 24,
+    "Нижегородская область": 11,
+    "Ленинградская область": 9,
+    "Чувашская Республика": 3,
+    "Воронежская область": 3,
+    "Радар Питер и Ленинградская область": 3,
+    "ХМАО": 1
+  },
+  "sources": {
+    "@radar_tatarstan": 12,
+    "@radar_peterburg": 12,
+    "@radar_tatarstann": 11,
+    "@radar_nizhniinovgorod": 9,
+    "@tatalert": 6,
+    "@vrv_radar": 3,
+    "@nn52signal": 2
+  },
+  "statuses": {
+    "fix": 26,
+    "defense": 12,
+    "alert": 11,
+    "cancel": 6
+  },
+  "timeline": {
+    "2026-07-23": 1,
+    "2026-08-14": 1,
+    "2026-08-15": 11,
+    "2026-08-17": 4,
+    "2026-08-19": 3,
+    "2026-08-20": 25,
+    "2026-08-21": 10
+  },
+  "historical_pairs": [
+    {
+      "from": "Семилукский район",
+      "to": "Новоусманский район",
+      "from_region": "Воронежская область",
+      "to_region": "Воронежская область",
+      "distance_km": 26.8,
+      "time_difference_minutes": 1.0,
+      "from_time": "2026-08-17T18:32:00+00:00",
+      "to_time": "2026-08-17T18:33:00+00:00"
+    },
+    {
+      "from": "Новоусманский район",
+      "to": "Панинский район",
+      "from_region": "Воронежская область",
+      "to_region": "Воронежская область",
+      "distance_km": 49.7,
+      "time_difference_minutes": 0.0,
+      "from_time": "2026-08-17T18:33:00+00:00",
+      "to_time": "2026-08-17T18:33:00+00:00"
+    },
+    {
+      "from": "Панинский район",
+      "to": "Маевка",
+      "from_region": "Воронежская область",
+      "to_region": "Нижегородская область",
+      "distance_km": 431.6,
+      "time_difference_minutes": 268.0,
+      "from_time": "2026-08-17T18:33:00+00:00",
+      "to_time": "2026-08-17T23:01:00+00:00"
+    }
+  ],
+  "note": "Archived descriptive analysis only; excludes observations newer than 24 hours."
+}
