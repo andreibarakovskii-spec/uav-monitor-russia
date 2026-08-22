@@ -1,8 +1,7 @@
 """Collect public Telegram channel posts into normalized point events.
 
-This collector intentionally stores published observation points only. It does not
-compute or preserve trajectories, speed, course, direction of travel, object identity,
-or predicted positions.
+Stores published observation points and source diagnostics only. It does not
+compute trajectories, speed, course, object identity, or predicted positions.
 """
 
 from __future__ import annotations
@@ -41,24 +40,20 @@ STATUS_WORDS = {
     "cancel": ("отбой", "отмена", "не подтвержд"),
     "defense": ("пво", "сбит", "уничтожен", "подавлен"),
     "alert": ("опасность", "тревога", "угроза"),
-    "fix": ("зафикс", "фиксац", "замечен", "обнаруж"),
+    "fix": ("зафикс", "фиксац", "замечен", "обнаруж", "бпла"),
 }
 
 REGION_RE = re.compile(
     r"(?P<region>[А-ЯЁ][А-Яа-яЁё\- ]+(?:область|край|республика|АО|автономный округ))",
     re.I,
 )
-PLACE_RE = re.compile(
-    r"(?P<place>[А-ЯЁ][А-Яа-яЁё\- ]{1,60}?(?:район|округ|город|г\.о\.|село|пос[её]лок|деревня)?)\s*(?:\n|<br|$)",
-    re.I,
-)
-MESSAGE_RE = re.compile(
-    r'<div class="tgme_widget_message_wrap[^>]*>.*?'
-    r'data-post="(?P<post>[^"]+)".*?'
-    r'<time datetime="(?P<time>[^"]+)".*?</time>.*?'
-    r'(?:<div class="tgme_widget_message_text[^>]*>(?P<text>.*?)</div>)?',
+BLOCK_RE = re.compile(
+    r'<div class="tgme_widget_message_wrap[^>]*>(?P<block>.*?)</div>\s*</div>\s*</div>',
     re.S,
 )
+POST_RE = re.compile(r'data-post="(?P<post>[^"]+)"')
+TIME_RE = re.compile(r'<time[^>]+datetime="(?P<time>[^"]+)"')
+TEXT_RE = re.compile(r'<div class="tgme_widget_message_text[^>]*>(?P<text>.*?)</div>', re.S)
 TAG_RE = re.compile(r"<[^>]+>")
 
 
@@ -78,7 +73,7 @@ class Event:
 
 def clean_text(raw: str | None) -> str:
     value = raw or ""
-    value = value.replace("<br/>", "\n").replace("<br>", "\n").replace("<br />", "\n")
+    value = re.sub(r"<br\s*/?>", "\n", value, flags=re.I)
     value = TAG_RE.sub("", value)
     return re.sub(r"\n{3,}", "\n\n", html.unescape(value)).strip()
 
@@ -98,39 +93,63 @@ def extract_region(text: str) -> str | None:
 
 def extract_place(text: str, region: str | None) -> str | None:
     lines = [x.strip(" •—:-") for x in text.splitlines() if x.strip()]
-    for line in lines[:4]:
-        if region and line.lower() == region.lower():
+    for line in lines[:6]:
+        low = line.lower()
+        if region and low == region.lower():
             continue
-        if any(k in line.lower() for k in ("бпла", "опасност", "тревог", "пво", "фиксац", "сбит")):
+        if any(k in low for k in ("бпла", "опасност", "тревог", "пво", "фиксац", "сбит", "отбой")):
             continue
-        if 2 <= len(line) <= 70:
+        if 2 <= len(line) <= 80:
             return line
-    match = PLACE_RE.search(text)
-    return match.group("place").strip() if match else None
+    return None
 
 
 def fetch_channel(channel: str) -> str:
     req = urllib.request.Request(
         f"https://t.me/s/{channel}",
-        headers={"User-Agent": "Mozilla/5.0 UAV-Monitor-Russia/1.0"},
+        headers={
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/130 Safari/537.36",
+            "Accept-Language": "ru-RU,ru;q=0.9,en;q=0.8",
+        },
     )
-    with urllib.request.urlopen(req, timeout=20) as response:
+    with urllib.request.urlopen(req, timeout=25) as response:
         return response.read().decode("utf-8", errors="replace")
 
 
-def parse_channel(channel: str, page: str) -> list[Event]:
+def iter_message_blocks(page: str):
+    # Telegram's public page markup can vary; first isolate every message wrapper
+    # by the next wrapper boundary, which is more tolerant than nesting-specific regexes.
+    starts = [m.start() for m in re.finditer(r'<div class="tgme_widget_message_wrap', page)]
+    if not starts:
+        return
+    starts.append(len(page))
+    for i in range(len(starts) - 1):
+        yield page[starts[i]:starts[i + 1]]
+
+
+def parse_channel(channel: str, page: str) -> tuple[list[Event], dict]:
     result: list[Event] = []
-    for match in MESSAGE_RE.finditer(page):
-        text = clean_text(match.group("text"))
-        if not text or "бпла" not in text.lower():
+    diagnostics = {"message_blocks": 0, "with_text": 0, "with_bpla": 0, "parsed": 0}
+
+    for block in iter_message_blocks(page) or []:
+        diagnostics["message_blocks"] += 1
+        post_m = POST_RE.search(block)
+        time_m = TIME_RE.search(block)
+        text_m = TEXT_RE.search(block)
+        if not post_m or not time_m or not text_m:
             continue
+        diagnostics["with_text"] += 1
+        text = clean_text(text_m.group("text"))
+        if "бпла" not in text.lower() and "дрон" not in text.lower():
+            continue
+        diagnostics["with_bpla"] += 1
         status = detect_status(text)
         if status == "unknown":
             continue
         region = extract_region(text)
         place = extract_place(text, region)
-        post = match.group("post")
-        published_at = match.group("time")
+        post = post_m.group("post")
+        published_at = time_m.group("time")
         digest = hashlib.sha1(f"{post}|{published_at}|{text}".encode()).hexdigest()[:16]
         result.append(
             Event(
@@ -144,7 +163,8 @@ def parse_channel(channel: str, page: str) -> list[Event]:
                 source_url=f"https://t.me/{post}",
             )
         )
-    return result
+    diagnostics["parsed"] = len(result)
+    return result, diagnostics
 
 
 def merge(existing: Iterable[dict], incoming: Iterable[Event]) -> list[dict]:
@@ -164,14 +184,29 @@ def run() -> int:
         existing = []
 
     incoming: list[Event] = []
-    source_status: dict[str, dict] = {}
+    sources_status: dict[str, dict] = {}
+
     for channel in SOURCES:
         try:
-            parsed = parse_channel(channel, fetch_channel(channel))
+            page = fetch_channel(channel)
+            parsed, diag = parse_channel(channel, page)
             incoming.extend(parsed)
-            source_status[channel] = {"ok": True, "events": len(parsed), "error": None}
+            sources_status[channel] = {
+                "ok": True,
+                "events": len(parsed),
+                "error": None,
+                **diag,
+            }
         except Exception as exc:
-            source_status[channel] = {"ok": False, "events": 0, "error": str(exc)[:300]}
+            sources_status[channel] = {
+                "ok": False,
+                "events": 0,
+                "error": str(exc),
+                "message_blocks": 0,
+                "with_text": 0,
+                "with_bpla": 0,
+                "parsed": 0,
+            }
 
     merged = merge(existing, incoming)
     EVENTS_PATH.write_text(json.dumps(merged, ensure_ascii=False, indent=2), "utf-8")
@@ -179,7 +214,7 @@ def run() -> int:
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "incoming": len(incoming),
         "total": len(merged),
-        "sources": source_status,
+        "sources": sources_status,
     }
     STATUS_PATH.write_text(json.dumps(status, ensure_ascii=False, indent=2), "utf-8")
     print(json.dumps(status, ensure_ascii=False))
