@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>UAV Monitor Russia</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
 </head>
 <body>
 <div class="app">
@@ -13,10 +14,11 @@
 <div>События<br><b id="events">0</b></div><div>Регионов<br><b id="regions">0</b></div><div>Источников<br><b id="sources">0</b></div>
 </section>
 <div class="grid">
-<div class="map" id="map"><h2>Интерактивная карта</h2><div id="points"></div></div>
+<div class="map"><h2>Интерактивная карта</h2><div id="map"></div></div>
 <div class="feed"><h2>Лента</h2><div id="feed"></div></div>
 </div>
 </div>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
