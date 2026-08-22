@@ -1,0 +1,93 @@
+[
+  {
+    "id": "nn52-maevka",
+    "place": "Маевка",
+    "region": "Нижегородская область",
+    "source": "@nn52signal",
+    "status": "fix",
+    "published_at": "2026-08-18T02:01:00+03:00",
+    "lat": 55.05,
+    "lon": 43.27,
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/s/nn52signal?after=42792"
+  },
+  {
+    "id": "nn52-vad",
+    "place": "Вад",
+    "region": "Нижегородская область",
+    "source": "@nn52signal",
+    "status": "fix",
+    "published_at": "2026-07-24T00:35:00+03:00",
+    "lat": 55.53,
+    "lon": 44.21,
+    "confirmations": 1,
+    "approximate": false,
+    "source_url": "https://t.me/s/nn52signal?before=42354"
+  },
+  {
+    "id": "vrv-semiluksky",
+    "place": "Семилукский район",
+    "region": "Воронежская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-17T21:32:00+03:00",
+    "lat": 51.69,
+    "lon": 39.03,
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/s/vrv_radar?before=79078"
+  },
+  {
+    "id": "vrv-novousman",
+    "place": "Новоусманский район",
+    "region": "Воронежская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-17T21:33:00+03:00",
+    "lat": 51.64,
+    "lon": 39.41,
+    "confirmations": 3,
+    "approximate": true,
+    "source_url": "https://t.me/s/vrv_radar?before=79078"
+  },
+  {
+    "id": "vrv-panino",
+    "place": "Панинский район",
+    "region": "Воронежская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-17T21:33:00+03:00",
+    "lat": 51.65,
+    "lon": 40.13,
+    "confirmations": 4,
+    "approximate": true,
+    "source_url": "https://t.me/s/vrv_radar?before=79078"
+  },
+  {
+    "id": "vrv-povorino",
+    "place": "Поворинский район",
+    "region": "Воронежская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-22T20:15:00+03:00",
+    "lat": 51.19,
+    "lon": 42.25,
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/s/vrv_radar?before=84521"
+  },
+  {
+    "id": "vrv-novokhopersk",
+    "place": "Новохопёрский район",
+    "region": "Воронежская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-22T20:17:00+03:00",
+    "lat": 51.10,
+    "lon": 41.63,
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/s/vrv_radar?before=84521"
+  }
+]
