@@ -1,0 +1,62 @@
+{
+  "updated_at": "2026-08-22T11:59:34.892764+00:00",
+  "incoming": 0,
+  "total": 7,
+  "sources": {
+    "nn52signal": {
+      "ok": true,
+      "events": 0,
+      "error": null
+    },
+    "radar_nizhniinovgorod": {
+      "ok": true,
+      "events": 0,
+      "error": null
+    },
+    "radarrussiia": {
+      "ok": true,
+      "events": 0,
+      "error": null
+    },
+    "locatorru": {
+      "ok": true,
+      "events": 0,
+      "error": null
+    },
+    "vrv_radar": {
+      "ok": true,
+      "events": 0,
+      "error": null
+    },
+    "radar_voronezh": {
+      "ok": true,
+      "events": 0,
+      "error": null
+    },
+    "radar_peterburg": {
+      "ok": true,
+      "events": 0,
+      "error": null
+    },
+    "RDFradar": {
+      "ok": true,
+      "events": 0,
+      "error": null
+    },
+    "radar_tatarstann": {
+      "ok": true,
+      "events": 0,
+      "error": null
+    },
+    "radar_tatarstan": {
+      "ok": true,
+      "events": 0,
+      "error": null
+    },
+    "tatalert": {
+      "ok": true,
+      "events": 0,
+      "error": null
+    }
+  }
+}
