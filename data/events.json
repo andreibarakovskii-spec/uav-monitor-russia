@@ -26,6 +26,54 @@
     "source_url": "https://t.me/s/vrv_radar?before=84521"
   },
   {
+    "id": "tg-919ff17c6c284f06",
+    "place": "ГО Ступино и ближайшие",
+    "region": "Москва и Московская область",
+    "source": "@RDFradar",
+    "status": "alert",
+    "published_at": "2026-08-22T12:43:46+00:00",
+    "text": "ГО Ступино и ближайшие \n❗️опасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11954"
+  },
+  {
+    "id": "tg-8a570b35bd0a1bc3",
+    "place": "Север",
+    "region": null,
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-08-22T12:28:10+00:00",
+    "text": "Север\nСеверо-Запад \nРеспублика Крым \nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89633"
+  },
+  {
+    "id": "tg-61eb8ae94fa7a650",
+    "place": "Алексин",
+    "region": "Тульская область",
+    "source": "@radarrussiia",
+    "status": "defense",
+    "published_at": "2026-08-22T12:27:42+00:00",
+    "text": "Алексин\nТульская область\nСбитие БПЛА\nМеры безопасности\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89632"
+  },
+  {
+    "id": "tg-f2e991d9736dc0d1",
+    "place": "Алексин",
+    "region": "Тульская область",
+    "source": "@vrv_radar",
+    "status": "defense",
+    "published_at": "2026-08-22T12:27:23+00:00",
+    "text": "Алексин\nТульская область\nСбитие БПЛА\nМеры безопасности",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/84815"
+  },
+  {
     "id": "tg-4bf9d2f57dfaa438",
     "place": "Залегощенский район",
     "region": "Орловская область",

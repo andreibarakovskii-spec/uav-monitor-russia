@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-22T12:21:37.616088+00:00",
-  "incoming": 175,
-  "total": 185,
+  "updated_at": "2026-08-22T12:56:36.744066+00:00",
+  "incoming": 174,
+  "total": 189,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -40,7 +40,7 @@
       "with_bpla": 20,
       "parsed": 20,
       "region_from_channel": 0,
-      "place_found": 17
+      "place_found": 19
     },
     "locatorru": {
       "ok": true,
@@ -96,15 +96,15 @@
     },
     "RDFradar": {
       "ok": true,
-      "events": 18,
+      "events": 17,
       "error": null,
       "configured_region": "Москва и Московская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 18,
-      "parsed": 18,
-      "region_from_channel": 16,
+      "with_bpla": 17,
+      "parsed": 17,
+      "region_from_channel": 15,
       "place_found": 13
     },
     "radar_tatarstann": {
