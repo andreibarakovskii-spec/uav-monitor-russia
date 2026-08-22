@@ -1,5 +1,4 @@
 // Historical analytics viewer helper
-// Reads archived analytics when available and renders summary blocks.
 
 async function loadHistoricalAnalytics() {
   try {
@@ -11,18 +10,32 @@ async function loadHistoricalAnalytics() {
   }
 }
 
-function formatHistorySummary(data) {
-  if (!data) return 'Историческая аналитика недоступна';
+function renderHistoryPage(data) {
+  if (!data) return;
+  const total = document.getElementById('total');
+  const regions = document.getElementById('regions');
+  const sources = document.getElementById('sources');
 
-  const regions = Object.entries(data.regions || {})
-    .slice(0, 5)
-    .map(([name, count]) => `${name}: ${count}`)
-    .join('\n');
+  if (total) total.textContent = data.total_events || 0;
+  if (regions) regions.textContent = Object.keys(data.regions || {}).length;
+  if (sources) sources.textContent = Object.keys(data.sources || {}).length;
 
-  return `Всего событий: ${data.total_events || 0}\n\nТоп регионов:\n${regions}`;
+  renderHistoryList('regionsList', data.regions || {});
+  renderHistoryList('sourcesList', data.sources || {});
 }
 
-window.HistoricalAnalytics = {
-  loadHistoricalAnalytics,
-  formatHistorySummary
-};
+function renderHistoryList(id, obj) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.innerHTML = '';
+  Object.entries(obj).sort((a,b)=>b[1]-a[1]).slice(0,20).forEach(([name,count])=>{
+    const item=document.createElement('div');
+    item.className='event';
+    item.innerHTML=`<b>${name}</b><div class="meta">${count} событий</div>`;
+    el.appendChild(item);
+  });
+}
+
+loadHistoricalAnalytics().then(renderHistoryPage);
+
+window.HistoricalAnalytics = { loadHistoricalAnalytics };
