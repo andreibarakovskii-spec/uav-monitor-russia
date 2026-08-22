@@ -5,20 +5,59 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>UAV Monitor Russia</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
 <div class="app">
-<header><h1>Карта фиксаций БПЛА</h1><span id="status">● demo mode</span></header>
+<header class="topbar">
+  <div>
+    <h1>Карта фиксаций БПЛА</h1>
+    <p>Публичные сообщения по населённым пунктам без построения маршрутов и прогноза движения.</p>
+  </div>
+  <span id="status" class="status">● demo data</span>
+</header>
+
 <section class="cards">
-<div>События<br><b id="events">0</b></div><div>Регионов<br><b id="regions">0</b></div><div>Источников<br><b id="sources">0</b></div>
+  <div><span>События</span><b id="events">0</b></div>
+  <div><span>Регионов</span><b id="regions">0</b></div>
+  <div><span>Источников</span><b id="sources">0</b></div>
+  <div><span>Подтверждённых</span><b id="confirmed">0</b></div>
 </section>
+
+<section class="toolbar">
+  <label>Регион<select id="regionFilter"><option value="all">Все регионы</option></select></label>
+  <label>Источник<select id="sourceFilter"><option value="all">Все источники</option></select></label>
+  <label>Тип<select id="typeFilter"><option value="all">Все</option><option value="fix">Фиксация</option><option value="alert">Опасность</option><option value="defense">ПВО / сбитие</option><option value="cancel">Отбой</option></select></label>
+  <label>Период<select id="timeFilter"><option value="all">Все</option><option value="30">30 минут</option><option value="60">1 час</option><option value="180">3 часа</option><option value="1440">24 часа</option></select></label>
+  <button id="resetFilters" type="button">Сбросить</button>
+</section>
+
 <div class="grid">
-<div class="map"><h2>Интерактивная карта</h2><div id="map"></div></div>
-<div class="feed"><h2>Лента</h2><div id="feed"></div></div>
+  <section class="map-panel">
+    <div class="panel-head"><h2>Карта</h2><span id="visibleCount">0 точек</span></div>
+    <div id="map"></div>
+    <div class="legend"><span><i class="fix"></i>фиксация</span><span><i class="confirmed"></i>2+ источника</span><span><i class="defense"></i>ПВО</span><span><i class="cancel"></i>отбой</span></div>
+  </section>
+
+  <aside class="side">
+    <section class="detail" id="detail">
+      <h2>Выбранная точка</h2>
+      <p class="muted">Нажмите на маркер или событие в ленте.</p>
+    </section>
+    <section class="feed-panel">
+      <div class="panel-head"><h2>Лента событий</h2><span id="feedCount"></span></div>
+      <div id="feed" class="feed"></div>
+    </section>
+  </aside>
 </div>
+
+<section class="timeline-panel">
+  <div class="panel-head"><h2>Временная шкала</h2><span>демонстрационные события</span></div>
+  <input id="timeline" type="range" min="0" max="100" value="100" aria-label="Временная шкала">
+  <div class="timeline-labels"><span>раньше</span><b id="timelineLabel">все события</b><span>сейчас</span></div>
+</section>
 </div>
-<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
