@@ -1,7 +1,8 @@
 """Collect public Telegram channel posts into normalized point events.
 
 This collector intentionally stores published observation points only. It does not
-compute trajectories, speed, course, object identity, or predicted positions.
+compute or preserve trajectories, speed, course, direction of travel, object identity,
+or predicted positions.
 """
 
 from __future__ import annotations
@@ -20,6 +21,7 @@ from typing import Iterable
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 EVENTS_PATH = DATA_DIR / "events.json"
+STATUS_PATH = DATA_DIR / "collector_status.json"
 
 SOURCES = [
     "nn52signal",
@@ -72,7 +74,6 @@ class Event:
     confirmations: int = 1
     approximate: bool = True
     source_url: str | None = None
-    direction_text: str | None = None
 
 
 def clean_text(raw: str | None) -> str:
@@ -108,19 +109,6 @@ def extract_place(text: str, region: str | None) -> str | None:
     return match.group("place").strip() if match else None
 
 
-def extract_direction_text(text: str) -> str | None:
-    """Preserve only direction wording explicitly present in the source post."""
-    patterns = [
-        r"(?:в|по)\s+направлени[ию]\s+([^\n.!?]{2,80})",
-        r"направлени[ие]\s*[:—-]\s*([^\n.!?]{2,80})",
-    ]
-    for pattern in patterns:
-        m = re.search(pattern, text, re.I)
-        if m:
-            return m.group(1).strip(" .,:;—-")
-    return None
-
-
 def fetch_channel(channel: str) -> str:
     req = urllib.request.Request(
         f"https://t.me/s/{channel}",
@@ -154,7 +142,6 @@ def parse_channel(channel: str, page: str) -> list[Event]:
                 published_at=published_at,
                 text=text,
                 source_url=f"https://t.me/{post}",
-                direction_text=extract_direction_text(text),
             )
         )
     return result
@@ -177,16 +164,25 @@ def run() -> int:
         existing = []
 
     incoming: list[Event] = []
-    errors: list[str] = []
+    source_status: dict[str, dict] = {}
     for channel in SOURCES:
         try:
-            incoming.extend(parse_channel(channel, fetch_channel(channel)))
+            parsed = parse_channel(channel, fetch_channel(channel))
+            incoming.extend(parsed)
+            source_status[channel] = {"ok": True, "events": len(parsed), "error": None}
         except Exception as exc:
-            errors.append(f"{channel}: {exc}")
+            source_status[channel] = {"ok": False, "events": 0, "error": str(exc)[:300]}
 
     merged = merge(existing, incoming)
     EVENTS_PATH.write_text(json.dumps(merged, ensure_ascii=False, indent=2), "utf-8")
-    print(json.dumps({"updated_at": datetime.now(timezone.utc).isoformat(), "incoming": len(incoming), "total": len(merged), "errors": errors}, ensure_ascii=False))
+    status = {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "incoming": len(incoming),
+        "total": len(merged),
+        "sources": source_status,
+    }
+    STATUS_PATH.write_text(json.dumps(status, ensure_ascii=False, indent=2), "utf-8")
+    print(json.dumps(status, ensure_ascii=False))
     return 0 if incoming or existing else 1
 
 
