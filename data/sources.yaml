@@ -1,0 +1,25 @@
+sources:
+  - name: nn52signal
+    channel: '@nn52signal'
+    region: 'Нижегородская область'
+    type: regional
+  - name: radar_nizhniinovgorod
+    channel: '@radar_nizhniinovgorod'
+    region: 'Нижегородская область'
+    type: regional
+  - name: radarrussiia
+    channel: '@radarrussiia'
+    region: 'Россия'
+    type: national
+  - name: locatorru
+    channel: '@locatorru'
+    region: 'Россия'
+    type: national
+  - name: vrv_radar
+    channel: '@vrv_radar'
+    region: 'Россия'
+    type: regional-network
+  - name: radar_voronezh
+    channel: '@radar_voronezh'
+    region: 'Воронежская область'
+    type: regional
