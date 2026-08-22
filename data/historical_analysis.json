@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-22T22:32:38.768137+00:00",
+  "generated_at": "2026-08-22T23:00:26.354673+00:00",
   "archive_delay_hours": 24,
-  "total_events": 551,
-  "archived_events": 69,
+  "total_events": 597,
+  "archived_events": 70,
   "regions": {
     "Республика Татарстан": 24,
-    "Воронежская область": 14,
+    "Воронежская область": 15,
     "Нижегородская область": 14,
     "Ленинградская область": 9,
     "Чувашская Республика": 3,
@@ -13,10 +13,10 @@
     "ХМАО": 1
   },
   "sources": {
+    "@radar_voronezh": 12,
     "@radar_nizhniinovgorod": 12,
     "@radar_tatarstan": 12,
     "@radar_peterburg": 12,
-    "@radar_voronezh": 11,
     "@radar_tatarstann": 11,
     "@tatalert": 6,
     "@vrv_radar": 3,
@@ -24,7 +24,7 @@
   },
   "statuses": {
     "fix": 34,
-    "defense": 15,
+    "defense": 16,
     "alert": 14,
     "cancel": 6
   },
@@ -35,7 +35,7 @@
     "2026-08-17": 4,
     "2026-08-19": 3,
     "2026-08-20": 25,
-    "2026-08-21": 24
+    "2026-08-21": 25
   },
   "historical_pairs": [
     {
