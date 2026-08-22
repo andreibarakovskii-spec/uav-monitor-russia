@@ -22,19 +22,20 @@ DATA_DIR = ROOT / "data"
 EVENTS_PATH = DATA_DIR / "events.json"
 STATUS_PATH = DATA_DIR / "collector_status.json"
 
-SOURCES = [
-    "nn52signal",
-    "radar_nizhniinovgorod",
-    "radarrussiia",
-    "locatorru",
-    "vrv_radar",
-    "radar_voronezh",
-    "radar_peterburg",
-    "RDFradar",
-    "radar_tatarstann",
-    "radar_tatarstan",
-    "tatalert",
-]
+SOURCE_META = {
+    "nn52signal": {"region": "Нижегородская область", "type": "regional"},
+    "radar_nizhniinovgorod": {"region": "Нижегородская область", "type": "regional"},
+    "radarrussiia": {"region": "Россия", "type": "national"},
+    "locatorru": {"region": "Россия", "type": "national"},
+    "vrv_radar": {"region": "Россия", "type": "regional-network"},
+    "radar_voronezh": {"region": "Воронежская область", "type": "regional"},
+    "radar_peterburg": {"region": "Санкт-Петербург и Ленинградская область", "type": "regional"},
+    "RDFradar": {"region": "Москва и Московская область", "type": "regional"},
+    "radar_tatarstann": {"region": "Республика Татарстан", "type": "regional"},
+    "radar_tatarstan": {"region": "Республика Татарстан", "type": "regional"},
+    "tatalert": {"region": "Республика Татарстан", "type": "regional"},
+}
+SOURCES = list(SOURCE_META)
 
 STATUS_WORDS = {
     "cancel": ("отбой", "отмена", "не подтвержд"),
@@ -46,10 +47,6 @@ STATUS_WORDS = {
 REGION_RE = re.compile(
     r"(?P<region>[А-ЯЁ][А-Яа-яЁё\- ]+(?:область|край|республика|АО|автономный округ))",
     re.I,
-)
-BLOCK_RE = re.compile(
-    r'<div class="tgme_widget_message_wrap[^>]*>(?P<block>.*?)</div>\s*</div>\s*</div>',
-    re.S,
 )
 POST_RE = re.compile(r'data-post="(?P<post>[^"]+)"')
 TIME_RE = re.compile(r'<time[^>]+datetime="(?P<time>[^"]+)"')
@@ -86,20 +83,34 @@ def detect_status(text: str) -> str:
     return "unknown"
 
 
-def extract_region(text: str) -> str | None:
+def extract_region(text: str, channel: str) -> str | None:
+    """Prefer an explicit region in the post; otherwise trust regional channel metadata."""
     match = REGION_RE.search(text)
-    return match.group("region").strip() if match else None
+    if match:
+        return match.group("region").strip()
+    meta = SOURCE_META.get(channel, {})
+    region = meta.get("region")
+    if meta.get("type") == "regional":
+        return region
+    return None
 
 
 def extract_place(text: str, region: str | None) -> str | None:
+    """Extract a locality candidate from a short Telegram post without inventing coordinates."""
     lines = [x.strip(" •—:-") for x in text.splitlines() if x.strip()]
-    for line in lines[:6]:
+    ignored = (
+        "бпла", "опасност", "тревог", "пво", "фиксац", "сбит", "отбой",
+        "подпис", "прислать", "бот", "канал", "внимание", "угроза",
+    )
+    for line in lines[:8]:
         low = line.lower()
         if region and low == region.lower():
             continue
-        if any(k in low for k in ("бпла", "опасност", "тревог", "пво", "фиксац", "сбит", "отбой")):
+        if any(k in low for k in ignored):
             continue
-        if 2 <= len(line) <= 80:
+        if re.search(r"\b(район|округ|г\.?о\.?|город|село|пос[её]лок|деревня|станица|хутор)\b", low):
+            return line[:100]
+        if 2 <= len(line) <= 55 and len(line.split()) <= 5:
             return line
     return None
 
@@ -117,8 +128,6 @@ def fetch_channel(channel: str) -> str:
 
 
 def iter_message_blocks(page: str):
-    # Telegram's public page markup can vary; first isolate every message wrapper
-    # by the next wrapper boundary, which is more tolerant than nesting-specific regexes.
     starts = [m.start() for m in re.finditer(r'<div class="tgme_widget_message_wrap', page)]
     if not starts:
         return
@@ -129,7 +138,14 @@ def iter_message_blocks(page: str):
 
 def parse_channel(channel: str, page: str) -> tuple[list[Event], dict]:
     result: list[Event] = []
-    diagnostics = {"message_blocks": 0, "with_text": 0, "with_bpla": 0, "parsed": 0}
+    diagnostics = {
+        "message_blocks": 0,
+        "with_text": 0,
+        "with_bpla": 0,
+        "parsed": 0,
+        "region_from_channel": 0,
+        "place_found": 0,
+    }
 
     for block in iter_message_blocks(page) or []:
         diagnostics["message_blocks"] += 1
@@ -146,8 +162,13 @@ def parse_channel(channel: str, page: str) -> tuple[list[Event], dict]:
         status = detect_status(text)
         if status == "unknown":
             continue
-        region = extract_region(text)
+        explicit_region = REGION_RE.search(text)
+        region = extract_region(text, channel)
+        if region and not explicit_region and SOURCE_META.get(channel, {}).get("type") == "regional":
+            diagnostics["region_from_channel"] += 1
         place = extract_place(text, region)
+        if place:
+            diagnostics["place_found"] += 1
         post = post_m.group("post")
         published_at = time_m.group("time")
         digest = hashlib.sha1(f"{post}|{published_at}|{text}".encode()).hexdigest()[:16]
@@ -195,6 +216,8 @@ def run() -> int:
                 "ok": True,
                 "events": len(parsed),
                 "error": None,
+                "configured_region": SOURCE_META[channel]["region"],
+                "source_type": SOURCE_META[channel]["type"],
                 **diag,
             }
         except Exception as exc:
@@ -202,10 +225,14 @@ def run() -> int:
                 "ok": False,
                 "events": 0,
                 "error": str(exc),
+                "configured_region": SOURCE_META[channel]["region"],
+                "source_type": SOURCE_META[channel]["type"],
                 "message_blocks": 0,
                 "with_text": 0,
                 "with_bpla": 0,
                 "parsed": 0,
+                "region_from_channel": 0,
+                "place_found": 0,
             }
 
     merged = merge(existing, incoming)
