@@ -1,20 +1,20 @@
 {
-  "updated_at": "2026-08-22T14:32:30.359537+00:00",
-  "incoming": 170,
-  "total": 219,
+  "updated_at": "2026-08-22T15:00:20.383579+00:00",
+  "incoming": 169,
+  "total": 226,
   "sources": {
     "nn52signal": {
       "ok": true,
-      "events": 12,
+      "events": 11,
       "error": null,
       "configured_region": "Нижегородская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 12,
-      "parsed": 12,
-      "region_from_channel": 7,
-      "place_found": 11
+      "with_bpla": 11,
+      "parsed": 11,
+      "region_from_channel": 6,
+      "place_found": 10
     },
     "radar_nizhniinovgorod": {
       "ok": true,
