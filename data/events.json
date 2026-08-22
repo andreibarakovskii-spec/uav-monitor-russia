@@ -26,6 +26,42 @@
     "source_url": "https://t.me/s/vrv_radar?before=84521"
   },
   {
+    "id": "tg-5dd83c161ad141fc",
+    "place": "Можайский МО",
+    "region": "Москва и Московская область",
+    "source": "@RDFradar",
+    "status": "fix",
+    "published_at": "2026-08-22T14:21:23+00:00",
+    "text": "Можайский МО \nРузский МО \nГО Серпухов \n💥💪 Работает ВКС по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11969"
+  },
+  {
+    "id": "tg-9e3b00aa89e40d10",
+    "place": "Рузский МО",
+    "region": "Москва и Московская область",
+    "source": "@RDFradar",
+    "status": "fix",
+    "published_at": "2026-08-22T14:07:16+00:00",
+    "text": "Рузский МО \n💥Продолжается работа по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11968"
+  },
+  {
+    "id": "tg-833cf3b801717cf8",
+    "place": "Пущино  и ближайшие (ГО Серпухов)",
+    "region": "Москва и Московская область",
+    "source": "@RDFradar",
+    "status": "fix",
+    "published_at": "2026-08-22T14:05:45+00:00",
+    "text": "Пущино  и ближайшие (ГО Серпухов) \nВозможно пролёт БПЛА в вашем направлении",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11967"
+  },
+  {
     "id": "tg-6a06afca9300c83f",
     "place": "Можайский МО",
     "region": "Москва и Московская область",
