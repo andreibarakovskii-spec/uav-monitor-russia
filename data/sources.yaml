@@ -23,3 +23,23 @@ sources:
     channel: '@radar_voronezh'
     region: 'Воронежская область'
     type: regional
+  - name: radar_peterburg
+    channel: '@radar_peterburg'
+    region: 'Санкт-Петербург и Ленинградская область'
+    type: regional
+  - name: RDFradar
+    channel: '@RDFradar'
+    region: 'Москва и Московская область'
+    type: regional
+  - name: radar_tatarstann
+    channel: '@radar_tatarstann'
+    region: 'Республика Татарстан'
+    type: regional
+  - name: radar_tatarstan
+    channel: '@radar_tatarstan'
+    region: 'Республика Татарстан'
+    type: regional
+  - name: tatalert
+    channel: '@tatalert'
+    region: 'Республика Татарстан'
+    type: regional
