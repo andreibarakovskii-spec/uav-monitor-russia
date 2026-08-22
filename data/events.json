@@ -26,6 +26,42 @@
     "source_url": "https://t.me/s/vrv_radar?before=84521"
   },
   {
+    "id": "tg-4bf9d2f57dfaa438",
+    "place": "Залегощенский район",
+    "region": "Орловская область",
+    "source": "@radarrussiia",
+    "status": "fix",
+    "published_at": "2026-08-22T12:17:06+00:00",
+    "text": "Залегощенский район\nОрловская область\nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89631"
+  },
+  {
+    "id": "tg-ba6932a2592fa47b",
+    "place": "Залегощенский район",
+    "region": "Орловская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-22T12:14:15+00:00",
+    "text": "Залегощенский район\nОрловская область\nФиксация БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/84814"
+  },
+  {
+    "id": "tg-e13b5baeb56191da",
+    "place": "Орловский район",
+    "region": "Орловская область",
+    "source": "@radarrussiia",
+    "status": "fix",
+    "published_at": "2026-08-22T12:13:42+00:00",
+    "text": "Орловский район\nОрловская область\nГруппа БПЛА в вашем направлении от Хотынецкого района\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89630"
+  },
+  {
     "id": "tg-afa874fb0cf3b83e",
     "place": "Хотынецкий район",
     "region": "Орловская область",
@@ -135,7 +171,7 @@
   },
   {
     "id": "tg-9b965ec56e847eac",
-    "place": "❗️Радар по всей России - @radarrussiia",
+    "place": null,
     "region": "Московская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -267,7 +303,7 @@
   },
   {
     "id": "tg-26247a7c5e3aad06",
-    "place": "К нам обращаются наши братья из 108 ГДШ за помощью в сборе.",
+    "place": "Они остро нуждаются в квадрокоптерах",
     "region": null,
     "source": "@locatorru",
     "status": "fix",
@@ -460,7 +496,7 @@
   {
     "id": "tg-7f87d9780049341e",
     "place": "мэр Москвы Собянин",
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "defense",
     "published_at": "2026-08-22T10:10:35+00:00",
@@ -639,7 +675,7 @@
   },
   {
     "id": "tg-6b6788b8182f3cf4",
-    "place": "❗️Радар по всей России - @radarrussiia",
+    "place": null,
     "region": "Московская область",
     "source": "@radarrussiia",
     "status": "cancel",
@@ -651,7 +687,7 @@
   },
   {
     "id": "tg-86380acabdd86841",
-    "place": "❗️Радар по всей России - @radarrussiia",
+    "place": null,
     "region": "Нижегородская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -759,7 +795,7 @@
   },
   {
     "id": "tg-59b54e74847f05f4",
-    "place": "🔴 ВНИМАНИЕ!",
+    "place": "Сохраняйте бдительность.",
     "region": "Нижегородская область",
     "source": "@nn52signal",
     "status": "alert",
@@ -771,7 +807,7 @@
   },
   {
     "id": "tg-d599d3b5ee9ea068",
-    "place": "Стоит гул - свои в небе.",
+    "place": "📡Локатор России - @locatorru",
     "region": null,
     "source": "@locatorru",
     "status": "fix",
@@ -783,8 +819,8 @@
   },
   {
     "id": "tg-d7658aba6972ff87",
-    "place": "Республика Татарстан",
-    "region": null,
+    "place": null,
+    "region": "Республика Татарстан",
     "source": "@tatalert",
     "status": "cancel",
     "published_at": "2026-08-22T08:45:20+00:00",
@@ -796,7 +832,7 @@
   {
     "id": "tg-92370f6b31f759f3",
     "place": "Урень",
-    "region": null,
+    "region": "Нижегородская область",
     "source": "@nn52signal",
     "status": "fix",
     "published_at": "2026-08-22T08:41:30+00:00",
@@ -807,8 +843,8 @@
   },
   {
     "id": "tg-1047b482e5f7ebdb",
-    "place": "Республика Татарстан",
-    "region": null,
+    "place": "❗️Радар Казань - @radar_tatarstann",
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "cancel",
     "published_at": "2026-08-22T08:41:08+00:00",
@@ -832,7 +868,7 @@
   {
     "id": "tg-996a324618f4626a",
     "place": "Воскресенский рн",
-    "region": null,
+    "region": "Нижегородская область",
     "source": "@nn52signal",
     "status": "fix",
     "published_at": "2026-08-22T08:36:02+00:00",
@@ -855,7 +891,7 @@
   },
   {
     "id": "tg-f5756b637b795a50",
-    "place": "🟢 ВНИМАНИЕ!",
+    "place": "Отмена сигнала",
     "region": "Нижегородская область",
     "source": "@nn52signal",
     "status": "cancel",
@@ -868,7 +904,7 @@
   {
     "id": "tg-7a73c85189f8d2ac",
     "place": "Валки",
-    "region": null,
+    "region": "Нижегородская область",
     "source": "@nn52signal",
     "status": "fix",
     "published_at": "2026-08-22T08:04:57+00:00",
@@ -880,7 +916,7 @@
   {
     "id": "tg-78efc1583e4f2134",
     "place": "❗️Радар Воронеж - @radar_voronezh",
-    "region": null,
+    "region": "Воронежская область",
     "source": "@radar_voronezh",
     "status": "defense",
     "published_at": "2026-08-22T08:04:00+00:00",
@@ -891,8 +927,8 @@
   },
   {
     "id": "tg-b429fa046be88e76",
-    "place": "Республика Татарстан",
-    "region": null,
+    "place": null,
+    "region": "Республика Татарстан",
     "source": "@tatalert",
     "status": "fix",
     "published_at": "2026-08-22T08:01:45+00:00",
@@ -904,7 +940,7 @@
   {
     "id": "tg-4016d8f094a42aba",
     "place": "Д. Хорошево",
-    "region": null,
+    "region": "Нижегородская область",
     "source": "@nn52signal",
     "status": "fix",
     "published_at": "2026-08-22T07:59:17+00:00",
@@ -916,7 +952,7 @@
   {
     "id": "tg-d1c0bd376eb07ce6",
     "place": "Д. Барково",
-    "region": null,
+    "region": "Нижегородская область",
     "source": "@nn52signal",
     "status": "fix",
     "published_at": "2026-08-22T07:57:47+00:00",
@@ -939,8 +975,8 @@
   },
   {
     "id": "tg-f8babe167d02eb77",
-    "place": "Республика Татарстан",
-    "region": null,
+    "place": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "fix",
     "published_at": "2026-08-22T07:54:18+00:00",
@@ -952,7 +988,7 @@
   {
     "id": "tg-3408d890a8bcfc24",
     "place": "Большое Мурашкино",
-    "region": null,
+    "region": "Нижегородская область",
     "source": "@nn52signal",
     "status": "fix",
     "published_at": "2026-08-22T07:48:55+00:00",
@@ -964,7 +1000,7 @@
   {
     "id": "tg-d37244c8826215f8",
     "place": "Смагино",
-    "region": null,
+    "region": "Нижегородская область",
     "source": "@nn52signal",
     "status": "fix",
     "published_at": "2026-08-22T07:44:21+00:00",
@@ -976,7 +1012,7 @@
   {
     "id": "tg-a3a3ada67ef3d9cf",
     "place": "Вача",
-    "region": null,
+    "region": "Нижегородская область",
     "source": "@nn52signal",
     "status": "fix",
     "published_at": "2026-08-22T07:43:26+00:00",
@@ -987,8 +1023,8 @@
   },
   {
     "id": "tg-7133233ef42ad674",
-    "place": "Республика Татарстан",
-    "region": null,
+    "place": "❗️Радар Казань - @radar_tatarstann",
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "fix",
     "published_at": "2026-08-22T07:28:07+00:00",
@@ -1000,7 +1036,7 @@
   {
     "id": "tg-2654179aeca74991",
     "place": "МО Егорьевск",
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "defense",
     "published_at": "2026-08-22T07:13:12+00:00",
@@ -1012,7 +1048,7 @@
   {
     "id": "tg-9eff08430d632f6a",
     "place": "МО Егорьевск",
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "alert",
     "published_at": "2026-08-22T06:57:24+00:00",
@@ -1024,7 +1060,7 @@
   {
     "id": "tg-a633a364b9cb4939",
     "place": "ГО Серпухов",
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
     "published_at": "2026-08-22T06:54:56+00:00",
@@ -1036,7 +1072,7 @@
   {
     "id": "tg-6b07c2b4c89008b4",
     "place": null,
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
     "published_at": "2026-08-22T06:53:15+00:00",
@@ -1048,7 +1084,7 @@
   {
     "id": "tg-86830dd4f043cad5",
     "place": "ГО Коломна",
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
     "published_at": "2026-08-22T06:39:37+00:00",
@@ -1060,7 +1096,7 @@
   {
     "id": "tg-9550cd5eaf4d8c99",
     "place": null,
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
     "published_at": "2026-08-22T06:28:51+00:00",
@@ -1084,7 +1120,7 @@
   {
     "id": "tg-df31ab382573a7f7",
     "place": "МО Зарайск",
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
     "published_at": "2026-08-22T06:10:49+00:00",
@@ -1096,7 +1132,7 @@
   {
     "id": "tg-bf215c54a71571d8",
     "place": "Орехово-Зуевский ГО",
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "alert",
     "published_at": "2026-08-22T05:50:51+00:00",
@@ -1108,7 +1144,7 @@
   {
     "id": "tg-2b4e10e2320f5d77",
     "place": null,
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "defense",
     "published_at": "2026-08-22T05:45:26+00:00",
@@ -1120,7 +1156,7 @@
   {
     "id": "tg-bc238632f7ae8b61",
     "place": "ГО Воскресенск",
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "defense",
     "published_at": "2026-08-22T05:39:00+00:00",
@@ -1132,7 +1168,7 @@
   {
     "id": "tg-c75e198966e3a9c6",
     "place": "ГО Коломна",
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
     "published_at": "2026-08-22T05:38:29+00:00",
@@ -1156,7 +1192,7 @@
   {
     "id": "tg-e2fd088e4c00b3bf",
     "place": "ГО Коломна",
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "defense",
     "published_at": "2026-08-22T05:35:08+00:00",
@@ -1168,7 +1204,7 @@
   {
     "id": "tg-4c07460f8b4ca2b2",
     "place": "Раменский МО",
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
     "published_at": "2026-08-22T05:29:26+00:00",
@@ -1180,7 +1216,7 @@
   {
     "id": "tg-ba4c37757968a974",
     "place": "Рузский МО",
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
     "published_at": "2026-08-22T05:29:26+00:00",
@@ -1192,7 +1228,7 @@
   {
     "id": "tg-9005fd16ba4681e7",
     "place": null,
-    "region": null,
+    "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
     "published_at": "2026-08-22T05:26:33+00:00",
@@ -1264,7 +1300,7 @@
   {
     "id": "tg-8a6b0f877962a9c0",
     "place": "Казань и близлежащие",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "fix",
     "published_at": "2026-08-22T02:57:15+00:00",
@@ -1276,7 +1312,7 @@
   {
     "id": "tg-e64b22ff65972110",
     "place": "Казань и близлежащие",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "fix",
     "published_at": "2026-08-22T02:53:34+00:00",
@@ -1288,7 +1324,7 @@
   {
     "id": "tg-2a3c3ee7938f85fe",
     "place": "Чебоксары и близлежащие",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "alert",
     "published_at": "2026-08-22T02:51:14+00:00",
@@ -1311,8 +1347,8 @@
   },
   {
     "id": "tg-07060cbdd7d97d83",
-    "place": "Республика Татарстан",
-    "region": null,
+    "place": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "alert",
     "published_at": "2026-08-22T00:54:14+00:00",
@@ -1323,8 +1359,8 @@
   },
   {
     "id": "tg-6ad2ec784fbace33",
-    "place": "Республика Татарстан",
-    "region": null,
+    "place": null,
+    "region": "Республика Татарстан",
     "source": "@tatalert",
     "status": "alert",
     "published_at": "2026-08-22T00:50:11+00:00",
@@ -1335,8 +1371,8 @@
   },
   {
     "id": "tg-ce80809d08e302fe",
-    "place": "Республика Татарстан",
-    "region": null,
+    "place": "❗️Радар Казань - @radar_tatarstann",
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "alert",
     "published_at": "2026-08-22T00:48:58+00:00",
@@ -1527,8 +1563,8 @@
   },
   {
     "id": "tg-280e30a32cbd2000",
-    "place": "Республика Татарстан",
-    "region": null,
+    "place": null,
+    "region": "Республика Татарстан",
     "source": "@tatalert",
     "status": "cancel",
     "published_at": "2026-08-21T05:55:10+00:00",
@@ -1539,8 +1575,8 @@
   },
   {
     "id": "tg-9f84567fe723c31c",
-    "place": "Республика Татарстан",
-    "region": null,
+    "place": "❗️Радар Казань - @radar_tatarstann",
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "cancel",
     "published_at": "2026-08-21T05:50:40+00:00",
@@ -1564,7 +1600,7 @@
   {
     "id": "tg-c4e81ca7f45809eb",
     "place": null,
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "fix",
     "published_at": "2026-08-21T01:03:19+00:00",
@@ -1575,8 +1611,8 @@
   },
   {
     "id": "tg-ff8edaad22ce7bd6",
-    "place": "РАДАР ТАТАРСТАН | Подписаться",
-    "region": null,
+    "place": null,
+    "region": "Республика Татарстан",
     "source": "@tatalert",
     "status": "fix",
     "published_at": "2026-08-21T01:00:12+00:00",
@@ -1588,7 +1624,7 @@
   {
     "id": "tg-5334fc376378531b",
     "place": "❗️Радар Казань - @radar_tatarstann",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "fix",
     "published_at": "2026-08-21T00:55:51+00:00",
@@ -1636,7 +1672,7 @@
   {
     "id": "tg-a21be5fb3f98a98c",
     "place": "Чебоксары и близлежащие",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "alert",
     "published_at": "2026-08-21T00:24:13+00:00",
@@ -1648,7 +1684,7 @@
   {
     "id": "tg-199442e5e0f988c2",
     "place": "Казань и близлежащие",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "alert",
     "published_at": "2026-08-20T23:54:14+00:00",
@@ -1660,7 +1696,7 @@
   {
     "id": "tg-5b027aa9550c0f13",
     "place": "Казань и близлежащие",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@tatalert",
     "status": "alert",
     "published_at": "2026-08-20T23:50:12+00:00",
@@ -1672,7 +1708,7 @@
   {
     "id": "tg-199691c08696ff5a",
     "place": "Казань и близлежащие",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "alert",
     "published_at": "2026-08-20T23:49:36+00:00",
@@ -1684,7 +1720,7 @@
   {
     "id": "tg-1f10f442abd16e8f",
     "place": "Республика Марий Эл",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "alert",
     "published_at": "2026-08-20T23:36:13+00:00",
@@ -1695,8 +1731,8 @@
   },
   {
     "id": "tg-340cdea817e030fb",
-    "place": "Республика Татарстан",
-    "region": null,
+    "place": null,
+    "region": "Республика Татарстан",
     "source": "@tatalert",
     "status": "alert",
     "published_at": "2026-08-20T23:35:13+00:00",
@@ -1707,8 +1743,8 @@
   },
   {
     "id": "tg-efbea985358f8dcc",
-    "place": "Республика Татарстан",
-    "region": null,
+    "place": "❗️Радар Казань - @radar_tatarstann",
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "alert",
     "published_at": "2026-08-20T23:33:32+00:00",
@@ -1743,7 +1779,7 @@
   },
   {
     "id": "tg-63c42cce297a80f7",
-    "place": "Убедительная просьба, найти свой город и подписаться",
+    "place": "Москва 24/7",
     "region": "ХМАО",
     "source": "@tatalert",
     "status": "defense",
@@ -1756,7 +1792,7 @@
   {
     "id": "tg-b46806aecc4f7740",
     "place": "❗️Радар Казань - @radar_tatarstann",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "defense",
     "published_at": "2026-08-20T05:55:58+00:00",
@@ -1768,7 +1804,7 @@
   {
     "id": "tg-d20b844b36c0bc7a",
     "place": null,
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "defense",
     "published_at": "2026-08-20T05:54:16+00:00",
@@ -1792,7 +1828,7 @@
   {
     "id": "tg-1e5e052146705cc3",
     "place": "Тукаевский район",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "fix",
     "published_at": "2026-08-20T02:58:17+00:00",
@@ -1804,7 +1840,7 @@
   {
     "id": "tg-51424f400ca0761a",
     "place": "Заинский район",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "fix",
     "published_at": "2026-08-20T02:51:38+00:00",
@@ -1816,7 +1852,7 @@
   {
     "id": "tg-5c65a7186a2fb1e1",
     "place": "Заинский район",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "fix",
     "published_at": "2026-08-20T02:39:16+00:00",
@@ -1828,7 +1864,7 @@
   {
     "id": "tg-f932b9dfe6de4244",
     "place": "Заинский район",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "fix",
     "published_at": "2026-08-20T02:38:50+00:00",
@@ -1840,7 +1876,7 @@
   {
     "id": "tg-c059611362931a3e",
     "place": "Нижнекамский район",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "defense",
     "published_at": "2026-08-20T02:36:15+00:00",
@@ -1852,7 +1888,7 @@
   {
     "id": "tg-3d39ee95dabd4c46",
     "place": "Нижнекамский район",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "defense",
     "published_at": "2026-08-20T02:31:18+00:00",
@@ -1864,7 +1900,7 @@
   {
     "id": "tg-504653b6c9fba8de",
     "place": "Нижнекамский район",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "defense",
     "published_at": "2026-08-20T02:30:15+00:00",
@@ -1876,7 +1912,7 @@
   {
     "id": "tg-1dcd6d8d403de886",
     "place": "Нижнекамский район",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "fix",
     "published_at": "2026-08-20T02:30:15+00:00",
@@ -1888,7 +1924,7 @@
   {
     "id": "tg-2ca86151e82e16b8",
     "place": "Тукаевский район",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "fix",
     "published_at": "2026-08-20T02:30:15+00:00",
@@ -1900,7 +1936,7 @@
   {
     "id": "tg-cf16bb61160928ae",
     "place": "Нижнекамский район",
-    "region": null,
+    "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "fix",
     "published_at": "2026-08-20T02:25:11+00:00",
@@ -1972,7 +2008,7 @@
   {
     "id": "tg-b03df65e82c01566",
     "place": "❗️Радар Нижегородской области- @radar_nizhniinovgorod",
-    "region": null,
+    "region": "Нижегородская область",
     "source": "@radar_nizhniinovgorod",
     "status": "defense",
     "published_at": "2026-08-19T06:02:54+00:00",
@@ -2035,7 +2071,7 @@
   },
   {
     "id": "tg-4b5e95822b4e5c81",
-    "place": "❗️Радар Питер и Ленинградская область - @radar_peterburg",
+    "place": null,
     "region": "Ленинградская область",
     "source": "@radar_peterburg",
     "status": "cancel",
@@ -2047,7 +2083,7 @@
   },
   {
     "id": "tg-98ee77c8161d53af",
-    "place": "Переходим в режим внимание.",
+    "place": null,
     "region": "Ленинградская область",
     "source": "@radar_peterburg",
     "status": "cancel",
@@ -2071,7 +2107,7 @@
   },
   {
     "id": "tg-59299f5ed5ead2dc",
-    "place": "❗️Радар Питер и Ленинградская область - @radar_peterburg",
+    "place": null,
     "region": "Радар Питер и Ленинградская область",
     "source": "@radar_peterburg",
     "status": "defense",
@@ -2083,7 +2119,7 @@
   },
   {
     "id": "tg-7092eeb92d46b467",
-    "place": "❗️Радар Питер и Ленинградская область - @radar_peterburg",
+    "place": null,
     "region": "Радар Питер и Ленинградская область",
     "source": "@radar_peterburg",
     "status": "defense",
@@ -2143,7 +2179,7 @@
   },
   {
     "id": "tg-733833fc6cac5c10",
-    "place": "❗️Радар Питер и Ленинградская область - @radar_peterburg",
+    "place": null,
     "region": "Ленинградская область",
     "source": "@radar_peterburg",
     "status": "alert",
@@ -2155,7 +2191,7 @@
   },
   {
     "id": "tg-e24f5558dec219a9",
-    "place": "❗️Радар Питер и Ленинградская область - @radar_peterburg",
+    "place": null,
     "region": "Ленинградская область",
     "source": "@radar_peterburg",
     "status": "fix",
@@ -2167,7 +2203,7 @@
   },
   {
     "id": "tg-2ce19f4940ce39e2",
-    "place": "❗️Радар Питер и Ленинградская область - @radar_peterburg",
+    "place": null,
     "region": "Радар Питер и Ленинградская область",
     "source": "@radar_peterburg",
     "status": "defense",
