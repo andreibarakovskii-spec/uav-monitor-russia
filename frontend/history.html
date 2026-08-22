@@ -5,22 +5,23 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>UAV Monitor — История</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="history.css">
 </head>
 <body>
 <div class="app">
   <div class="topbar">
     <div>
       <h1>📊 История событий</h1>
-      <p>Архивная аналитика публичных сообщений. Данные используются для анализа истории источников.</p>
+      <p>Архивная аналитика публичных сообщений и источников.</p>
     </div>
-    <div class="status">● history mode</div>
+    <div class="nav"><a href="index.html">🗺 Карта</a></div>
   </div>
 
   <div class="cards">
     <div><span>Всего событий</span><b id="total">—</b></div>
     <div><span>Регионов</span><b id="regions">—</b></div>
     <div><span>Источников</span><b id="sources">—</b></div>
-    <div><span>Последнее обновление</span><b id="updated">—</b></div>
+    <div><span>Обновлено</span><b id="updated">—</b></div>
   </div>
 
   <div class="grid">
@@ -34,7 +35,12 @@
     </section>
   </div>
 
-  <p class="muted">Исторический режим. Не является оперативной системой наблюдения.</p>
+  <section class="timeline-panel">
+    <div class="panel-head"><h2>Динамика событий</h2></div>
+    <div id="dailyChart" class="chart"></div>
+  </section>
+
+  <p class="muted">Исторический режим. Используется для анализа накопленных данных.</p>
 </div>
 <script src="history.js"></script>
 </body>
