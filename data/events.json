@@ -26,6 +26,54 @@
     "source_url": "https://t.me/s/vrv_radar?before=84521"
   },
   {
+    "id": "tg-6a06afca9300c83f",
+    "place": "Можайский МО",
+    "region": "Москва и Московская область",
+    "source": "@RDFradar",
+    "status": "defense",
+    "published_at": "2026-08-22T13:52:15+00:00",
+    "text": "Можайский МО \nРузский МО \n💥Идет работа по уничтожению БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11966"
+  },
+  {
+    "id": "tg-3647844dd6af613d",
+    "place": "Можайский МО",
+    "region": "Москва и Московская область",
+    "source": "@RDFradar",
+    "status": "alert",
+    "published_at": "2026-08-22T13:48:07+00:00",
+    "text": "Можайский МО\n❗️Опасность по БПЛА\nфиксация БПЛА в направлении Рузы",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11965"
+  },
+  {
+    "id": "tg-e808d96685b4b4fd",
+    "place": "Наро-Фоминский ГО",
+    "region": "Москва и Московская область",
+    "source": "@RDFradar",
+    "status": "alert",
+    "published_at": "2026-08-22T13:40:38+00:00",
+    "text": "Наро-Фоминский ГО\nМожайский МО\n❗️Опасность по БПЛА \nБПЛА по вашему направлению",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11964"
+  },
+  {
+    "id": "tg-a64fcf0c8fca4965",
+    "place": "ГО Домодедово",
+    "region": "Москва и Московская область",
+    "source": "@RDFradar",
+    "status": "fix",
+    "published_at": "2026-08-22T13:40:20+00:00",
+    "text": "ГО Домодедово \nМО Чехов\nГО Ступино\nБПЛА по вашему направлению",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11963"
+  },
+  {
     "id": "tg-3c8d96e005e369db",
     "place": "ГО Домодедово",
     "region": "Московская область",
