@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-22T23:36:45.016694+00:00",
-  "incoming": 170,
-  "total": 627,
+  "updated_at": "2026-08-22T23:58:56.784365+00:00",
+  "incoming": 171,
+  "total": 651,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -57,16 +57,16 @@
     },
     "vrv_radar": {
       "ok": true,
-      "events": 18,
+      "events": 19,
       "error": null,
       "configured_region": "Россия",
       "source_type": "regional-network",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 18,
-      "parsed": 18,
+      "with_bpla": 19,
+      "parsed": 19,
       "region_from_channel": 0,
-      "place_found": 17
+      "place_found": 16
     },
     "radar_voronezh": {
       "ok": true,
