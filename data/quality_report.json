@@ -1,5 +1,5 @@
 {
-  "total_events": 900,
+  "total_events": 906,
   "with_place": 754,
   "with_coordinates": 58,
   "coordinate_coverage_pct": 6.4,
@@ -157,19 +157,19 @@
     },
     {
       "region": "Калужская область",
-      "events": 31,
+      "events": 32,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
+      "region": "Вологодская область",
+      "events": 23,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Московская область",
       "events": 23,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Вологодская область",
-      "events": 21,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -181,7 +181,7 @@
     },
     {
       "region": "Ростовская область",
-      "events": 18,
+      "events": 19,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -252,6 +252,12 @@
       "coverage_pct": 54.5
     },
     {
+      "region": "Брянская область",
+      "events": 10,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Пензенская область",
       "events": 10,
       "with_coordinates": 0,
@@ -260,12 +266,6 @@
     {
       "region": "Смоленская область",
       "events": 10,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Брянская область",
-      "events": 9,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -306,6 +306,12 @@
       "coverage_pct": 0.0
     },
     {
+      "region": "Ставропольский край",
+      "events": 3,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Кировская область",
       "events": 3,
       "with_coordinates": 0,
@@ -314,12 +320,6 @@
     {
       "region": "Радар Питер и Ленинградская область",
       "events": 3,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Ставропольский край",
-      "events": 2,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
