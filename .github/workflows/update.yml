@@ -27,29 +27,55 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+
           events = json.loads(Path('data/events.json').read_text('utf-8'))
           total = len(events)
           with_place = sum(bool(x.get('place')) for x in events)
           with_coords = sum(isinstance(x.get('lat'), (int,float)) and isinstance(x.get('lon'), (int,float)) for x in events)
-          bad_place = sum('@' in str(x.get('place') or '') or 'локатор россии' in str(x.get('place') or '').lower() or 'радар по всей россии' in str(x.get('place') or '').lower() for x in events)
+          suspicious = []
+          region_counts = {}
+          region_coords = {}
+
+          for x in events:
+              place = str(x.get('place') or '')
+              low = place.lower()
+              if '@' in place or 'локатор россии' in low or 'радар по всей россии' in low:
+                  suspicious.append({'id': x.get('id'), 'place': x.get('place'), 'source': x.get('source')})
+              region = x.get('region') or 'Без региона'
+              region_counts[region] = region_counts.get(region, 0) + 1
+              if isinstance(x.get('lat'), (int,float)) and isinstance(x.get('lon'), (int,float)):
+                  region_coords[region] = region_coords.get(region, 0) + 1
+
+          region_quality = []
+          for region, count in sorted(region_counts.items(), key=lambda item: item[1], reverse=True):
+              coords = region_coords.get(region, 0)
+              region_quality.append({
+                  'region': region,
+                  'events': count,
+                  'with_coordinates': coords,
+                  'coverage_pct': round(coords / count * 100, 1) if count else 0,
+              })
+
           report = {
               'total_events': total,
               'with_place': with_place,
               'with_coordinates': with_coords,
               'coordinate_coverage_pct': round((with_coords / total * 100), 1) if total else 0,
-              'suspicious_place_values': bad_place,
+              'suspicious_place_values': len(suspicious),
+              'suspicious_examples': suspicious[:20],
+              'region_quality': region_quality[:50],
           }
           Path('data/quality_report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), 'utf-8')
           print(json.dumps(report, ensure_ascii=False))
           PY
       - name: Commit refreshed data
         run: |
-          if git diff --quiet -- data/events.json data/collector_status.json data/historical_analysis.json data/quality_report.json; then
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/events.json data/collector_status.json data/historical_analysis.json data/quality_report.json
+          if git diff --cached --quiet; then
             echo "No data changes"
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/events.json data/collector_status.json data/historical_analysis.json data/quality_report.json
           git commit -m "chore: refresh public event feed"
           git push
