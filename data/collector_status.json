@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-08-23T08:36:33.353306+00:00",
-  "incoming": 127,
-  "total": 898,
+  "updated_at": "2026-08-23T09:06:14.367109+00:00",
+  "incoming": 123,
+  "total": 900,
   "sources": {
     "nn52signal": {
       "ok": true,
-      "events": 17,
+      "events": 13,
       "error": null,
       "configured_region": "Нижегородская область",
       "source_type": "regional",
-      "message_blocks": 20,
-      "with_text": 20,
-      "with_bpla": 17,
+      "message_blocks": 17,
+      "with_text": 17,
+      "with_bpla": 13,
       "filtered_noise": 0,
-      "parsed": 17,
-      "region_from_channel": 16,
-      "place_found": 16,
+      "parsed": 13,
+      "region_from_channel": 12,
+      "place_found": 13,
       "place_geocoded": 0
     },
     "radar_nizhniinovgorod": {
@@ -119,9 +119,9 @@
       "with_bpla": 18,
       "filtered_noise": 7,
       "parsed": 11,
-      "region_from_channel": 9,
-      "place_found": 10,
-      "place_geocoded": 5
+      "region_from_channel": 8,
+      "place_found": 9,
+      "place_geocoded": 4
     },
     "radar_tatarstann": {
       "ok": true,
