@@ -1,8 +1,8 @@
 {
-  "total_events": 906,
-  "with_place": 754,
-  "with_coordinates": 58,
-  "coordinate_coverage_pct": 6.4,
+  "total_events": 911,
+  "with_place": 755,
+  "with_coordinates": 59,
+  "coordinate_coverage_pct": 6.5,
   "suspicious_place_values": 170,
   "suspicious_examples": [
     {
@@ -210,6 +210,12 @@
       "coverage_pct": 0.0
     },
     {
+      "region": "Белгородская область",
+      "events": 13,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Костромская область",
       "events": 13,
       "with_coordinates": 0,
@@ -220,6 +226,12 @@
       "events": 13,
       "with_coordinates": 0,
       "coverage_pct": 0.0
+    },
+    {
+      "region": "Архангельская область",
+      "events": 12,
+      "with_coordinates": 7,
+      "coverage_pct": 58.3
     },
     {
       "region": "Владимирская область",
@@ -234,8 +246,14 @@
       "coverage_pct": 0.0
     },
     {
-      "region": "Белгородская область",
-      "events": 12,
+      "region": "Брянская область",
+      "events": 11,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
+      "region": "Смоленская область",
+      "events": 11,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -246,25 +264,7 @@
       "coverage_pct": 0.0
     },
     {
-      "region": "Архангельская область",
-      "events": 11,
-      "with_coordinates": 6,
-      "coverage_pct": 54.5
-    },
-    {
-      "region": "Брянская область",
-      "events": 10,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
       "region": "Пензенская область",
-      "events": 10,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Смоленская область",
       "events": 10,
       "with_coordinates": 0,
       "coverage_pct": 0.0
@@ -324,6 +324,12 @@
       "coverage_pct": 0.0
     },
     {
+      "region": "Москва и область",
+      "events": 2,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Вся Воронежская область",
       "events": 2,
       "with_coordinates": 0,
@@ -332,12 +338,6 @@
     {
       "region": "Оренбургская  область",
       "events": 2,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Москва и область",
-      "events": 1,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
