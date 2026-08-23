@@ -13,7 +13,7 @@
   <div class="topbar">
     <div>
       <h1>📊 История событий</h1>
-      <p>Архивная аналитика публичных сообщений и источников. Исторические точки отображаются только для завершённых периодов.</p>
+      <p>Архивная аналитика публичных сообщений. Replay показывает порядок появления старых точек только для завершённых периодов и не используется как оперативный трекер.</p>
     </div>
     <div class="nav"><a href="index.html">🗺 Карта</a></div>
   </div>
@@ -28,6 +28,18 @@
   <section class="panel">
     <div class="panel-head"><h2>Фильтры архива</h2><button id="resetHistory" type="button">Сбросить</button></div>
     <div id="historyFilters" class="history-filters"></div>
+  </section>
+
+  <section class="panel replay-panel">
+    <div class="panel-head"><h2>Replay архивного дня</h2><span id="replayStatus">выберите день</span></div>
+    <div class="replay-controls">
+      <button id="replayPlay" type="button">▶ Воспроизвести</button>
+      <button id="replayStop" type="button">■ Сброс</button>
+      <label>Скорость<select id="replaySpeed"><option value="1400">1×</option><option value="700">2×</option><option value="350">4×</option></select></label>
+    </div>
+    <input id="replaySlider" type="range" min="0" max="0" value="0" disabled aria-label="Replay архивных событий">
+    <div class="timeline-labels"><span>начало дня</span><b id="replayLabel">—</b><span>конец дня</span></div>
+    <p class="muted">Нажмите на день в календаре. Карта последовательно покажет уже завершённые архивные фиксации этого дня.</p>
   </section>
 
   <div class="history-grid">
@@ -56,7 +68,7 @@
     <div id="sourceQuality" class="quality-grid"></div>
   </section>
 
-  <p class="muted">Исторический режим. Не используется для оперативного отслеживания движения.</p>
+  <p class="muted">Исторический режим. Не используется для оперативного отслеживания или прогноза движения.</p>
 </div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="history.js"></script>
