@@ -57,6 +57,20 @@ POST_RE = re.compile(r'data-post="(?P<post>[^"]+)"')
 TIME_RE = re.compile(r'<time[^>]+datetime="(?P<time>[^"]+)"')
 TEXT_RE = re.compile(r'<div class="tgme_widget_message_text[^>]*>(?P<text>.*?)</div>', re.S)
 TAG_RE = re.compile(r"<[^>]+>")
+HANDLE_RE = re.compile(r"@[A-Za-z0-9_]+")
+
+NOISE_WORDS = (
+    "подписывайтесь", "подписаться", "наш канал", "наш бот", "бот",
+    "реклама", "реквизит", "сбор", "помочь", "донат", "поддержать",
+    "квадрокоптер", "mavic", "cloudtips", "т-банк", "сбп",
+    "обход белых списков", "интернет", "internet_boost",
+)
+
+PLACE_NOISE = (
+    "локатор россии", "радар по всей россии", "подпис", "канал", "бот",
+    "обход белых списков", "опасность", "угроза", "тревога", "бпла",
+    "пво", "фиксац", "сбит", "отбой", "внимание", "меры безопасности",
+)
 
 
 @dataclass
@@ -90,6 +104,18 @@ def detect_status(text: str) -> str:
     return "unknown"
 
 
+def is_noise_post(text: str) -> bool:
+    lower = text.lower()
+    if any(word in lower for word in NOISE_WORDS):
+        operational_markers = (
+            "опасность", "угроза", "тревога", "зафикс", "замечен", "обнаруж",
+            "сбит", "подавлен", "отбой", "пролёт", "пролет",
+        )
+        if not any(marker in lower for marker in operational_markers):
+            return True
+    return False
+
+
 def extract_region(text: str, channel: str) -> str | None:
     match = REGION_RE.search(text)
     if match:
@@ -101,22 +127,39 @@ def extract_region(text: str, channel: str) -> str | None:
     return None
 
 
+def clean_place_candidate(value: str) -> str | None:
+    value = HANDLE_RE.sub("", value)
+    value = re.sub(r"^[^А-Яа-яЁё0-9]+|[^А-Яа-яЁё0-9\- ,.]+$", "", value).strip()
+    value = re.sub(r"\s{2,}", " ", value)
+    low = value.lower()
+    if not value or len(value) < 2 or len(value) > 100:
+        return None
+    if any(noise in low for noise in PLACE_NOISE):
+        return None
+    return value
+
+
 def extract_place(text: str, region: str | None) -> str | None:
+    matched = find_place(text, region)
+    if matched:
+        return matched["place"]
+
     lines = [x.strip(" •—:-") for x in text.splitlines() if x.strip()]
-    ignored = (
-        "бпла", "опасност", "тревог", "пво", "фиксац", "сбит", "отбой",
-        "подпис", "прислать", "бот", "канал", "внимание", "угроза",
-    )
     for line in lines[:8]:
         low = line.lower()
         if region and low == region.lower():
             continue
-        if any(k in low for k in ignored):
+        candidate = clean_place_candidate(line)
+        if not candidate:
             continue
         if re.search(r"\b(район|округ|г\.?о\.?|город|село|пос[её]лок|деревня|станица|хутор)\b", low):
-            return line[:100]
-        if 2 <= len(line) <= 55 and len(line.split()) <= 5:
-            return line
+            return candidate
+        if "," in candidate:
+            first = clean_place_candidate(candidate.split(",", 1)[0])
+            if first and len(first.split()) <= 5:
+                return first
+        if len(candidate.split()) <= 5:
+            return candidate
     return None
 
 
@@ -156,6 +199,7 @@ def parse_channel(channel: str, page: str) -> tuple[list[Event], dict]:
         "message_blocks": 0,
         "with_text": 0,
         "with_bpla": 0,
+        "filtered_noise": 0,
         "parsed": 0,
         "region_from_channel": 0,
         "place_found": 0,
@@ -174,6 +218,9 @@ def parse_channel(channel: str, page: str) -> tuple[list[Event], dict]:
         if "бпла" not in text.lower() and "дрон" not in text.lower():
             continue
         diagnostics["with_bpla"] += 1
+        if is_noise_post(text):
+            diagnostics["filtered_noise"] += 1
+            continue
         status = detect_status(text)
         if status == "unknown":
             continue
@@ -251,6 +298,7 @@ def run() -> int:
                 "message_blocks": 0,
                 "with_text": 0,
                 "with_bpla": 0,
+                "filtered_noise": 0,
                 "parsed": 0,
                 "region_from_channel": 0,
                 "place_found": 0,
