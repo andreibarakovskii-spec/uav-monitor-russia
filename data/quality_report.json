@@ -1,8 +1,8 @@
 {
-  "total_events": 999,
-  "with_place": 811,
-  "with_coordinates": 546,
-  "coordinate_coverage_pct": 54.7,
+  "total_events": 1002,
+  "with_place": 813,
+  "with_coordinates": 547,
+  "coordinate_coverage_pct": 54.6,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -26,7 +26,7 @@
     },
     {
       "region": "Без региона",
-      "events": 73,
+      "events": 75,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -175,16 +175,16 @@
       "coverage_pct": 10.0
     },
     {
+      "region": "Курская область",
+      "events": 8,
+      "with_coordinates": 8,
+      "coverage_pct": 100.0
+    },
+    {
       "region": "Ярославская область",
       "events": 8,
       "with_coordinates": 0,
       "coverage_pct": 0.0
-    },
-    {
-      "region": "Курская область",
-      "events": 7,
-      "with_coordinates": 7,
-      "coverage_pct": 100.0
     },
     {
       "region": "Новгородская область",
