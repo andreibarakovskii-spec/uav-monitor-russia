@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-23T21:00:43.072059+00:00",
-  "incoming": 101,
-  "total": 1060,
+  "updated_at": "2026-08-23T21:37:24.989050+00:00",
+  "incoming": 110,
+  "total": 1095,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -41,57 +41,57 @@
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 15,
-      "filtered_noise": 5,
+      "with_bpla": 16,
+      "filtered_noise": 6,
       "parsed": 10,
       "region_from_channel": 0,
       "place_found": 9,
-      "place_geocoded": 5
+      "place_geocoded": 6
     },
     "locatorru": {
       "ok": true,
-      "events": 17,
+      "events": 20,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 17,
+      "with_bpla": 20,
       "filtered_noise": 0,
-      "parsed": 17,
+      "parsed": 20,
       "region_from_channel": 0,
-      "place_found": 12,
-      "place_geocoded": 12
+      "place_found": 18,
+      "place_geocoded": 18
     },
     "vrv_radar": {
       "ok": true,
-      "events": 9,
+      "events": 14,
       "error": null,
       "configured_region": "Россия",
       "source_type": "regional-network",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 11,
-      "filtered_noise": 2,
-      "parsed": 9,
+      "with_bpla": 15,
+      "filtered_noise": 1,
+      "parsed": 14,
       "region_from_channel": 0,
-      "place_found": 9,
-      "place_geocoded": 3
+      "place_found": 13,
+      "place_geocoded": 5
     },
     "radar_voronezh": {
       "ok": true,
-      "events": 1,
+      "events": 2,
       "error": null,
       "configured_region": "Воронежская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 18,
-      "filtered_noise": 17,
-      "parsed": 1,
+      "filtered_noise": 16,
+      "parsed": 2,
       "region_from_channel": 0,
-      "place_found": 1,
-      "place_geocoded": 1
+      "place_found": 2,
+      "place_geocoded": 2
     },
     "radar_peterburg": {
       "ok": true,
