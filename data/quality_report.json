@@ -1,8 +1,8 @@
 {
-  "total_events": 979,
-  "with_place": 800,
-  "with_coordinates": 540,
-  "coordinate_coverage_pct": 55.2,
+  "total_events": 987,
+  "with_place": 803,
+  "with_coordinates": 542,
+  "coordinate_coverage_pct": 54.9,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -14,8 +14,8 @@
     },
     {
       "region": "Краснодарский край",
-      "events": 108,
-      "with_coordinates": 108,
+      "events": 110,
+      "with_coordinates": 110,
       "coverage_pct": 100.0
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "region": "Без региона",
-      "events": 70,
+      "events": 72,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -44,9 +44,9 @@
     },
     {
       "region": "Тульская область",
-      "events": 46,
+      "events": 47,
       "with_coordinates": 19,
-      "coverage_pct": 41.3
+      "coverage_pct": 40.4
     },
     {
       "region": "Калужская область",
@@ -74,7 +74,7 @@
     },
     {
       "region": "Ростовская область",
-      "events": 21,
+      "events": 22,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -175,6 +175,12 @@
       "coverage_pct": 0.0
     },
     {
+      "region": "Ставропольский край",
+      "events": 7,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Курская область",
       "events": 7,
       "with_coordinates": 7,
@@ -183,12 +189,6 @@
     {
       "region": "Новгородская область",
       "events": 7,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Ставропольский край",
-      "events": 5,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
