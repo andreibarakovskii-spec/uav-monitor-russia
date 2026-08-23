@@ -12,8 +12,9 @@
 <header class="topbar">
   <div>
     <h1>Карта фиксаций БПЛА</h1>
-    <p>Публичные сообщения по населённым пунктам без построения маршрутов и прогноза движения.</p>
+    <p>Публичные сообщения по населённым пунктам. Исторический слой показывает только архивные точки и не строит прогноз движения.</p>
   </div>
+  <div class="nav"><a href="history.html">📊 История</a></div>
   <span id="status" class="status">● demo data</span>
 </header>
 
@@ -29,6 +30,8 @@
   <label>Источник<select id="sourceFilter"><option value="all">Все источники</option></select></label>
   <label>Тип<select id="typeFilter"><option value="all">Все</option><option value="fix">Фиксация</option><option value="alert">Опасность</option><option value="defense">ПВО / сбитие</option><option value="cancel">Отбой</option></select></label>
   <label>Период<select id="timeFilter"><option value="all">Все</option><option value="30">30 минут</option><option value="60">1 час</option><option value="180">3 часа</option><option value="1440">24 часа</option></select></label>
+  <button id="historyOverlayToggle" type="button" aria-pressed="false">🕘 Исторический слой: выкл</button>
+  <label>Архив<select id="historyWindow"><option value="7">7 дней</option><option value="30" selected>30 дней</option><option value="90">90 дней</option><option value="365">1 год</option></select></label>
   <button id="resetFilters" type="button">Сбросить</button>
 </section>
 
@@ -36,7 +39,8 @@
   <section class="map-panel">
     <div class="panel-head"><h2>Карта</h2><span id="visibleCount">0 точек</span></div>
     <div id="map"></div>
-    <div class="legend"><span><i class="fix"></i>фиксация</span><span><i class="confirmed"></i>2+ источника</span><span><i class="defense"></i>ПВО</span><span><i class="cancel"></i>отбой</span></div>
+    <div class="legend"><span><i class="fix"></i>фиксация</span><span><i class="confirmed"></i>2+ источника</span><span><i class="defense"></i>ПВО</span><span><i class="cancel"></i>отбой</span><span>◌ архивные точки</span></div>
+    <p class="muted">Архивный слой показывает повторяемость мест фиксаций старше 24 часов. Он не связывает точки в траектории и не прогнозирует дальнейшее движение.</p>
   </section>
 
   <aside class="side">
@@ -52,7 +56,7 @@
 </div>
 
 <section class="timeline-panel">
-  <div class="panel-head"><h2>Временная шкала</h2><span>демонстрационные события</span></div>
+  <div class="panel-head"><h2>Временная шкала</h2><span>накопленные публичные события</span></div>
   <input id="timeline" type="range" min="0" max="100" value="100" aria-label="Временная шкала">
   <div class="timeline-labels"><span>раньше</span><b id="timelineLabel">все события</b><span>сейчас</span></div>
 </section>
