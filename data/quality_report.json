@@ -1,8 +1,8 @@
 {
-  "total_events": 1002,
+  "total_events": 1005,
   "with_place": 813,
   "with_coordinates": 547,
-  "coordinate_coverage_pct": 54.6,
+  "coordinate_coverage_pct": 54.4,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -62,7 +62,7 @@
     },
     {
       "region": "Ростовская область",
-      "events": 24,
+      "events": 25,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -145,6 +145,12 @@
       "coverage_pct": 15.4
     },
     {
+      "region": "Ставропольский край",
+      "events": 12,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Владимирская область",
       "events": 12,
       "with_coordinates": 12,
@@ -159,12 +165,6 @@
     {
       "region": "Ивановская область",
       "events": 11,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Ставропольский край",
-      "events": 10,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
