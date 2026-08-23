@@ -1,5 +1,257 @@
 [
   {
+    "id": "tg-f315970e90ebb956",
+    "place": "Наро-Фоминск",
+    "region": "Москва и Московская область",
+    "source": "@RDFradar",
+    "status": "alert",
+    "published_at": "2026-08-23T12:56:56+00:00",
+    "text": "Наро-Фоминский район \n❗️Опасность по БПЛА \nФиксация в вашем направлении",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11990",
+    "lat": 55.3862,
+    "lon": 36.7345
+  },
+  {
+    "id": "tg-bea87e405b48d9b9",
+    "place": "Залегощенский район",
+    "region": "Орловская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-23T12:51:17+00:00",
+    "text": "Залегощенский район\nОрловская область\nФиксация от 2 БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85138",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-0e35419c9db6a817",
+    "place": "Орловский район",
+    "region": "Орловская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-23T12:51:14+00:00",
+    "text": "Орловский район\nОрловская область\nФиксация от 2 БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85137",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-90973b5cd76f64ce",
+    "place": "Богородицкий район",
+    "region": "Тульская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-23T12:51:11+00:00",
+    "text": "Богородицкий район\nТульская область\nФиксация от 2 БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85136",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-0dafc60efb6f36a6",
+    "place": "Новомосковск",
+    "region": "Тульская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-23T12:51:08+00:00",
+    "text": "Новомосковск\nТульская область\nФиксация БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85135",
+    "lat": 54.0109,
+    "lon": 38.2917
+  },
+  {
+    "id": "tg-331a18ec3de3c0a8",
+    "place": "Ясногорский район",
+    "region": "Тульская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-23T12:51:03+00:00",
+    "text": "Ясногорский район\nТульская область\nФиксация БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85134",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-ac63070b90ac9535",
+    "place": "Можайский МО",
+    "region": "Москва и Московская область",
+    "source": "@RDFradar",
+    "status": "alert",
+    "published_at": "2026-08-23T12:48:53+00:00",
+    "text": "Можайский МО\nРузский МО\n❗️Опасность по бпла \nБПЛА по вашему направлению",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11989",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-9a1cc57495997dfd",
+    "place": "Дубенский район",
+    "region": "Тульская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-23T12:48:18+00:00",
+    "text": "Дубенский район\nТульская область\nФиксация от 2 БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85133",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-b1d44a99d7a7f453",
+    "place": "Алексин",
+    "region": "Тульская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-23T12:48:17+00:00",
+    "text": "Алексин \nТульская область\nФиксация БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85132",
+    "lat": 54.5087,
+    "lon": 37.0478
+  },
+  {
+    "id": "tg-02c43a4948814915",
+    "place": "Жуковский район",
+    "region": "Калужская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-23T12:48:13+00:00",
+    "text": "Жуковский район\nКалужская область\nФиксация БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85131",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-275b1298070eec77",
+    "place": "Тарусский район",
+    "region": "Калужская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-23T12:48:08+00:00",
+    "text": "Тарусский район\nКалужская область\nФиксация БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85130",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-2f9337d7b0f2882d",
+    "place": "Смоленск",
+    "region": "Смоленская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-23T12:48:03+00:00",
+    "text": "Угранский район\nСмоленская область\nФиксация БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85129",
+    "lat": 54.7826,
+    "lon": 32.0453
+  },
+  {
+    "id": "tg-8b0a758ecf904c16",
+    "place": "ГО Серпухов",
+    "region": "Троицкий АО",
+    "source": "@RDFradar",
+    "status": "alert",
+    "published_at": "2026-08-23T12:45:02+00:00",
+    "text": "ГО Серпухов\nТроицкий АО\nМО Чехов\n❗️Опасность по БПЛА \nфиксации нескольких БПЛА по вашему направлению",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11988",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-9d43f0646c0275b4",
+    "place": "Домодедово",
+    "region": "Москва и Московская область",
+    "source": "@RDFradar",
+    "status": "defense",
+    "published_at": "2026-08-23T12:43:42+00:00",
+    "text": "ГО Домодедово \n❗️Опасность по БПЛА \n💥Сбитие БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11987",
+    "lat": 55.4364,
+    "lon": 37.7666
+  },
+  {
+    "id": "tg-4fadf6d0c4107235",
+    "place": "Архангельск",
+    "region": "Архангельская область",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-23T12:38:33+00:00",
+    "text": "Архангельская область\nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89866",
+    "lat": 64.5393,
+    "lon": 40.517
+  },
+  {
+    "id": "tg-a53f4f6cd041af95",
+    "place": "Ростовская область",
+    "region": "Ставропольский край",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-23T12:37:16+00:00",
+    "text": "Ставропольский край\nРостовская область\nРеспублика Адыгея\nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89865",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-278f833700291638",
+    "place": "Краснодар",
+    "region": "Краснодарский край",
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-08-23T12:36:12+00:00",
+    "text": "Сочи и близлежащие\nКраснодарский край\nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89864",
+    "lat": 45.0355,
+    "lon": 38.9753
+  },
+  {
+    "id": "tg-ba665433d1f2e9d8",
+    "place": "Архангельск",
+    "region": "Архангельская область",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-23T12:06:10+00:00",
+    "text": "Архангельская область\nОтбой опасности по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85124",
+    "lat": 64.5393,
+    "lon": 40.517
+  },
+  {
     "id": "tg-7a63ba3f97f11f00",
     "place": "Краснодар",
     "region": "Краснодарский край",
@@ -107,7 +359,7 @@
   },
   {
     "id": "tg-98bf943c28138999",
-    "place": null,
+    "place": "Малоярославец",
     "region": "Калужская область",
     "source": "@locatorru",
     "status": "alert",
@@ -115,7 +367,9 @@
     "text": "Мещовск, Бабынино, Боровск, Малоярославец, Жуков, Калуга, Обнинск, Таруса и близлежащие, Калужская область - опасность по БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82157"
+    "source_url": "https://t.me/locatorru/82157",
+    "lat": 55.0177,
+    "lon": 36.463
   },
   {
     "id": "tg-665adc60d0644271",
@@ -131,7 +385,7 @@
   },
   {
     "id": "tg-da7f74945411314a",
-    "place": null,
+    "place": "Смоленск",
     "region": "Смоленская область",
     "source": "@locatorru",
     "status": "alert",
@@ -139,11 +393,13 @@
     "text": "Все районы Брянской области - опасность по БПЛА сохраняется. Много летит. \n\nСмоленская область, Калужская область, Орловская область, Тульская область, Московская область - опасность по БПЛА от Брянской области. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82156"
+    "source_url": "https://t.me/locatorru/82156",
+    "lat": 54.7826,
+    "lon": 32.0453
   },
   {
     "id": "tg-d099e1be46404d25",
-    "place": null,
+    "place": "Мценск",
     "region": "Орловская область",
     "source": "@locatorru",
     "status": "fix",
@@ -151,7 +407,9 @@
     "text": "Хардиково, Орловский район, Орловская область - пролёт БПЛА в сторону Мценск. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82155"
+    "source_url": "https://t.me/locatorru/82155",
+    "lat": 53.2785,
+    "lon": 36.5733
   },
   {
     "id": "tg-c61c0e294dc060d2",
@@ -183,7 +441,7 @@
   },
   {
     "id": "tg-66f5675057e12c43",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "alert",
@@ -191,11 +449,13 @@
     "text": "Навля, Брянская область - опасность по БПЛА и в направлении Карачев. Пролёты БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82154"
+    "source_url": "https://t.me/locatorru/82154",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-acfe6764f330e4ac",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "fix",
@@ -203,11 +463,13 @@
     "text": "Жуковка, Брянская область - пролёт БПЛА в сторону Гришиной Слободы, далее на Бетлица, Киров, Калужская область. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82153"
+    "source_url": "https://t.me/locatorru/82153",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-6b534d74d14e4632",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "fix",
@@ -215,11 +477,13 @@
     "text": "Салтановка, Навлинский район, Брянская область -  ещё пролёт БПЛА в сторону Навля, Локоть. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82152"
+    "source_url": "https://t.me/locatorru/82152",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-7faab86c6d51ffad",
-    "place": null,
+    "place": "Белгород",
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "alert",
@@ -227,7 +491,9 @@
     "text": "Краснояружский район, Ивнянский район, Белгородская область / Беловский район, Обоянский район, Курская область - опасность по БПЛА и на стык трёх областей: Орловская область, Воронежская область, Липецкая область.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82151"
+    "source_url": "https://t.me/locatorru/82151",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-f898772e8bf5d320",
@@ -279,7 +545,7 @@
   },
   {
     "id": "tg-903475607e8267b3",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -287,11 +553,13 @@
     "text": "Брянская область - опасность по БПЛА. \n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89857"
+    "source_url": "https://t.me/radarrussiia/89857",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-b14f8f7733edd80c",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "fix",
@@ -299,7 +567,9 @@
     "text": "Салтановка, Навлинский район, Брянская область - пролёт БПЛА в сторону Навля, Локоть. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82150"
+    "source_url": "https://t.me/locatorru/82150",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-f8b36490556e32b7",
@@ -315,7 +585,7 @@
   },
   {
     "id": "tg-7d46f03ead661836",
-    "place": null,
+    "place": "Курск",
     "region": "Курская область",
     "source": "@locatorru",
     "status": "fix",
@@ -323,11 +593,13 @@
     "text": "Пригородный, Обоянский район, Курская область - пролёт БПЛА в сторону Курска. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82149"
+    "source_url": "https://t.me/locatorru/82149",
+    "lat": 51.7304,
+    "lon": 36.1926
   },
   {
     "id": "tg-739decfd3ce195dd",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "fix",
@@ -335,11 +607,13 @@
     "text": "Брянская область - продолжается массовый пролёт БПЛА от госграницы в тыл. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82148"
+    "source_url": "https://t.me/locatorru/82148",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-ee71f3eed78c8e51",
-    "place": null,
+    "place": "Белгород",
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "alert",
@@ -347,11 +621,13 @@
     "text": "Ивнянский район, Ракитянский район, Прохоровский район, Яковлевский район, Белгородская область - опасность по ударным БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82146"
+    "source_url": "https://t.me/locatorru/82146",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-7f6834a3eb65b300",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "fix",
@@ -359,7 +635,9 @@
     "text": "Почепский район, Унечский район, Брянская область - пролёты БПЛА в тыл. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82145"
+    "source_url": "https://t.me/locatorru/82145",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-4006d42ebb84520b",
@@ -377,7 +655,7 @@
   },
   {
     "id": "tg-4ab4e715139b2444",
-    "place": null,
+    "place": "Смоленск",
     "region": "Смоленская область",
     "source": "@locatorru",
     "status": "alert",
@@ -385,7 +663,9 @@
     "text": "Все районы Брянской области - опасность по БПЛА. Много летит. \n\nСмоленская область, Калужская область, Орловская область, Тульская область, Московская область - опасность по БПЛА от Брянской области. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82143"
+    "source_url": "https://t.me/locatorru/82143",
+    "lat": 54.7826,
+    "lon": 32.0453
   },
   {
     "id": "tg-bc295f4c96ce4dd1",
@@ -413,7 +693,7 @@
   },
   {
     "id": "tg-2e663f8bfaf5a57b",
-    "place": null,
+    "place": "Стародуб",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "fix",
@@ -421,7 +701,9 @@
     "text": "Начинается массовый пролёт БПЛА через Климово, Стародуб, Погар, Брянская область и далее в тыл. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82141"
+    "source_url": "https://t.me/locatorru/82141",
+    "lat": 52.5844,
+    "lon": 32.7633
   },
   {
     "id": "tg-311b5a72ddeed0f6",
@@ -755,7 +1037,7 @@
   },
   {
     "id": "tg-2c4a213ecbb23072",
-    "place": null,
+    "place": "Владимир",
     "region": "Владимирская область",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -763,7 +1045,9 @@
     "text": "Владимирская область\nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85098"
+    "source_url": "https://t.me/vrv_radar/85098",
+    "lat": 56.1291,
+    "lon": 40.4066
   },
   {
     "id": "tg-168adf96a52ebd44",
@@ -791,7 +1075,7 @@
   },
   {
     "id": "tg-1c4c4ef413eae023",
-    "place": null,
+    "place": "Тамбов",
     "region": "Тамбовская область",
     "source": "@radarrussiia",
     "status": "cancel",
@@ -799,11 +1083,13 @@
     "text": "Тамбовская область\nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89846"
+    "source_url": "https://t.me/radarrussiia/89846",
+    "lat": 52.7212,
+    "lon": 41.4523
   },
   {
     "id": "tg-9d1daef20483c998",
-    "place": null,
+    "place": "Тамбов",
     "region": "Тамбовская область",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -811,7 +1097,9 @@
     "text": "Тамбовская область\nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85096"
+    "source_url": "https://t.me/vrv_radar/85096",
+    "lat": 52.7212,
+    "lon": 41.4523
   },
   {
     "id": "tg-f952e359296081b1",
@@ -1005,7 +1293,7 @@
   },
   {
     "id": "tg-093d9e14fb4b5270",
-    "place": null,
+    "place": "Череповец",
     "region": "Вологодская область",
     "source": "@locatorru",
     "status": "cancel",
@@ -1013,7 +1301,9 @@
     "text": "Череповец, Вологодская область - отбой опасности по БПЛА. \n\nВ регионе опасность по БПЛА сохраняется. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82135"
+    "source_url": "https://t.me/locatorru/82135",
+    "lat": 59.1269,
+    "lon": 37.9092
   },
   {
     "id": "tg-5b2558ea5e6e653e",
@@ -1054,8 +1344,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85089",
-    "lat": null,
-    "lon": null
+    "lat": 59.1269,
+    "lon": 37.9092
   },
   {
     "id": "tg-109f35b07137eab6",
@@ -1082,8 +1372,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85088",
-    "lat": null,
-    "lon": null
+    "lat": 59.1269,
+    "lon": 37.9092
   },
   {
     "id": "tg-5ba3cb9d2b6eb974",
@@ -1359,7 +1649,7 @@
   },
   {
     "id": "tg-8e0b841ff371c69b",
-    "place": "23/08/2026 07:25 МСК.",
+    "place": "Курск",
     "region": "Курская область",
     "source": "@locatorru",
     "status": "alert",
@@ -1368,8 +1658,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82125",
-    "lat": null,
-    "lon": null
+    "lat": 51.7304,
+    "lon": 36.1926
   },
   {
     "id": "tg-0ebe5f86c0744c45",
@@ -1387,7 +1677,7 @@
   },
   {
     "id": "tg-1bb07640c30a5bde",
-    "place": null,
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@radarrussiia",
     "status": "cancel",
@@ -1395,7 +1685,9 @@
     "text": "Липецкая область \nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89831"
+    "source_url": "https://t.me/radarrussiia/89831",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-ee0ba17c7586b903",
@@ -1413,7 +1705,7 @@
   },
   {
     "id": "tg-a70651b31c34e7ce",
-    "place": null,
+    "place": "Череповец",
     "region": "Вологодская область",
     "source": "@locatorru",
     "status": "alert",
@@ -1421,11 +1713,13 @@
     "text": "Череповец, Вологодская область - опасность по БПЛА сохраняется с выше указаного направления. Займите безопасные места.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82124"
+    "source_url": "https://t.me/locatorru/82124",
+    "lat": 59.1269,
+    "lon": 37.9092
   },
   {
     "id": "tg-e371e4997d03d5db",
-    "place": null,
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -1433,7 +1727,9 @@
     "text": "Липецкая область \nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85077"
+    "source_url": "https://t.me/vrv_radar/85077",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-00080f0cb638a899",
@@ -1489,7 +1785,7 @@
   },
   {
     "id": "tg-951163f80875bb43",
-    "place": "Белозерский район",
+    "place": "Череповец",
     "region": "Вологодская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -1498,12 +1794,12 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85075",
-    "lat": null,
-    "lon": null
+    "lat": 59.1269,
+    "lon": 37.9092
   },
   {
     "id": "tg-3eaeef29ad463264",
-    "place": null,
+    "place": "Волгоград",
     "region": "Волгоградская область",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -1511,7 +1807,9 @@
     "text": "Волгоградская область \nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85074"
+    "source_url": "https://t.me/vrv_radar/85074",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-57ef69e31e37fef5",
@@ -1527,7 +1825,7 @@
   },
   {
     "id": "tg-6985eec87ded64ea",
-    "place": null,
+    "place": "Великий Устюг",
     "region": "Вологодская область",
     "source": "@locatorru",
     "status": "fix",
@@ -1535,7 +1833,9 @@
     "text": "Шонга, Кичменгско-Городецкий район, Вологодская область - пролёты ударных БПЛА на север в сторону примерно Великий Устюг, далее на Архангельскую область.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82120"
+    "source_url": "https://t.me/locatorru/82120",
+    "lat": 60.7603,
+    "lon": 46.3054
   },
   {
     "id": "tg-e5039fbbd0d84412",
@@ -1637,7 +1937,9 @@
     "text": "Череповец\nЧереповецкий район \nВологодская область \nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85068"
+    "source_url": "https://t.me/vrv_radar/85068",
+    "lat": 59.1269,
+    "lon": 37.9092
   },
   {
     "id": "tg-a57ddd9196331e52",
@@ -1665,7 +1967,7 @@
   },
   {
     "id": "tg-848c45259394fca3",
-    "place": null,
+    "place": "Череповец",
     "region": "Вологодская область",
     "source": "@locatorru",
     "status": "alert",
@@ -1673,11 +1975,13 @@
     "text": "Между Даргун и Новое Домозерово и по р.Шексна, Вологодская область - опасность по БПЛА и в сторону Шайма, Нова, Ирдоматка, Череповец.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82114"
+    "source_url": "https://t.me/locatorru/82114",
+    "lat": 59.1269,
+    "lon": 37.9092
   },
   {
     "id": "tg-3adb73d48c989c72",
-    "place": null,
+    "place": "Череповец",
     "region": "Вологодская область",
     "source": "@locatorru",
     "status": "fix",
@@ -1685,11 +1989,13 @@
     "text": "Чуприно, Кадуй, Вологодская область - пролёт БПЛА на север, может подвернуть на Череповец.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82113"
+    "source_url": "https://t.me/locatorru/82113",
+    "lat": 59.1269,
+    "lon": 37.9092
   },
   {
     "id": "tg-c8f8b47fb6cdfd30",
-    "place": null,
+    "place": "Череповец",
     "region": "Вологодская область",
     "source": "@locatorru",
     "status": "alert",
@@ -1697,7 +2003,9 @@
     "text": "От Устюжна, Харламовская до Череповец, Вологодская область - опасность по БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82112"
+    "source_url": "https://t.me/locatorru/82112",
+    "lat": 59.1269,
+    "lon": 37.9092
   },
   {
     "id": "tg-7c247012ab8502ab",
@@ -1715,7 +2023,7 @@
   },
   {
     "id": "tg-7a1585c3773ebdd8",
-    "place": null,
+    "place": "Череповец",
     "region": "Вологодская область",
     "source": "@locatorru",
     "status": "alert",
@@ -1723,7 +2031,9 @@
     "text": "Череповец, Вологодская область - опасность по БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82111"
+    "source_url": "https://t.me/locatorru/82111",
+    "lat": 59.1269,
+    "lon": 37.9092
   },
   {
     "id": "tg-6441f2eca870d1f3",
@@ -1829,7 +2139,7 @@
   },
   {
     "id": "tg-d343d3b688d699dd",
-    "place": "Ковровский район",
+    "place": "Владимир",
     "region": "Владимирская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -1837,11 +2147,13 @@
     "text": "Ковровский район \nВладимирская область \nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89828"
+    "source_url": "https://t.me/radarrussiia/89828",
+    "lat": 56.1291,
+    "lon": 40.4066
   },
   {
     "id": "tg-09039057be9591f0",
-    "place": "Ковровский район",
+    "place": "Владимир",
     "region": "Владимирская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -1849,7 +2161,9 @@
     "text": "Ковровский район \nВладимирская область \nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85062"
+    "source_url": "https://t.me/vrv_radar/85062",
+    "lat": 56.1291,
+    "lon": 40.4066
   },
   {
     "id": "tg-96ebaad056c52bd8",
@@ -2043,7 +2357,7 @@
   },
   {
     "id": "tg-04679abcd60a0290",
-    "place": null,
+    "place": "Саратов",
     "region": "Саратовская область",
     "source": "@radarrussiia",
     "status": "cancel",
@@ -2051,11 +2365,13 @@
     "text": "Саратовская область \nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89823"
+    "source_url": "https://t.me/radarrussiia/89823",
+    "lat": 51.5336,
+    "lon": 46.0343
   },
   {
     "id": "tg-8fe94f4e8c7a2f54",
-    "place": null,
+    "place": "Саратов",
     "region": "Саратовская область",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -2063,11 +2379,13 @@
     "text": "Саратовская область \nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85057"
+    "source_url": "https://t.me/vrv_radar/85057",
+    "lat": 51.5336,
+    "lon": 46.0343
   },
   {
     "id": "tg-f1962fd34e88bc78",
-    "place": "Череповец, Вологодская область",
+    "place": "Череповец",
     "region": "Вологодская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -2075,7 +2393,9 @@
     "text": "Череповец, Вологодская область\nВнимание по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89822"
+    "source_url": "https://t.me/radarrussiia/89822",
+    "lat": 59.1269,
+    "lon": 37.9092
   },
   {
     "id": "tg-ef9ed0e670b5d4aa",
@@ -2209,7 +2529,7 @@
   },
   {
     "id": "tg-752ff5f124e913bc",
-    "place": null,
+    "place": "Череповец",
     "region": "Вологодская область",
     "source": "@locatorru",
     "status": "fix",
@@ -2217,7 +2537,9 @@
     "text": "Череповец, Вологодская область - внимание по БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82103"
+    "source_url": "https://t.me/locatorru/82103",
+    "lat": 59.1269,
+    "lon": 37.9092
   },
   {
     "id": "tg-056eb08c624f8620",
@@ -2389,7 +2711,7 @@
   },
   {
     "id": "tg-14e40c7d8049edd4",
-    "place": "Ржевский район",
+    "place": "Торжок",
     "region": "Тверская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -2397,11 +2719,13 @@
     "text": "Ржевский район \nСелижаровский район \nКувшиновский район \nСтарицкий район \nТоржокский район \nТверская область \nФиксации БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89816"
+    "source_url": "https://t.me/radarrussiia/89816",
+    "lat": 57.0413,
+    "lon": 34.9601
   },
   {
     "id": "tg-43eb4e7825cf7a9d",
-    "place": "Торжокский район",
+    "place": "Торжок",
     "region": "Тверская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -2409,7 +2733,9 @@
     "text": "Торжокский район \nТверская область \nФиксация от 2 БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85052"
+    "source_url": "https://t.me/vrv_radar/85052",
+    "lat": 57.0413,
+    "lon": 34.9601
   },
   {
     "id": "tg-972ad8602d84e7d9",
@@ -2451,7 +2777,7 @@
   },
   {
     "id": "tg-7f428baa13886c29",
-    "place": "Ржевский район",
+    "place": "Ржев",
     "region": "Тверская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -2459,7 +2785,9 @@
     "text": "Ржевский район \nТверская область \nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85049"
+    "source_url": "https://t.me/vrv_radar/85049",
+    "lat": 56.2629,
+    "lon": 34.3291
   },
   {
     "id": "tg-86f2d46cc0f967c6",
@@ -2501,7 +2829,7 @@
   },
   {
     "id": "tg-a7b7bf6d647211bd",
-    "place": "Гагаринский район",
+    "place": "Смоленск",
     "region": "Смоленская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -2509,7 +2837,9 @@
     "text": "Гагаринский район \nСмоленская область \nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89814"
+    "source_url": "https://t.me/radarrussiia/89814",
+    "lat": 54.7826,
+    "lon": 32.0453
   },
   {
     "id": "tg-f89f44870c5f227a",
@@ -2579,7 +2909,7 @@
   },
   {
     "id": "tg-5c182b721a740995",
-    "place": "Гагаринский район",
+    "place": "Смоленск",
     "region": "Смоленская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -2587,7 +2917,9 @@
     "text": "Гагаринский район \nСмоленская область \nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85047"
+    "source_url": "https://t.me/vrv_radar/85047",
+    "lat": 54.7826,
+    "lon": 32.0453
   },
   {
     "id": "tg-505f7ddfd2af59c0",
@@ -2669,7 +3001,7 @@
   },
   {
     "id": "tg-fb32ff6c5caa3df3",
-    "place": "Гусь-Хрустальный район",
+    "place": "Владимир",
     "region": "Владимирская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -2677,11 +3009,13 @@
     "text": "Гусь-Хрустальный район\nВладимирская область\nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89811"
+    "source_url": "https://t.me/radarrussiia/89811",
+    "lat": 56.1291,
+    "lon": 40.4066
   },
   {
     "id": "tg-d55e34417b831fb4",
-    "place": null,
+    "place": "Смоленск",
     "region": "Смоленская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -2689,7 +3023,9 @@
     "text": "Смоленская область \nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89809"
+    "source_url": "https://t.me/radarrussiia/89809",
+    "lat": 54.7826,
+    "lon": 32.0453
   },
   {
     "id": "tg-4aeef67a7d31dc01",
@@ -2719,7 +3055,7 @@
   },
   {
     "id": "tg-b8902c3575b45c65",
-    "place": null,
+    "place": "Смоленск",
     "region": "Смоленская область",
     "source": "@vrv_radar",
     "status": "alert",
@@ -2727,7 +3063,9 @@
     "text": "Смоленская область \nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85040"
+    "source_url": "https://t.me/vrv_radar/85040",
+    "lat": 54.7826,
+    "lon": 32.0453
   },
   {
     "id": "tg-ca89994d293720ac",
@@ -2769,7 +3107,7 @@
   },
   {
     "id": "tg-8933c20228b38297",
-    "place": "Смоленский район",
+    "place": "Смоленск",
     "region": "Смоленская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -2777,11 +3115,13 @@
     "text": "Смоленский район \nФиксация БПЛА \nСмоленская область\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89807"
+    "source_url": "https://t.me/radarrussiia/89807",
+    "lat": 54.7826,
+    "lon": 32.0453
   },
   {
     "id": "tg-5aeb0d2b77ccb6d7",
-    "place": "Смоленский район",
+    "place": "Смоленск",
     "region": "Смоленская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -2789,7 +3129,9 @@
     "text": "Смоленский район \nФиксация БПЛА \nСмоленская область",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85039"
+    "source_url": "https://t.me/vrv_radar/85039",
+    "lat": 54.7826,
+    "lon": 32.0453
   },
   {
     "id": "tg-ec36e38a9ac54c56",
@@ -2949,7 +3291,9 @@
     "text": "Белгородская область\nБелгород\nТревога по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89802"
+    "source_url": "https://t.me/radarrussiia/89802",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-9e5475346fac8c5f",
@@ -3427,7 +3771,7 @@
   },
   {
     "id": "tg-582df638316f53a4",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "alert",
@@ -3435,7 +3779,9 @@
     "text": "Брянская область, Смоленская область, Калужская область - опасность по БПЛА.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82080"
+    "source_url": "https://t.me/locatorru/82080",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-4daaf9b7240cc5ff",
@@ -3499,11 +3845,13 @@
     "text": "Сергач\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43844"
+    "source_url": "https://t.me/nn52signal/43844",
+    "lat": 55.5202,
+    "lon": 45.4816
   },
   {
     "id": "tg-affb63b4b9d754e0",
-    "place": "Камкино",
+    "place": "Сергач",
     "region": "Нижегородская область",
     "source": "@nn52signal",
     "status": "fix",
@@ -3511,7 +3859,9 @@
     "text": "Камкино\nСергачский рн\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43843"
+    "source_url": "https://t.me/nn52signal/43843",
+    "lat": 55.5202,
+    "lon": 45.4816
   },
   {
     "id": "tg-b17842e9ad5bf8d2",
@@ -3585,7 +3935,7 @@
   },
   {
     "id": "tg-23ad387c8f53f317",
-    "place": "Гороховецкий район",
+    "place": "Владимир",
     "region": "Владимирская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -3593,7 +3943,9 @@
     "text": "Гороховецкий район\nВладимирская область\nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89791"
+    "source_url": "https://t.me/radarrussiia/89791",
+    "lat": 56.1291,
+    "lon": 40.4066
   },
   {
     "id": "tg-bfb62afaa5c467b5",
@@ -3765,7 +4117,7 @@
   },
   {
     "id": "tg-b955a21cdcaa6730",
-    "place": "Ивановская область",
+    "place": "Владимир",
     "region": "Владимирская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -3773,7 +4125,9 @@
     "text": "Владимирская область\nИвановская область\nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89764"
+    "source_url": "https://t.me/radarrussiia/89764",
+    "lat": 56.1291,
+    "lon": 40.4066
   },
   {
     "id": "tg-63688fb1c992cf13",
@@ -3813,7 +4167,7 @@
   },
   {
     "id": "tg-284dba5e905f8489",
-    "place": null,
+    "place": "Владимир",
     "region": "Владимирская область",
     "source": "@vrv_radar",
     "status": "alert",
@@ -3821,7 +4175,9 @@
     "text": "Владимирская область\nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84989"
+    "source_url": "https://t.me/vrv_radar/84989",
+    "lat": 56.1291,
+    "lon": 40.4066
   },
   {
     "id": "tg-ded8500fa3b6e5b7",
@@ -3873,7 +4229,7 @@
   },
   {
     "id": "tg-d5340f2876210315",
-    "place": "Питерский район",
+    "place": "Саратов",
     "region": "Саратовская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -3881,11 +4237,13 @@
     "text": "Питерский район\nСаратовская область\nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89760"
+    "source_url": "https://t.me/radarrussiia/89760",
+    "lat": 51.5336,
+    "lon": 46.0343
   },
   {
     "id": "tg-12a4867045814ba5",
-    "place": "Хотынецкий район",
+    "place": "Болхов",
     "region": "Орловская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -3893,7 +4251,9 @@
     "text": "Хотынецкий район\nБолховский район\nОрловская область\nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89759"
+    "source_url": "https://t.me/radarrussiia/89759",
+    "lat": 53.4431,
+    "lon": 36.0044
   },
   {
     "id": "tg-f24a12c0afc5b177",
@@ -3909,7 +4269,7 @@
   },
   {
     "id": "tg-cc8c61d35aa53466",
-    "place": "Данковский район",
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -3917,7 +4277,9 @@
     "text": "Данковский район\nЛипецкая область\nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89758"
+    "source_url": "https://t.me/radarrussiia/89758",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-9d5f93f6760d85b3",
@@ -3945,7 +4307,7 @@
   },
   {
     "id": "tg-83973bdadeec6efd",
-    "place": "Питерский район",
+    "place": "Саратов",
     "region": "Саратовская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -3953,11 +4315,13 @@
     "text": "Питерский район\nСаратовская область\nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84984"
+    "source_url": "https://t.me/vrv_radar/84984",
+    "lat": 51.5336,
+    "lon": 46.0343
   },
   {
     "id": "tg-40c14b1e5de2d824",
-    "place": "Болховский район",
+    "place": "Болхов",
     "region": "Орловская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -3965,7 +4329,9 @@
     "text": "Болховский район\nОрловская область\nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84983"
+    "source_url": "https://t.me/vrv_radar/84983",
+    "lat": 53.4431,
+    "lon": 36.0044
   },
   {
     "id": "tg-5cfa51ac572e6410",
@@ -3981,7 +4347,7 @@
   },
   {
     "id": "tg-85c7d0aeff4ed399",
-    "place": "Данковский район",
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -3989,7 +4355,9 @@
     "text": "Данковский район\nЛипецкая область\nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84981"
+    "source_url": "https://t.me/vrv_radar/84981",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-e763ea38d0f78c2e",
@@ -4089,7 +4457,7 @@
   },
   {
     "id": "tg-7d2e928c0cd1d3ae",
-    "place": null,
+    "place": "Владимир",
     "region": "Владимирская область",
     "source": "@locatorru",
     "status": "alert",
@@ -4097,7 +4465,9 @@
     "text": "Владимирская область - опасность по БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82074"
+    "source_url": "https://t.me/locatorru/82074",
+    "lat": 56.1291,
+    "lon": 40.4066
   },
   {
     "id": "tg-6c951bf78e1b90c3",
@@ -4153,7 +4523,7 @@
   },
   {
     "id": "tg-1648dd1287bfff29",
-    "place": "Энгельс",
+    "place": "Саратов",
     "region": "Саратовская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -4161,7 +4531,9 @@
     "text": "Энгельс\nСаратовская область\nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89750"
+    "source_url": "https://t.me/radarrussiia/89750",
+    "lat": 51.5336,
+    "lon": 46.0343
   },
   {
     "id": "tg-8bc3d774c4ab7f53",
@@ -4269,7 +4641,7 @@
   },
   {
     "id": "tg-af396df44093633e",
-    "place": "Энгельс",
+    "place": "Саратов",
     "region": "Саратовская область",
     "source": "@vrv_radar",
     "status": "alert",
@@ -4277,7 +4649,9 @@
     "text": "Энгельс\nСаратовская область\nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84970"
+    "source_url": "https://t.me/vrv_radar/84970",
+    "lat": 51.5336,
+    "lon": 46.0343
   },
   {
     "id": "tg-21de2679e53eeef4",
@@ -4293,7 +4667,7 @@
   },
   {
     "id": "tg-5338fdef4b8a67f7",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "fix",
@@ -4301,7 +4675,9 @@
     "text": "Комаричский район, Брасовский район, Брянская область - пролёты БПЛА в сторону Орловской области. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82070"
+    "source_url": "https://t.me/locatorru/82070",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-a720ac6b3bef4a84",
@@ -4403,7 +4779,7 @@
   },
   {
     "id": "tg-b1fd97fe52ce678e",
-    "place": null,
+    "place": "Моршанск",
     "region": "Тамбовская область",
     "source": "@locatorru",
     "status": "fix",
@@ -4411,7 +4787,9 @@
     "text": "Устье, Моршанский район, Тамбовская область - ещё пролёт БПЛА в направлении Рязанской области.   📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82069"
+    "source_url": "https://t.me/locatorru/82069",
+    "lat": 53.4436,
+    "lon": 41.811
   },
   {
     "id": "tg-89d27855c8c7a176",
@@ -4597,7 +4975,7 @@
   },
   {
     "id": "tg-c33032f25033a076",
-    "place": null,
+    "place": "Моршанск",
     "region": "Тамбовская область",
     "source": "@locatorru",
     "status": "fix",
@@ -4605,7 +4983,9 @@
     "text": "Устье, Моршанский район, Тамбовская область - ещё пролёт БПЛА в направлении Рязанской области. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82064"
+    "source_url": "https://t.me/locatorru/82064",
+    "lat": 53.4436,
+    "lon": 41.811
   },
   {
     "id": "tg-8be724a09a65e8f4",
@@ -4621,7 +5001,7 @@
   },
   {
     "id": "tg-a0000345aa45cc22",
-    "place": "Кирсановский район",
+    "place": "Тамбов",
     "region": "Тамбовская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -4629,11 +5009,13 @@
     "text": "Кирсановский район\nСосновский район\nТамбовская область\nФиксация от 2 БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89741"
+    "source_url": "https://t.me/radarrussiia/89741",
+    "lat": 52.7212,
+    "lon": 41.4523
   },
   {
     "id": "tg-016899af63e44c9a",
-    "place": null,
+    "place": "Пенза",
     "region": "Пензенская область",
     "source": "@locatorru",
     "status": "alert",
@@ -4641,11 +5023,13 @@
     "text": "Земетчино, Нижний Ломов, Пенза, Белинский, Каменка и близлежащие населённые пункты, Пензенская область - опасность по пролётам БПЛА от восточной части Тамбовской области и в сторону Республики Мордовия.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82063"
+    "source_url": "https://t.me/locatorru/82063",
+    "lat": 53.1959,
+    "lon": 45.0183
   },
   {
     "id": "tg-2053469696d64b4e",
-    "place": "Сосновский район",
+    "place": "Тамбов",
     "region": "Тамбовская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -4653,11 +5037,13 @@
     "text": "Сосновский район\nТамбовская область\nФиксация от 2 БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84956"
+    "source_url": "https://t.me/vrv_radar/84956",
+    "lat": 52.7212,
+    "lon": 41.4523
   },
   {
     "id": "tg-1931380c4bd36091",
-    "place": "Ровенский район",
+    "place": "Саратов",
     "region": "Саратовская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -4665,7 +5051,9 @@
     "text": "Ровенский район\nКраснокутский район \nСаратовская область \nФиксация 2 БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89740"
+    "source_url": "https://t.me/radarrussiia/89740",
+    "lat": 51.5336,
+    "lon": 46.0343
   },
   {
     "id": "tg-a6410a696a7eb34f",
@@ -4695,7 +5083,7 @@
   },
   {
     "id": "tg-81db7e8493833f20",
-    "place": "Кирсановский район",
+    "place": "Тамбов",
     "region": "Тамбовская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -4703,7 +5091,9 @@
     "text": "Кирсановский район\nТамбовская область\nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84955"
+    "source_url": "https://t.me/vrv_radar/84955",
+    "lat": 52.7212,
+    "lon": 41.4523
   },
   {
     "id": "tg-9a63a643a164c99a",
@@ -4731,7 +5121,7 @@
   },
   {
     "id": "tg-3de685d0af80982b",
-    "place": null,
+    "place": "Касимов",
     "region": "Рязанская область",
     "source": "@locatorru",
     "status": "alert",
@@ -4739,11 +5129,13 @@
     "text": "Шацк, Сасово, Шилово, Касимов, Рязанская область - опасность по БПЛА от Устье. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82060"
+    "source_url": "https://t.me/locatorru/82060",
+    "lat": 54.9376,
+    "lon": 41.3919
   },
   {
     "id": "tg-787256ce3387ef08",
-    "place": "Краснокутский район",
+    "place": "Саратов",
     "region": "Саратовская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -4751,7 +5143,9 @@
     "text": "Краснокутский район \nСаратовская область \nФиксация 2 БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84954"
+    "source_url": "https://t.me/vrv_radar/84954",
+    "lat": 51.5336,
+    "lon": 46.0343
   },
   {
     "id": "tg-529fb871aaeefdb9",
@@ -4769,7 +5163,7 @@
   },
   {
     "id": "tg-8b7b81ca093dbae2",
-    "place": null,
+    "place": "Моршанск",
     "region": "Тамбовская область",
     "source": "@locatorru",
     "status": "fix",
@@ -4777,11 +5171,13 @@
     "text": "Устье, Моршанский район, Тамбовская область - ещё пролёт БПЛА в направлении Рязанской области. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82058"
+    "source_url": "https://t.me/locatorru/82058",
+    "lat": 53.4436,
+    "lon": 41.811
   },
   {
     "id": "tg-dbc8670c9550c22d",
-    "place": "Ровенский район",
+    "place": "Саратов",
     "region": "Саратовская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -4789,7 +5185,9 @@
     "text": "Ровенский район\nСаратовская область\nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84953"
+    "source_url": "https://t.me/vrv_radar/84953",
+    "lat": 51.5336,
+    "lon": 46.0343
   },
   {
     "id": "tg-2c00c6b23e115688",
@@ -4817,7 +5215,7 @@
   },
   {
     "id": "tg-6236fc5217183e6d",
-    "place": null,
+    "place": "Моршанск",
     "region": "Тамбовская область",
     "source": "@locatorru",
     "status": "fix",
@@ -4825,7 +5223,9 @@
     "text": "Устье, Моршанский район, Тамбовская область - пролёт БПЛА в направлении Рязанской области. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82057"
+    "source_url": "https://t.me/locatorru/82057",
+    "lat": 53.4436,
+    "lon": 41.811
   },
   {
     "id": "tg-91086d43fb0580b8",
@@ -5009,7 +5409,7 @@
   },
   {
     "id": "tg-3238a46fb495fc05",
-    "place": "Мордовский район",
+    "place": "Тамбов",
     "region": "Тамбовская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -5017,7 +5417,9 @@
     "text": "Мордовский район\nТамбовская область\nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89732"
+    "source_url": "https://t.me/radarrussiia/89732",
+    "lat": 52.7212,
+    "lon": 41.4523
   },
   {
     "id": "tg-867e1200a6864d36",
@@ -5033,7 +5435,7 @@
   },
   {
     "id": "tg-804418004f7ff0f5",
-    "place": "Мордовский район",
+    "place": "Тамбов",
     "region": "Тамбовская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -5041,7 +5443,9 @@
     "text": "Мордовский район\nТамбовская область\nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84945"
+    "source_url": "https://t.me/vrv_radar/84945",
+    "lat": 52.7212,
+    "lon": 41.4523
   },
   {
     "id": "tg-a198c1f2e8452dd7",
@@ -5129,7 +5533,7 @@
   },
   {
     "id": "tg-d4d2f327b15c12ab",
-    "place": "Кумылженский район",
+    "place": "Волгоград",
     "region": "Волгоградская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -5137,11 +5541,13 @@
     "text": "Кумылженский район\nВолгоградская область\nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89727"
+    "source_url": "https://t.me/radarrussiia/89727",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-53a786602ad1a197",
-    "place": "Кумылженский район",
+    "place": "Волгоград",
     "region": "Волгоградская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -5149,7 +5555,9 @@
     "text": "Кумылженский район\nВолгоградская область\nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84940"
+    "source_url": "https://t.me/vrv_radar/84940",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-8cf8a704af90c886",
@@ -5177,7 +5585,7 @@
   },
   {
     "id": "tg-eeb78d50ee455f2d",
-    "place": null,
+    "place": "Мичуринск",
     "region": "Тамбовская область",
     "source": "@locatorru",
     "status": "fix",
@@ -5185,11 +5593,13 @@
     "text": "Незнановка, Тамбовский район, Тамбовская область - пролёт БПЛА, может подвернуть в сторону Дмитриевка, Мичуринск.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82053"
+    "source_url": "https://t.me/locatorru/82053",
+    "lat": 52.896,
+    "lon": 40.4907
   },
   {
     "id": "tg-1ee1e17dd9273f1a",
-    "place": "Жердевский район",
+    "place": "Тамбов",
     "region": "Тамбовская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -5197,7 +5607,9 @@
     "text": "Жердевский район\nТамбовская область\nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89725"
+    "source_url": "https://t.me/radarrussiia/89725",
+    "lat": 52.7212,
+    "lon": 41.4523
   },
   {
     "id": "tg-70db072849775a24",
@@ -5243,7 +5655,7 @@
   },
   {
     "id": "tg-2481570ac91f5526",
-    "place": "Жердевский район",
+    "place": "Тамбов",
     "region": "Тамбовская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -5251,7 +5663,9 @@
     "text": "Жердевский район\nТамбовская область\nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84937"
+    "source_url": "https://t.me/vrv_radar/84937",
+    "lat": 52.7212,
+    "lon": 41.4523
   },
   {
     "id": "tg-ca4b4d864b94d3b6",
@@ -5269,7 +5683,7 @@
   },
   {
     "id": "tg-7c9ae446a6129ff3",
-    "place": "Краснинский район",
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -5277,7 +5691,9 @@
     "text": "Краснинский район\nТербунский район\nЛипецкая область\nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89723"
+    "source_url": "https://t.me/radarrussiia/89723",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-8e07a164846afe62",
@@ -5295,7 +5711,7 @@
   },
   {
     "id": "tg-7c685d86724990db",
-    "place": "Тербунский район",
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -5303,7 +5719,9 @@
     "text": "Тербунский район\nЛипецкая область\nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84935"
+    "source_url": "https://t.me/vrv_radar/84935",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-8f218f4b8b04e5c1",
@@ -5319,7 +5737,7 @@
   },
   {
     "id": "tg-57825f7535949e9d",
-    "place": null,
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@locatorru",
     "status": "fix",
@@ -5327,11 +5745,13 @@
     "text": "Барятино, Данковский район, Липецкая область - пролёт 1 БПЛА в направлении Тульской или Рязанской области.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82052"
+    "source_url": "https://t.me/locatorru/82052",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-b150470842f041e2",
-    "place": "Краснинский район",
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -5339,7 +5759,9 @@
     "text": "Краснинский район\nЛипецкая область\nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84934"
+    "source_url": "https://t.me/vrv_radar/84934",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-4d16653bed4de621",
@@ -5429,7 +5851,7 @@
   },
   {
     "id": "tg-d14a10b7308e9f0f",
-    "place": null,
+    "place": "Саратов",
     "region": "Саратовская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -5437,11 +5859,13 @@
     "text": "Саратовская область\nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89719"
+    "source_url": "https://t.me/radarrussiia/89719",
+    "lat": 51.5336,
+    "lon": 46.0343
   },
   {
     "id": "tg-887d627fc0a67659",
-    "place": "Камышинский район",
+    "place": "Волгоград",
     "region": "Волгоградская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -5449,7 +5873,9 @@
     "text": "Камышинский район\nВолгоградская область\nФиксации БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89718"
+    "source_url": "https://t.me/radarrussiia/89718",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-a63636f05e244da9",
@@ -5465,7 +5891,7 @@
   },
   {
     "id": "tg-04156c70a263fa3a",
-    "place": "Камышинский район",
+    "place": "Волгоград",
     "region": "Волгоградская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -5473,11 +5899,13 @@
     "text": "Камышинский район\nВолгоградская область\nФиксации БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84929"
+    "source_url": "https://t.me/vrv_radar/84929",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-013b0b46078fa91a",
-    "place": null,
+    "place": "Саратов",
     "region": "Саратовская область",
     "source": "@vrv_radar",
     "status": "alert",
@@ -5485,7 +5913,9 @@
     "text": "Саратовская область\nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84928"
+    "source_url": "https://t.me/vrv_radar/84928",
+    "lat": 51.5336,
+    "lon": 46.0343
   },
   {
     "id": "tg-b1b7afd156b3272b",
@@ -5515,7 +5945,7 @@
   },
   {
     "id": "tg-2a456c14153ad00a",
-    "place": "Камышинский район",
+    "place": "Волгоград",
     "region": "Волгоградская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -5523,7 +5953,9 @@
     "text": "Камышинский район\nВолгоградская область\nФиксации БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84926"
+    "source_url": "https://t.me/vrv_radar/84926",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-ebd55647879875d3",
@@ -5739,7 +6171,7 @@
   },
   {
     "id": "tg-d9f54f232e076af0",
-    "place": null,
+    "place": "Белгород",
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "alert",
@@ -5747,7 +6179,9 @@
     "text": "Алексеевский район, Вейделевский район, Ровеньский район, Красногвардейский район, Чернянский район, Новооскольский район, Красненский район, Белгородская область - опасность по БПЛА и в сторону Воронежской области. Много.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82047"
+    "source_url": "https://t.me/locatorru/82047",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-fa9b45ac033d68db",
@@ -5961,7 +6395,7 @@
   },
   {
     "id": "tg-30894bb683de63ab",
-    "place": "Жирновский район",
+    "place": "Волгоград",
     "region": "Волгоградская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -5969,11 +6403,13 @@
     "text": "Жирновский район\nВолгоградская область\nФиксация от 3 БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89706"
+    "source_url": "https://t.me/radarrussiia/89706",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-5ada070fc45a33bb",
-    "place": "Жирновский район",
+    "place": "Волгоград",
     "region": "Волгоградская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -5981,7 +6417,9 @@
     "text": "Жирновский район\nВолгоградская область\nФиксация от 3 БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84913"
+    "source_url": "https://t.me/vrv_radar/84913",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-5f4edba7d9eb8b25",
@@ -6311,7 +6749,7 @@
   },
   {
     "id": "tg-cc9badeda1bc6243",
-    "place": "Краснинский район",
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -6319,7 +6757,9 @@
     "text": "Краснинский район\nЛипецкая область\nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89697"
+    "source_url": "https://t.me/radarrussiia/89697",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-95d353bf442950d3",
@@ -6337,7 +6777,7 @@
   },
   {
     "id": "tg-3bb11177013d247f",
-    "place": null,
+    "place": "Тамбов",
     "region": "Тамбовская область",
     "source": "@locatorru",
     "status": "fix",
@@ -6345,7 +6785,9 @@
     "text": "Плоское, Мордовский район, Тамбовская область - пролёт БПЛА в сторону Тамбова. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82041"
+    "source_url": "https://t.me/locatorru/82041",
+    "lat": 52.7212,
+    "lon": 41.4523
   },
   {
     "id": "tg-5dd86eb8825e69ed",
@@ -6523,7 +6965,7 @@
   },
   {
     "id": "tg-5cfc970ebbaf6201",
-    "place": null,
+    "place": "Белгород",
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "fix",
@@ -6531,11 +6973,13 @@
     "text": "Знаменка, Старооскольский район, Белгородская область - пролёты БПЛА в сторону Семидесятное, Воронеж, Хохольский.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82035"
+    "source_url": "https://t.me/locatorru/82035",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-c0432ef562f2e572",
-    "place": null,
+    "place": "Саратов",
     "region": "Саратовская область",
     "source": "@locatorru",
     "status": "alert",
@@ -6543,7 +6987,9 @@
     "text": "Саратовская область, Пензенская область - опасность по БПЛА от Борисоглебск.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82034"
+    "source_url": "https://t.me/locatorru/82034",
+    "lat": 51.5336,
+    "lon": 46.0343
   },
   {
     "id": "tg-afeb6b343212f0e5",
@@ -6699,7 +7145,7 @@
   },
   {
     "id": "tg-295d84ee29b97b45",
-    "place": null,
+    "place": "Белгород",
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "fix",
@@ -6707,7 +7153,9 @@
     "text": "Старооскольский район, Белгородская область - пролёты БПЛА в сторону примерно северной части Воронежской области. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82027"
+    "source_url": "https://t.me/locatorru/82027",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-6db47a32a49a2145",
@@ -6725,7 +7173,7 @@
   },
   {
     "id": "tg-297131994d1358ab",
-    "place": null,
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@locatorru",
     "status": "alert",
@@ -6733,7 +7181,9 @@
     "text": "Липецкая область - опасность по БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82025"
+    "source_url": "https://t.me/locatorru/82025",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-91254227ce058b59",
@@ -6821,7 +7271,7 @@
   },
   {
     "id": "tg-81f1e3d396c8f501",
-    "place": null,
+    "place": "Белгород",
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "fix",
@@ -6829,7 +7279,9 @@
     "text": "Белгородская область - практический во всех районах фиксируются БПЛА.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82022"
+    "source_url": "https://t.me/locatorru/82022",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-ebd9ab84c0a39edf",
@@ -6871,7 +7323,7 @@
   },
   {
     "id": "tg-0b19106c3edf8d86",
-    "place": "Алексеевский район",
+    "place": "Волгоград",
     "region": "Волгоградская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -6879,7 +7331,9 @@
     "text": "Алексеевский район\nВолгоградская область\nФиксация от 3 БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84887"
+    "source_url": "https://t.me/vrv_radar/84887",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-e3fd4861a3ce33e7",
@@ -6922,7 +7376,7 @@
   },
   {
     "id": "tg-698e2e5cdf106039",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "alert",
@@ -6930,7 +7384,9 @@
     "text": "Брянская область, Смоленская область - опасность по БПЛА.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82019"
+    "source_url": "https://t.me/locatorru/82019",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "vrv-povorino",
@@ -7163,7 +7619,7 @@
   },
   {
     "id": "tg-67b749f2a8ee3337",
-    "place": null,
+    "place": "Белгород",
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "fix",
@@ -7171,7 +7627,9 @@
     "text": "Ровеньский район, Алексеевский район, Чернянский район, Белгородская область - массовый пролёт ударных БПЛА в сторону Старооскольского района и в сторону Острогожского и Лискинского районов, Воронежской области.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82017"
+    "source_url": "https://t.me/locatorru/82017",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-477fbde07cee38d3",
@@ -7267,7 +7725,7 @@
   },
   {
     "id": "tg-19f704165a930481",
-    "place": null,
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -7275,11 +7733,13 @@
     "text": "Липецкая область\nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89683"
+    "source_url": "https://t.me/radarrussiia/89683",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-ccb3b282fa9dce0a",
-    "place": null,
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@vrv_radar",
     "status": "alert",
@@ -7287,7 +7747,9 @@
     "text": "Липецкая область\nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84876"
+    "source_url": "https://t.me/vrv_radar/84876",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-3da62c2c193c20a6",
@@ -7299,7 +7761,9 @@
     "text": "Волгоград\nВолгоградская область\nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89682"
+    "source_url": "https://t.me/radarrussiia/89682",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-a5ef6a435e2bbfac",
@@ -7339,7 +7803,9 @@
     "text": "Волгоград\nВолгоградская область\nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84875"
+    "source_url": "https://t.me/vrv_radar/84875",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-fbb527c7f1d1bb0d",
@@ -7393,7 +7859,7 @@
   },
   {
     "id": "tg-dcc1f09ebfd6cf99",
-    "place": "Тамбовская область",
+    "place": "Волгоград",
     "region": "Волгоградская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -7401,11 +7867,13 @@
     "text": "Волгоградская область\nТамбовская область\nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89680"
+    "source_url": "https://t.me/radarrussiia/89680",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-d964a047a1e3881c",
-    "place": null,
+    "place": "Старый Оскол",
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "alert",
@@ -7413,11 +7881,13 @@
     "text": "Губкин, Старый Оскол, Чернянка, Белгородская область - опасность по БПЛА.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82010"
+    "source_url": "https://t.me/locatorru/82010",
+    "lat": 51.2967,
+    "lon": 37.8417
   },
   {
     "id": "tg-a9cedf20abbfec50",
-    "place": null,
+    "place": "Тамбов",
     "region": "Тамбовская область",
     "source": "@vrv_radar",
     "status": "alert",
@@ -7425,11 +7895,13 @@
     "text": "Тамбовская область\nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84873"
+    "source_url": "https://t.me/vrv_radar/84873",
+    "lat": 52.7212,
+    "lon": 41.4523
   },
   {
     "id": "tg-038c544bd260e1c7",
-    "place": null,
+    "place": "Волгоград",
     "region": "Волгоградская область",
     "source": "@vrv_radar",
     "status": "alert",
@@ -7437,7 +7909,9 @@
     "text": "Волгоградская область\nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84872"
+    "source_url": "https://t.me/vrv_radar/84872",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-2cb910677d04c16c",
@@ -7469,7 +7943,7 @@
   },
   {
     "id": "tg-9da0524a700ce871",
-    "place": null,
+    "place": "Волгоград",
     "region": "Волгоградская область",
     "source": "@locatorru",
     "status": "alert",
@@ -7477,7 +7951,9 @@
     "text": "Волгоградская область - опасность по БПЛА.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82009"
+    "source_url": "https://t.me/locatorru/82009",
+    "lat": 48.708,
+    "lon": 44.5133
   },
   {
     "id": "tg-07e020d32d8d6749",
@@ -7615,7 +8091,7 @@
   },
   {
     "id": "tg-1896bfb612f14019",
-    "place": null,
+    "place": "Курск",
     "region": "Курская область",
     "source": "@locatorru",
     "status": "alert",
@@ -7623,11 +8099,13 @@
     "text": "Курская область, Орловская область, Липецкая область, Воронежская область, Тамбовская область - опасность по БПЛА от Белгородской области, также внимание по массовому пролёту БПЛА.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82004"
+    "source_url": "https://t.me/locatorru/82004",
+    "lat": 51.7304,
+    "lon": 36.1926
   },
   {
     "id": "tg-17eeeb14c3a269f2",
-    "place": null,
+    "place": "Белгород",
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "fix",
@@ -7635,7 +8113,9 @@
     "text": "Шебекинский район, Волоконовский район, Белгородский район, Губкинский район, Чернянский район, Белгородская область -  массовые пролёты БПЛА в сторону Липецкой и Воронежской областей. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82003"
+    "source_url": "https://t.me/locatorru/82003",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-5e67d0f50811f0c0",
@@ -7747,7 +8227,7 @@
   },
   {
     "id": "tg-fd1d129bbe75cfd3",
-    "place": null,
+    "place": "Курск",
     "region": "Курская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -7755,7 +8235,9 @@
     "text": "Курская область \nТревога по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89674"
+    "source_url": "https://t.me/radarrussiia/89674",
+    "lat": 51.7304,
+    "lon": 36.1926
   },
   {
     "id": "tg-a186322e6f5a4456",
@@ -8011,7 +8493,7 @@
   },
   {
     "id": "tg-1492a6f27367e344",
-    "place": null,
+    "place": "Белгород",
     "region": "Белгородская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -8019,7 +8501,9 @@
     "text": "Белгородская область \nТревога по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89667"
+    "source_url": "https://t.me/radarrussiia/89667",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-9a4077c478712f5c",
@@ -8079,7 +8563,7 @@
   },
   {
     "id": "tg-9d7746cfaf396032",
-    "place": null,
+    "place": "Белгород",
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "alert",
@@ -8087,7 +8571,9 @@
     "text": "Белгородская область, Воронежская область - опасность по БПЛА от ЛНР и Харьковской области. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82000"
+    "source_url": "https://t.me/locatorru/82000",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-4c005e4a185a8e02",
@@ -8303,7 +8789,7 @@
   },
   {
     "id": "tg-842f7affce1634ec",
-    "place": null,
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@radarrussiia",
     "status": "cancel",
@@ -8311,7 +8797,9 @@
     "text": "Липецкая область\nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89659"
+    "source_url": "https://t.me/radarrussiia/89659",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-9917aa7337ff4b4c",
@@ -8327,7 +8815,7 @@
   },
   {
     "id": "tg-00af75bfeb6116f1",
-    "place": null,
+    "place": "Липецк",
     "region": "Липецкая область",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -8335,7 +8823,9 @@
     "text": "Липецкая область\nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84849"
+    "source_url": "https://t.me/vrv_radar/84849",
+    "lat": 52.6102,
+    "lon": 39.5947
   },
   {
     "id": "tg-2b177815c89ffe9f",
@@ -8401,7 +8891,7 @@
   },
   {
     "id": "tg-ea98af5f82fc2bac",
-    "place": null,
+    "place": "Владимир",
     "region": "Владимирская область",
     "source": "@radarrussiia",
     "status": "cancel",
@@ -8409,7 +8899,9 @@
     "text": "Владимирская область\nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89657"
+    "source_url": "https://t.me/radarrussiia/89657",
+    "lat": 56.1291,
+    "lon": 40.4066
   },
   {
     "id": "tg-69689774d01b8981",
@@ -8565,7 +9057,7 @@
   },
   {
     "id": "tg-243eee29d2e59bdf",
-    "place": null,
+    "place": "Владимир",
     "region": "Владимирская область",
     "source": "@locatorru",
     "status": "cancel",
@@ -8573,11 +9065,13 @@
     "text": "Владимирская область - отбой опасности по БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81987"
+    "source_url": "https://t.me/locatorru/81987",
+    "lat": 56.1291,
+    "lon": 40.4066
   },
   {
     "id": "tg-b775bcd444e4a376",
-    "place": null,
+    "place": "Владимир",
     "region": "Владимирская область",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -8585,11 +9079,13 @@
     "text": "Владимирская область\nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84840"
+    "source_url": "https://t.me/vrv_radar/84840",
+    "lat": 56.1291,
+    "lon": 40.4066
   },
   {
     "id": "tg-d70710bc83d078dc",
-    "place": null,
+    "place": "Смоленск",
     "region": "Смоленская область",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -8597,7 +9093,9 @@
     "text": "Смоленская область\nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84839"
+    "source_url": "https://t.me/vrv_radar/84839",
+    "lat": 54.7826,
+    "lon": 32.0453
   },
   {
     "id": "tg-98452ce479dc612c",
@@ -8797,7 +9295,7 @@
   },
   {
     "id": "tg-100690b6413c452b",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "alert",
@@ -8805,7 +9303,9 @@
     "text": "Брянский район, Дятьковский район, Брянская область - опасность по БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81980"
+    "source_url": "https://t.me/locatorru/81980",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-f97b9e2950193d2e",
@@ -8915,7 +9415,7 @@
   },
   {
     "id": "tg-7f6c5d276a8ab2c8",
-    "place": "22/08/2026 18:40 МСК.",
+    "place": "Курск",
     "region": "Курская область",
     "source": "@locatorru",
     "status": "alert",
@@ -8923,7 +9423,9 @@
     "text": "22/08/2026 18:40 МСК.\n\nОпасность по БПЛА сохраняется:\n\n🔻Курская область;\n🔻Брянская область;\n🔻Смоленская область;\n🔻Калужская область;\n🔻Орловская область;\n🔻Белгородская область;\n🔻Тульская область;\n🔻Московская область;\n🔻Нижегородская область;\n🔻Владимирская область;\n🔻Воронежская область;\n🔻Краснодарский край.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81977"
+    "source_url": "https://t.me/locatorru/81977",
+    "lat": 51.7304,
+    "lon": 36.1926
   },
   {
     "id": "tg-9345f053b9483150",
@@ -9033,7 +9535,7 @@
   },
   {
     "id": "tg-ccb790cbc6ab32e0",
-    "place": null,
+    "place": "Белгород",
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "alert",
@@ -9041,7 +9543,9 @@
     "text": "Алексеевский район, Белгородская область - опасность по БПЛА и в сторону Воронежской области. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81971"
+    "source_url": "https://t.me/locatorru/81971",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-239b60e30c73716b",
@@ -9701,7 +10205,7 @@
   },
   {
     "id": "tg-919ff17c6c284f06",
-    "place": "ГО Ступино и ближайшие",
+    "place": "Ступино",
     "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "alert",
@@ -9709,7 +10213,9 @@
     "text": "ГО Ступино и ближайшие \n❗️опасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11954"
+    "source_url": "https://t.me/RDFradar/11954",
+    "lat": 54.9008,
+    "lon": 38.0708
   },
   {
     "id": "tg-8a570b35bd0a1bc3",
@@ -9893,7 +10399,9 @@
     "text": "Калуга\nКалужская область\nФиксация БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89626"
+    "source_url": "https://t.me/radarrussiia/89626",
+    "lat": 54.5138,
+    "lon": 36.2612
   },
   {
     "id": "tg-9b965ec56e847eac",
@@ -9917,7 +10425,9 @@
     "text": "Калуга\nКалужская область\nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84808"
+    "source_url": "https://t.me/vrv_radar/84808",
+    "lat": 54.5138,
+    "lon": 36.2612
   },
   {
     "id": "tg-140cd9109ac80db5",
@@ -9941,7 +10451,9 @@
     "text": "Калуга\nКалужская область\nСбитие БПЛА\nМеры безопасности\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89624"
+    "source_url": "https://t.me/radarrussiia/89624",
+    "lat": 54.5138,
+    "lon": 36.2612
   },
   {
     "id": "tg-542682a470315286",
@@ -9953,7 +10465,9 @@
     "text": "Калуга\nКалужская область\nСбитие БПЛА\nМеры безопасности",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84806"
+    "source_url": "https://t.me/vrv_radar/84806",
+    "lat": 54.5138,
+    "lon": 36.2612
   },
   {
     "id": "tg-844c98f896d46d78",
@@ -9981,7 +10495,7 @@
   },
   {
     "id": "tg-e899a4bea58ab19c",
-    "place": "Ершичский район",
+    "place": "Смоленск",
     "region": "Смоленская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -9989,7 +10503,9 @@
     "text": "Ершичский район\nСмоленская область\nФиксация от 2 БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89622"
+    "source_url": "https://t.me/radarrussiia/89622",
+    "lat": 54.7826,
+    "lon": 32.0453
   },
   {
     "id": "tg-44c09d36c1d02089",
@@ -10005,7 +10521,7 @@
   },
   {
     "id": "tg-cb9a831f5ec1d1a7",
-    "place": "Ершичский район",
+    "place": "Смоленск",
     "region": "Смоленская область",
     "source": "@vrv_radar",
     "status": "fix",
@@ -10013,7 +10529,9 @@
     "text": "Ершичский район\nСмоленская область\nФиксация от 2 БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/84804"
+    "source_url": "https://t.me/vrv_radar/84804",
+    "lat": 54.7826,
+    "lon": 32.0453
   },
   {
     "id": "tg-2ca9cd67ba537fc1",
@@ -10185,7 +10703,7 @@
   },
   {
     "id": "tg-233550a30eee8fae",
-    "place": null,
+    "place": "Мценск",
     "region": "Орловская область",
     "source": "@locatorru",
     "status": "alert",
@@ -10193,11 +10711,13 @@
     "text": "Шаблыкино, Дмитровск, Хотынец, Знаменское, Отрадинское, Мценск, Болхов, Орловская область - опасность по БПЛА и в сторону Тульскойй области.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81963"
+    "source_url": "https://t.me/locatorru/81963",
+    "lat": 53.2785,
+    "lon": 36.5733
   },
   {
     "id": "tg-8c99b6ca4df21254",
-    "place": null,
+    "place": "Смоленск",
     "region": "Смоленская область",
     "source": "@locatorru",
     "status": "alert",
@@ -10205,11 +10725,13 @@
     "text": "Смоленская область, Калужская область, Орловская область, Тульская область, Рязанская область, Московская область, Тверская область - опасность по БПЛА от Брянской области. Много идёт от госграницы.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81962"
+    "source_url": "https://t.me/locatorru/81962",
+    "lat": 54.7826,
+    "lon": 32.0453
   },
   {
     "id": "tg-a2f657024d0e8d40",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "defense",
@@ -10217,7 +10739,9 @@
     "text": "Клинцы, Брянская область - опасность по БПЛА. Сбитие. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81961"
+    "source_url": "https://t.me/locatorru/81961",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-7f87d9780049341e",
@@ -10233,7 +10757,7 @@
   },
   {
     "id": "tg-f19402af9fb8701f",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "fix",
@@ -10241,11 +10765,13 @@
     "text": "Локоть, Брасовский район, Брянская область -  пролёт 2 БПЛА в сторону Брасово. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81960"
+    "source_url": "https://t.me/locatorru/81960",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-de7fc2caca0023e2",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "fix",
@@ -10253,7 +10779,9 @@
     "text": "Салтановка, Навлинский район, Брянская область - пролёт БПЛА в сторону Навля, Локоть. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81959"
+    "source_url": "https://t.me/locatorru/81959",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-978ce16e62742eae",
@@ -10269,7 +10797,7 @@
   },
   {
     "id": "tg-74e870e44b28e6f6",
-    "place": "22/08/2026 12:55 МСК.",
+    "place": "Курск",
     "region": "Курская область",
     "source": "@locatorru",
     "status": "alert",
@@ -10277,7 +10805,9 @@
     "text": "22/08/2026 12:55 МСК.\n\nОпасность по БПЛА сохраняется:\n\n🔻Курская область;\n🔻Брянская область;\n🔻Смоленская область;\n🔻Калужская область;\n🔻Орловская область;\n🔻Белгородская область;\n🔻Тульская область;\n🔻Московская область;\n🔻Вологодская область;\n🔻Новгородская область;\n🔻Нижегородская область;\n🔻Костромская область;\n🔻Владимирская область;\n🔻Республика Коми;\n🔻Архангельская область. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81957"
+    "source_url": "https://t.me/locatorru/81957",
+    "lat": 51.7304,
+    "lon": 36.1926
   },
   {
     "id": "tg-a2dc44e0f75a6df0",
@@ -10379,7 +10909,7 @@
   },
   {
     "id": "tg-0a1ac332a752a8fe",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "alert",
@@ -10387,11 +10917,13 @@
     "text": "Брянская область - опасность по БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81953"
+    "source_url": "https://t.me/locatorru/81953",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-b6b8301d948b7636",
-    "place": null,
+    "place": "Брянск",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "fix",
@@ -10399,7 +10931,9 @@
     "text": "Чаков, Погарский район, Брянская область - пролёт БПЛА в тыл. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81952"
+    "source_url": "https://t.me/locatorru/81952",
+    "lat": 53.2521,
+    "lon": 34.3717
   },
   {
     "id": "tg-6b6788b8182f3cf4",
@@ -10467,7 +11001,7 @@
   },
   {
     "id": "tg-7e872bb70e4dd117",
-    "place": null,
+    "place": "Белгород",
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "fix",
@@ -10475,7 +11009,9 @@
     "text": "Красная Яруга, Ракитное, Белгородская область - начинается пролёт БПЛА от госграницы в тыл. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/81950"
+    "source_url": "https://t.me/locatorru/81950",
+    "lat": 50.5957,
+    "lon": 36.5873
   },
   {
     "id": "tg-3600cf422f28cda9",
@@ -10571,7 +11107,9 @@
     "text": "Урень \nФиксация 3 бпла\nНа Ветлугу",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43807"
+    "source_url": "https://t.me/nn52signal/43807",
+    "lat": 57.4552,
+    "lon": 45.7852
   },
   {
     "id": "tg-1047b482e5f7ebdb",
@@ -10701,7 +11239,7 @@
   },
   {
     "id": "tg-bd753be74dcc96b1",
-    "place": "От д. Воробьевка на Молодники",
+    "place": "Владимир",
     "region": "Владимирская область",
     "source": "@nn52signal",
     "status": "fix",
@@ -10709,7 +11247,9 @@
     "text": "От д. Воробьевка на Молодники\nГороховецкий рн\nВладимирская область\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43797"
+    "source_url": "https://t.me/nn52signal/43797",
+    "lat": 56.1291,
+    "lon": 40.4066
   },
   {
     "id": "tg-f8babe167d02eb77",
@@ -10775,7 +11315,7 @@
   },
   {
     "id": "tg-2654179aeca74991",
-    "place": "МО Егорьевск",
+    "place": "Егорьевск",
     "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "defense",
@@ -10783,11 +11323,13 @@
     "text": "МО Егорьевск \n💥Работа ПВО по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11949"
+    "source_url": "https://t.me/RDFradar/11949",
+    "lat": 55.3831,
+    "lon": 39.0358
   },
   {
     "id": "tg-9eff08430d632f6a",
-    "place": "Коломна",
+    "place": "Егорьевск",
     "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "alert",
@@ -10796,8 +11338,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/RDFradar/11948",
-    "lat": 55.0794,
-    "lon": 38.7783
+    "lat": 55.3831,
+    "lon": 39.0358
   },
   {
     "id": "tg-a633a364b9cb4939",
@@ -10843,7 +11385,7 @@
   },
   {
     "id": "tg-9550cd5eaf4d8c99",
-    "place": null,
+    "place": "Кашира",
     "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
@@ -10851,7 +11393,9 @@
     "text": "ГО Кашира возможно пролет БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11944"
+    "source_url": "https://t.me/RDFradar/11944",
+    "lat": 54.8442,
+    "lon": 38.1669
   },
   {
     "id": "tg-dc4314ffbf4b615d",
@@ -10903,7 +11447,7 @@
   },
   {
     "id": "tg-bc238632f7ae8b61",
-    "place": "ГО Воскресенск",
+    "place": "Воскресенск",
     "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "defense",
@@ -10911,7 +11455,9 @@
     "text": "ГО Воскресенск \n💥Работа ПВО по БПЛА\nЕще фиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11938"
+    "source_url": "https://t.me/RDFradar/11938",
+    "lat": 55.3173,
+    "lon": 38.6526
   },
   {
     "id": "tg-c75e198966e3a9c6",
@@ -11943,7 +12489,7 @@
   },
   {
     "id": "tg-98ee77c8161d53af",
-    "place": null,
+    "place": "Кириши",
     "region": "Санкт-Петербург и Ленинградская область",
     "source": "@radar_peterburg",
     "status": "cancel",
@@ -11951,7 +12497,9 @@
     "text": "Кириши, Ленинградская область - отбой опасности по БПЛА. \nПереходим в режим внимание. \n\n❗️Радар Питер и Ленинградская область - @radar_peterburg\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_peterburg/1715"
+    "source_url": "https://t.me/radar_peterburg/1715",
+    "lat": 59.4471,
+    "lon": 32.0205
   },
   {
     "id": "tg-7cfc83624c04c973",
@@ -11963,7 +12511,9 @@
     "text": "Кириши \nЛенинградская область\nРабота ПВО по БПЛА\nМеры безопасности\n\n❗️Радар Питер и Ленинградская область - @radar_peterburg\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_peterburg/1714"
+    "source_url": "https://t.me/radar_peterburg/1714",
+    "lat": 59.4471,
+    "lon": 32.0205
   },
   {
     "id": "tg-59299f5ed5ead2dc",

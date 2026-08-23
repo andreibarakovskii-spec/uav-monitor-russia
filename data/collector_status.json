@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-23T11:59:24.320496+00:00",
-  "incoming": 118,
-  "total": 938,
+  "updated_at": "2026-08-23T12:57:21.892820+00:00",
+  "incoming": 109,
+  "total": 956,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -35,17 +35,17 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 16,
+      "events": 9,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 20,
-      "filtered_noise": 4,
-      "parsed": 16,
+      "filtered_noise": 11,
+      "parsed": 9,
       "region_from_channel": 0,
-      "place_found": 9,
+      "place_found": 6,
       "place_geocoded": 4
     },
     "locatorru": {
@@ -60,23 +60,23 @@
       "filtered_noise": 1,
       "parsed": 18,
       "region_from_channel": 0,
-      "place_found": 3,
-      "place_geocoded": 3
+      "place_found": 17,
+      "place_geocoded": 17
     },
     "vrv_radar": {
       "ok": true,
-      "events": 19,
+      "events": 16,
       "error": null,
       "configured_region": "Россия",
       "source_type": "regional-network",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 20,
-      "filtered_noise": 1,
-      "parsed": 19,
+      "filtered_noise": 4,
+      "parsed": 16,
       "region_from_channel": 0,
-      "place_found": 9,
-      "place_geocoded": 5
+      "place_found": 14,
+      "place_geocoded": 6
     },
     "radar_voronezh": {
       "ok": true,
@@ -105,22 +105,22 @@
       "filtered_noise": 8,
       "parsed": 4,
       "region_from_channel": 0,
-      "place_found": 0,
-      "place_geocoded": 0
+      "place_found": 1,
+      "place_geocoded": 1
     },
     "RDFradar": {
       "ok": true,
-      "events": 11,
+      "events": 12,
       "error": null,
       "configured_region": "Москва и Московская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 18,
-      "filtered_noise": 7,
-      "parsed": 11,
+      "with_bpla": 16,
+      "filtered_noise": 4,
+      "parsed": 12,
       "region_from_channel": 8,
-      "place_found": 9,
+      "place_found": 10,
       "place_geocoded": 4
     },
     "radar_tatarstann": {
