@@ -1,8 +1,8 @@
 {
-  "total_events": 989,
-  "with_place": 803,
-  "with_coordinates": 542,
-  "coordinate_coverage_pct": 54.8,
+  "total_events": 999,
+  "with_place": 811,
+  "with_coordinates": 546,
+  "coordinate_coverage_pct": 54.7,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -14,8 +14,8 @@
     },
     {
       "region": "Краснодарский край",
-      "events": 110,
-      "with_coordinates": 110,
+      "events": 114,
+      "with_coordinates": 114,
       "coverage_pct": 100.0
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "region": "Без региона",
-      "events": 72,
+      "events": 73,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -62,7 +62,7 @@
     },
     {
       "region": "Ростовская область",
-      "events": 23,
+      "events": 24,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -89,6 +89,12 @@
       "events": 16,
       "with_coordinates": 16,
       "coverage_pct": 100.0
+    },
+    {
+      "region": "Тверская область",
+      "events": 15,
+      "with_coordinates": 3,
+      "coverage_pct": 20.0
     },
     {
       "region": "Рязанская область",
@@ -133,12 +139,6 @@
       "coverage_pct": 0.0
     },
     {
-      "region": "Тверская область",
-      "events": 13,
-      "with_coordinates": 3,
-      "coverage_pct": 23.1
-    },
-    {
       "region": "Санкт-Петербург и Ленинградская область",
       "events": 13,
       "with_coordinates": 2,
@@ -163,16 +163,16 @@
       "coverage_pct": 0.0
     },
     {
+      "region": "Ставропольский край",
+      "events": 10,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Пензенская область",
       "events": 10,
       "with_coordinates": 1,
       "coverage_pct": 10.0
-    },
-    {
-      "region": "Ставропольский край",
-      "events": 8,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
     },
     {
       "region": "Ярославская область",

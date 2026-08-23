@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-23T15:59:44.232461+00:00",
+  "updated_at": "2026-08-23T16:37:32.190276+00:00",
   "incoming": 113,
-  "total": 989,
+  "total": 999,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -45,7 +45,7 @@
       "filtered_noise": 8,
       "parsed": 12,
       "region_from_channel": 0,
-      "place_found": 10,
+      "place_found": 9,
       "place_geocoded": 8
     },
     "locatorru": {
@@ -75,8 +75,8 @@
       "filtered_noise": 1,
       "parsed": 19,
       "region_from_channel": 0,
-      "place_found": 17,
-      "place_geocoded": 8
+      "place_found": 16,
+      "place_geocoded": 9
     },
     "radar_voronezh": {
       "ok": true,
