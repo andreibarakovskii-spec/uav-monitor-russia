@@ -6,41 +6,59 @@
 <title>UAV Monitor — История</title>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="history.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
-<div class="app">
+<div class="app history-wrap">
   <div class="topbar">
     <div>
       <h1>📊 История событий</h1>
-      <p>Архивная аналитика публичных сообщений и источников.</p>
+      <p>Архивная аналитика публичных сообщений и источников. Исторические точки отображаются только для завершённых периодов.</p>
     </div>
     <div class="nav"><a href="index.html">🗺 Карта</a></div>
   </div>
 
   <div class="cards">
-    <div><span>Всего событий</span><b id="total">—</b></div>
-    <div><span>Регионов</span><b id="regions">—</b></div>
-    <div><span>Источников</span><b id="sources">—</b></div>
-    <div><span>Обновлено</span><b id="updated">—</b></div>
+    <div class="card"><span>Всего событий</span><b id="total" class="value">—</b></div>
+    <div class="card"><span>Регионов</span><b id="regions" class="value">—</b></div>
+    <div class="card"><span>Источников</span><b id="sources" class="value">—</b></div>
+    <div class="card"><span>Обновлено</span><b id="updated" class="value small-value">—</b></div>
   </div>
 
-  <section class="timeline-panel">
-    <div class="panel-head"><h2>Фильтры архива</h2></div>
-    <div id="historyFilters"></div>
+  <section class="panel">
+    <div class="panel-head"><h2>Фильтры архива</h2><button id="resetHistory" type="button">Сбросить</button></div>
+    <div id="historyFilters" class="history-filters"></div>
   </section>
 
-  <div class="grid">
-    <section class="timeline-panel"><h2>Активность регионов</h2><div id="regionsList" class="feed"></div></section>
-    <section class="timeline-panel"><h2>Источники</h2><div id="sourcesList" class="feed"></div></section>
+  <div class="history-grid">
+    <section class="panel">
+      <div class="panel-head"><h2>Архивная карта</h2><span id="historyMapCount">0 точек</span></div>
+      <div id="historyMap"></div>
+    </section>
+    <section class="panel">
+      <div class="panel-head"><h2>Календарь событий</h2></div>
+      <div id="calendarList" class="calendar-list"></div>
+    </section>
   </div>
 
-  <section class="timeline-panel">
+  <div class="grid">
+    <section class="panel"><h2>Активность регионов</h2><div id="regionsList" class="feed"></div></section>
+    <section class="panel"><h2>Источники</h2><div id="sourcesList" class="feed"></div></section>
+  </div>
+
+  <section class="panel">
     <h2>Динамика событий</h2>
     <div id="dailyChart" class="chart"></div>
   </section>
 
-  <p class="muted">Исторический режим. Используется для анализа накопленных данных.</p>
+  <section class="panel">
+    <div class="panel-head"><h2>Качество источников</h2><span>по архивным данным</span></div>
+    <div id="sourceQuality" class="quality-grid"></div>
+  </section>
+
+  <p class="muted">Исторический режим. Не используется для оперативного отслеживания движения.</p>
 </div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="history.js"></script>
 </body>
 </html>
