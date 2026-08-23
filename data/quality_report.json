@@ -1,8 +1,8 @@
 {
-  "total_events": 956,
-  "with_place": 779,
-  "with_coordinates": 522,
-  "coordinate_coverage_pct": 54.6,
+  "total_events": 966,
+  "with_place": 789,
+  "with_coordinates": 531,
+  "coordinate_coverage_pct": 55.0,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -14,8 +14,8 @@
     },
     {
       "region": "Краснодарский край",
-      "events": 96,
-      "with_coordinates": 96,
+      "events": 100,
+      "with_coordinates": 100,
       "coverage_pct": 100.0
     },
     {
@@ -26,8 +26,8 @@
     },
     {
       "region": "Москва и Московская область",
-      "events": 68,
-      "with_coordinates": 32,
+      "events": 70,
+      "with_coordinates": 33,
       "coverage_pct": 47.1
     },
     {
@@ -44,9 +44,9 @@
     },
     {
       "region": "Тульская область",
-      "events": 42,
-      "with_coordinates": 15,
-      "coverage_pct": 35.7
+      "events": 46,
+      "with_coordinates": 19,
+      "coverage_pct": 41.3
     },
     {
       "region": "Калужская область",
