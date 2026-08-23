@@ -17,6 +17,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterable
 
+try:
+    from place_index import find_place
+except ImportError:  # pragma: no cover - package-style execution
+    from backend.place_index import find_place
+
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 EVENTS_PATH = DATA_DIR / "events.json"
@@ -66,6 +71,8 @@ class Event:
     confirmations: int = 1
     approximate: bool = True
     source_url: str | None = None
+    lat: float | None = None
+    lon: float | None = None
 
 
 def clean_text(raw: str | None) -> str:
@@ -84,7 +91,6 @@ def detect_status(text: str) -> str:
 
 
 def extract_region(text: str, channel: str) -> str | None:
-    """Prefer an explicit region in the post; otherwise trust regional channel metadata."""
     match = REGION_RE.search(text)
     if match:
         return match.group("region").strip()
@@ -96,7 +102,6 @@ def extract_region(text: str, channel: str) -> str | None:
 
 
 def extract_place(text: str, region: str | None) -> str | None:
-    """Extract a locality candidate from a short Telegram post without inventing coordinates."""
     lines = [x.strip(" •—:-") for x in text.splitlines() if x.strip()]
     ignored = (
         "бпла", "опасност", "тревог", "пво", "фиксац", "сбит", "отбой",
@@ -113,6 +118,15 @@ def extract_place(text: str, region: str | None) -> str | None:
         if 2 <= len(line) <= 55 and len(line.split()) <= 5:
             return line
     return None
+
+
+def resolve_place(text: str, region: str | None, candidate: str | None):
+    matched = find_place(text, region)
+    if matched:
+        return matched["place"], matched["lat"], matched["lon"], matched.get("approximate", True), True
+    if candidate:
+        return candidate, None, None, True, False
+    return None, None, None, True, False
 
 
 def fetch_channel(channel: str) -> str:
@@ -145,6 +159,7 @@ def parse_channel(channel: str, page: str) -> tuple[list[Event], dict]:
         "parsed": 0,
         "region_from_channel": 0,
         "place_found": 0,
+        "place_geocoded": 0,
     }
 
     for block in iter_message_blocks(page) or []:
@@ -166,9 +181,12 @@ def parse_channel(channel: str, page: str) -> tuple[list[Event], dict]:
         region = extract_region(text, channel)
         if region and not explicit_region and SOURCE_META.get(channel, {}).get("type") == "regional":
             diagnostics["region_from_channel"] += 1
-        place = extract_place(text, region)
+        candidate = extract_place(text, region)
+        place, lat, lon, approximate, geocoded = resolve_place(text, region, candidate)
         if place:
             diagnostics["place_found"] += 1
+        if geocoded:
+            diagnostics["place_geocoded"] += 1
         post = post_m.group("post")
         published_at = time_m.group("time")
         digest = hashlib.sha1(f"{post}|{published_at}|{text}".encode()).hexdigest()[:16]
@@ -182,6 +200,9 @@ def parse_channel(channel: str, page: str) -> tuple[list[Event], dict]:
                 published_at=published_at,
                 text=text,
                 source_url=f"https://t.me/{post}",
+                approximate=approximate,
+                lat=lat,
+                lon=lon,
             )
         )
     diagnostics["parsed"] = len(result)
@@ -233,6 +254,7 @@ def run() -> int:
                 "parsed": 0,
                 "region_from_channel": 0,
                 "place_found": 0,
+                "place_geocoded": 0,
             }
 
     merged = merge(existing, incoming)
