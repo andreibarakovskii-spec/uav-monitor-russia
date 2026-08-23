@@ -1,5 +1,173 @@
 [
   {
+    "id": "tg-258396cad266c33d",
+    "place": "Они остро нуждаются в квадрокоптерах",
+    "region": null,
+    "source": "@locatorru",
+    "status": "fix",
+    "published_at": "2026-08-23T05:54:53+00:00",
+    "text": "К нам обращаются наши братья из 108 ГДШ за помощью в сборе.\n\nОни остро нуждаются в квадрокоптерах:\nDJI Mavic 3T - 2 шт., DJI Mavic 3 Classic - 2 шт.\n\nDJI Mavic — не прихоть, а критически важное средство разведки, снижающее потери. В бою исправный дрон становится фундаментом для сохранения жизней и успеха наступления.\n\nВаше участие — это реальный шанс дать бойцам обзор с высоты, заблаговременно обнаружить врага и приблизить победу. Поддержка означает спасенные жизни и успешно выполненные задачи. Объединяя усилия, мы обеспечим наших защитников всем необходимым для выполнения их сложной миссии.\n\nСобрано 23.841₽ / 1.600.000₽\n\nРеквизит для помощи: \n\n🫡Помочь нашим воинам можно через сервис Т-Банк(имеется оплата по СБП):\nhttps://pay.cloudtips.ru/p/8719472c\n\nТакже можно помочь нашей команде через сервис Т-Банк(оплата по СБП) \nhttps://pay.cloudtips.ru/p/1526158a",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82137",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-60d162ee5265742c",
+    "place": null,
+    "region": "Причерноморье Краснодарский край",
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-08-23T05:54:18+00:00",
+    "text": "Причерноморье Краснодарский край \nОпасность по реактивным БПЛА в обход Крыма\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89840",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-0533568d6bdac352",
+    "place": "Краснодар",
+    "region": "Краснодарский край",
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-08-23T05:53:04+00:00",
+    "text": "Краснодарский край - опасность по БПЛА и реактивным БПЛА.\n\nНад акваторией Чёрного моря идут в вашем направлении. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82136",
+    "lat": 45.0355,
+    "lon": 38.9753
+  },
+  {
+    "id": "tg-252028b1d15d866a",
+    "place": "Новороссийск",
+    "region": "Краснодарский край",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-23T05:51:57+00:00",
+    "text": "Новороссийск и близлежащие\nКраснодарский край\nОтбой опасности по БПЛА\nНа территории края опасность сохраняется\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89839",
+    "lat": 44.7239,
+    "lon": 37.7687
+  },
+  {
+    "id": "tg-093d9e14fb4b5270",
+    "place": null,
+    "region": "Вологодская область",
+    "source": "@locatorru",
+    "status": "cancel",
+    "published_at": "2026-08-23T05:51:23+00:00",
+    "text": "Череповец, Вологодская область - отбой опасности по БПЛА. \n\nВ регионе опасность по БПЛА сохраняется. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82135",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-5b2558ea5e6e653e",
+    "place": "ГО Истра",
+    "region": "Московская область",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-23T05:51:19+00:00",
+    "text": "ГО Истра\nМосковская область\nОтбой опасности по БПЛА \nОпасность на территории региона сохраняется\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89838",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-003bde37ec3d19c2",
+    "place": "ГО Истра",
+    "region": "Московская область",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-23T05:48:52+00:00",
+    "text": "ГО Истра\nМосковская область\nОтбой опасности по БПЛА \nОпасность на территории региона сохраняется",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85090",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-19a1e4c2788000f8",
+    "place": "Череповец",
+    "region": "Вологодская область",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-23T05:48:08+00:00",
+    "text": "Череповец\nЧереповецкий район \nВологодская область \nОтбой опасности по БПЛА \nОпасность на территории региона сохраняется",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85089",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-109f35b07137eab6",
+    "place": "Ранее объявленные районы",
+    "region": "Московская область",
+    "source": "@RDFradar",
+    "status": "cancel",
+    "published_at": "2026-08-23T05:47:37+00:00",
+    "text": "Московская область \nРанее объявленные районы\n❗️отбой опасности по БПЛА\n\nВсе цели уничтожены и подавлены\n\nСпасибо нашим защитникам! 🇷🇺🇷🇺",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/RDFradar/11983",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-7df4d7618e3d22dc",
+    "place": "Череповец",
+    "region": "Вологодская область",
+    "source": "@vrv_radar",
+    "status": "fix",
+    "published_at": "2026-08-23T05:41:35+00:00",
+    "text": "Череповец \nВологодская область \nФиксация БПЛА в вашем направлении от Ярославской области",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85088",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-5ba3cb9d2b6eb974",
+    "place": "Новороссийск",
+    "region": "Краснодарский край",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-23T05:38:23+00:00",
+    "text": "Новороссийск и близлежащие\nКраснодарский край\nОтбой опасности по БПЛА\nНа территории края опасность сохраняется",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85087",
+    "lat": 44.7239,
+    "lon": 37.7687
+  },
+  {
+    "id": "tg-165f2c774b375c9d",
+    "place": null,
+    "region": "Тульская область",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-23T05:33:33+00:00",
+    "text": "Тульская область \nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89837",
+    "lat": null,
+    "lon": null
+  },
+  {
     "id": "tg-2166f4aedf570172",
     "place": null,
     "region": "Тульская область",
@@ -9,11 +177,13 @@
     "text": "Тульская область \nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85085"
+    "source_url": "https://t.me/vrv_radar/85085",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-c3040b2755187159",
-    "place": "📡Локатор России - @locatorru",
+    "place": "Архипо-Осиповка",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -21,11 +191,13 @@
     "text": "Тамань, Анапа, Новороссийск, Геленджик, Джанхот, Криница, Бетта, Архипо-Осиповка, Голубая Бухта, Лермонтово, Ольгинка, Небуг, Агой, Туапсе, Вардане, Сочи, Адлер, Краснодарский край - опасность по БПЛА, повторно! \n\nНад морем ещё фиксации БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82134"
+    "source_url": "https://t.me/locatorru/82134",
+    "lat": 44.3714,
+    "lon": 38.5294
   },
   {
     "id": "tg-75c6dfdbb418080b",
-    "place": "📡Локатор России - @locatorru",
+    "place": null,
     "region": null,
     "source": "@locatorru",
     "status": "defense",
@@ -33,11 +205,13 @@
     "text": "За прошедшую ночь силами противовоздушной обороны было уничтожено 328 БПЛА над территориями Белгородской, Брянской, Волгоградской, Воронежской, Калужской, Курской, Липецкой, Оренбургской, Орловской, Ростовской, Рязанской, Саратовской, Смоленской, Тверской, Тульской областей, Московского региона, Краснодарского края, Республики Крым и над акваториями Азовского и Черного морей.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82133"
+    "source_url": "https://t.me/locatorru/82133",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-f766433a33fae89b",
-    "place": "Туапсе",
+    "place": "Краснодар",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "defense",
@@ -45,11 +219,13 @@
     "text": "Туапсе \nКраснодарский край \nСбитие БПЛА \nМеры безопасности\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89836"
+    "source_url": "https://t.me/radarrussiia/89836",
+    "lat": 45.0355,
+    "lon": 38.9753
   },
   {
     "id": "tg-d12d73926c00c973",
-    "place": "Туапсе",
+    "place": "Краснодар",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "defense",
@@ -57,11 +233,13 @@
     "text": "Туапсе \nКраснодарский край \nСбитие БПЛА \nМеры безопасности",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85083"
+    "source_url": "https://t.me/vrv_radar/85083",
+    "lat": 45.0355,
+    "lon": 38.9753
   },
   {
     "id": "tg-d72ba619342436be",
-    "place": "📡Локатор России - @locatorru",
+    "place": "Новороссийск",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "fix",
@@ -69,11 +247,13 @@
     "text": "Цинобалка, Анапская, Раевская, Натухаевская, Краснодарский край - внимание по пролётам БПЛА и в направлении Новороссийск.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82132"
+    "source_url": "https://t.me/locatorru/82132",
+    "lat": 44.7239,
+    "lon": 37.7687
   },
   {
     "id": "tg-b7be2e7a904550c9",
-    "place": "📡Локатор России - @locatorru",
+    "place": "Натухаевская",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "fix",
@@ -81,7 +261,9 @@
     "text": "Сукко, Краснодарский край - прошёл БПЛА в сторону Натухаевская. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82131"
+    "source_url": "https://t.me/locatorru/82131",
+    "lat": 44.9128,
+    "lon": 37.5642
   },
   {
     "id": "tg-251e959097bab315",
@@ -97,7 +279,7 @@
   },
   {
     "id": "tg-a4a34d1297530cc9",
-    "place": null,
+    "place": "Архангельск",
     "region": "Архангельская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -105,11 +287,13 @@
     "text": "Каргополь, Архангельская область - был пролёт 4 БПЛА на север. \n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89835"
+    "source_url": "https://t.me/radarrussiia/89835",
+    "lat": 64.5393,
+    "lon": 40.517
   },
   {
     "id": "tg-befc709a96fbd7bd",
-    "place": "📡Локатор России - @locatorru",
+    "place": "Архангельск",
     "region": "Архангельская область",
     "source": "@locatorru",
     "status": "fix",
@@ -117,11 +301,13 @@
     "text": "Каргополь, Архангельская область - был пролёт 4 БПЛА на север. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82128"
+    "source_url": "https://t.me/locatorru/82128",
+    "lat": 64.5393,
+    "lon": 40.517
   },
   {
     "id": "tg-0ee920b69101b542",
-    "place": "Новороссийск и близлежащие",
+    "place": "Новороссийск",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "alert",
@@ -129,11 +315,13 @@
     "text": "Новороссийск и близлежащие\nКраснодарский край\nОпасность по БПЛА повторно",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85082"
+    "source_url": "https://t.me/vrv_radar/85082",
+    "lat": 44.7239,
+    "lon": 37.7687
   },
   {
     "id": "tg-95145cece962cc08",
-    "place": "📡Локатор России - @locatorru",
+    "place": "Архипо-Осиповка",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -141,11 +329,13 @@
     "text": "Тамань, Анапа, Новороссийск, Геленджик, Джанхот, Криница, Бетта, Архипо-Осиповка, Голубая Бухта, Лермонтово, Ольгинка, Небуг, Агой, Туапсе, Вардане, Сочи, Адлер, Краснодарский край - опасность по БПЛА, повторно! \n\nНад морем ещё фиксации ударных БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82127"
+    "source_url": "https://t.me/locatorru/82127",
+    "lat": 44.3714,
+    "lon": 38.5294
   },
   {
     "id": "tg-9985a00e1b6f52b5",
-    "place": "Анапа и близлежащие",
+    "place": "Краснодар",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "alert",
@@ -153,11 +343,13 @@
     "text": "Анапа и близлежащие \nКраснодарский край \nОпасность по БПЛА повторно\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89834"
+    "source_url": "https://t.me/radarrussiia/89834",
+    "lat": 45.0355,
+    "lon": 38.9753
   },
   {
     "id": "tg-ccd9ee5eab93d0cb",
-    "place": "Анапа и близлежащие",
+    "place": "Краснодар",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "alert",
@@ -165,11 +357,13 @@
     "text": "Анапа и близлежащие \nКраснодарский край \nОпасность по БПЛА повторно",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85081"
+    "source_url": "https://t.me/vrv_radar/85081",
+    "lat": 45.0355,
+    "lon": 38.9753
   },
   {
     "id": "tg-3bfe43b5843892e3",
-    "place": "Республика Башкортостан",
+    "place": "Оренбург",
     "region": "Оренбургская область",
     "source": "@radarrussiia",
     "status": "cancel",
@@ -177,11 +371,13 @@
     "text": "Республика Башкортостан \nОренбургская область \nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89833"
+    "source_url": "https://t.me/radarrussiia/89833",
+    "lat": 51.7682,
+    "lon": 55.0969
   },
   {
     "id": "tg-a64bd611a1e5ccf0",
-    "place": null,
+    "place": "Оренбург",
     "region": "Оренбургская область",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -189,7 +385,9 @@
     "text": "Оренбургская область \nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85080"
+    "source_url": "https://t.me/vrv_radar/85080",
+    "lat": 51.7682,
+    "lon": 55.0969
   },
   {
     "id": "tg-e3185392ab74737e",
@@ -201,11 +399,13 @@
     "text": "Республика Башкортостан \nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85079"
+    "source_url": "https://t.me/vrv_radar/85079",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-52e2e624c0a19966",
-    "place": "📡Локатор России - @locatorru",
+    "place": "Оренбург",
     "region": "Оренбургская область",
     "source": "@locatorru",
     "status": "cancel",
@@ -213,7 +413,9 @@
     "text": "Оренбургская область, Республика Башкортостан - отбой опасности по БПЛА.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82126"
+    "source_url": "https://t.me/locatorru/82126",
+    "lat": 51.7682,
+    "lon": 55.0969
   },
   {
     "id": "tg-8e0b841ff371c69b",
@@ -225,11 +427,13 @@
     "text": "23/08/2026 07:25 МСК.\n\nОпасность по БПЛА сохраняется:\n\n🔻Курская область;\n🔻Брянская область;\n🔻Калужская область;\n🔻Смоленская область;\n🔻Тверская область;\n🔻Орловская область;\n🔻Тульская область;\n🔻Белгородская область;\n🔻Московская область;\n🔻Республика Мордовия;\n🔻Нижегородская область;\n🔻Владимирская область. \n🔻Ивановская область;\n🔻Костромская область;\n🔻Вологодская область;\n🔻Новгородская область;\n🔻Архангельская область;\n🔻Краснодарский край;\n🔻Оренбургская область;\n🔻Республика Башкортостан.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82125"
+    "source_url": "https://t.me/locatorru/82125",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-0ebe5f86c0744c45",
-    "place": null,
+    "place": "Архангельск",
     "region": "Архангельская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -237,7 +441,9 @@
     "text": "Архангельская область \nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89832"
+    "source_url": "https://t.me/radarrussiia/89832",
+    "lat": 64.5393,
+    "lon": 40.517
   },
   {
     "id": "tg-1bb07640c30a5bde",
@@ -249,11 +455,13 @@
     "text": "Липецкая область \nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89831"
+    "source_url": "https://t.me/radarrussiia/89831",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-ee0ba17c7586b903",
-    "place": null,
+    "place": "Архангельск",
     "region": "Архангельская область",
     "source": "@vrv_radar",
     "status": "alert",
@@ -261,11 +469,13 @@
     "text": "Архангельская область \nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85078"
+    "source_url": "https://t.me/vrv_radar/85078",
+    "lat": 64.5393,
+    "lon": 40.517
   },
   {
     "id": "tg-a70651b31c34e7ce",
-    "place": "📡Локатор России - @locatorru",
+    "place": null,
     "region": "Вологодская область",
     "source": "@locatorru",
     "status": "alert",
@@ -273,7 +483,9 @@
     "text": "Череповец, Вологодская область - опасность по БПЛА сохраняется с выше указаного направления. Займите безопасные места.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82124"
+    "source_url": "https://t.me/locatorru/82124",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-e371e4997d03d5db",
@@ -285,11 +497,13 @@
     "text": "Липецкая область \nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85077"
+    "source_url": "https://t.me/vrv_radar/85077",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-00080f0cb638a899",
-    "place": "📡Локатор России - @locatorru",
+    "place": null,
     "region": null,
     "source": "@locatorru",
     "status": "fix",
@@ -297,7 +511,9 @@
     "text": "Республика Коми - внимание по БПЛА от Архангельской области.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82123"
+    "source_url": "https://t.me/locatorru/82123",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-5a4062641b133a70",
@@ -309,11 +525,13 @@
     "text": "Белозерский район \nВологодская область \nЕще фиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85076"
+    "source_url": "https://t.me/vrv_radar/85076",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-211e280ef1dae930",
-    "place": "📡Локатор России - @locatorru",
+    "place": "Архангельск",
     "region": "Архангельская область",
     "source": "@locatorru",
     "status": "fix",
@@ -321,11 +539,13 @@
     "text": "Архангельская область - внимание к массовому налёту БПЛА, идут от Вологодской и Костромской областей.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82122"
+    "source_url": "https://t.me/locatorru/82122",
+    "lat": 64.5393,
+    "lon": 40.517
   },
   {
     "id": "tg-2b6f2d4a22caa976",
-    "place": "📡Локатор России - @locatorru",
+    "place": null,
     "region": "Ростовская область",
     "source": "@locatorru",
     "status": "cancel",
@@ -333,7 +553,9 @@
     "text": "Ростовская область, Волгоградская область, Воронежская область, Липецкая область, Тамбовская область, Саратовская область, Пензенская область, Рязанская область, Самарская область, Ульяновская область, Чувашская Республика - отбой опасности по БПЛА.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82121"
+    "source_url": "https://t.me/locatorru/82121",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-951163f80875bb43",
@@ -345,7 +567,9 @@
     "text": "Белозерский район \nВологодская область \nФиксация БПЛА в направлении г. Череповец",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85075"
+    "source_url": "https://t.me/vrv_radar/85075",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-3eaeef29ad463264",
@@ -357,7 +581,9 @@
     "text": "Волгоградская область \nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85074"
+    "source_url": "https://t.me/vrv_radar/85074",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-57ef69e31e37fef5",
@@ -369,11 +595,13 @@
     "text": "Ростовская область \nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85073"
+    "source_url": "https://t.me/vrv_radar/85073",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-6985eec87ded64ea",
-    "place": "📡Локатор России - @locatorru",
+    "place": null,
     "region": "Вологодская область",
     "source": "@locatorru",
     "status": "fix",
@@ -381,11 +609,13 @@
     "text": "Шонга, Кичменгско-Городецкий район, Вологодская область - пролёты ударных БПЛА на север в сторону примерно Великий Устюг, далее на Архангельскую область.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82120"
+    "source_url": "https://t.me/locatorru/82120",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-e5039fbbd0d84412",
-    "place": "📡Локатор России - @locatorru",
+    "place": null,
     "region": null,
     "source": "@locatorru",
     "status": "fix",
@@ -393,11 +623,13 @@
     "text": "В районе Белозерск, Вологодской области - фиксации ударных БПЛА в сторону юго-западной части Архангельской области.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82119"
+    "source_url": "https://t.me/locatorru/82119",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-17ed846e0f99ed9c",
-    "place": "📡Локатор России - @locatorru",
+    "place": "Архангельск",
     "region": "Архангельская область",
     "source": "@locatorru",
     "status": "alert",
@@ -405,7 +637,9 @@
     "text": "Архангельская область - опасность по БПЛА от Вологодской и Костромской областей.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82118"
+    "source_url": "https://t.me/locatorru/82118",
+    "lat": 64.5393,
+    "lon": 40.517
   },
   {
     "id": "tg-2c06eeafce5bbdff",
@@ -417,7 +651,9 @@
     "text": "Воронеж\nКаширский район\nХохольский район\nРамонский район\nНовоусманский район\nСемилукский район\nВоронежская область\nОтбой опасности по БПЛА\nОпасность на территории региона сохраняется",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85072"
+    "source_url": "https://t.me/vrv_radar/85072",
+    "lat": 51.6608,
+    "lon": 39.2003
   },
   {
     "id": "tg-6413df25a15f3128",
@@ -429,11 +665,13 @@
     "text": "Самарская область \nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85071"
+    "source_url": "https://t.me/vrv_radar/85071",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-908801a478d4abdb",
-    "place": "📡Локатор России - @locatorru",
+    "place": null,
     "region": null,
     "source": "@locatorru",
     "status": "cancel",
@@ -441,7 +679,9 @@
     "text": "Маркетплейс, Оренбург - отбой угрозы атаки БПЛА.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82117"
+    "source_url": "https://t.me/locatorru/82117",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-7685cd59e7bb0c0e",
@@ -481,7 +721,7 @@
   },
   {
     "id": "tg-a57ddd9196331e52",
-    "place": "📡Локатор России - @locatorru",
+    "place": null,
     "region": "Тверская область",
     "source": "@locatorru",
     "status": "alert",
@@ -489,7 +729,9 @@
     "text": "Тверская область - опасность по БПЛА.\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82116"
+    "source_url": "https://t.me/locatorru/82116",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-d8f014a7f4400cf7",
@@ -573,7 +815,9 @@
     "text": "Макарий\nВарнавинский рн\nЕще фиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43874"
+    "source_url": "https://t.me/nn52signal/43874",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-4ddee6f696bbe7f4",
@@ -633,7 +877,9 @@
     "text": "Тверская область \nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89829"
+    "source_url": "https://t.me/radarrussiia/89829",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-8f023b34b6a33415",
@@ -813,7 +1059,9 @@
     "text": "Чудово\nСеменовский рн\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43873"
+    "source_url": "https://t.me/nn52signal/43873",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-124db5c66f9611d1",
@@ -849,7 +1097,9 @@
     "text": "Михаленино\nВарнавинский рн\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43872"
+    "source_url": "https://t.me/nn52signal/43872",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-0c992c455409d325",
@@ -873,7 +1123,9 @@
     "text": "Саратовская область \nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radarrussiia/89823"
+    "source_url": "https://t.me/radarrussiia/89823",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-8fe94f4e8c7a2f54",
@@ -933,7 +1185,9 @@
     "text": "Великовское\nЛысковский рн\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43870"
+    "source_url": "https://t.me/nn52signal/43870",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-5284e215393aaf68",
@@ -945,7 +1199,9 @@
     "text": "Сельская Маза\nЛысковский рн\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43869"
+    "source_url": "https://t.me/nn52signal/43869",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-bafe160a68b75381",
@@ -993,7 +1249,9 @@
     "text": "Белозериха\nНижний Красный Яр\nЛысеовский рн\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43868"
+    "source_url": "https://t.me/nn52signal/43868",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-8dee0249d901c0cd",
@@ -1017,7 +1275,9 @@
     "text": "д. Леонтьево\nВарнавинский район\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43867"
+    "source_url": "https://t.me/nn52signal/43867",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-752ff5f124e913bc",
@@ -1041,7 +1301,9 @@
     "text": "Макарий\nВарнавинский рн\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43866"
+    "source_url": "https://t.me/nn52signal/43866",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-642ac3a663e6ed62",
@@ -1065,7 +1327,9 @@
     "text": "Просек\nЛысковский рн\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43865"
+    "source_url": "https://t.me/nn52signal/43865",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-8e0394682bcd9d2f",
@@ -1233,7 +1497,9 @@
     "text": "Белоусово\nВоскресенский рн\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43864"
+    "source_url": "https://t.me/nn52signal/43864",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-fb825b5a4e011460",
@@ -1281,7 +1547,9 @@
     "text": "Каменищи\nКрутец\nБутурлинский рн\nФиксации бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43863"
+    "source_url": "https://t.me/nn52signal/43863",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-1b827f3cc772b59a",
@@ -1353,7 +1621,9 @@
     "text": "Калиниха\nВоскресенский рн\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43862"
+    "source_url": "https://t.me/nn52signal/43862",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-cd9b05c0a18d0c5e",
@@ -1389,7 +1659,9 @@
     "text": "Бутурлино\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43861"
+    "source_url": "https://t.me/nn52signal/43861",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-91b376ad935a18d9",
@@ -1401,7 +1673,9 @@
     "text": "МО Истра \nСолнечногорский район\n❗️Опасность по БПЛА\n❗️возможно появление фиксаций",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11981"
+    "source_url": "https://t.me/RDFradar/11981",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-cd037da83aba70e9",
@@ -1485,7 +1759,9 @@
     "text": "Ягубовка\nБутурлинский рн\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43860"
+    "source_url": "https://t.me/nn52signal/43860",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-c6765c91c431374c",
@@ -1525,7 +1801,7 @@
   },
   {
     "id": "tg-892d04ee822a716e",
-    "place": "Наро-Фоминский ГО",
+    "place": "Наро-Фоминск",
     "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "alert",
@@ -1533,7 +1809,9 @@
     "text": "Наро-Фоминский ГО\nМожайский МО\nРузский МО\n❗️Опасность по БПЛА\n❗️в вашем направлении несколько фиксаций",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11980"
+    "source_url": "https://t.me/RDFradar/11980",
+    "lat": 55.3862,
+    "lon": 36.7345
   },
   {
     "id": "tg-5eea1258b2508d87",
@@ -1725,7 +2003,9 @@
     "text": "От Казаково 2 бпла на Гороховецкий рн",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43859"
+    "source_url": "https://t.me/nn52signal/43859",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-570e17801f6812d9",
@@ -1737,7 +2017,9 @@
     "text": "Кержемок\nШатковский рн\nФиксация бпла на восток, северо-восток",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43858"
+    "source_url": "https://t.me/nn52signal/43858",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-937b103fc7b98ae2",
@@ -1749,7 +2031,9 @@
     "text": "Казаково\nВачский рн\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43857"
+    "source_url": "https://t.me/nn52signal/43857",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-e2c48aae4a020791",
@@ -2833,7 +3117,7 @@
   },
   {
     "id": "tg-4b32fe6811bdab18",
-    "place": "❗️Радар Нижегородской области- @radar_nizhniinovgorod",
+    "place": "Радар Нижегородской области-",
     "region": "Нижегородская область",
     "source": "@radar_nizhniinovgorod",
     "status": "alert",
@@ -2841,7 +3125,9 @@
     "text": "Нижегородская область\nОпасность по БПЛА\n\n❗️Радар Нижегородской области- @radar_nizhniinovgorod\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_nizhniinovgorod/2258"
+    "source_url": "https://t.me/radar_nizhniinovgorod/2258",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-5738c78c1f23208a",
@@ -6743,7 +7029,9 @@
     "text": "Московская область \nРанее объявленные районы\n❗️отбой опасности по БПЛА\n\nВсе цели уничтожены и подавлены",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11977"
+    "source_url": "https://t.me/RDFradar/11977",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-9b2fcc3f4a72c49b",
@@ -6999,7 +7287,7 @@
   },
   {
     "id": "tg-27e0f16932779cf0",
-    "place": "❗️Радар Нижегородской области- @radar_nizhniinovgorod",
+    "place": "Радар Нижегородской области-",
     "region": "Нижегородская область",
     "source": "@radar_nizhniinovgorod",
     "status": "cancel",
@@ -7007,7 +7295,9 @@
     "text": "Нижегородская область\nОтбой опасности по БПЛА\n\n❗️Радар Нижегородской области- @radar_nizhniinovgorod\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_nizhniinovgorod/2257"
+    "source_url": "https://t.me/radar_nizhniinovgorod/2257",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-0e00375c4f6d1baa",
@@ -7355,7 +7645,9 @@
     "text": "👴Напоминаем. если вы услышали / увидели пролет БПЛА или его сбитие, сообщите нам в обратную связь. Левый / правый нижний угол канала, значок «💬»",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11975"
+    "source_url": "https://t.me/RDFradar/11975",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-5c4c474aafe43d1b",
@@ -7367,7 +7659,9 @@
     "text": "Волоколамский МО\nГО Клин \n❗️опасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11974"
+    "source_url": "https://t.me/RDFradar/11974",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-ccb790cbc6ab32e0",
@@ -7527,7 +7821,7 @@
   },
   {
     "id": "tg-1b5f7d920378a6ac",
-    "place": null,
+    "place": "Серпухов",
     "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
@@ -7535,7 +7829,9 @@
     "text": "ГО Серпухов фиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11971"
+    "source_url": "https://t.me/RDFradar/11971",
+    "lat": 54.9226,
+    "lon": 37.4034
   },
   {
     "id": "tg-0926ebd98fe4c24c",
@@ -7647,7 +7943,7 @@
   },
   {
     "id": "tg-833cf3b801717cf8",
-    "place": "Пущино  и ближайшие (ГО Серпухов)",
+    "place": "Серпухов",
     "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
@@ -7655,7 +7951,9 @@
     "text": "Пущино  и ближайшие (ГО Серпухов) \nВозможно пролёт БПЛА в вашем направлении",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11967"
+    "source_url": "https://t.me/RDFradar/11967",
+    "lat": 54.9226,
+    "lon": 37.4034
   },
   {
     "id": "tg-6a06afca9300c83f",
@@ -7679,11 +7977,13 @@
     "text": "Можайский МО\n❗️Опасность по БПЛА\nфиксация БПЛА в направлении Рузы",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11965"
+    "source_url": "https://t.me/RDFradar/11965",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-e808d96685b4b4fd",
-    "place": "Наро-Фоминский ГО",
+    "place": "Наро-Фоминск",
     "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "alert",
@@ -7691,11 +7991,13 @@
     "text": "Наро-Фоминский ГО\nМожайский МО\n❗️Опасность по БПЛА \nБПЛА по вашему направлению",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11964"
+    "source_url": "https://t.me/RDFradar/11964",
+    "lat": 55.3862,
+    "lon": 36.7345
   },
   {
     "id": "tg-a64fcf0c8fca4965",
-    "place": "ГО Домодедово",
+    "place": "Домодедово",
     "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "fix",
@@ -7703,7 +8005,9 @@
     "text": "ГО Домодедово \nМО Чехов\nГО Ступино\nБПЛА по вашему направлению",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/RDFradar/11963"
+    "source_url": "https://t.me/RDFradar/11963",
+    "lat": 55.4364,
+    "lon": 37.7666
   },
   {
     "id": "tg-3c8d96e005e369db",
@@ -8715,7 +9019,7 @@
   },
   {
     "id": "tg-ef141c2aacce4824",
-    "place": "❗️Радар Нижегородской области- @radar_nizhniinovgorod",
+    "place": "Радар Нижегородской области-",
     "region": "Нижегородская область",
     "source": "@radar_nizhniinovgorod",
     "status": "alert",
@@ -8723,7 +9027,9 @@
     "text": "Нижегородская область\nОпасность по БПЛА\n\n❗️Радар Нижегородской области- @radar_nizhniinovgorod\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_nizhniinovgorod/2256"
+    "source_url": "https://t.me/radar_nizhniinovgorod/2256",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-f1926751a79dcb0c",
@@ -8831,7 +9137,9 @@
     "text": "Республика Татарстан\nОтбой опасности по БПЛА\n\nРАДАР ТАТАРСТАН | Подписаться",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/tatalert/1971"
+    "source_url": "https://t.me/tatalert/1971",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-92370f6b31f759f3",
@@ -8847,7 +9155,7 @@
   },
   {
     "id": "tg-1047b482e5f7ebdb",
-    "place": "❗️Радар Казань - @radar_tatarstann",
+    "place": "Казань",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "cancel",
@@ -8855,7 +9163,9 @@
     "text": "Республика Татарстан\nОтбой опасности по БПЛА\n\n❗️Радар Казань - @radar_tatarstann\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstann/2096"
+    "source_url": "https://t.me/radar_tatarstann/2096",
+    "lat": 55.7961,
+    "lon": 49.1064
   },
   {
     "id": "tg-8459dc55913edfd1",
@@ -8883,7 +9193,7 @@
   },
   {
     "id": "tg-97fec76c799fcce5",
-    "place": "❗️Радар Нижегородской области- @radar_nizhniinovgorod",
+    "place": "Радар Нижегородской области-",
     "region": "Нижегородская область",
     "source": "@radar_nizhniinovgorod",
     "status": "cancel",
@@ -8891,7 +9201,9 @@
     "text": "Нижегородская область\nОтбой опасности по БПЛА\n\n❗️Радар Нижегородской области- @radar_nizhniinovgorod\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_nizhniinovgorod/2255"
+    "source_url": "https://t.me/radar_nizhniinovgorod/2255",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-f5756b637b795a50",
@@ -8987,7 +9299,9 @@
     "text": "Республика Татарстан\nФиксация от 7 БПЛА в вашем направлении от Ульяновской области",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1977"
+    "source_url": "https://t.me/radar_tatarstan/1977",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-3408d890a8bcfc24",
@@ -9303,7 +9617,7 @@
   },
   {
     "id": "tg-8a6b0f877962a9c0",
-    "place": "Казань и близлежащие",
+    "place": "Казань",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "fix",
@@ -9311,7 +9625,9 @@
     "text": "Казань и близлежащие\nРеспублика Татарстан\nВнимание по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1976"
+    "source_url": "https://t.me/radar_tatarstan/1976",
+    "lat": 55.7961,
+    "lon": 49.1064
   },
   {
     "id": "tg-e64b22ff65972110",
@@ -9335,7 +9651,9 @@
     "text": "Чебоксары и близлежащие\nРеспублика Чувашия \nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1975"
+    "source_url": "https://t.me/radar_tatarstan/1975",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-66f01cbee2f01762",
@@ -9359,7 +9677,9 @@
     "text": "Республика Татарстан\nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1974"
+    "source_url": "https://t.me/radar_tatarstan/1974",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-6ad2ec784fbace33",
@@ -9371,11 +9691,13 @@
     "text": "Республика Татарстан\nОпасность по БПЛА\n\nРАДАР ТАТАРСТАН | Подписаться",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/tatalert/1968"
+    "source_url": "https://t.me/tatalert/1968",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-ce80809d08e302fe",
-    "place": "❗️Радар Казань - @radar_tatarstann",
+    "place": "Казань",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "alert",
@@ -9383,7 +9705,9 @@
     "text": "Республика Татарстан\nОпасность по БПЛА\n\n❗️Радар Казань - @radar_tatarstann\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstann/2093"
+    "source_url": "https://t.me/radar_tatarstann/2093",
+    "lat": 55.7961,
+    "lon": 49.1064
   },
   {
     "id": "tg-e2c4f74c4fba9290",
@@ -9411,7 +9735,7 @@
   },
   {
     "id": "tg-3102f4591b3e01ef",
-    "place": "❗️Радар Нижегородской области- @radar_nizhniinovgorod",
+    "place": "Радар Нижегородской области-",
     "region": "Нижегородская область",
     "source": "@radar_nizhniinovgorod",
     "status": "alert",
@@ -9419,7 +9743,9 @@
     "text": "Нижегородская область\nОпасность по БПЛА\n\n❗️Радар Нижегородской области- @radar_nizhniinovgorod\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_nizhniinovgorod/2253"
+    "source_url": "https://t.me/radar_nizhniinovgorod/2253",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-e2b45a958245c1c6",
@@ -9551,11 +9877,13 @@
     "text": "Нижегородская область\nОпасность по БПЛА\nСохраняется\n\n❗️Радар Нижегородской области- @radar_nizhniinovgorod\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_nizhniinovgorod/2252"
+    "source_url": "https://t.me/radar_nizhniinovgorod/2252",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-c0d5fcaaffc64d7c",
-    "place": "❗️Радар Нижегородской области- @radar_nizhniinovgorod",
+    "place": "Радар Нижегородской области-",
     "region": "Нижегородская область",
     "source": "@radar_nizhniinovgorod",
     "status": "alert",
@@ -9563,7 +9891,9 @@
     "text": "Нижегородская область\nОпасность по БПЛА\n\n❗️Радар Нижегородской области- @radar_nizhniinovgorod\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_nizhniinovgorod/2250"
+    "source_url": "https://t.me/radar_nizhniinovgorod/2250",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-280e30a32cbd2000",
@@ -9575,11 +9905,13 @@
     "text": "Республика Татарстан \nОтбой опасности по БПЛА\n\nРАДАР ТАТАРСТАН | Подписаться",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/tatalert/1963"
+    "source_url": "https://t.me/tatalert/1963",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-9f84567fe723c31c",
-    "place": "❗️Радар Казань - @radar_tatarstann",
+    "place": "Казань",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "cancel",
@@ -9587,11 +9919,13 @@
     "text": "Республика Татарстан \nОтбой опасности по БПЛА\n\n❗️Радар Казань - @radar_tatarstann\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstann/2090"
+    "source_url": "https://t.me/radar_tatarstann/2090",
+    "lat": 55.7961,
+    "lon": 49.1064
   },
   {
     "id": "tg-742de07eaf8177c9",
-    "place": "❗️Радар Нижегородской области- @radar_nizhniinovgorod",
+    "place": "Радар Нижегородской области-",
     "region": "Нижегородская область",
     "source": "@radar_nizhniinovgorod",
     "status": "cancel",
@@ -9599,11 +9933,13 @@
     "text": "Нижегородская область\nОтбой опасности по БПЛА\n\n❗️Радар Нижегородской области- @radar_nizhniinovgorod\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_nizhniinovgorod/2249"
+    "source_url": "https://t.me/radar_nizhniinovgorod/2249",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-c4e81ca7f45809eb",
-    "place": null,
+    "place": "Зеленодольск",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "fix",
@@ -9611,11 +9947,13 @@
     "text": "От Чувашской Республики в направлении Зеленодольска, Республики Татарстан пролёт БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1973"
+    "source_url": "https://t.me/radar_tatarstan/1973",
+    "lat": 55.8438,
+    "lon": 48.5178
   },
   {
     "id": "tg-ff8edaad22ce7bd6",
-    "place": null,
+    "place": "Зеленодольск",
     "region": "Республика Татарстан",
     "source": "@tatalert",
     "status": "fix",
@@ -9623,11 +9961,13 @@
     "text": "От Чувашской Республики в направлении Зеленодольска, Республики Татарстан пролёт БПЛА\n\nРАДАР ТАТАРСТАН | Подписаться",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/tatalert/1962"
+    "source_url": "https://t.me/tatalert/1962",
+    "lat": 55.8438,
+    "lon": 48.5178
   },
   {
     "id": "tg-5334fc376378531b",
-    "place": "❗️Радар Казань - @radar_tatarstann",
+    "place": "Зеленодольск",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "fix",
@@ -9635,11 +9975,13 @@
     "text": "От Чувашской Республики в направлении Зеленодольска, Республики Татарстан пролёт БПЛА\n\n❗️Радар Казань - @radar_tatarstann\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstann/2089"
+    "source_url": "https://t.me/radar_tatarstann/2089",
+    "lat": 55.8438,
+    "lon": 48.5178
   },
   {
     "id": "tg-c9933e1935279e26",
-    "place": "Канаш, Чувашская Республика",
+    "place": "Канаш",
     "region": "Чувашская Республика",
     "source": "@radar_tatarstan",
     "status": "fix",
@@ -9647,11 +9989,13 @@
     "text": "Канаш, Чувашская Республика\nПролёт от 4 БПЛА в сторону Казань, Зеленодольск",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1972"
+    "source_url": "https://t.me/radar_tatarstan/1972",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-e57f5ecef87209ea",
-    "place": "Канаш, Чувашская Республика",
+    "place": "Канаш",
     "region": "Чувашская Республика",
     "source": "@tatalert",
     "status": "fix",
@@ -9659,11 +10003,13 @@
     "text": "Канаш, Чувашская Республика\nПролёт от 4 БПЛА в сторону Казань, Зеленодольск\n\nРАДАР ТАТАРСТАН | Подписаться",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/tatalert/1961"
+    "source_url": "https://t.me/tatalert/1961",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-cd6187912092af1c",
-    "place": "Канаш, Чувашская Республика",
+    "place": "Канаш",
     "region": "Чувашская Республика",
     "source": "@radar_tatarstann",
     "status": "fix",
@@ -9671,7 +10017,9 @@
     "text": "Канаш, Чувашская Республика\nПролёт от 4 БПЛА в сторону Казань, Зеленодольск\n\n❗️Радар Казань - @radar_tatarstann\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstann/2088"
+    "source_url": "https://t.me/radar_tatarstann/2088",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-a21be5fb3f98a98c",
@@ -9683,11 +10031,13 @@
     "text": "Чебоксары и близлежащие\nРеспублика Чувашия\nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1971"
+    "source_url": "https://t.me/radar_tatarstan/1971",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-199442e5e0f988c2",
-    "place": "Казань и близлежащие",
+    "place": "Казань",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "alert",
@@ -9695,11 +10045,13 @@
     "text": "Казань и близлежащие\nРеспублика Татарстан\nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1970"
+    "source_url": "https://t.me/radar_tatarstan/1970",
+    "lat": 55.7961,
+    "lon": 49.1064
   },
   {
     "id": "tg-5b027aa9550c0f13",
-    "place": "Казань и близлежащие",
+    "place": "Казань",
     "region": "Республика Татарстан",
     "source": "@tatalert",
     "status": "alert",
@@ -9707,11 +10059,13 @@
     "text": "Казань и близлежащие\nРеспублика Татарстан\nОпасность по БПЛА\n\nРАДАР ТАТАРСТАН | Подписаться",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/tatalert/1960"
+    "source_url": "https://t.me/tatalert/1960",
+    "lat": 55.7961,
+    "lon": 49.1064
   },
   {
     "id": "tg-199691c08696ff5a",
-    "place": "Казань и близлежащие",
+    "place": "Казань",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "alert",
@@ -9719,7 +10073,9 @@
     "text": "Казань и близлежащие\nРеспублика Татарстан\nОпасность по БПЛА\n\n❗️Радар Казань - @radar_tatarstann\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstann/2087"
+    "source_url": "https://t.me/radar_tatarstann/2087",
+    "lat": 55.7961,
+    "lon": 49.1064
   },
   {
     "id": "tg-1f10f442abd16e8f",
@@ -9731,7 +10087,9 @@
     "text": "Республика Марий Эл\nРеспублика Татарстан\nОпасность по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1969"
+    "source_url": "https://t.me/radar_tatarstan/1969",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-340cdea817e030fb",
@@ -9743,11 +10101,13 @@
     "text": "Республика Татарстан\nОпасность по БПЛА\n\nРАДАР ТАТАРСТАН | Подписаться",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/tatalert/1959"
+    "source_url": "https://t.me/tatalert/1959",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-efbea985358f8dcc",
-    "place": "❗️Радар Казань - @radar_tatarstann",
+    "place": "Казань",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "alert",
@@ -9755,7 +10115,9 @@
     "text": "Республика Татарстан\nОпасность по БПЛА\n\n❗️Радар Казань - @radar_tatarstann\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstann/2086"
+    "source_url": "https://t.me/radar_tatarstann/2086",
+    "lat": 55.7961,
+    "lon": 49.1064
   },
   {
     "id": "tg-5cc0afde0919bc4c",
@@ -9771,7 +10133,7 @@
   },
   {
     "id": "tg-9ba5d628a59214f8",
-    "place": "❗️Радар Нижегородской области- @radar_nizhniinovgorod",
+    "place": "Радар Нижегородской области-",
     "region": "Нижегородская область",
     "source": "@radar_nizhniinovgorod",
     "status": "alert",
@@ -9779,7 +10141,9 @@
     "text": "Нижегородская область\nОпасность по БПЛА\n\n❗️Радар Нижегородской области- @radar_nizhniinovgorod\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_nizhniinovgorod/2247"
+    "source_url": "https://t.me/radar_nizhniinovgorod/2247",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-63c42cce297a80f7",
@@ -9815,7 +10179,9 @@
     "text": "За прошедшую ночь силами противовоздушной обороны было уничтожено  726 украинских БПЛА над территориями Астраханской, Белгородской, Брянской, Волгоградской, Воронежской, Калужской, Курской, Орловской, Ростовской, Рязанской, Самарской, Саратовской, Тамбовской, Тульской, Ульяновской областей, Московского региона, Краснодарского края, Республики Крым, Республики Татарстан и над акваториями Азовского и Черного морей.",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1967"
+    "source_url": "https://t.me/radar_tatarstan/1967",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-cad9702b7c965986",
@@ -9863,7 +10229,9 @@
     "text": "Заинский район\nРеспублика Татарстан\nФиксация единичного БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1966"
+    "source_url": "https://t.me/radar_tatarstan/1966",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-f932b9dfe6de4244",
@@ -9915,7 +10283,7 @@
   },
   {
     "id": "tg-1dcd6d8d403de886",
-    "place": "Нижнекамский район",
+    "place": "Нижнекамск",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "fix",
@@ -9923,7 +10291,9 @@
     "text": "Нижнекамский район\nРеспублика Татарстан\nЕщё фиксации БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1963"
+    "source_url": "https://t.me/radar_tatarstan/1963",
+    "lat": 55.6366,
+    "lon": 51.8245
   },
   {
     "id": "tg-2ca86151e82e16b8",
@@ -9935,7 +10305,9 @@
     "text": "Тукаевский район\nЗаинский район\nРеспублика Татарстан\nФиксация БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1964"
+    "source_url": "https://t.me/radar_tatarstan/1964",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-cf16bb61160928ae",
@@ -10083,7 +10455,9 @@
     "text": "Ленинградская область\nОтбой опасности по БПЛА\n\n❗️Радар Питер и Ленинградская область - @radar_peterburg\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_peterburg/1716"
+    "source_url": "https://t.me/radar_peterburg/1716",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-98ee77c8161d53af",
@@ -10095,7 +10469,9 @@
     "text": "Кириши, Ленинградская область - отбой опасности по БПЛА. \nПереходим в режим внимание. \n\n❗️Радар Питер и Ленинградская область - @radar_peterburg\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_peterburg/1715"
+    "source_url": "https://t.me/radar_peterburg/1715",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-7cfc83624c04c973",
@@ -10131,7 +10507,9 @@
     "text": "В нескольких районах Ленинградской области идут сбития БПЛА.\n\n❗️Радар Питер и Ленинградская область - @radar_peterburg\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_peterburg/1711"
+    "source_url": "https://t.me/radar_peterburg/1711",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-b3639b48ca7ba952",
@@ -10191,7 +10569,9 @@
     "text": "Ленинградская область\nОпасность по БПЛА\n\n❗️Радар Питер и Ленинградская область - @radar_peterburg\n🌐 Обход белых списков - @Internet_Boost_bot",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_peterburg/1705"
+    "source_url": "https://t.me/radar_peterburg/1705",
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-e24f5558dec219a9",

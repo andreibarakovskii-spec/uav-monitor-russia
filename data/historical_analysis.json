@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-08-23T05:33:39.417242+00:00",
+  "generated_at": "2026-08-23T06:03:26.226528+00:00",
   "archive_delay_hours": 24,
-  "total_events": 852,
-  "archived_events": 85,
+  "total_events": 864,
+  "archived_events": 91,
   "regions": {
     "Республика Татарстан": 30,
-    "Воронежская область": 20,
+    "Воронежская область": 21,
     "Нижегородская область": 15,
     "Ленинградская область": 9,
-    "Москва и Московская область": 3,
+    "Москва и Московская область": 8,
     "Чувашская Республика": 3,
     "Радар Питер и Ленинградская область": 3,
     "ХМАО": 1
   },
   "sources": {
-    "@radar_voronezh": 17,
+    "@radar_voronezh": 18,
     "@radar_tatarstan": 15,
     "@radar_nizhniinovgorod": 13,
     "@radar_tatarstann": 13,
     "@radar_peterburg": 12,
+    "@RDFradar": 8,
     "@tatalert": 7,
-    "@RDFradar": 3,
     "@vrv_radar": 3,
     "@nn52signal": 2
   },
   "statuses": {
-    "fix": 43,
-    "alert": 18,
-    "defense": 16,
-    "cancel": 8
+    "fix": 44,
+    "alert": 19,
+    "defense": 19,
+    "cancel": 9
   },
   "timeline": {
     "2026-07-23": 1,
@@ -38,7 +38,7 @@
     "2026-08-19": 3,
     "2026-08-20": 25,
     "2026-08-21": 25,
-    "2026-08-22": 15
+    "2026-08-22": 21
   },
   "historical_pairs": [
     {
@@ -70,6 +70,46 @@
       "time_difference_minutes": 268.0,
       "from_time": "2026-08-17T18:33:00+00:00",
       "to_time": "2026-08-17T23:01:00+00:00"
+    },
+    {
+      "from": "Казань",
+      "to": "Казань",
+      "from_region": "Республика Татарстан",
+      "to_region": "Республика Татарстан",
+      "distance_km": 0.0,
+      "time_difference_minutes": 0.6,
+      "from_time": "2026-08-20T23:49:36+00:00",
+      "to_time": "2026-08-20T23:50:12+00:00"
+    },
+    {
+      "from": "Казань",
+      "to": "Казань",
+      "from_region": "Республика Татарстан",
+      "to_region": "Республика Татарстан",
+      "distance_km": 0.0,
+      "time_difference_minutes": 4.0,
+      "from_time": "2026-08-20T23:50:12+00:00",
+      "to_time": "2026-08-20T23:54:14+00:00"
+    },
+    {
+      "from": "Зеленодольск",
+      "to": "Зеленодольск",
+      "from_region": "Республика Татарстан",
+      "to_region": "Республика Татарстан",
+      "distance_km": 0.0,
+      "time_difference_minutes": 4.3,
+      "from_time": "2026-08-21T00:55:51+00:00",
+      "to_time": "2026-08-21T01:00:12+00:00"
+    },
+    {
+      "from": "Зеленодольск",
+      "to": "Зеленодольск",
+      "from_region": "Республика Татарстан",
+      "to_region": "Республика Татарстан",
+      "distance_km": 0.0,
+      "time_difference_minutes": 3.1,
+      "from_time": "2026-08-21T01:00:12+00:00",
+      "to_time": "2026-08-21T01:03:19+00:00"
     }
   ],
   "note": "Archived descriptive analysis only; excludes observations newer than 24 hours."
