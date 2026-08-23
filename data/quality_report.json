@@ -1,135 +1,40 @@
 {
-  "total_events": 934,
-  "with_place": 759,
-  "with_coordinates": 61,
-  "coordinate_coverage_pct": 6.5,
-  "suspicious_place_values": 170,
-  "suspicious_examples": [
-    {
-      "id": "tg-d8f014a7f4400cf7",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-848c45259394fca3",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-3adb73d48c989c72",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-c8f8b47fb6cdfd30",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-7a1585c3773ebdd8",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-4ddee6f696bbe7f4",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-41daae788e1171e3",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-124db5c66f9611d1",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-eb9354b078a2d58f",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-0c992c455409d325",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-465298d2e8eba1d8",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-a126ad6289e21582",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-752ff5f124e913bc",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-82cb9531234536b7",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-f14ac48a175cea6f",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-cc789df184b1905a",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-86f2d46cc0f967c6",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-adbdf64edf8cbe3d",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-cd9b05c0a18d0c5e",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    },
-    {
-      "id": "tg-b7fb1e154b4025e2",
-      "place": "📡Локатор России - @locatorru",
-      "source": "@locatorru"
-    }
-  ],
+  "total_events": 938,
+  "with_place": 676,
+  "with_coordinates": 361,
+  "coordinate_coverage_pct": 38.5,
+  "suspicious_place_values": 0,
+  "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Воронежская область",
-      "events": 161,
-      "with_coordinates": 8,
-      "coverage_pct": 5.0
+      "events": 163,
+      "with_coordinates": 163,
+      "coverage_pct": 100.0
     },
     {
       "region": "Краснодарский край",
-      "events": 92,
-      "with_coordinates": 23,
-      "coverage_pct": 25.0
+      "events": 95,
+      "with_coordinates": 95,
+      "coverage_pct": 100.0
     },
     {
       "region": "Нижегородская область",
-      "events": 86,
-      "with_coordinates": 2,
-      "coverage_pct": 2.3
+      "events": 88,
+      "with_coordinates": 7,
+      "coverage_pct": 8.0
     },
     {
       "region": "Без региона",
-      "events": 67,
+      "events": 68,
       "with_coordinates": 0,
       "coverage_pct": 0.0
+    },
+    {
+      "region": "Москва и Московская область",
+      "events": 65,
+      "with_coordinates": 26,
+      "coverage_pct": 40.0
     },
     {
       "region": "Орловская область",
@@ -138,16 +43,10 @@
       "coverage_pct": 0.0
     },
     {
-      "region": "Москва и Московская область",
-      "events": 40,
-      "with_coordinates": 5,
-      "coverage_pct": 12.5
-    },
-    {
       "region": "Тульская область",
       "events": 37,
-      "with_coordinates": 1,
-      "coverage_pct": 2.7
+      "with_coordinates": 13,
+      "coverage_pct": 35.1
     },
     {
       "region": "Калужская область",
@@ -158,8 +57,8 @@
     {
       "region": "Республика Татарстан",
       "events": 35,
-      "with_coordinates": 12,
-      "coverage_pct": 34.3
+      "with_coordinates": 22,
+      "coverage_pct": 62.9
     },
     {
       "region": "Вологодская область",
@@ -168,16 +67,10 @@
       "coverage_pct": 0.0
     },
     {
-      "region": "Московская область",
-      "events": 23,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
       "region": "Оренбургская область",
-      "events": 21,
-      "with_coordinates": 3,
-      "coverage_pct": 14.3
+      "events": 23,
+      "with_coordinates": 23,
+      "coverage_pct": 100.0
     },
     {
       "region": "Ростовская область",
@@ -242,8 +135,8 @@
     {
       "region": "Архангельская область",
       "events": 12,
-      "with_coordinates": 7,
-      "coverage_pct": 58.3
+      "with_coordinates": 12,
+      "coverage_pct": 100.0
     },
     {
       "region": "Владимирская область",
@@ -258,6 +151,12 @@
       "coverage_pct": 0.0
     },
     {
+      "region": "Санкт-Петербург и Ленинградская область",
+      "events": 12,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Ивановская область",
       "events": 11,
       "with_coordinates": 0,
@@ -266,12 +165,6 @@
     {
       "region": "Пензенская область",
       "events": 10,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Ленинградская область",
-      "events": 9,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -318,43 +211,7 @@
       "coverage_pct": 0.0
     },
     {
-      "region": "Радар Питер и Ленинградская область",
-      "events": 3,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Москва и область",
-      "events": 2,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Вся Воронежская область",
-      "events": 2,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Оренбургская  область",
-      "events": 2,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Причерноморье Краснодарский край",
-      "events": 1,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
       "region": "Возможно всплывут еще в нашем Тоншаевском рне если пойдут на Кировскую область",
-      "events": 1,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Над Нижегородской область",
       "events": 1,
       "with_coordinates": 0,
       "coverage_pct": 0.0
@@ -366,19 +223,19 @@
       "coverage_pct": 0.0
     },
     {
-      "region": "и далее на Тульскую область",
+      "region": "Тульскую область",
       "events": 1,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
-      "region": "Через Белгородскую область",
+      "region": "Белгородскую область",
       "events": 1,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
-      "region": "Через Брянскую область",
+      "region": "Брянскую область",
       "events": 1,
       "with_coordinates": 0,
       "coverage_pct": 0.0
