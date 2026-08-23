@@ -37,7 +37,7 @@ jobs:
           cp data/historical_analysis.json site/data/historical_analysis.json
           cp data/collector_status.json site/data/collector_status.json
           if [ -f data/quality_report.json ]; then cp data/quality_report.json site/data/quality_report.json; fi
-          sed -i "s#fetch('../data/#fetch('data/#g" site/app.js site/history.js
+          sed -i "s#../data/#data/#g" site/app.js site/history.js
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
