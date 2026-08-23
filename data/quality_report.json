@@ -1,15 +1,15 @@
 {
-  "total_events": 1146,
-  "with_place": 921,
-  "with_coordinates": 618,
-  "coordinate_coverage_pct": 53.9,
+  "total_events": 1161,
+  "with_place": 933,
+  "with_coordinates": 621,
+  "coordinate_coverage_pct": 53.5,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Краснодарский край",
-      "events": 167,
-      "with_coordinates": 167,
+      "events": 169,
+      "with_coordinates": 169,
       "coverage_pct": 100.0
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "region": "Без региона",
-      "events": 94,
+      "events": 95,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -38,9 +38,9 @@
     },
     {
       "region": "Ростовская область",
-      "events": 55,
+      "events": 62,
       "with_coordinates": 8,
-      "coverage_pct": 14.5
+      "coverage_pct": 12.9
     },
     {
       "region": "Орловская область",
@@ -62,7 +62,7 @@
     },
     {
       "region": "Ставропольский край",
-      "events": 36,
+      "events": 37,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -85,15 +85,15 @@
       "coverage_pct": 100.0
     },
     {
-      "region": "Брянская область",
+      "region": "Волгоградская область",
       "events": 18,
       "with_coordinates": 18,
       "coverage_pct": 100.0
     },
     {
-      "region": "Волгоградская область",
-      "events": 17,
-      "with_coordinates": 17,
+      "region": "Брянская область",
+      "events": 18,
+      "with_coordinates": 18,
       "coverage_pct": 100.0
     },
     {
@@ -201,6 +201,12 @@
     {
       "region": "Чувашская Республика",
       "events": 4,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
+      "region": "Астраханская область",
+      "events": 3,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
