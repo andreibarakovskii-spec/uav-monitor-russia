@@ -1,33 +1,33 @@
 {
-  "updated_at": "2026-08-23T01:55:37.766888+00:00",
-  "incoming": 179,
-  "total": 730,
+  "updated_at": "2026-08-23T03:09:55.621987+00:00",
+  "incoming": 182,
+  "total": 805,
   "sources": {
     "nn52signal": {
       "ok": true,
-      "events": 18,
+      "events": 19,
       "error": null,
       "configured_region": "Нижегородская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 18,
-      "parsed": 18,
-      "region_from_channel": 16,
-      "place_found": 16
+      "with_bpla": 19,
+      "parsed": 19,
+      "region_from_channel": 18,
+      "place_found": 18
     },
     "radar_nizhniinovgorod": {
       "ok": true,
-      "events": 15,
+      "events": 16,
       "error": null,
       "configured_region": "Нижегородская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 15,
-      "parsed": 15,
+      "with_bpla": 16,
+      "parsed": 16,
       "region_from_channel": 0,
-      "place_found": 15
+      "place_found": 16
     },
     "radarrussiia": {
       "ok": true,
@@ -53,20 +53,20 @@
       "with_bpla": 20,
       "parsed": 20,
       "region_from_channel": 0,
-      "place_found": 20
+      "place_found": 19
     },
     "vrv_radar": {
       "ok": true,
-      "events": 19,
+      "events": 20,
       "error": null,
       "configured_region": "Россия",
       "source_type": "regional-network",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 19,
-      "parsed": 19,
+      "with_bpla": 20,
+      "parsed": 20,
       "region_from_channel": 0,
-      "place_found": 14
+      "place_found": 15
     },
     "radar_voronezh": {
       "ok": true,
@@ -105,7 +105,7 @@
       "with_bpla": 17,
       "parsed": 17,
       "region_from_channel": 16,
-      "place_found": 13
+      "place_found": 15
     },
     "radar_tatarstann": {
       "ok": true,
