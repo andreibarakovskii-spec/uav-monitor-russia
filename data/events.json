@@ -1,5 +1,19 @@
 [
   {
+    "id": "tg-d099e1be46404d25",
+    "place": null,
+    "region": "Орловская область",
+    "source": "@locatorru",
+    "status": "fix",
+    "published_at": "2026-08-23T10:44:37+00:00",
+    "text": "Хардиково, Орловский район, Орловская область - пролёт БПЛА в сторону Мценск. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82155",
+    "lat": null,
+    "lon": null
+  },
+  {
     "id": "tg-c61c0e294dc060d2",
     "place": "Сосковский район",
     "region": "Орловская область",

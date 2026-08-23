@@ -1,5 +1,5 @@
 {
-  "total_events": 926,
+  "total_events": 927,
   "with_place": 757,
   "with_coordinates": 59,
   "coordinate_coverage_pct": 6.4,
@@ -133,7 +133,7 @@
     },
     {
       "region": "Орловская область",
-      "events": 45,
+      "events": 46,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
