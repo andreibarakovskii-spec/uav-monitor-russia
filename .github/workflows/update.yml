@@ -16,18 +16,40 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Compile backend
+        run: python -m compileall backend
       - name: Collect public Telegram events
         run: python backend/collector.py
       - name: Build archived historical analytics
         run: python backend/historical_analysis.py
+      - name: Validate dataset quality
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          events = json.loads(Path('data/events.json').read_text('utf-8'))
+          total = len(events)
+          with_place = sum(bool(x.get('place')) for x in events)
+          with_coords = sum(isinstance(x.get('lat'), (int,float)) and isinstance(x.get('lon'), (int,float)) for x in events)
+          bad_place = sum('@' in str(x.get('place') or '') or 'локатор россии' in str(x.get('place') or '').lower() or 'радар по всей россии' in str(x.get('place') or '').lower() for x in events)
+          report = {
+              'total_events': total,
+              'with_place': with_place,
+              'with_coordinates': with_coords,
+              'coordinate_coverage_pct': round((with_coords / total * 100), 1) if total else 0,
+              'suspicious_place_values': bad_place,
+          }
+          Path('data/quality_report.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), 'utf-8')
+          print(json.dumps(report, ensure_ascii=False))
+          PY
       - name: Commit refreshed data
         run: |
-          if git diff --quiet -- data/events.json data/collector_status.json data/historical_analysis.json; then
+          if git diff --quiet -- data/events.json data/collector_status.json data/historical_analysis.json data/quality_report.json; then
             echo "No data changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/events.json data/collector_status.json data/historical_analysis.json
+          git add data/events.json data/collector_status.json data/historical_analysis.json data/quality_report.json
           git commit -m "chore: refresh public event feed"
           git push
