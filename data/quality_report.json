@@ -1,7 +1,7 @@
 {
-  "total_events": 1005,
-  "with_place": 813,
-  "with_coordinates": 547,
+  "total_events": 1008,
+  "with_place": 816,
+  "with_coordinates": 548,
   "coordinate_coverage_pct": 54.4,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
@@ -26,7 +26,7 @@
     },
     {
       "region": "Без региона",
-      "events": 75,
+      "events": 76,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -50,9 +50,9 @@
     },
     {
       "region": "Калужская область",
-      "events": 37,
-      "with_coordinates": 5,
-      "coverage_pct": 13.5
+      "events": 38,
+      "with_coordinates": 6,
+      "coverage_pct": 15.8
     },
     {
       "region": "Республика Татарстан",
@@ -127,6 +127,12 @@
       "coverage_pct": 100.0
     },
     {
+      "region": "Ставропольский край",
+      "events": 13,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Смоленская область",
       "events": 13,
       "with_coordinates": 13,
@@ -143,12 +149,6 @@
       "events": 13,
       "with_coordinates": 2,
       "coverage_pct": 15.4
-    },
-    {
-      "region": "Ставропольский край",
-      "events": 12,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
     },
     {
       "region": "Владимирская область",
