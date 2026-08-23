@@ -1,8 +1,8 @@
 {
-  "total_events": 1095,
-  "with_place": 886,
-  "with_coordinates": 602,
-  "coordinate_coverage_pct": 55.0,
+  "total_events": 1118,
+  "with_place": 904,
+  "with_coordinates": 611,
+  "coordinate_coverage_pct": 54.7,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -14,9 +14,15 @@
     },
     {
       "region": "Краснодарский край",
-      "events": 156,
-      "with_coordinates": 156,
+      "events": 163,
+      "with_coordinates": 163,
       "coverage_pct": 100.0
+    },
+    {
+      "region": "Без региона",
+      "events": 88,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
     },
     {
       "region": "Нижегородская область",
@@ -25,28 +31,22 @@
       "coverage_pct": 11.4
     },
     {
-      "region": "Без региона",
-      "events": 85,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
       "region": "Москва и Московская область",
       "events": 74,
       "with_coordinates": 35,
       "coverage_pct": 47.3
     },
     {
+      "region": "Ростовская область",
+      "events": 52,
+      "with_coordinates": 7,
+      "coverage_pct": 13.5
+    },
+    {
       "region": "Орловская область",
       "events": 48,
       "with_coordinates": 4,
       "coverage_pct": 8.3
-    },
-    {
-      "region": "Ростовская область",
-      "events": 47,
-      "with_coordinates": 6,
-      "coverage_pct": 12.8
     },
     {
       "region": "Тульская область",
@@ -67,6 +67,12 @@
       "coverage_pct": 62.9
     },
     {
+      "region": "Ставропольский край",
+      "events": 23,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Вологодская область",
       "events": 23,
       "with_coordinates": 13,
@@ -80,15 +86,9 @@
     },
     {
       "region": "Брянская область",
-      "events": 17,
-      "with_coordinates": 17,
+      "events": 18,
+      "with_coordinates": 18,
       "coverage_pct": 100.0
-    },
-    {
-      "region": "Ставропольский край",
-      "events": 16,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
     },
     {
       "region": "Тамбовская область",
