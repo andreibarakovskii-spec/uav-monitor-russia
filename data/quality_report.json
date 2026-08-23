@@ -1,7 +1,7 @@
 {
-  "total_events": 1008,
-  "with_place": 816,
-  "with_coordinates": 548,
+  "total_events": 1011,
+  "with_place": 818,
+  "with_coordinates": 550,
   "coordinate_coverage_pct": 54.4,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
@@ -14,8 +14,8 @@
     },
     {
       "region": "Краснодарский край",
-      "events": 114,
-      "with_coordinates": 114,
+      "events": 115,
+      "with_coordinates": 115,
       "coverage_pct": 100.0
     },
     {
@@ -26,15 +26,15 @@
     },
     {
       "region": "Без региона",
-      "events": 76,
+      "events": 77,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Москва и Московская область",
-      "events": 70,
-      "with_coordinates": 33,
-      "coverage_pct": 47.1
+      "events": 71,
+      "with_coordinates": 34,
+      "coverage_pct": 47.9
     },
     {
       "region": "Орловская область",
