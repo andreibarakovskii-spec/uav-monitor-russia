@@ -7,9 +7,11 @@ const demoEvents=[
 const map=L.map('map',{zoomControl:true}).setView([55.1,43.5],6);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap'}).addTo(map);
 const layer=L.layerGroup().addTo(map);
+const historyLayer=L.layerGroup().addTo(map);
 const markers=new Map();
 let events=[];
 let selectedId=null;
+let historyOverlayEnabled=false;
 
 const feed=document.getElementById('feed');
 const detail=document.getElementById('detail');
@@ -18,6 +20,8 @@ const sourceFilter=document.getElementById('sourceFilter');
 const typeFilter=document.getElementById('typeFilter');
 const timeFilter=document.getElementById('timeFilter');
 const timeline=document.getElementById('timeline');
+const historyOverlayToggle=document.getElementById('historyOverlayToggle');
+const historyWindow=document.getElementById('historyWindow');
 
 function populateSelect(el,values){el.querySelectorAll('option:not([value="all"])').forEach(o=>o.remove());[...new Set(values.filter(Boolean))].sort().forEach(v=>{const o=document.createElement('option');o.value=v;o.textContent=v;el.appendChild(o);});}
 function markerColor(e){if(e.type==='cancel'||e.status==='cancel')return '#72808b';if(e.type==='defense'||e.status==='defense')return '#b96762';if((e.confirmations||1)>1)return '#70947f';if(e.type==='alert'||e.status==='alert')return '#8b7b9f';return '#d5a252';}
@@ -27,14 +31,18 @@ function ageMinutes(e){return Math.max(0,Math.round((Date.now()-eventDate(e).get
 function ageText(m){if(m<60)return `${m} мин назад`;const h=Math.floor(m/60),r=m%60;if(h<24)return r?`${h} ч ${r} мин назад`:`${h} ч назад`;return `${Math.floor(h/24)} дн. назад`;}
 function normalizedType(e){return e.type||e.status||'fix';}
 function filteredEvents(){const r=regionFilter.value,s=sourceFilter.value,t=typeFilter.value,limit=timeFilter.value==='all'?0:Number(timeFilter.value);const p=Number(timeline.value);const all=events.map(e=>({...e,minutesAgo:ageMinutes(e)}));const oldest=Math.max(1,...all.map(e=>e.minutesAgo));const timelineLimit=p===100?Infinity:Math.max(1,Math.round(oldest*p/100));return all.filter(e=>(r==='all'||e.region===r)&&(s==='all'||e.source===s)&&(t==='all'||normalizedType(e)===t)&&(!limit||e.minutesAgo<=limit)&&e.minutesAgo<=timelineLimit);}
+function archivedEvents(){const days=Number(historyWindow?.value||30);const minAge=24*60;const maxAge=days*24*60;const r=regionFilter.value;return events.filter(e=>Number.isFinite(e.lat)&&Number.isFinite(e.lon)&&ageMinutes(e)>=minAge&&ageMinutes(e)<=maxAge&&(r==='all'||e.region===r));}
+function renderHistoryOverlay(){historyLayer.clearLayers();if(!historyOverlayEnabled)return;const grouped=new Map();archivedEvents().forEach(e=>{const key=`${Number(e.lat).toFixed(3)}|${Number(e.lon).toFixed(3)}`;if(!grouped.has(key))grouped.set(key,[]);grouped.get(key).push(e);});grouped.forEach(group=>{const e=group[0];const count=group.length;const radius=Math.min(18,5+Math.sqrt(count)*3);const circle=L.circleMarker([e.lat,e.lon],{radius,weight:1,opacity:.55,fillOpacity:.16,dashArray:'3 4'}).addTo(historyLayer);circle.bindPopup(`<b>Исторические наблюдения</b><br>${e.place||'Населённый пункт'}<br>${e.region||''}<br>Архивных событий: ${count}<br><small>Только накопленная статистика старше 24 часов</small>`);});}
 function showDetail(e){selectedId=e.id;detail.innerHTML=`<h2>Выбранная точка</h2><p><b>${e.place||'Населённый пункт не определён'}</b></p><div class="meta">${e.region||'Регион не определён'}<br>${e.status||e.type}<br>${ageText(ageMinutes(e))}<br>Источник: ${e.source}<br>Подтверждений: ${e.confirmations||1}${e.approximate?'<br>Координата населённого пункта/района приблизительная':''}${e.text?`<br><br>${e.text}`:''}</div>`;document.querySelectorAll('.event').forEach(n=>n.classList.toggle('active',String(n.dataset.id)===String(e.id)));}
 function makeIcon(e){return L.divIcon({className:'',html:`<div style="width:${markerRadius(e)*2}px;height:${markerRadius(e)*2}px;border-radius:50%;background:${markerColor(e)};border:2px solid white;box-shadow:0 0 0 4px ${markerColor(e)}33"></div>`,iconSize:[22,22],iconAnchor:[11,11]});}
 function render(){const items=filteredEvents();layer.clearLayers();markers.clear();feed.innerHTML='';items.sort((a,b)=>eventDate(b)-eventDate(a)).forEach(e=>{if(Number.isFinite(e.lat)&&Number.isFinite(e.lon)){const marker=L.marker([e.lat,e.lon],{icon:makeIcon(e)}).addTo(layer);marker.bindPopup(`<b>${e.place||'Населённый пункт'}</b><br>${e.region||''}<br>${e.status||e.type}<br>${e.source}<br>${ageText(ageMinutes(e))}`);marker.on('click',()=>showDetail(e));markers.set(e.id,marker);}const div=document.createElement('button');div.type='button';div.className='event';div.dataset.id=e.id;div.innerHTML=`<b>${e.place||'Населённый пункт не определён'}${(e.confirmations||1)>1?`<span class="badge">${e.confirmations} источника</span>`:''}</b><div class="meta">${e.region||'Регион не определён'}<br>${e.status||e.type} · ${ageText(ageMinutes(e))}<br>${e.source}${Number.isFinite(e.lat)&&Number.isFinite(e.lon)?'':'<br>координата пока не определена'}</div>`;div.addEventListener('click',()=>{if(markers.has(e.id)){map.setView([e.lat,e.lon],9);markers.get(e.id).openPopup();}showDetail(e);});feed.appendChild(div);});
  document.getElementById('events').textContent=items.length;document.getElementById('regions').textContent=new Set(items.map(e=>e.region).filter(Boolean)).size;document.getElementById('sources').textContent=new Set(items.map(e=>e.source).filter(Boolean)).size;document.getElementById('confirmed').textContent=items.filter(e=>(e.confirmations||1)>1).length;document.getElementById('visibleCount').textContent=`${items.filter(e=>Number.isFinite(e.lat)&&Number.isFinite(e.lon)).length} точек`;document.getElementById('feedCount').textContent=`${items.length}`;
  const pts=items.filter(e=>Number.isFinite(e.lat)&&Number.isFinite(e.lon));if(pts.length){const bounds=L.latLngBounds(pts.map(e=>[e.lat,e.lon]));if(bounds.isValid())map.fitBounds(bounds.pad(.15),{maxZoom:8});}
  if(selectedId&&!items.some(e=>String(e.id)===String(selectedId))){selectedId=null;detail.innerHTML='<h2>Выбранная точка</h2><p class="muted">Нажмите на маркер или событие в ленте.</p>';}
- document.getElementById('timelineLabel').textContent=Number(timeline.value)===100?'все события':'ограниченный исторический диапазон';}
+ document.getElementById('timelineLabel').textContent=Number(timeline.value)===100?'все события':'ограниченный исторический диапазон';renderHistoryOverlay();}
 async function loadEvents(){try{const res=await fetch('../data/events.json',{cache:'no-store'});if(!res.ok)throw new Error('events unavailable');events=await res.json();document.getElementById('status').textContent='● data mode';}catch(err){events=demoEvents;document.getElementById('status').textContent='● demo fallback';}events=events.map((e,i)=>({id:e.id||`event-${i}`,type:e.type||e.status||'fix',status:e.status||e.type||'fix',confirmations:e.confirmations||1,...e}));populateSelect(regionFilter,events.map(e=>e.region));populateSelect(sourceFilter,events.map(e=>e.source));render();}
 [regionFilter,sourceFilter,typeFilter,timeFilter,timeline].forEach(el=>el.addEventListener(el===timeline?'input':'change',render));
-document.getElementById('resetFilters').addEventListener('click',()=>{regionFilter.value='all';sourceFilter.value='all';typeFilter.value='all';timeFilter.value='all';timeline.value='100';render();});
+if(historyOverlayToggle)historyOverlayToggle.addEventListener('click',()=>{historyOverlayEnabled=!historyOverlayEnabled;historyOverlayToggle.setAttribute('aria-pressed',String(historyOverlayEnabled));historyOverlayToggle.textContent=historyOverlayEnabled?'🕘 Исторический слой: вкл':'🕘 Исторический слой: выкл';renderHistoryOverlay();});
+if(historyWindow)historyWindow.addEventListener('change',renderHistoryOverlay);
+document.getElementById('resetFilters').addEventListener('click',()=>{regionFilter.value='all';sourceFilter.value='all';typeFilter.value='all';timeFilter.value='all';timeline.value='100';historyOverlayEnabled=false;if(historyOverlayToggle){historyOverlayToggle.setAttribute('aria-pressed','false');historyOverlayToggle.textContent='🕘 Исторический слой: выкл';}render();});
 loadEvents();
