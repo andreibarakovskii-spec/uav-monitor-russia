@@ -1,5 +1,47 @@
 [
   {
+    "id": "tg-bb085cfac381d20c",
+    "place": "Краснодар",
+    "region": "Краснодарский край",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-08-23T08:35:22+00:00",
+    "text": "Армавир и близлежащие \nКраснодарский край \nОпасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85110",
+    "lat": 45.0355,
+    "lon": 38.9753
+  },
+  {
+    "id": "tg-7098cec110a9fee7",
+    "place": null,
+    "region": null,
+    "source": "@vrv_radar",
+    "status": "defense",
+    "published_at": "2026-08-23T08:05:13+00:00",
+    "text": "Просим службы МЧС РСЧС и подразделения ДРО РЛС ПВН ПВО выйти с нами на связь по контакту обратной связи @vrv_support а так же, ОД(оперативных дежурных) , работников НПЗ, аэродромов и тд, обладающих информацией \n\nУ нас в команде более 270 человек(со служб ~235), работаем с мая 24 года\n\nДля подписчиков, свидетелей пролетов/сбитий БПЛА есть обратная связь по кнопке снизу в TG(в MAX в описании, в ВК кнопка сверху страницы)\n\nОбратная связь MAX для военных: https://max.ru/u/f9LHodD0cOICV1Ss9Q5rHZiKLYFTeEDqJNO_zKdRskqMng1_JszeCQi7PEE\n\n❗️Поделитесь каналом с близкими❗️",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85109",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-aaf7ecc2b10bf04d",
+    "place": "Краснодар",
+    "region": "Краснодарский край",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-23T08:04:21+00:00",
+    "text": "Анапа и близлежащие\nКраснодарский край\nОтбой опасности по БПЛА\nНа территории края опасность сохраняется",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85108",
+    "lat": 45.0355,
+    "lon": 38.9753
+  },
+  {
     "id": "tg-dfdc2766450dbbe9",
     "place": "Ростовская область",
     "region": "Ставропольский край",

@@ -1,8 +1,8 @@
 {
-  "total_events": 895,
-  "with_place": 751,
-  "with_coordinates": 55,
-  "coordinate_coverage_pct": 6.1,
+  "total_events": 898,
+  "with_place": 753,
+  "with_coordinates": 57,
+  "coordinate_coverage_pct": 6.3,
   "suspicious_place_values": 170,
   "suspicious_examples": [
     {
@@ -115,9 +115,9 @@
     },
     {
       "region": "Краснодарский край",
-      "events": 88,
-      "with_coordinates": 19,
-      "coverage_pct": 21.6
+      "events": 90,
+      "with_coordinates": 21,
+      "coverage_pct": 23.3
     },
     {
       "region": "Нижегородская область",
@@ -127,7 +127,7 @@
     },
     {
       "region": "Без региона",
-      "events": 66,
+      "events": 67,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
