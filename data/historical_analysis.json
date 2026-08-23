@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-23T13:39:10.214983+00:00",
+  "generated_at": "2026-08-23T14:01:43.356972+00:00",
   "archive_delay_hours": 24,
-  "total_events": 966,
-  "archived_events": 210,
+  "total_events": 969,
+  "archived_events": 214,
   "regions": {
+    "Москва и Московская область": 37,
     "Республика Татарстан": 35,
-    "Москва и Московская область": 33,
     "Нижегородская область": 30,
     "Воронежская область": 22,
     "Орловская область": 19,
@@ -30,7 +30,7 @@
   "sources": {
     "@radarrussiia": 32,
     "@vrv_radar": 32,
-    "@RDFradar": 26,
+    "@RDFradar": 30,
     "@locatorru": 19,
     "@radar_voronezh": 19,
     "@radar_tatarstan": 16,
@@ -41,9 +41,9 @@
     "@tatalert": 9
   },
   "statuses": {
-    "fix": 121,
-    "defense": 35,
-    "alert": 35,
+    "fix": 122,
+    "alert": 37,
+    "defense": 36,
     "cancel": 19
   },
   "timeline": {
@@ -54,7 +54,7 @@
     "2026-08-19": 3,
     "2026-08-20": 25,
     "2026-08-21": 25,
-    "2026-08-22": 140
+    "2026-08-22": 144
   },
   "historical_pairs": [
     {
@@ -606,6 +606,26 @@
       "time_difference_minutes": 1.3,
       "from_time": "2026-08-22T13:35:22+00:00",
       "to_time": "2026-08-22T13:36:39+00:00"
+    },
+    {
+      "from": "Домодедово",
+      "to": "Домодедово",
+      "from_region": "Москва и Московская область",
+      "to_region": "Москва и Московская область",
+      "distance_km": 0.0,
+      "time_difference_minutes": 3.7,
+      "from_time": "2026-08-22T13:36:39+00:00",
+      "to_time": "2026-08-22T13:40:20+00:00"
+    },
+    {
+      "from": "Домодедово",
+      "to": "Наро-Фоминск",
+      "from_region": "Москва и Московская область",
+      "to_region": "Москва и Московская область",
+      "distance_km": 65.4,
+      "time_difference_minutes": 0.3,
+      "from_time": "2026-08-22T13:40:20+00:00",
+      "to_time": "2026-08-22T13:40:38+00:00"
     }
   ],
   "note": "Archived descriptive analysis only; excludes observations newer than 24 hours."

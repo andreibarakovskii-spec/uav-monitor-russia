@@ -1,8 +1,8 @@
 {
-  "total_events": 966,
-  "with_place": 789,
-  "with_coordinates": 531,
-  "coordinate_coverage_pct": 55.0,
+  "total_events": 969,
+  "with_place": 791,
+  "with_coordinates": 532,
+  "coordinate_coverage_pct": 54.9,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -14,8 +14,8 @@
     },
     {
       "region": "Краснодарский край",
-      "events": 100,
-      "with_coordinates": 100,
+      "events": 101,
+      "with_coordinates": 101,
       "coverage_pct": 100.0
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "region": "Без региона",
-      "events": 68,
+      "events": 69,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -74,7 +74,7 @@
     },
     {
       "region": "Ростовская область",
-      "events": 20,
+      "events": 21,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },

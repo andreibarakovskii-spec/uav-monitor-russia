@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-23T13:39:10.073030+00:00",
+  "updated_at": "2026-08-23T14:01:43.215963+00:00",
   "incoming": 108,
-  "total": 966,
+  "total": 969,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -76,7 +76,7 @@
       "parsed": 15,
       "region_from_channel": 0,
       "place_found": 15,
-      "place_geocoded": 8
+      "place_geocoded": 7
     },
     "radar_voronezh": {
       "ok": true,
@@ -116,8 +116,8 @@
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 17,
-      "filtered_noise": 4,
+      "with_bpla": 16,
+      "filtered_noise": 3,
       "parsed": 13,
       "region_from_channel": 9,
       "place_found": 11,
