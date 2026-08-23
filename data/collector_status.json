@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-23T19:09:18.359357+00:00",
-  "incoming": 114,
-  "total": 1011,
+  "updated_at": "2026-08-23T19:38:03.712013+00:00",
+  "incoming": 113,
+  "total": 1015,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -75,8 +75,8 @@
       "filtered_noise": 0,
       "parsed": 19,
       "region_from_channel": 0,
-      "place_found": 13,
-      "place_geocoded": 6
+      "place_found": 12,
+      "place_geocoded": 5
     },
     "radar_voronezh": {
       "ok": true,
@@ -110,16 +110,16 @@
     },
     "RDFradar": {
       "ok": true,
-      "events": 14,
+      "events": 13,
       "error": null,
       "configured_region": "Москва и Московская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 16,
+      "with_bpla": 15,
       "filtered_noise": 2,
-      "parsed": 14,
-      "region_from_channel": 10,
+      "parsed": 13,
+      "region_from_channel": 8,
       "place_found": 12,
       "place_geocoded": 5
     },

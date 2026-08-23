@@ -1,8 +1,8 @@
 {
-  "total_events": 1011,
-  "with_place": 818,
-  "with_coordinates": 550,
-  "coordinate_coverage_pct": 54.4,
+  "total_events": 1015,
+  "with_place": 820,
+  "with_coordinates": 551,
+  "coordinate_coverage_pct": 54.3,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -32,9 +32,9 @@
     },
     {
       "region": "Москва и Московская область",
-      "events": 71,
-      "with_coordinates": 34,
-      "coverage_pct": 47.9
+      "events": 74,
+      "with_coordinates": 35,
+      "coverage_pct": 47.3
     },
     {
       "region": "Орловская область",
@@ -207,6 +207,12 @@
     {
       "region": "Кировская область",
       "events": 3,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
+      "region": "Над Запорожской область",
+      "events": 1,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
