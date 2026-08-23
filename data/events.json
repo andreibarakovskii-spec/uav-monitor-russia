@@ -1,5 +1,29 @@
 [
   {
+    "id": "tg-f685ff043eb221cb",
+    "place": null,
+    "region": "Ставропольский край",
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-08-23T15:43:03+00:00",
+    "text": "Ставропольский край\nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89885"
+  },
+  {
+    "id": "tg-328273781f1baa4f",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-08-23T15:41:58+00:00",
+    "text": "Ростовская область \nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89883"
+  },
+  {
     "id": "tg-a8c4bf53cd5ddcea",
     "place": null,
     "region": "Ростовская область",

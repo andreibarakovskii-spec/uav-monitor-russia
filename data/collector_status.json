@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-23T15:39:02.896296+00:00",
-  "incoming": 116,
-  "total": 987,
+  "updated_at": "2026-08-23T15:59:44.232461+00:00",
+  "incoming": 113,
+  "total": 989,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -35,33 +35,33 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 11,
+      "events": 12,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 20,
-      "filtered_noise": 9,
-      "parsed": 11,
+      "filtered_noise": 8,
+      "parsed": 12,
       "region_from_channel": 0,
-      "place_found": 11,
-      "place_geocoded": 9
+      "place_found": 10,
+      "place_geocoded": 8
     },
     "locatorru": {
       "ok": true,
-      "events": 18,
+      "events": 14,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 20,
+      "with_bpla": 16,
       "filtered_noise": 2,
-      "parsed": 18,
+      "parsed": 14,
       "region_from_channel": 0,
-      "place_found": 14,
-      "place_geocoded": 14
+      "place_found": 10,
+      "place_geocoded": 10
     },
     "vrv_radar": {
       "ok": true,
