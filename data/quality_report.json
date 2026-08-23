@@ -1,11 +1,17 @@
 {
-  "total_events": 1118,
-  "with_place": 904,
-  "with_coordinates": 611,
-  "coordinate_coverage_pct": 54.7,
+  "total_events": 1146,
+  "with_place": 921,
+  "with_coordinates": 618,
+  "coordinate_coverage_pct": 53.9,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
+    {
+      "region": "Краснодарский край",
+      "events": 167,
+      "with_coordinates": 167,
+      "coverage_pct": 100.0
+    },
     {
       "region": "Воронежская область",
       "events": 166,
@@ -13,14 +19,8 @@
       "coverage_pct": 100.0
     },
     {
-      "region": "Краснодарский край",
-      "events": 163,
-      "with_coordinates": 163,
-      "coverage_pct": 100.0
-    },
-    {
       "region": "Без региона",
-      "events": 88,
+      "events": 94,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -38,9 +38,9 @@
     },
     {
       "region": "Ростовская область",
-      "events": 52,
-      "with_coordinates": 7,
-      "coverage_pct": 13.5
+      "events": 55,
+      "with_coordinates": 8,
+      "coverage_pct": 14.5
     },
     {
       "region": "Орловская область",
@@ -61,16 +61,16 @@
       "coverage_pct": 15.8
     },
     {
+      "region": "Ставропольский край",
+      "events": 36,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Республика Татарстан",
       "events": 35,
       "with_coordinates": 22,
       "coverage_pct": 62.9
-    },
-    {
-      "region": "Ставропольский край",
-      "events": 23,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
     },
     {
       "region": "Вологодская область",
@@ -91,15 +91,15 @@
       "coverage_pct": 100.0
     },
     {
-      "region": "Тамбовская область",
-      "events": 16,
-      "with_coordinates": 16,
+      "region": "Волгоградская область",
+      "events": 17,
+      "with_coordinates": 17,
       "coverage_pct": 100.0
     },
     {
-      "region": "Волгоградская область",
-      "events": 15,
-      "with_coordinates": 15,
+      "region": "Тамбовская область",
+      "events": 16,
+      "with_coordinates": 16,
       "coverage_pct": 100.0
     },
     {
