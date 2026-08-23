@@ -1,5 +1,5 @@
 {
-  "total_events": 978,
+  "total_events": 979,
   "with_place": 800,
   "with_coordinates": 540,
   "coordinate_coverage_pct": 55.2,
@@ -139,6 +139,12 @@
       "coverage_pct": 23.1
     },
     {
+      "region": "Санкт-Петербург и Ленинградская область",
+      "events": 13,
+      "with_coordinates": 2,
+      "coverage_pct": 15.4
+    },
+    {
       "region": "Владимирская область",
       "events": 12,
       "with_coordinates": 12,
@@ -149,12 +155,6 @@
       "events": 12,
       "with_coordinates": 12,
       "coverage_pct": 100.0
-    },
-    {
-      "region": "Санкт-Петербург и Ленинградская область",
-      "events": 12,
-      "with_coordinates": 2,
-      "coverage_pct": 16.7
     },
     {
       "region": "Ивановская область",

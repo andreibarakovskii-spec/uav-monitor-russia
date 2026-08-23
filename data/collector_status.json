@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-23T14:42:35.421829+00:00",
+  "updated_at": "2026-08-23T15:02:44.872402+00:00",
   "incoming": 113,
-  "total": 978,
+  "total": 979,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -50,18 +50,18 @@
     },
     "locatorru": {
       "ok": true,
-      "events": 18,
+      "events": 17,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 19,
-      "filtered_noise": 1,
-      "parsed": 18,
+      "filtered_noise": 2,
+      "parsed": 17,
       "region_from_channel": 0,
-      "place_found": 17,
-      "place_geocoded": 17
+      "place_found": 16,
+      "place_geocoded": 16
     },
     "vrv_radar": {
       "ok": true,
@@ -95,15 +95,15 @@
     },
     "radar_peterburg": {
       "ok": true,
-      "events": 4,
+      "events": 5,
       "error": null,
       "configured_region": "Санкт-Петербург и Ленинградская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 12,
+      "with_bpla": 13,
       "filtered_noise": 8,
-      "parsed": 4,
+      "parsed": 5,
       "region_from_channel": 0,
       "place_found": 1,
       "place_geocoded": 1
@@ -131,8 +131,8 @@
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 15,
-      "filtered_noise": 8,
+      "with_bpla": 16,
+      "filtered_noise": 9,
       "parsed": 7,
       "region_from_channel": 6,
       "place_found": 7,
