@@ -1,16 +1,16 @@
 {
-  "total_events": 1303,
-  "with_place": 1011,
-  "with_coordinates": 667,
-  "coordinate_coverage_pct": 51.2,
+  "total_events": 1314,
+  "with_place": 1016,
+  "with_coordinates": 672,
+  "coordinate_coverage_pct": 51.1,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Краснодарский край",
-      "events": 199,
-      "with_coordinates": 186,
-      "coverage_pct": 93.5
+      "events": 202,
+      "with_coordinates": 189,
+      "coverage_pct": 93.6
     },
     {
       "region": "Воронежская область",
@@ -20,7 +20,7 @@
     },
     {
       "region": "Без региона",
-      "events": 113,
+      "events": 115,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -74,9 +74,9 @@
     },
     {
       "region": "Брянская область",
-      "events": 23,
-      "with_coordinates": 22,
-      "coverage_pct": 95.7
+      "events": 26,
+      "with_coordinates": 24,
+      "coverage_pct": 92.3
     },
     {
       "region": "Вологодская область",
@@ -91,6 +91,12 @@
       "coverage_pct": 100.0
     },
     {
+      "region": "Рязанская область",
+      "events": 22,
+      "with_coordinates": 1,
+      "coverage_pct": 4.5
+    },
+    {
       "region": "Волгоградская область",
       "events": 21,
       "with_coordinates": 20,
@@ -101,12 +107,6 @@
       "events": 19,
       "with_coordinates": 15,
       "coverage_pct": 78.9
-    },
-    {
-      "region": "Рязанская область",
-      "events": 19,
-      "with_coordinates": 1,
-      "coverage_pct": 5.3
     },
     {
       "region": "Тамбовская область",
