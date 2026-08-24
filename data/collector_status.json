@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-08-24T03:08:44.951420+00:00",
-  "incoming": 97,
-  "total": 1203,
+  "updated_at": "2026-08-24T04:07:43.350265+00:00",
+  "incoming": 95,
+  "total": 1207,
   "sources": {
     "nn52signal": {
       "ok": true,
-      "events": 11,
+      "events": 10,
       "error": null,
       "configured_region": "Нижегородская область",
       "source_type": "regional",
       "message_blocks": 17,
       "with_text": 17,
-      "with_bpla": 11,
+      "with_bpla": 10,
       "filtered_noise": 0,
-      "parsed": 11,
-      "region_from_channel": 10,
-      "place_found": 10,
+      "parsed": 10,
+      "region_from_channel": 9,
+      "place_found": 9,
       "place_geocoded": 0
     },
     "radar_nizhniinovgorod": {
@@ -65,17 +65,17 @@
     },
     "vrv_radar": {
       "ok": true,
-      "events": 13,
+      "events": 12,
       "error": null,
       "configured_region": "Россия",
       "source_type": "regional-network",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 13,
+      "with_bpla": 12,
       "filtered_noise": 0,
-      "parsed": 13,
+      "parsed": 12,
       "region_from_channel": 0,
-      "place_found": 10,
+      "place_found": 8,
       "place_geocoded": 7
     },
     "radar_voronezh": {
