@@ -29,36 +29,60 @@ REGION_ALIASES = {
     "Оренбургская  область": "Оренбургская область",
     "Над Нижегородской область": "Нижегородская область",
     "Причерноморье Краснодарский край": "Краснодарский край",
+    "За прошедшую ночь Ростовская область": "Ростовская область",
+    "НПЗ Краснодарский край": "Краснодарский край",
+    "Над Запорожской область": "Запорожская область",
+    "Тульскую область": "Тульская область",
+    "Белгородскую область": "Белгородская область",
+    "Брянскую область": "Брянская область",
 }
+
+CANONICAL_REGIONS = (
+    "Нижегородская область", "Воронежская область", "Краснодарский край",
+    "Республика Татарстан", "Архангельская область", "Тульская область",
+    "Оренбургская область", "Москва и Московская область",
+    "Санкт-Петербург и Ленинградская область", "Орловская область",
+    "Калужская область", "Вологодская область", "Ростовская область",
+    "Брянская область", "Тамбовская область", "Рязанская область",
+    "Белгородская область", "Липецкая область", "Волгоградская область",
+    "Костромская область", "Тверская область", "Смоленская область",
+    "Владимирская область", "Саратовская область", "Ивановская область",
+    "Пензенская область", "Ярославская область", "Новгородская область",
+    "Курская область", "Ставропольский край", "Самарская область",
+    "Чувашская Республика", "Кировская область", "Ульяновская область",
+    "Астраханская область", "Карачаево-Черкесская Республика",
+    "Кабардино-Балкарская Республика", "Запорожская область", "ХМАО",
+)
 
 SUSPICIOUS_PLACE = (
     "локатор россии", "радар по всей россии", "подпис", "канал", "бот",
     "обход белых списков", "квадрокоптер", "mavic", "cloudtips",
 )
 
-REGION_RE = re.compile(
-    r"(?P<region>[А-ЯЁ][А-Яа-яЁё\- ]+(?:область|край|республика|АО|автономный округ))",
-    re.I,
-)
 HANDLE_RE = re.compile(r"@[A-Za-z0-9_]+")
 
 
+def _region_from_text(value: str) -> str | None:
+    low = value.lower()
+    # Prefer longer names first so Moscow region is not reduced to a substring.
+    for region in sorted(CANONICAL_REGIONS, key=len, reverse=True):
+        if region.lower() in low:
+            return region
+    return None
+
+
 def canonical_region(region: str | None, text: str) -> str | None:
-    if region:
-        region = REGION_ALIASES.get(region.strip(), region.strip())
-        if region in REGION_ALIASES:
-            region = REGION_ALIASES[region]
-        if region.startswith("Через "):
-            region = region.removeprefix("Через ").strip()
-        if region.startswith("и далее на "):
-            region = region.removeprefix("и далее на ").strip()
-        if len(region) <= 45 and any(x in region.lower() for x in ("область", "край", "республика", "округ")):
-            return REGION_ALIASES.get(region, region)
-    match = REGION_RE.search(text or "")
-    if match:
-        value = match.group("region").strip()
-        value = re.sub(r"^(через|над|вся)\s+", "", value, flags=re.I)
-        return REGION_ALIASES.get(value, value)
+    raw = str(region or "").strip()
+    if raw:
+        raw = REGION_ALIASES.get(raw, raw)
+        exact = _region_from_text(raw)
+        if exact:
+            return exact
+    # Message text is often cleaner than a parser artifact such as
+    # "Противник ... через Белгородскую область".
+    exact = _region_from_text(text or "")
+    if exact:
+        return exact
     return None
 
 
