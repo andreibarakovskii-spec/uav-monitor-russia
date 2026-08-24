@@ -1,5 +1,45 @@
 [
   {
+    "id": "tg-42b2c63822ea591b",
+    "place": "Кабардино-Балкарская Республика",
+    "region": "Карачаево-Черкесская Республика",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-24T10:21:12+00:00",
+    "text": "Карачаево-Черкесская Республика \nКабардино-Балкарская Республика \nРеспублика Северная Осетия\nРеспублика Ингушетия\nРеспублика Дагестан\nЧеченская Республика\nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89975",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-3ed3fe5f42b3270d",
+    "place": "Кабардино-Балкарская Республика",
+    "region": "Карачаево-Черкесская Республика",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-24T10:16:04+00:00",
+    "text": "Карачаево-Черкесская Республика \nКабардино-Балкарская Республика \nРеспублика Северная Осетия\nРеспублика Ингушетия\nРеспублика Дагестан\nЧеченская Республика\nОтбой опасности по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85315",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-410b75691355cfde",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-08-24T10:14:55+00:00",
+    "text": "Ростовская область \nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89974"
+  },
+  {
     "id": "tg-871252a8933d2d2c",
     "place": null,
     "region": "Ростовская область",
