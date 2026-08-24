@@ -22,12 +22,13 @@
   <div><span>События на экране</span><b id="events">0</b></div>
   <div><span>Сегодня</span><b id="todayCount">0</b></div>
   <div><span>Регионов</span><b id="regions">0</b></div>
-  <div><span>Последнее обновление</span><b id="lastUpdate" class="small-value">—</b></div>
+  <div><span>Последние данные</span><b id="lastUpdate" class="small-value">—</b></div>
 </section>
 
 <section class="toolbar">
   <button id="todayPreset" type="button">Сегодня</button>
   <button id="corridorPreset" type="button">Коридор → Нижний</button>
+  <button id="refreshData" type="button">↻ Обновить</button>
   <label>Регион<select id="regionFilter"><option value="all">Все регионы</option></select></label>
   <label>Источник<select id="sourceFilter"><option value="all">Все источники</option></select></label>
   <label>Тип<select id="typeFilter"><option value="all">Все</option><option value="fix">Фиксация</option><option value="alert">Опасность</option><option value="defense">ПВО / сбитие</option><option value="cancel">Отбой</option></select></label>
@@ -36,6 +37,12 @@
   <label>Архив<select id="historyWindow"><option value="7">7 дней</option><option value="30" selected>30 дней</option><option value="90">90 дней</option><option value="365">1 год</option></select></label>
   <button id="resetFilters" type="button">Сбросить</button>
 </section>
+
+<div class="live-strip">
+  <span id="freshness">Свежесть данных: —</span>
+  <span id="geoCoverage">Координаты: —</span>
+  <span id="autoRefreshState">Автообновление: 60 сек</span>
+</div>
 
 <div class="grid">
   <section class="map-panel">
