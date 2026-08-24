@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T17:35:38.861240+00:00",
-  "incoming": 98,
-  "total": 1277,
+  "updated_at": "2026-08-24T18:14:07.707477+00:00",
+  "incoming": 96,
+  "total": 1280,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -14,7 +14,7 @@
       "with_bpla": 9,
       "filtered_noise": 0,
       "parsed": 9,
-      "region_from_channel": 6,
+      "region_from_channel": 5,
       "place_found": 8,
       "place_geocoded": 0
     },
@@ -50,15 +50,15 @@
     },
     "locatorru": {
       "ok": true,
-      "events": 16,
+      "events": 15,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 18,
+      "with_bpla": 17,
       "filtered_noise": 2,
-      "parsed": 16,
+      "parsed": 15,
       "region_from_channel": 0,
       "place_found": 5,
       "place_geocoded": 3
@@ -155,16 +155,16 @@
     },
     "tatalert": {
       "ok": true,
-      "events": 4,
+      "events": 3,
       "error": null,
       "configured_region": "Республика Татарстан",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 19,
-      "with_bpla": 6,
+      "with_bpla": 5,
       "filtered_noise": 2,
-      "parsed": 4,
-      "region_from_channel": 3,
+      "parsed": 3,
+      "region_from_channel": 2,
       "place_found": 1,
       "place_geocoded": 0
     }

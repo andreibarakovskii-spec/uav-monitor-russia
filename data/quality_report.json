@@ -1,8 +1,8 @@
 {
-  "total_events": 1277,
-  "with_place": 996,
+  "total_events": 1280,
+  "with_place": 997,
   "with_coordinates": 656,
-  "coordinate_coverage_pct": 51.4,
+  "coordinate_coverage_pct": 51.2,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -20,21 +20,21 @@
     },
     {
       "region": "Без региона",
-      "events": 109,
+      "events": 110,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Ростовская область",
-      "events": 95,
+      "events": 96,
       "with_coordinates": 17,
-      "coverage_pct": 17.9
+      "coverage_pct": 17.7
     },
     {
       "region": "Нижегородская область",
-      "events": 90,
+      "events": 91,
       "with_coordinates": 14,
-      "coverage_pct": 15.6
+      "coverage_pct": 15.4
     },
     {
       "region": "Москва и Московская область",
