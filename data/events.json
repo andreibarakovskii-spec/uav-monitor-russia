@@ -1,5 +1,55 @@
 [
   {
+    "id": "tg-66bd7f62c614ecaf",
+    "place": "Нижегородская область.",
+    "region": "Нижегородская область",
+    "source": "@nn52signal",
+    "status": "fix",
+    "published_at": "2026-08-24T16:33:02+00:00",
+    "text": "🟡\nНижегородская область.\nВнимание по БПЛА.\n\n@nn52signal",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/nn52signal/43891",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-3428602e41499d84",
+    "place": null,
+    "region": "Липецкая область",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-08-24T16:28:45+00:00",
+    "text": "Липецкая область\nОпасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85326"
+  },
+  {
+    "id": "tg-6b6ed7c58933575e",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-08-24T16:16:10+00:00",
+    "text": "Ростовская область\nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89986"
+  },
+  {
+    "id": "tg-3240c2cc2be28391",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-08-24T16:10:29+00:00",
+    "text": "Ростовская область\nОпасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85324"
+  },
+  {
     "id": "tg-c6b25e823ff0bf19",
     "place": null,
     "region": "Ростовская область",

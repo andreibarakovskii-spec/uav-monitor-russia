@@ -1,8 +1,8 @@
 {
-  "total_events": 1270,
-  "with_place": 995,
+  "total_events": 1274,
+  "with_place": 996,
   "with_coordinates": 656,
-  "coordinate_coverage_pct": 51.7,
+  "coordinate_coverage_pct": 51.5,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -26,15 +26,15 @@
     },
     {
       "region": "Ростовская область",
-      "events": 93,
+      "events": 95,
       "with_coordinates": 17,
-      "coverage_pct": 18.3
+      "coverage_pct": 17.9
     },
     {
       "region": "Нижегородская область",
-      "events": 89,
+      "events": 90,
       "with_coordinates": 14,
-      "coverage_pct": 15.7
+      "coverage_pct": 15.6
     },
     {
       "region": "Москва и Московская область",
@@ -121,6 +121,12 @@
       "coverage_pct": 93.8
     },
     {
+      "region": "Липецкая область",
+      "events": 15,
+      "with_coordinates": 14,
+      "coverage_pct": 93.3
+    },
+    {
       "region": "Смоленская область",
       "events": 15,
       "with_coordinates": 15,
@@ -134,12 +140,6 @@
     },
     {
       "region": "Архангельская область",
-      "events": 14,
-      "with_coordinates": 14,
-      "coverage_pct": 100.0
-    },
-    {
-      "region": "Липецкая область",
       "events": 14,
       "with_coordinates": 14,
       "coverage_pct": 100.0
