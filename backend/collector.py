@@ -65,6 +65,11 @@ NOISE_WORDS = (
     "квадрокоптер", "mavic", "cloudtips", "т-банк", "сбп",
     "обход белых списков", "интернет", "internet_boost",
 )
+SERVICE_PHRASES = (
+    "выйти с нами на связь", "обратная связь", "поделитесь каналом",
+    "для подписчиков", "у нас в команде", "работников нпз", "службы мчс",
+    "оперативных дежурных", "военных:", "военных ",
+)
 
 PLACE_NOISE = (
     "локатор россии", "радар по всей россии", "подпис", "канал", "бот",
@@ -106,6 +111,8 @@ def detect_status(text: str) -> str:
 
 def is_noise_post(text: str) -> bool:
     lower = text.lower()
+    if any(phrase in lower for phrase in SERVICE_PHRASES):
+        return True
     if any(word in lower for word in NOISE_WORDS):
         operational_markers = (
             "опасность", "угроза", "тревога", "зафикс", "замечен", "обнаруж",
@@ -152,12 +159,14 @@ def extract_place(text: str, region: str | None) -> str | None:
         candidate = clean_place_candidate(line)
         if not candidate:
             continue
-        if re.search(r"\b(район|округ|г\.?о\.?|город|село|пос[её]лок|деревня|станица|хутор)\b", low):
-            return candidate
+        # If a line contains a locality before the region, prefer that exact locality
+        # instead of falling back to a regional administrative centre.
         if "," in candidate:
             first = clean_place_candidate(candidate.split(",", 1)[0])
             if first and len(first.split()) <= 5:
                 return first
+        if re.search(r"\b(район|округ|г\.?о\.?|город|село|пос[её]лок|деревня|станица|хутор)\b", low):
+            return candidate
         if len(candidate.split()) <= 5:
             return candidate
     return None
