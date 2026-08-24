@@ -1,5 +1,57 @@
 [
   {
+    "id": "tg-871252a8933d2d2c",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-08-24T10:05:18+00:00",
+    "text": "Ростовская область \nОпасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85314"
+  },
+  {
+    "id": "tg-3461022b0d2ab8d1",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-08-24T10:05:08+00:00",
+    "text": "Ростовская область - опасность по БПЛА. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82337"
+  },
+  {
+    "id": "tg-4851e827c89d9cfd",
+    "place": "Каменск-Шахтинский",
+    "region": "Ростовская область",
+    "source": "@locatorru",
+    "status": "fix",
+    "published_at": "2026-08-24T10:01:43+00:00",
+    "text": "Донецк, Каменск-Шахтинский, Лиховской, Гуково, Зверево, Новошахтинск, Шахты и близлежащие населённые пункты, Ростовская область - внимание по ударным БПЛА. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82336",
+    "lat": 48.3205,
+    "lon": 40.268
+  },
+  {
+    "id": "tg-aabce3e657eef273",
+    "place": "Москва",
+    "region": "ХМАО",
+    "source": "@radar_tatarstan",
+    "status": "alert",
+    "published_at": "2026-08-24T09:06:58+00:00",
+    "text": "🟡ВНИМАНИЕ,ТРЕВОГА🟡\n\nПо всей территории РФ может быть объявлен режим ЧРЕЗВЫЧАЙНОГО ПОЛОЖЕНИЯ из-за атак СОТЕН дронов ВСУ.\n\nСтарайтесь не выходить из дома и следите за всей информацией об атаках в специальных телеграмм каналах, подписывайтесь:\n\nМосква: @msklive\nПитер: @petrlive\n\nАбакан: @abknlive\nАрхангельск: @arhangelsklive\nАстрахань: @astrakhanlive\nБарнаул: @barnaullive\nБалашиха: @balashihalive\nБелгород: @belgorodlive\nБлаговещенск: @blagovlive\nБрянск: @bryansklive\nВеликий Новгород: @vngorodlive\nВладивосток: @vladivostoklive\nВладимир: @vladimirlive\nВолгоград: @volgogradlive\nВоронеж: @voronezhlive\nВологда: @vologdalive\nВолжский: @volgskiilive\nДНР: @dnrlive\nЕкатеринбург: @ekaterinburglive\nИжевск: @izhevsklive\nИркутск: @irkutsklive\nИваново: @ivanovolive\nЙошкар-Ола: @ioshkarolalive\nКазань: @kazanlive\nКалининград: @kaliningradlive\nКалуга: @kalugalive\nКамчатка: @kamchatkalive\nКемерово: @kemerovolive\nКиров: @kirovlive\nКраснодар: @krasnodarlive\nКрасноярск: @krasnoyarsklive\nКострома: @kostromalive\nКрым: @krymlive\nКурск: @kursklive\nКурган: @kurganlive\nЛипецк: @lipetsklive\nЛНР: @lnrlive\nМагнитогорск: @magnitogorsklive\nМахачкала: @makhachkalalive\nМурманск: @murmansklive\nНабережные Челны: @chelnylive\nНижний Новгород: @nizhnynovlive\nНижний Тагил:  @nizhnytagillive\nНовокузнецк: @novokuznetsklive\nНовосибирск: @novosibirsklive\nНовороссийск: @novorussialive\nНовоалтайск: @novoaltaisklive\nОмск: @omsklive\nОренбург: @orenburglive\nОрёл: @orellive\nПенза: @penzalive\nПермь: @permlive\nПетрозаводск: @petrozavodsklive\nПодольск: @podolsklive\nРязань: @ryazanlive\nРостов-на-Дону: @rostovlive\nСамара: @samaralive\nСаратов: @saratovlive\nСаранск: @saransklive\nСахалин: @sahalinlive\nСочи: @sochilive\nСтаврополь: @stavropollive\nСтерлитамак: @sterlitamaklive\nСтарый Оскол: @staryoskollive\nСургут и ХМАО: @surgutlive\nСмоленск: @smolensklive\nСыктывкар: @sktwkarlive\nТаганрог: @taganroglive\nТамбов: @tambovlive\nТольятти: @toliattilive\nТула: @tulalive\nТомск: @tomsklive\nТюмень: @tymenlive\nТверь: @tverlive\nУльяновск: @ulanovsklive\nУфа: @ufalive\nУлан-Удэ: @ulanudelive\nХабаровск: @habarovsklive\nЧелябинск: @chelyabinsklive\nЧебоксары: @cheboksarilive\nЧереповец: @cherepoveclive\nЧита: @chitalive\nЯрославль: @yaroslavllive\nЯкутск: @yakutsklive\nДругой город: @russialive",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radar_tatarstan/1983",
+    "lat": null,
+    "lon": null
+  },
+  {
     "id": "tg-c035a1048e667ded",
     "place": "Брянск",
     "region": "Брянская область",

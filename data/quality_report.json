@@ -1,7 +1,7 @@
 {
-  "total_events": 1248,
-  "with_place": 995,
-  "with_coordinates": 667,
+  "total_events": 1252,
+  "with_place": 997,
+  "with_coordinates": 668,
   "coordinate_coverage_pct": 53.4,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
@@ -25,16 +25,16 @@
       "coverage_pct": 0.0
     },
     {
+      "region": "Ростовская область",
+      "events": 88,
+      "with_coordinates": 17,
+      "coverage_pct": 19.3
+    },
+    {
       "region": "Нижегородская область",
       "events": 88,
       "with_coordinates": 10,
       "coverage_pct": 11.4
-    },
-    {
-      "region": "Ростовская область",
-      "events": 85,
-      "with_coordinates": 16,
-      "coverage_pct": 18.8
     },
     {
       "region": "Москва и Московская область",
@@ -217,6 +217,12 @@
       "coverage_pct": 0.0
     },
     {
+      "region": "ХМАО",
+      "events": 2,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Карачаево-Черкесская Республика",
       "events": 2,
       "with_coordinates": 0,
@@ -236,12 +242,6 @@
     },
     {
       "region": "Ульяновская область",
-      "events": 1,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "ХМАО",
       "events": 1,
       "with_coordinates": 0,
       "coverage_pct": 0.0
