@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-24T13:15:22.909774+00:00",
-  "incoming": 111,
+  "updated_at": "2026-08-24T14:12:22.556571+00:00",
+  "incoming": 109,
   "total": 1263,
   "sources": {
     "nn52signal": {
@@ -140,31 +140,31 @@
     },
     "radar_tatarstan": {
       "ok": true,
-      "events": 13,
+      "events": 12,
       "error": null,
       "configured_region": "Республика Татарстан",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 14,
+      "with_bpla": 13,
       "filtered_noise": 1,
-      "parsed": 13,
-      "region_from_channel": 11,
-      "place_found": 9,
+      "parsed": 12,
+      "region_from_channel": 10,
+      "place_found": 8,
       "place_geocoded": 2
     },
     "tatalert": {
       "ok": true,
-      "events": 8,
+      "events": 7,
       "error": null,
       "configured_region": "Республика Татарстан",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 19,
       "with_bpla": 9,
-      "filtered_noise": 1,
-      "parsed": 8,
-      "region_from_channel": 6,
+      "filtered_noise": 2,
+      "parsed": 7,
+      "region_from_channel": 5,
       "place_found": 3,
       "place_geocoded": 1
     }
