@@ -1,8 +1,8 @@
 {
-  "total_events": 1207,
-  "with_place": 969,
-  "with_coordinates": 644,
-  "coordinate_coverage_pct": 53.4,
+  "total_events": 1211,
+  "with_place": 970,
+  "with_coordinates": 645,
+  "coordinate_coverage_pct": 53.3,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -32,9 +32,9 @@
     },
     {
       "region": "Ростовская область",
-      "events": 76,
+      "events": 77,
       "with_coordinates": 14,
-      "coverage_pct": 18.4
+      "coverage_pct": 18.2
     },
     {
       "region": "Москва и Московская область",
@@ -44,9 +44,9 @@
     },
     {
       "region": "Орловская область",
-      "events": 50,
+      "events": 51,
       "with_coordinates": 4,
-      "coverage_pct": 8.0
+      "coverage_pct": 7.8
     },
     {
       "region": "Тульская область",
@@ -176,8 +176,8 @@
     },
     {
       "region": "Курская область",
-      "events": 8,
-      "with_coordinates": 8,
+      "events": 9,
+      "with_coordinates": 9,
       "coverage_pct": 100.0
     },
     {
@@ -219,6 +219,12 @@
     {
       "region": "Карачаево-Черкесская Республика",
       "events": 2,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
+      "region": "Кабардино-Балкарская Республика",
+      "events": 1,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
