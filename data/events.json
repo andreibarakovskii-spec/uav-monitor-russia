@@ -1,5 +1,41 @@
 [
   {
+    "id": "tg-1c7a4b09602d62d3",
+    "place": null,
+    "region": "Рязанская область",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-24T17:12:59+00:00",
+    "text": "Рязанская область\nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89988"
+  },
+  {
+    "id": "tg-723c58a2acb236e0",
+    "place": null,
+    "region": "Рязанская область",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-24T17:09:04+00:00",
+    "text": "Рязанская область\nОтбой опасности по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85327"
+  },
+  {
+    "id": "tg-9fd3edfb875ee0d1",
+    "place": null,
+    "region": "Липецкая область",
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-08-24T16:50:50+00:00",
+    "text": "Липецкая область\nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89987"
+  },
+  {
     "id": "tg-66bd7f62c614ecaf",
     "place": "Нижегородская область.",
     "region": "Нижегородская область",

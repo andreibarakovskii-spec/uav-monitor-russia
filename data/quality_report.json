@@ -1,8 +1,8 @@
 {
-  "total_events": 1274,
+  "total_events": 1277,
   "with_place": 996,
   "with_coordinates": 656,
-  "coordinate_coverage_pct": 51.5,
+  "coordinate_coverage_pct": 51.4,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -97,6 +97,12 @@
       "coverage_pct": 95.2
     },
     {
+      "region": "Рязанская область",
+      "events": 19,
+      "with_coordinates": 1,
+      "coverage_pct": 5.3
+    },
+    {
       "region": "Тамбовская область",
       "events": 18,
       "with_coordinates": 16,
@@ -109,22 +115,16 @@
       "coverage_pct": 100.0
     },
     {
-      "region": "Рязанская область",
-      "events": 17,
-      "with_coordinates": 1,
-      "coverage_pct": 5.9
+      "region": "Липецкая область",
+      "events": 16,
+      "with_coordinates": 14,
+      "coverage_pct": 87.5
     },
     {
       "region": "Белгородская область",
       "events": 16,
       "with_coordinates": 15,
       "coverage_pct": 93.8
-    },
-    {
-      "region": "Липецкая область",
-      "events": 15,
-      "with_coordinates": 14,
-      "coverage_pct": 93.3
     },
     {
       "region": "Смоленская область",
