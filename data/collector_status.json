@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-23T23:58:47.165113+00:00",
-  "incoming": 92,
-  "total": 1179,
+  "updated_at": "2026-08-24T01:52:42.734074+00:00",
+  "incoming": 88,
+  "total": 1188,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -35,33 +35,33 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 5,
+      "events": 7,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 16,
-      "filtered_noise": 11,
-      "parsed": 5,
+      "filtered_noise": 9,
+      "parsed": 7,
       "region_from_channel": 0,
-      "place_found": 5,
-      "place_geocoded": 1
+      "place_found": 7,
+      "place_geocoded": 2
     },
     "locatorru": {
       "ok": true,
-      "events": 13,
+      "events": 7,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 14,
-      "filtered_noise": 1,
-      "parsed": 13,
+      "with_bpla": 7,
+      "filtered_noise": 0,
+      "parsed": 7,
       "region_from_channel": 0,
-      "place_found": 7,
-      "place_geocoded": 7
+      "place_found": 4,
+      "place_geocoded": 4
     },
     "vrv_radar": {
       "ok": true,
@@ -71,12 +71,12 @@
       "source_type": "regional-network",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 11,
-      "filtered_noise": 3,
+      "with_bpla": 9,
+      "filtered_noise": 1,
       "parsed": 8,
       "region_from_channel": 0,
       "place_found": 8,
-      "place_geocoded": 1
+      "place_geocoded": 3
     },
     "radar_voronezh": {
       "ok": true,
