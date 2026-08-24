@@ -1,5 +1,41 @@
 [
   {
+    "id": "tg-8e40bdef297133a6",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-24T11:07:26+00:00",
+    "text": "Ростовская область \nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/89976"
+  },
+  {
+    "id": "tg-50e7363c2e013e1b",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-24T11:04:31+00:00",
+    "text": "Ростовская область \nОтбой опасности по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85316"
+  },
+  {
+    "id": "tg-e4cb6e9fec3f32ea",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@locatorru",
+    "status": "cancel",
+    "published_at": "2026-08-24T11:01:54+00:00",
+    "text": "Ростовская область - отбой опасности по БПЛА. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82340"
+  },
+  {
     "id": "tg-42b2c63822ea591b",
     "place": "Кабардино-Балкарская Республика",
     "region": "Карачаево-Черкесская Республика",
@@ -93,7 +129,7 @@
   },
   {
     "id": "tg-c035a1048e667ded",
-    "place": "Брянск",
+    "place": null,
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "fix",
@@ -101,13 +137,11 @@
     "text": "Брянская область, Курская область, Белгородская область - активность ударных и разведывательных БПЛА в приграничных районах. Также высокая активность FPV-дронов и БПЛА «Хорнет».\n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82333",
-    "lat": 53.2521,
-    "lon": 34.3717
+    "source_url": "https://t.me/locatorru/82333"
   },
   {
     "id": "tg-b2670f7519655ce9",
-    "place": "Брянск",
+    "place": "Почеп",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "alert",
@@ -116,8 +150,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82331",
-    "lat": 53.2521,
-    "lon": 34.3717
+    "lat": 52.933,
+    "lon": 33.447
   },
   {
     "id": "tg-7b94a1ccec4a479f",
@@ -255,7 +289,7 @@
   },
   {
     "id": "tg-e5c7af259aeec8be",
-    "place": "Краснодар",
+    "place": null,
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -263,13 +297,11 @@
     "text": "Приморско-Ахтарский район, Брюховецкий район, Ейский район, Каневской район, Щербиновский район, Краснодарский край - опасность по БПЛА с моря. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82326",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "source_url": "https://t.me/locatorru/82326"
   },
   {
     "id": "tg-e43eb98f220f74c0",
-    "place": "Краснодар",
+    "place": "Ейский район",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "alert",
@@ -278,8 +310,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89968",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-e58cb2486a108894",
@@ -297,7 +329,7 @@
   },
   {
     "id": "tg-ae093a1827df1649",
-    "place": "Краснодар",
+    "place": "Ейский район",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "alert",
@@ -306,12 +338,12 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85308",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-dc0c388b38369c35",
-    "place": "Краснодар",
+    "place": "Республика Адыгея",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "alert",
@@ -320,8 +352,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85307",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-03ecad071b38104c",
@@ -337,7 +369,7 @@
   },
   {
     "id": "tg-749cce5124cbf3a4",
-    "place": "Краснодар",
+    "place": null,
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "fix",
@@ -345,13 +377,11 @@
     "text": "Ейский район, Приморско-Ахтарский район, Краснодарский край - внимание по БПЛА с моря. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82323",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "source_url": "https://t.me/locatorru/82323"
   },
   {
     "id": "tg-6622c34383defc3c",
-    "place": "Белгород",
+    "place": null,
     "region": "Белгородская область",
     "source": "@locatorru",
     "status": "cancel",
@@ -359,9 +389,7 @@
     "text": "Белгородская область - отбой опасности по БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82322",
-    "lat": 50.5957,
-    "lon": 36.5873
+    "source_url": "https://t.me/locatorru/82322"
   },
   {
     "id": "tg-4d106e7bc41f235f",
@@ -443,7 +471,7 @@
   },
   {
     "id": "tg-cfd40286cc9a0266",
-    "place": "Краснодар",
+    "place": "Республика Адыгея",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -452,8 +480,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85302",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-e7b5d1c1d57b26bf",
@@ -499,7 +527,7 @@
   },
   {
     "id": "tg-f72a1e9cf5420a9c",
-    "place": "Краснодар",
+    "place": null,
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "cancel",
@@ -507,13 +535,11 @@
     "text": "Краснодарский край, Республика Адыгея - отбой опасности по БПЛА. \n\n📡Локатор России - @locatorru",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/locatorru/82318",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "source_url": "https://t.me/locatorru/82318"
   },
   {
     "id": "tg-429efa7222612236",
-    "place": "Краснодар",
+    "place": "Сочи",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -522,8 +548,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85301",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 43.5855,
+    "lon": 39.7231
   },
   {
     "id": "tg-2464f1fde9461f19",
@@ -553,7 +579,7 @@
   },
   {
     "id": "tg-4ff01dec8396c538",
-    "place": "Воронеж",
+    "place": null,
     "region": "Воронежская область",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -561,13 +587,11 @@
     "text": "Воронежская область\nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85300",
-    "lat": 51.6608,
-    "lon": 39.2003
+    "source_url": "https://t.me/vrv_radar/85300"
   },
   {
     "id": "tg-5be972c6b10cf1aa",
-    "place": "Волгоград",
+    "place": null,
     "region": "Волгоградская область",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -575,9 +599,7 @@
     "text": "Волгоградская область\nОтбой опасности по БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/vrv_radar/85299",
-    "lat": 48.708,
-    "lon": 44.5133
+    "source_url": "https://t.me/vrv_radar/85299"
   },
   {
     "id": "tg-6bb6417859ac7ede",
@@ -697,7 +719,7 @@
   },
   {
     "id": "tg-8b1870f09ec7e85c",
-    "place": "Краснодар",
+    "place": "Сочи",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "defense",
@@ -706,8 +728,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85288",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 43.5855,
+    "lon": 39.7231
   },
   {
     "id": "tg-0359256ed8e40565",
@@ -735,7 +757,7 @@
   },
   {
     "id": "tg-b03f16d25675edf7",
-    "place": "Краснодар",
+    "place": "Сириус",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "alert",
@@ -744,8 +766,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89958",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-dce66aa4805d8db8",
@@ -787,7 +809,7 @@
   },
   {
     "id": "tg-1e128385ddea6b03",
-    "place": "Краснодар",
+    "place": "Сочи",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "alert",
@@ -796,8 +818,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85284",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 43.5855,
+    "lon": 39.7231
   },
   {
     "id": "tg-b420e66a423b2496",
@@ -3105,7 +3127,7 @@
   },
   {
     "id": "tg-e70df713196fcfb0",
-    "place": "Краснодар",
+    "place": "Туапсе",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "fix",
@@ -3114,8 +3136,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85169",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.1,
+    "lon": 39.0748
   },
   {
     "id": "tg-d31679e5bbe8c0da",
@@ -3145,7 +3167,7 @@
   },
   {
     "id": "tg-9d4ed434b05a8118",
-    "place": "Архипо-Осиповка",
+    "place": "Новороссийск",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -3154,8 +3176,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82190",
-    "lat": 44.3714,
-    "lon": 38.5294
+    "lat": 44.7239,
+    "lon": 37.7687
   },
   {
     "id": "tg-c8ff774b7a6f5da8",
@@ -3447,7 +3469,7 @@
   },
   {
     "id": "tg-4afcb2df34855b44",
-    "place": "Краснодар",
+    "place": "Анапа",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "cancel",
@@ -3456,12 +3478,12 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89891",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.895,
+    "lon": 37.3163
   },
   {
     "id": "tg-4b957acddb80ecd0",
-    "place": "Краснодар",
+    "place": "Анапа",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -3470,8 +3492,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85157",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.895,
+    "lon": 37.3163
   },
   {
     "id": "tg-7041c9ceee3f8b6c",
@@ -3779,7 +3801,7 @@
   },
   {
     "id": "tg-c99684e2e7d1c9c4",
-    "place": "Архипо-Осиповка",
+    "place": "Новороссийск",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -3788,8 +3810,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82165",
-    "lat": 44.3714,
-    "lon": 38.5294
+    "lat": 44.7239,
+    "lon": 37.7687
   },
   {
     "id": "tg-273bb8d2bb31127c",
@@ -3875,7 +3897,7 @@
   },
   {
     "id": "tg-f8fea79047af5bec",
-    "place": "Краснодар",
+    "place": "Анапа",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "alert",
@@ -3884,12 +3906,12 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89878",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.895,
+    "lon": 37.3163
   },
   {
     "id": "tg-90f861b5bd7416fd",
-    "place": "Краснодар",
+    "place": "Анапа",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "alert",
@@ -3898,8 +3920,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85143",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.895,
+    "lon": 37.3163
   },
   {
     "id": "tg-36b1af25beb9d279",
@@ -4015,7 +4037,7 @@
   },
   {
     "id": "tg-f315970e90ebb956",
-    "place": "Наро-Фоминск",
+    "place": "Наро-Фоминский район",
     "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "alert",
@@ -4024,8 +4046,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/RDFradar/11990",
-    "lat": 55.3862,
-    "lon": 36.7345
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-bea87e405b48d9b9",
@@ -4239,7 +4261,7 @@
   },
   {
     "id": "tg-278f833700291638",
-    "place": "Краснодар",
+    "place": "Сочи",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "alert",
@@ -4248,8 +4270,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89864",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 43.5855,
+    "lon": 39.7231
   },
   {
     "id": "tg-ba665433d1f2e9d8",
@@ -4267,7 +4289,7 @@
   },
   {
     "id": "tg-7a63ba3f97f11f00",
-    "place": "Краснодар",
+    "place": "Сочи",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "alert",
@@ -4276,8 +4298,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85123",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 43.5855,
+    "lon": 39.7231
   },
   {
     "id": "tg-57b5de5ad9e5900d",
@@ -4359,7 +4381,7 @@
   },
   {
     "id": "tg-a396c382b7cb841a",
-    "place": "Краснодар",
+    "place": "Туапсе",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -4368,8 +4390,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82158",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.1,
+    "lon": 39.0748
   },
   {
     "id": "tg-98bf943c28138999",
@@ -4455,7 +4477,7 @@
   },
   {
     "id": "tg-66f5675057e12c43",
-    "place": "Брянск",
+    "place": "Карачев",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "alert",
@@ -4464,8 +4486,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82154",
-    "lat": 53.2521,
-    "lon": 34.3717
+    "lat": 53.121,
+    "lon": 34.985
   },
   {
     "id": "tg-acfe6764f330e4ac",
@@ -4825,7 +4847,7 @@
   },
   {
     "id": "tg-aaf7ecc2b10bf04d",
-    "place": "Краснодар",
+    "place": "Анапа",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -4834,8 +4856,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85108",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.895,
+    "lon": 37.3163
   },
   {
     "id": "tg-dfdc2766450dbbe9",
@@ -4905,7 +4927,7 @@
   },
   {
     "id": "tg-297a56e184840c1d",
-    "place": "Краснодар",
+    "place": "Сочи",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "cancel",
@@ -4914,12 +4936,12 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89852",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 43.5855,
+    "lon": 39.7231
   },
   {
     "id": "tg-cf2517498a259f48",
-    "place": "Краснодар",
+    "place": "Сочи",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "cancel",
@@ -4928,12 +4950,12 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85104",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 43.5855,
+    "lon": 39.7231
   },
   {
     "id": "tg-795b4ceb834ce74f",
-    "place": "Краснодар",
+    "place": "Туапсе",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "alert",
@@ -4942,8 +4964,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89851",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.1,
+    "lon": 39.0748
   },
   {
     "id": "tg-9ad7a22bc55c95d8",
@@ -5429,7 +5451,7 @@
   },
   {
     "id": "tg-c3040b2755187159",
-    "place": "Архипо-Осиповка",
+    "place": "Новороссийск",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -5438,8 +5460,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82134",
-    "lat": 44.3714,
-    "lon": 38.5294
+    "lat": 44.7239,
+    "lon": 37.7687
   },
   {
     "id": "tg-75c6dfdbb418080b",
@@ -5455,7 +5477,7 @@
   },
   {
     "id": "tg-f766433a33fae89b",
-    "place": "Краснодар",
+    "place": "Туапсе",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "defense",
@@ -5464,12 +5486,12 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89836",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.1,
+    "lon": 39.0748
   },
   {
     "id": "tg-d12d73926c00c973",
-    "place": "Краснодар",
+    "place": "Туапсе",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "defense",
@@ -5478,8 +5500,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85083",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.1,
+    "lon": 39.0748
   },
   {
     "id": "tg-d72ba619342436be",
@@ -5497,7 +5519,7 @@
   },
   {
     "id": "tg-b7be2e7a904550c9",
-    "place": "Натухаевская",
+    "place": "Сукко",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "fix",
@@ -5506,8 +5528,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82131",
-    "lat": 44.9128,
-    "lon": 37.5642
+    "lat": 44.799,
+    "lon": 37.421
   },
   {
     "id": "tg-251e959097bab315",
@@ -5523,7 +5545,7 @@
   },
   {
     "id": "tg-a4a34d1297530cc9",
-    "place": "Архангельск",
+    "place": "Каргополь",
     "region": "Архангельская область",
     "source": "@radarrussiia",
     "status": "fix",
@@ -5532,12 +5554,12 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89835",
-    "lat": 64.5393,
-    "lon": 40.517
+    "lat": 61.5035,
+    "lon": 38.9484
   },
   {
     "id": "tg-befc709a96fbd7bd",
-    "place": "Архангельск",
+    "place": "Каргополь",
     "region": "Архангельская область",
     "source": "@locatorru",
     "status": "fix",
@@ -5546,8 +5568,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82128",
-    "lat": 64.5393,
-    "lon": 40.517
+    "lat": 61.5035,
+    "lon": 38.9484
   },
   {
     "id": "tg-0ee920b69101b542",
@@ -5565,7 +5587,7 @@
   },
   {
     "id": "tg-95145cece962cc08",
-    "place": "Архипо-Осиповка",
+    "place": "Новороссийск",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -5574,12 +5596,12 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82127",
-    "lat": 44.3714,
-    "lon": 38.5294
+    "lat": 44.7239,
+    "lon": 37.7687
   },
   {
     "id": "tg-9985a00e1b6f52b5",
-    "place": "Краснодар",
+    "place": "Анапа",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "alert",
@@ -5588,12 +5610,12 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89834",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.895,
+    "lon": 37.3163
   },
   {
     "id": "tg-ccd9ee5eab93d0cb",
-    "place": "Краснодар",
+    "place": "Анапа",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "alert",
@@ -5602,8 +5624,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85081",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.895,
+    "lon": 37.3163
   },
   {
     "id": "tg-3bfe43b5843892e3",
@@ -6023,7 +6045,7 @@
   },
   {
     "id": "tg-7c247012ab8502ab",
-    "place": "Краснодар",
+    "place": "Адлер",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "defense",
@@ -6032,8 +6054,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85067",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 43.4289,
+    "lon": 39.9239
   },
   {
     "id": "tg-7a1585c3773ebdd8",
@@ -6065,7 +6087,7 @@
   },
   {
     "id": "tg-4ddee6f696bbe7f4",
-    "place": "Архипо-Осиповка",
+    "place": "Туапсе",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -6074,12 +6096,12 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82110",
-    "lat": 44.3714,
-    "lon": 38.5294
+    "lat": 44.1,
+    "lon": 39.0748
   },
   {
     "id": "tg-41daae788e1171e3",
-    "place": "Оренбург",
+    "place": "Орск",
     "region": "Оренбургская область",
     "source": "@locatorru",
     "status": "alert",
@@ -6088,8 +6110,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82109",
-    "lat": 51.7682,
-    "lon": 55.0969
+    "lat": 51.2293,
+    "lon": 58.4752
   },
   {
     "id": "tg-524da4884eaeaa7a",
@@ -6635,7 +6657,7 @@
   },
   {
     "id": "tg-82cb9531234536b7",
-    "place": "Архипо-Осиповка",
+    "place": "Туапсе",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -6644,8 +6666,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82101",
-    "lat": 44.3714,
-    "lon": 38.5294
+    "lat": 44.1,
+    "lon": 39.0748
   },
   {
     "id": "tg-9783035f27535476",
@@ -6946,8 +6968,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/nn52signal/43861",
-    "lat": null,
-    "lon": null
+    "lat": 55.566,
+    "lon": 44.897
   },
   {
     "id": "tg-91b376ad935a18d9",
@@ -7095,7 +7117,7 @@
   },
   {
     "id": "tg-892d04ee822a716e",
-    "place": "Наро-Фоминск",
+    "place": "Наро-Фоминский ГО",
     "region": "Москва и Московская область",
     "source": "@RDFradar",
     "status": "alert",
@@ -7104,8 +7126,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/RDFradar/11980",
-    "lat": 55.3862,
-    "lon": 36.7345
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-5eea1258b2508d87",
@@ -7229,7 +7251,7 @@
   },
   {
     "id": "tg-2d44ee26ad1d6d39",
-    "place": "Краснодар",
+    "place": "Туапсе",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "alert",
@@ -7238,8 +7260,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89804",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.1,
+    "lon": 39.0748
   },
   {
     "id": "tg-829bcb5e86988c7d",
@@ -7255,7 +7277,7 @@
   },
   {
     "id": "tg-f98c2d938ca8e356",
-    "place": "Краснодар",
+    "place": "Туапсе",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "alert",
@@ -7264,8 +7286,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85036",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.1,
+    "lon": 39.0748
   },
   {
     "id": "tg-fd0b0deebba1b5c1",
@@ -7605,7 +7627,7 @@
   },
   {
     "id": "tg-09e2e4acaa1216fb",
-    "place": "Татарское Маклаково",
+    "place": "Спасское",
     "region": "Нижегородская область",
     "source": "@nn52signal",
     "status": "fix",
@@ -7613,7 +7635,9 @@
     "text": "Татарское Маклаково\nСпасское\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43849"
+    "source_url": "https://t.me/nn52signal/43849",
+    "lat": 55.855,
+    "lon": 45.695
   },
   {
     "id": "tg-613d840a51506307",
@@ -7705,7 +7729,7 @@
   },
   {
     "id": "tg-75c15c051f8600d9",
-    "place": "Краснодар",
+    "place": "Адлер",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -7714,8 +7738,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82083",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 43.4289,
+    "lon": 39.9239
   },
   {
     "id": "tg-3dec9eac9872c277",
@@ -7879,7 +7903,7 @@
   },
   {
     "id": "tg-b17842e9ad5bf8d2",
-    "place": "Краснодар",
+    "place": "Сочи",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "defense",
@@ -7888,8 +7912,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89793",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 43.5855,
+    "lon": 39.7231
   },
   {
     "id": "tg-c7ca932e79702fbb",
@@ -7921,7 +7945,7 @@
   },
   {
     "id": "tg-04e7325648a3458f",
-    "place": "Краснодар",
+    "place": "Сочи",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "defense",
@@ -7930,8 +7954,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/85023",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 43.5855,
+    "lon": 39.7231
   },
   {
     "id": "tg-60ecd58d164a6028",
@@ -7963,7 +7987,7 @@
   },
   {
     "id": "tg-bfb62afaa5c467b5",
-    "place": "Краснодар",
+    "place": "Анапа",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "fix",
@@ -7972,8 +7996,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89790",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.895,
+    "lon": 37.3163
   },
   {
     "id": "tg-51a1c4a028ee35af",
@@ -8025,7 +8049,7 @@
   },
   {
     "id": "tg-c4462ca7b80bb3d8",
-    "place": "Краснодар",
+    "place": "Туапсе",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -8034,8 +8058,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/82076",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.1,
+    "lon": 39.0748
   },
   {
     "id": "tg-a04e71ebf3fe8c3b",
@@ -8063,7 +8087,7 @@
   },
   {
     "id": "tg-fc7f794b816f207f",
-    "place": "Краснодар",
+    "place": "Анапа",
     "region": "Краснодарский край",
     "source": "@radarrussiia",
     "status": "fix",
@@ -8072,8 +8096,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89767",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.895,
+    "lon": 37.3163
   },
   {
     "id": "tg-a8d4d919f737e2de",
@@ -8105,7 +8129,7 @@
   },
   {
     "id": "tg-bac45c3efb1fc642",
-    "place": "Краснодар",
+    "place": "Анапа",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "fix",
@@ -8114,8 +8138,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/84991",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.895,
+    "lon": 37.3163
   },
   {
     "id": "tg-25c81e06e8500e0c",
@@ -8537,7 +8561,7 @@
   },
   {
     "id": "tg-1648dd1287bfff29",
-    "place": "Саратов",
+    "place": "Энгельс",
     "region": "Саратовская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -8546,8 +8570,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89750",
-    "lat": 51.5336,
-    "lon": 46.0343
+    "lat": 51.4855,
+    "lon": 46.1268
   },
   {
     "id": "tg-8bc3d774c4ab7f53",
@@ -8655,7 +8679,7 @@
   },
   {
     "id": "tg-af396df44093633e",
-    "place": "Саратов",
+    "place": "Энгельс",
     "region": "Саратовская область",
     "source": "@vrv_radar",
     "status": "alert",
@@ -8664,8 +8688,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/84970",
-    "lat": 51.5336,
-    "lon": 46.0343
+    "lat": 51.4855,
+    "lon": 46.1268
   },
   {
     "id": "tg-21de2679e53eeef4",
@@ -9381,7 +9405,7 @@
   },
   {
     "id": "tg-05e15cb49ce7875d",
-    "place": "Острогожск",
+    "place": "Воронеж",
     "region": "Воронежская область",
     "source": "@radar_voronezh",
     "status": "fix",
@@ -9390,8 +9414,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_voronezh/6834",
-    "lat": 50.8664,
-    "lon": 39.0756
+    "lat": 51.6608,
+    "lon": 39.2003
   },
   {
     "id": "tg-b83bd587eab45b45",
@@ -10367,7 +10391,7 @@
   },
   {
     "id": "tg-16e7c93a956edb86",
-    "place": "Новохопёрск",
+    "place": "Воронеж",
     "region": "Воронежская область",
     "source": "@radar_voronezh",
     "status": "fix",
@@ -10376,8 +10400,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_voronezh/6825",
-    "lat": 51.095,
-    "lon": 41.6174
+    "lat": 51.6608,
+    "lon": 39.2003
   },
   {
     "id": "tg-be33a95ba815b7cd",
@@ -10735,7 +10759,7 @@
   },
   {
     "id": "tg-0d61f884d7379c0a",
-    "place": "Острогожск",
+    "place": "Воронеж",
     "region": "Воронежская область",
     "source": "@radar_voronezh",
     "status": "fix",
@@ -10744,8 +10768,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_voronezh/6819",
-    "lat": 50.8664,
-    "lon": 39.0756
+    "lat": 51.6608,
+    "lon": 39.2003
   },
   {
     "id": "tg-ac142d676387a5f5",
@@ -11459,7 +11483,7 @@
   },
   {
     "id": "tg-1fc04062bbff86f4",
-    "place": "Острогожск",
+    "place": "Воронеж",
     "region": "Воронежская область",
     "source": "@radar_voronezh",
     "status": "fix",
@@ -11468,8 +11492,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_voronezh/6810",
-    "lat": 50.8664,
-    "lon": 39.0756
+    "lat": 51.6608,
+    "lon": 39.2003
   },
   {
     "id": "tg-035cecacbc9e2ea7",
@@ -11607,7 +11631,7 @@
   },
   {
     "id": "tg-ed5f337c49b453e4",
-    "place": "Острогожск",
+    "place": "Воронеж",
     "region": "Воронежская область",
     "source": "@radar_voronezh",
     "status": "alert",
@@ -11616,8 +11640,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_voronezh/6809",
-    "lat": 50.8664,
-    "lon": 39.0756
+    "lat": 51.6608,
+    "lon": 39.2003
   },
   {
     "id": "tg-74dced125a20157e",
@@ -11931,7 +11955,7 @@
   },
   {
     "id": "tg-2cb910677d04c16c",
-    "place": "Острогожск",
+    "place": "Воронеж",
     "region": "Воронежская область",
     "source": "@radar_voronezh",
     "status": "alert",
@@ -11940,8 +11964,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_voronezh/6806",
-    "lat": 50.8664,
-    "lon": 39.0756
+    "lat": 51.6608,
+    "lon": 39.2003
   },
   {
     "id": "tg-c2a30b9350b0aaa6",
@@ -12921,7 +12945,7 @@
   },
   {
     "id": "tg-69689774d01b8981",
-    "place": "Оренбург",
+    "place": "Орск",
     "region": "Оренбургская область",
     "source": "@radarrussiia",
     "status": "alert",
@@ -12930,8 +12954,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/89656",
-    "lat": 51.7682,
-    "lon": 55.0969
+    "lat": 51.2293,
+    "lon": 58.4752
   },
   {
     "id": "tg-a1c73d6217d122c9",
@@ -12963,7 +12987,7 @@
   },
   {
     "id": "tg-e94d3213618eaa12",
-    "place": "Оренбург",
+    "place": "Орск",
     "region": "Оренбургская область",
     "source": "@vrv_radar",
     "status": "alert",
@@ -12972,8 +12996,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/84846",
-    "lat": 51.7682,
-    "lon": 55.0969
+    "lat": 51.2293,
+    "lon": 58.4752
   },
   {
     "id": "tg-f5c11d7517e6c692",
@@ -13033,7 +13057,7 @@
   },
   {
     "id": "tg-a14f74c6f3d96707",
-    "place": "Краснодар",
+    "place": "Анапа",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "fix",
@@ -13042,8 +13066,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/84843",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.895,
+    "lon": 37.3163
   },
   {
     "id": "tg-a1adb8812c2951df",
@@ -13283,7 +13307,7 @@
   },
   {
     "id": "tg-6959bd31a74da5fd",
-    "place": "Краснодар",
+    "place": "Адлер",
     "region": "Краснодарский край",
     "source": "@locatorru",
     "status": "alert",
@@ -13292,8 +13316,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/81983",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 43.4289,
+    "lon": 39.9239
   },
   {
     "id": "tg-ad0d9211e62a8fd9",
@@ -13377,7 +13401,7 @@
   },
   {
     "id": "tg-055f3daf038012a5",
-    "place": "Краснодар",
+    "place": "Геленджик",
     "region": "Краснодарский край",
     "source": "@vrv_radar",
     "status": "alert",
@@ -13386,8 +13410,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/vrv_radar/84833",
-    "lat": 45.0355,
-    "lon": 38.9753
+    "lat": 44.5611,
+    "lon": 38.0768
   },
   {
     "id": "tg-5764473297316004",
@@ -14749,7 +14773,7 @@
   },
   {
     "id": "tg-a2f657024d0e8d40",
-    "place": "Брянск",
+    "place": "Клинцы",
     "region": "Брянская область",
     "source": "@locatorru",
     "status": "defense",
@@ -14758,8 +14782,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/81961",
-    "lat": 53.2521,
-    "lon": 34.3717
+    "lat": 52.7529,
+    "lon": 32.2335
   },
   {
     "id": "tg-7f87d9780049341e",
@@ -15005,7 +15029,7 @@
   },
   {
     "id": "tg-f1926751a79dcb0c",
-    "place": "Архангельск",
+    "place": "Каргополь",
     "region": "Архангельская область",
     "source": "@locatorru",
     "status": "alert",
@@ -15014,8 +15038,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/locatorru/81951",
-    "lat": 64.5393,
-    "lon": 40.517
+    "lat": 61.5035,
+    "lon": 38.9484
   },
   {
     "id": "tg-7e872bb70e4dd117",
@@ -15291,7 +15315,9 @@
     "text": "Большое Мурашкино\nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43796"
+    "source_url": "https://t.me/nn52signal/43796",
+    "lat": 55.7826,
+    "lon": 44.7754
   },
   {
     "id": "tg-d37244c8826215f8",
@@ -15315,7 +15341,9 @@
     "text": "Вача \nФиксация бпла",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/nn52signal/43793"
+    "source_url": "https://t.me/nn52signal/43793",
+    "lat": 55.8,
+    "lon": 42.77
   },
   {
     "id": "tg-7133233ef42ad674",
@@ -15559,7 +15587,7 @@
   },
   {
     "id": "tg-202c3b41630140b1",
-    "place": "Острогожск",
+    "place": "Воронеж",
     "region": "Воронежская область",
     "source": "@radar_voronezh",
     "status": "cancel",
@@ -15568,8 +15596,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_voronezh/6794",
-    "lat": 50.8664,
-    "lon": 39.0756
+    "lat": 51.6608,
+    "lon": 39.2003
   },
   {
     "id": "tg-69406e0172cf1c73",
@@ -15735,7 +15763,7 @@
   },
   {
     "id": "tg-f35b01251f228920",
-    "place": "Борисоглебск",
+    "place": "Воронеж",
     "region": "Воронежская область",
     "source": "@radar_voronezh",
     "status": "fix",
@@ -15744,8 +15772,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_voronezh/6788",
-    "lat": 51.368,
-    "lon": 42.0849
+    "lat": 51.6608,
+    "lon": 39.2003
   },
   {
     "id": "tg-3102f4591b3e01ef",
@@ -15833,7 +15861,7 @@
   },
   {
     "id": "tg-ecb6cdcbb484061a",
-    "place": "Новохопёрск",
+    "place": "Воронеж",
     "region": "Воронежская область",
     "source": "@radar_voronezh",
     "status": "fix",
@@ -15842,8 +15870,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_voronezh/6781",
-    "lat": 51.095,
-    "lon": 41.6174
+    "lat": 51.6608,
+    "lon": 39.2003
   },
   {
     "id": "tg-6a8708893e61690b",
@@ -15971,7 +15999,7 @@
   },
   {
     "id": "tg-c4e81ca7f45809eb",
-    "place": "Зеленодольск",
+    "place": null,
     "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "fix",
@@ -15979,13 +16007,11 @@
     "text": "От Чувашской Республики в направлении Зеленодольска, Республики Татарстан пролёт БПЛА",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/radar_tatarstan/1973",
-    "lat": 55.8438,
-    "lon": 48.5178
+    "source_url": "https://t.me/radar_tatarstan/1973"
   },
   {
     "id": "tg-ff8edaad22ce7bd6",
-    "place": "Зеленодольск",
+    "place": null,
     "region": "Республика Татарстан",
     "source": "@tatalert",
     "status": "fix",
@@ -15993,13 +16019,11 @@
     "text": "От Чувашской Республики в направлении Зеленодольска, Республики Татарстан пролёт БПЛА\n\nРАДАР ТАТАРСТАН | Подписаться",
     "confirmations": 1,
     "approximate": true,
-    "source_url": "https://t.me/tatalert/1962",
-    "lat": 55.8438,
-    "lon": 48.5178
+    "source_url": "https://t.me/tatalert/1962"
   },
   {
     "id": "tg-5334fc376378531b",
-    "place": "Зеленодольск",
+    "place": "Казань",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "fix",
@@ -16008,8 +16032,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_tatarstann/2089",
-    "lat": 55.8438,
-    "lon": 48.5178
+    "lat": 55.7961,
+    "lon": 49.1064
   },
   {
     "id": "tg-c9933e1935279e26",
@@ -16297,7 +16321,7 @@
   },
   {
     "id": "tg-3d39ee95dabd4c46",
-    "place": "Нижнекамск",
+    "place": "Казань",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "defense",
@@ -16306,8 +16330,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_tatarstann/2077",
-    "lat": 55.6366,
-    "lon": 51.8245
+    "lat": 55.7961,
+    "lon": 49.1064
   },
   {
     "id": "tg-504653b6c9fba8de",
@@ -16325,7 +16349,7 @@
   },
   {
     "id": "tg-1dcd6d8d403de886",
-    "place": "Нижнекамск",
+    "place": "Нижнекамский район",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstan",
     "status": "fix",
@@ -16334,8 +16358,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_tatarstan/1963",
-    "lat": 55.6366,
-    "lon": 51.8245
+    "lat": null,
+    "lon": null
   },
   {
     "id": "tg-2ca86151e82e16b8",
@@ -16353,7 +16377,7 @@
   },
   {
     "id": "tg-cf16bb61160928ae",
-    "place": "Нижнекамск",
+    "place": "Казань",
     "region": "Республика Татарстан",
     "source": "@radar_tatarstann",
     "status": "fix",
@@ -16362,8 +16386,8 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radar_tatarstann/2076",
-    "lat": 55.6366,
-    "lon": 51.8245
+    "lat": 55.7961,
+    "lon": 49.1064
   },
   {
     "id": "tg-6a74ca50362cf021",

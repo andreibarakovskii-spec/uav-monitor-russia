@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T10:55:17.588067+00:00",
-  "incoming": 114,
-  "total": 1255,
+  "updated_at": "2026-08-24T11:34:17.532782+00:00",
+  "incoming": 113,
+  "total": 1258,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -26,8 +26,8 @@
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 17,
-      "filtered_noise": 7,
+      "with_bpla": 18,
+      "filtered_noise": 8,
       "parsed": 10,
       "region_from_channel": 0,
       "place_found": 10,
@@ -35,18 +35,18 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 14,
+      "events": 13,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 18,
-      "filtered_noise": 4,
-      "parsed": 14,
+      "filtered_noise": 5,
+      "parsed": 13,
       "region_from_channel": 0,
-      "place_found": 8,
-      "place_geocoded": 2
+      "place_found": 7,
+      "place_geocoded": 0
     },
     "locatorru": {
       "ok": true,
@@ -60,8 +60,8 @@
       "filtered_noise": 1,
       "parsed": 17,
       "region_from_channel": 0,
-      "place_found": 10,
-      "place_geocoded": 9
+      "place_found": 4,
+      "place_geocoded": 3
     },
     "vrv_radar": {
       "ok": true,
@@ -75,8 +75,8 @@
       "filtered_noise": 1,
       "parsed": 16,
       "region_from_channel": 0,
-      "place_found": 9,
-      "place_geocoded": 6
+      "place_found": 6,
+      "place_geocoded": 1
     },
     "radar_voronezh": {
       "ok": true,
@@ -121,7 +121,7 @@
       "parsed": 12,
       "region_from_channel": 8,
       "place_found": 11,
-      "place_geocoded": 5
+      "place_geocoded": 3
     },
     "radar_tatarstann": {
       "ok": true,
@@ -146,12 +146,12 @@
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 15,
-      "filtered_noise": 1,
+      "with_bpla": 17,
+      "filtered_noise": 3,
       "parsed": 14,
       "region_from_channel": 12,
-      "place_found": 11,
-      "place_geocoded": 4
+      "place_found": 10,
+      "place_geocoded": 2
     },
     "tatalert": {
       "ok": true,
@@ -165,8 +165,8 @@
       "filtered_noise": 1,
       "parsed": 7,
       "region_from_channel": 6,
-      "place_found": 3,
-      "place_geocoded": 2
+      "place_found": 2,
+      "place_geocoded": 1
     }
   }
 }
