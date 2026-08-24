@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T15:04:10.261332+00:00",
-  "incoming": 105,
-  "total": 1264,
+  "updated_at": "2026-08-24T15:57:55.806213+00:00",
+  "incoming": 104,
+  "total": 1270,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -14,7 +14,7 @@
       "with_bpla": 10,
       "filtered_noise": 0,
       "parsed": 10,
-      "region_from_channel": 9,
+      "region_from_channel": 8,
       "place_found": 9,
       "place_geocoded": 0
     },
@@ -41,11 +41,11 @@
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 17,
-      "filtered_noise": 5,
+      "with_bpla": 16,
+      "filtered_noise": 4,
       "parsed": 12,
       "region_from_channel": 0,
-      "place_found": 6,
+      "place_found": 3,
       "place_geocoded": 0
     },
     "locatorru": {
@@ -75,8 +75,8 @@
       "filtered_noise": 1,
       "parsed": 14,
       "region_from_channel": 0,
-      "place_found": 7,
-      "place_geocoded": 1
+      "place_found": 5,
+      "place_geocoded": 0
     },
     "radar_voronezh": {
       "ok": true,
@@ -155,17 +155,17 @@
     },
     "tatalert": {
       "ok": true,
-      "events": 6,
+      "events": 5,
       "error": null,
       "configured_region": "Республика Татарстан",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 19,
-      "with_bpla": 8,
+      "with_bpla": 7,
       "filtered_noise": 2,
-      "parsed": 6,
+      "parsed": 5,
       "region_from_channel": 4,
-      "place_found": 2,
+      "place_found": 1,
       "place_geocoded": 0
     }
   }

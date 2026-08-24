@@ -1,8 +1,8 @@
 {
-  "total_events": 1264,
-  "with_place": 994,
+  "total_events": 1270,
+  "with_place": 995,
   "with_coordinates": 656,
-  "coordinate_coverage_pct": 51.9,
+  "coordinate_coverage_pct": 51.7,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -26,15 +26,15 @@
     },
     {
       "region": "Ростовская область",
-      "events": 92,
+      "events": 93,
       "with_coordinates": 17,
-      "coverage_pct": 18.5
+      "coverage_pct": 18.3
     },
     {
       "region": "Нижегородская область",
-      "events": 88,
+      "events": 89,
       "with_coordinates": 14,
-      "coverage_pct": 15.9
+      "coverage_pct": 15.7
     },
     {
       "region": "Москва и Московская область",
@@ -97,22 +97,28 @@
       "coverage_pct": 95.2
     },
     {
+      "region": "Тамбовская область",
+      "events": 18,
+      "with_coordinates": 16,
+      "coverage_pct": 88.9
+    },
+    {
       "region": "Саратовская область",
       "events": 18,
       "with_coordinates": 18,
       "coverage_pct": 100.0
     },
     {
+      "region": "Рязанская область",
+      "events": 17,
+      "with_coordinates": 1,
+      "coverage_pct": 5.9
+    },
+    {
       "region": "Белгородская область",
       "events": 16,
       "with_coordinates": 15,
       "coverage_pct": 93.8
-    },
-    {
-      "region": "Тамбовская область",
-      "events": 16,
-      "with_coordinates": 16,
-      "coverage_pct": 100.0
     },
     {
       "region": "Смоленская область",
@@ -125,12 +131,6 @@
       "events": 15,
       "with_coordinates": 3,
       "coverage_pct": 20.0
-    },
-    {
-      "region": "Рязанская область",
-      "events": 15,
-      "with_coordinates": 1,
-      "coverage_pct": 6.7
     },
     {
       "region": "Архангельская область",
