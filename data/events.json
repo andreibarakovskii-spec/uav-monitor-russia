@@ -1,5 +1,55 @@
 [
   {
+    "id": "tg-89f18f2a640b9402",
+    "place": null,
+    "region": null,
+    "source": "@vrv_radar",
+    "status": "defense",
+    "published_at": "2026-08-24T08:05:23+00:00",
+    "text": "Просим службы МЧС РСЧС и подразделения ДРО РЛС ПВН ПВО выйти с нами на связь по контакту обратной связи @vrv_support а так же, ОД(оперативных дежурных) , работников НПЗ, аэродромов и тд, обладающих информацией \n\nУ нас в команде более 270 человек(со служб ~235), работаем с мая 24 года\n\nДля подписчиков, свидетелей пролетов/сбитий БПЛА есть обратная связь по кнопке снизу в TG(в MAX в описании, в ВК кнопка сверху страницы)\n\nОбратная связь MAX для военных: https://max.ru/u/f9LHodD0cOICV1Ss9Q5rHZiKLYFTeEDqJNO_zKdRskqMng1_JszeCQi7PEE\n\n❗️Поделитесь каналом с близкими❗️",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85311"
+  },
+  {
+    "id": "tg-eeb47d08aa487435",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-24T08:04:51+00:00",
+    "text": "Ростовская область \nОтбой опасности по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85310"
+  },
+  {
+    "id": "tg-571d3c9bca7d57e2",
+    "place": null,
+    "region": null,
+    "source": "@locatorru",
+    "status": "cancel",
+    "published_at": "2026-08-24T08:03:15+00:00",
+    "text": "южная часть Ростовской области - отбой опасности по БПЛА. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82329"
+  },
+  {
+    "id": "tg-6d4c15da1cae7f4d",
+    "place": "Таганрог",
+    "region": "Ростовская область",
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-08-24T07:41:36+00:00",
+    "text": "Таганрог, Ростовская область - опасность по БПЛА. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82328",
+    "lat": 47.2362,
+    "lon": 38.8969
+  },
+  {
     "id": "tg-d8497b998d11e313",
     "place": null,
     "region": "Ростовская область",
