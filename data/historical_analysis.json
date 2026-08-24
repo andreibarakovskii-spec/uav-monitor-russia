@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-24T14:12:22.817716+00:00",
+  "generated_at": "2026-08-24T15:04:10.427886+00:00",
   "archive_delay_hours": 24,
-  "total_events": 1263,
-  "archived_events": 976,
+  "total_events": 1264,
+  "archived_events": 979,
   "regions": {
     "Воронежская область": 163,
-    "Краснодарский край": 105,
+    "Краснодарский край": 108,
     "Нижегородская область": 88,
     "Москва и Московская область": 70,
     "Орловская область": 48,
@@ -41,8 +41,8 @@
     "ХМАО": 1
   },
   "sources": {
-    "@vrv_radar": 299,
-    "@radarrussiia": 229,
+    "@vrv_radar": 300,
+    "@radarrussiia": 231,
     "@locatorru": 210,
     "@radar_voronezh": 59,
     "@RDFradar": 52,
@@ -55,8 +55,8 @@
   },
   "statuses": {
     "fix": 474,
-    "alert": 289,
-    "cancel": 130,
+    "alert": 290,
+    "cancel": 132,
     "defense": 83
   },
   "timeline": {
@@ -68,39 +68,9 @@
     "2026-08-20": 25,
     "2026-08-21": 25,
     "2026-08-22": 581,
-    "2026-08-23": 324
+    "2026-08-23": 327
   },
   "historical_pairs": [
-    {
-      "from": "Воронеж",
-      "to": "Острогожск",
-      "from_region": "Воронежская область",
-      "to_region": "Воронежская область",
-      "distance_km": 88.8,
-      "time_difference_minutes": 4.3,
-      "from_time": "2026-08-22T20:30:57+00:00",
-      "to_time": "2026-08-22T20:35:15+00:00"
-    },
-    {
-      "from": "Острогожск",
-      "to": "Воронеж",
-      "from_region": "Воронежская область",
-      "to_region": "Воронежская область",
-      "distance_km": 88.8,
-      "time_difference_minutes": 0.0,
-      "from_time": "2026-08-22T20:35:15+00:00",
-      "to_time": "2026-08-22T20:35:17+00:00"
-    },
-    {
-      "from": "Воронеж",
-      "to": "Краснодар",
-      "from_region": "Воронежская область",
-      "to_region": "Краснодарский край",
-      "distance_km": 736.9,
-      "time_difference_minutes": 1.0,
-      "from_time": "2026-08-22T20:35:17+00:00",
-      "to_time": "2026-08-22T20:36:17+00:00"
-    },
     {
       "from": "Краснодар",
       "to": "Липецк",
@@ -2070,6 +2040,36 @@
       "time_difference_minutes": 0.4,
       "from_time": "2026-08-23T14:11:50+00:00",
       "to_time": "2026-08-23T14:12:13+00:00"
+    },
+    {
+      "from": "Краснодар",
+      "to": "Новороссийск",
+      "from_region": "Краснодарский край",
+      "to_region": "Краснодарский край",
+      "distance_km": 101.2,
+      "time_difference_minutes": 12.9,
+      "from_time": "2026-08-23T14:12:13+00:00",
+      "to_time": "2026-08-23T14:25:05+00:00"
+    },
+    {
+      "from": "Новороссийск",
+      "to": "Новороссийск",
+      "from_region": "Краснодарский край",
+      "to_region": "Краснодарский край",
+      "distance_km": 0.0,
+      "time_difference_minutes": 7.4,
+      "from_time": "2026-08-23T14:25:05+00:00",
+      "to_time": "2026-08-23T14:32:28+00:00"
+    },
+    {
+      "from": "Новороссийск",
+      "to": "Краснодар",
+      "from_region": "Краснодарский край",
+      "to_region": "Краснодарский край",
+      "distance_km": 101.2,
+      "time_difference_minutes": 4.4,
+      "from_time": "2026-08-23T14:32:28+00:00",
+      "to_time": "2026-08-23T14:36:51+00:00"
     }
   ],
   "note": "Archived descriptive analysis only; excludes observations newer than 24 hours."
