@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T05:37:40.878120+00:00",
+  "updated_at": "2026-08-25T06:05:05.797336+00:00",
   "incoming": 94,
   "total": 1397,
   "sources": {
@@ -41,8 +41,8 @@
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 16,
-      "filtered_noise": 6,
+      "with_bpla": 18,
+      "filtered_noise": 8,
       "parsed": 10,
       "region_from_channel": 0,
       "place_found": 7,
