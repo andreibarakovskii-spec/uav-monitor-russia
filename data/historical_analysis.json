@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-25T22:47:09.379921+00:00",
+  "generated_at": "2026-08-25T23:29:22.702166+00:00",
   "archive_delay_hours": 24,
-  "total_events": 1651,
-  "archived_events": 1336,
+  "total_events": 1699,
+  "archived_events": 1341,
   "regions": {
-    "Краснодарский край": 208,
+    "Краснодарский край": 209,
     "Воронежская область": 173,
-    "Ростовская область": 107,
+    "Ростовская область": 111,
     "Нижегородская область": 91,
     "Москва и Московская область": 74,
     "Орловская область": 51,
@@ -45,9 +45,9 @@
     "Ульяновская область": 1
   },
   "sources": {
-    "@vrv_radar": 426,
-    "@locatorru": 360,
-    "@radarrussiia": 300,
+    "@vrv_radar": 429,
+    "@locatorru": 361,
+    "@radarrussiia": 301,
     "@radar_voronezh": 63,
     "@RDFradar": 55,
     "@nn52signal": 54,
@@ -58,8 +58,8 @@
     "@tatalert": 10
   },
   "statuses": {
-    "fix": 582,
-    "alert": 448,
+    "fix": 586,
+    "alert": 449,
     "cancel": 187,
     "defense": 119
   },
@@ -73,29 +73,9 @@
     "2026-08-21": 25,
     "2026-08-22": 581,
     "2026-08-23": 527,
-    "2026-08-24": 157
+    "2026-08-24": 162
   },
   "historical_pairs": [
-    {
-      "from": "Волгоград",
-      "to": "Саратов",
-      "from_region": "Волгоградская область",
-      "to_region": "Саратовская область",
-      "distance_km": 332.4,
-      "time_difference_minutes": 0.6,
-      "from_time": "2026-08-22T21:50:59+00:00",
-      "to_time": "2026-08-22T21:51:33+00:00"
-    },
-    {
-      "from": "Ефремов",
-      "to": "Липецк",
-      "from_region": "Тульская область",
-      "to_region": "Липецкая область",
-      "distance_km": 115.5,
-      "time_difference_minutes": 1.4,
-      "from_time": "2026-08-22T21:57:23+00:00",
-      "to_time": "2026-08-22T21:58:50+00:00"
-    },
     {
       "from": "Липецк",
       "to": "Липецк",
@@ -2075,6 +2055,26 @@
       "time_difference_minutes": 0.2,
       "from_time": "2026-08-24T22:45:51+00:00",
       "to_time": "2026-08-24T22:46:05+00:00"
+    },
+    {
+      "from": "Каменск-Шахтинский",
+      "to": "Каменск-Шахтинский",
+      "from_region": "Ростовская область",
+      "to_region": "Ростовская область",
+      "distance_km": 0.0,
+      "time_difference_minutes": 5.7,
+      "from_time": "2026-08-24T22:46:05+00:00",
+      "to_time": "2026-08-24T22:51:49+00:00"
+    },
+    {
+      "from": "Каменск-Шахтинский",
+      "to": "Краснодар",
+      "from_region": "Ростовская область",
+      "to_region": "Краснодарский край",
+      "distance_km": 378.3,
+      "time_difference_minutes": 3.9,
+      "from_time": "2026-08-24T22:51:49+00:00",
+      "to_time": "2026-08-24T22:55:41+00:00"
     }
   ],
   "note": "Archived descriptive analysis only; excludes observations newer than 24 hours."
