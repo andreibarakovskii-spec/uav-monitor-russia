@@ -1,5 +1,19 @@
 [
   {
+    "id": "tg-bbeaad75283aac7b",
+    "place": "По остальным регионам пока тихо.",
+    "region": null,
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-08-25T09:09:36+00:00",
+    "text": "Приграничные районы Брянской области, Курской области, Белгородской области - опасность по БПЛА сохраняется.\n\nПо остальным регионам пока тихо. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82420",
+    "lat": null,
+    "lon": null
+  },
+  {
     "id": "tg-dafd1b50d4bb46a9",
     "place": null,
     "region": null,
