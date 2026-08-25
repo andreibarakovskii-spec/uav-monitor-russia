@@ -1,6 +1,6 @@
 {
-  "total_events": 1422,
-  "with_place": 1064,
+  "total_events": 1424,
+  "with_place": 1066,
   "with_coordinates": 696,
   "coordinate_coverage_pct": 48.9,
   "suspicious_place_values": 0,
@@ -20,7 +20,7 @@
     },
     {
       "region": "Без региона",
-      "events": 134,
+      "events": 135,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -32,9 +32,9 @@
     },
     {
       "region": "Нижегородская область",
-      "events": 96,
+      "events": 97,
       "with_coordinates": 14,
-      "coverage_pct": 14.6
+      "coverage_pct": 14.4
     },
     {
       "region": "Москва и Московская область",

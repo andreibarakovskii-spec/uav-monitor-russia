@@ -1,5 +1,33 @@
 [
   {
+    "id": "tg-09b8dc18dfda10a5",
+    "place": "Север",
+    "region": null,
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-08-25T17:53:33+00:00",
+    "text": "Север\nРеспублика Крым \nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/90043",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-2c76a763ac7c06ca",
+    "place": "Обстановка спокойная",
+    "region": "Нижегородская область",
+    "source": "@nn52signal",
+    "status": "fix",
+    "published_at": "2026-08-25T17:18:13+00:00",
+    "text": "Нижегородская область\n\nОбстановка спокойная\nУгроз нет\nДвижения от ГГ нет, противник накапливает силы\nК ночи ожидаем активизации запусков вражеских БПЛА.\n\nПри изменении обстановки сообщим дополнительно.",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/nn52signal/43901",
+    "lat": null,
+    "lon": null
+  },
+  {
     "id": "tg-fdc84b50c0a75cde",
     "place": null,
     "region": null,

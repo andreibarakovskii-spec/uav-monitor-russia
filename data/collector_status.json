@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T17:18:17.884527+00:00",
+  "updated_at": "2026-08-25T17:58:08.911652+00:00",
   "incoming": 95,
-  "total": 1422,
+  "total": 1424,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -46,7 +46,7 @@
       "parsed": 12,
       "region_from_channel": 0,
       "place_found": 6,
-      "place_geocoded": 3
+      "place_geocoded": 2
     },
     "locatorru": {
       "ok": true,
