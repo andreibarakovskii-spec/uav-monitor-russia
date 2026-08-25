@@ -1,16 +1,16 @@
 {
-  "total_events": 1376,
-  "with_place": 1049,
+  "total_events": 1382,
+  "with_place": 1052,
   "with_coordinates": 692,
-  "coordinate_coverage_pct": 50.3,
+  "coordinate_coverage_pct": 50.1,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Краснодарский край",
-      "events": 224,
+      "events": 225,
       "with_coordinates": 199,
-      "coverage_pct": 88.8
+      "coverage_pct": 88.4
     },
     {
       "region": "Воронежская область",
@@ -19,22 +19,22 @@
       "coverage_pct": 96.6
     },
     {
+      "region": "Без региона",
+      "events": 124,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "Ростовская область",
       "events": 122,
       "with_coordinates": 27,
       "coverage_pct": 22.1
     },
     {
-      "region": "Без региона",
-      "events": 122,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
       "region": "Нижегородская область",
-      "events": 91,
+      "events": 93,
       "with_coordinates": 14,
-      "coverage_pct": 15.4
+      "coverage_pct": 15.1
     },
     {
       "region": "Москва и Московская область",
@@ -73,16 +73,16 @@
       "coverage_pct": 55.6
     },
     {
+      "region": "Рязанская область",
+      "events": 26,
+      "with_coordinates": 1,
+      "coverage_pct": 3.8
+    },
+    {
       "region": "Брянская область",
       "events": 26,
       "with_coordinates": 24,
       "coverage_pct": 92.3
-    },
-    {
-      "region": "Рязанская область",
-      "events": 25,
-      "with_coordinates": 1,
-      "coverage_pct": 4.0
     },
     {
       "region": "Вологодская область",
