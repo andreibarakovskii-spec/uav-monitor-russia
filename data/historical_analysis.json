@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-25T17:58:09.188478+00:00",
+  "generated_at": "2026-08-25T18:51:22.872655+00:00",
   "archive_delay_hours": 24,
-  "total_events": 1424,
-  "archived_events": 1279,
+  "total_events": 1430,
+  "archived_events": 1286,
   "regions": {
-    "Краснодарский край": 186,
+    "Краснодарский край": 190,
     "Воронежская область": 172,
     "Ростовская область": 96,
-    "Нижегородская область": 90,
+    "Нижегородская область": 91,
     "Москва и Московская область": 74,
     "Орловская область": 51,
     "Тульская область": 49,
@@ -45,12 +45,12 @@
     "Ульяновская область": 1
   },
   "sources": {
-    "@vrv_radar": 413,
-    "@locatorru": 334,
-    "@radarrussiia": 284,
+    "@vrv_radar": 415,
+    "@locatorru": 336,
+    "@radarrussiia": 286,
     "@radar_voronezh": 62,
     "@RDFradar": 55,
-    "@nn52signal": 53,
+    "@nn52signal": 54,
     "@radar_nizhniinovgorod": 23,
     "@radar_tatarstan": 17,
     "@radar_tatarstann": 15,
@@ -59,8 +59,8 @@
   },
   "statuses": {
     "fix": 574,
-    "alert": 404,
-    "cancel": 182,
+    "alert": 409,
+    "cancel": 184,
     "defense": 119
   },
   "timeline": {
@@ -73,7 +73,7 @@
     "2026-08-21": 25,
     "2026-08-22": 581,
     "2026-08-23": 527,
-    "2026-08-24": 100
+    "2026-08-24": 107
   },
   "historical_pairs": [
     {

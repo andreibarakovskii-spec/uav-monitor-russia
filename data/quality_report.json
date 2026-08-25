@@ -1,8 +1,8 @@
 {
-  "total_events": 1424,
-  "with_place": 1066,
-  "with_coordinates": 696,
-  "coordinate_coverage_pct": 48.9,
+  "total_events": 1430,
+  "with_place": 1068,
+  "with_coordinates": 697,
+  "coordinate_coverage_pct": 48.7,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -14,21 +14,21 @@
     },
     {
       "region": "Воронежская область",
-      "events": 180,
-      "with_coordinates": 171,
-      "coverage_pct": 95.0
+      "events": 182,
+      "with_coordinates": 172,
+      "coverage_pct": 94.5
+    },
+    {
+      "region": "Ростовская область",
+      "events": 135,
+      "with_coordinates": 27,
+      "coverage_pct": 20.0
     },
     {
       "region": "Без региона",
       "events": 135,
       "with_coordinates": 0,
       "coverage_pct": 0.0
-    },
-    {
-      "region": "Ростовская область",
-      "events": 133,
-      "with_coordinates": 27,
-      "coverage_pct": 20.3
     },
     {
       "region": "Нижегородская область",
@@ -44,9 +44,9 @@
     },
     {
       "region": "Орловская область",
-      "events": 51,
+      "events": 53,
       "with_coordinates": 4,
-      "coverage_pct": 7.8
+      "coverage_pct": 7.5
     },
     {
       "region": "Тульская область",

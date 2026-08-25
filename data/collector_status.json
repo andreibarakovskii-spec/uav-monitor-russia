@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T17:58:08.911652+00:00",
-  "incoming": 95,
-  "total": 1424,
+  "updated_at": "2026-08-25T18:51:22.607836+00:00",
+  "incoming": 99,
+  "total": 1430,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -35,18 +35,18 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 12,
+      "events": 13,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 16,
-      "filtered_noise": 4,
-      "parsed": 12,
+      "filtered_noise": 3,
+      "parsed": 13,
       "region_from_channel": 0,
       "place_found": 6,
-      "place_geocoded": 2
+      "place_geocoded": 1
     },
     "locatorru": {
       "ok": true,
@@ -65,33 +65,33 @@
     },
     "vrv_radar": {
       "ok": true,
-      "events": 14,
+      "events": 15,
       "error": null,
       "configured_region": "Россия",
       "source_type": "regional-network",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 15,
+      "with_bpla": 16,
       "filtered_noise": 1,
-      "parsed": 14,
+      "parsed": 15,
       "region_from_channel": 0,
       "place_found": 3,
       "place_geocoded": 0
     },
     "radar_voronezh": {
       "ok": true,
-      "events": 7,
+      "events": 8,
       "error": null,
       "configured_region": "Воронежская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 16,
-      "filtered_noise": 9,
-      "parsed": 7,
+      "filtered_noise": 8,
+      "parsed": 8,
       "region_from_channel": 0,
-      "place_found": 7,
-      "place_geocoded": 7
+      "place_found": 8,
+      "place_geocoded": 8
     },
     "radar_peterburg": {
       "ok": true,
@@ -155,16 +155,16 @@
     },
     "tatalert": {
       "ok": true,
-      "events": 3,
+      "events": 4,
       "error": null,
       "configured_region": "Республика Татарстан",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 5,
+      "with_bpla": 6,
       "filtered_noise": 2,
-      "parsed": 3,
-      "region_from_channel": 2,
+      "parsed": 4,
+      "region_from_channel": 3,
       "place_found": 1,
       "place_geocoded": 0
     }
