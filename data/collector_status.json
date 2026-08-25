@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T01:47:52.941596+00:00",
-  "incoming": 90,
-  "total": 1371,
+  "updated_at": "2026-08-25T03:03:56.055749+00:00",
+  "incoming": 92,
+  "total": 1376,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -35,15 +35,15 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 9,
+      "events": 10,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 15,
+      "with_bpla": 16,
       "filtered_noise": 6,
-      "parsed": 9,
+      "parsed": 10,
       "region_from_channel": 0,
       "place_found": 7,
       "place_geocoded": 5
@@ -75,23 +75,23 @@
       "filtered_noise": 2,
       "parsed": 12,
       "region_from_channel": 0,
-      "place_found": 12,
-      "place_geocoded": 4
+      "place_found": 10,
+      "place_geocoded": 3
     },
     "radar_voronezh": {
       "ok": true,
-      "events": 5,
+      "events": 6,
       "error": null,
       "configured_region": "Воронежская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 17,
-      "filtered_noise": 12,
-      "parsed": 5,
+      "filtered_noise": 11,
+      "parsed": 6,
       "region_from_channel": 0,
-      "place_found": 5,
-      "place_geocoded": 5
+      "place_found": 6,
+      "place_geocoded": 6
     },
     "radar_peterburg": {
       "ok": true,

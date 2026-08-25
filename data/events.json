@@ -1,5 +1,67 @@
 [
   {
+    "id": "tg-73b4da496e2a8832",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-25T02:56:49+00:00",
+    "text": "Ростовская область\nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/90030"
+  },
+  {
+    "id": "tg-13621b7bd8432d5b",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-25T02:52:49+00:00",
+    "text": "Ростовская область\nОтбой опасности по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85383"
+  },
+  {
+    "id": "tg-99f2618e67a61c3b",
+    "place": "Воронеж",
+    "region": "Воронежская область",
+    "source": "@radar_voronezh",
+    "status": "alert",
+    "published_at": "2026-08-25T02:25:12+00:00",
+    "text": "Воронежская область\nОпасность по БПЛА повторно\n\n❗️Радар Воронеж - @radar_voronezh\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radar_voronezh/6849",
+    "lat": 51.6608,
+    "lon": 39.2003
+  },
+  {
+    "id": "tg-a544e3e2f6080aca",
+    "place": null,
+    "region": "Воронежская область",
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-08-25T02:25:04+00:00",
+    "text": "Воронежская область\nОпасность по БПЛА повторно\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/90029"
+  },
+  {
+    "id": "tg-6153f33f393cc030",
+    "place": null,
+    "region": "Воронежская область",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-08-25T02:19:46+00:00",
+    "text": "Воронежская область\nОпасность по БПЛА повторно",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85382"
+  },
+  {
     "id": "tg-1311379b0fddc02b",
     "place": null,
     "region": "Ростовская область",
