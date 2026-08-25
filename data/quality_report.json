@@ -1,8 +1,8 @@
 {
-  "total_events": 1413,
+  "total_events": 1417,
   "with_place": 1063,
   "with_coordinates": 696,
-  "coordinate_coverage_pct": 49.3,
+  "coordinate_coverage_pct": 49.1,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -20,15 +20,15 @@
     },
     {
       "region": "Без региона",
-      "events": 130,
+      "events": 132,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Ростовская область",
-      "events": 128,
+      "events": 130,
       "with_coordinates": 27,
-      "coverage_pct": 21.1
+      "coverage_pct": 20.8
     },
     {
       "region": "Нижегородская область",

@@ -1,5 +1,53 @@
 [
   {
+    "id": "tg-590e9b58156e5962",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-08-25T13:26:55+00:00",
+    "text": "Ростовская область \nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/90040"
+  },
+  {
+    "id": "tg-c13839ad7e7f2408",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-08-25T13:20:55+00:00",
+    "text": "Ростовская область \nОпасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85408"
+  },
+  {
+    "id": "tg-22dae675a37e6a71",
+    "place": null,
+    "region": null,
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-08-25T13:18:39+00:00",
+    "text": "Приграничные районы Брянской области, Курской области, Белгородской области - опасность по БПЛА сохраняется.\n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82432"
+  },
+  {
+    "id": "tg-f623b0abcbf63656",
+    "place": null,
+    "region": null,
+    "source": "@locatorru",
+    "status": "fix",
+    "published_at": "2026-08-25T13:13:26+00:00",
+    "text": "К нам обращаются наши братья из 108 ГДШ за помощью в сборе.\n\nОни остро нуждаются в квадрокоптерах:\nDJI Mavic 3T - 2 шт., DJI Mavic 3 Classic - 2 шт.\n\nDJI Mavic — не прихоть, а критически важное средство разведки, снижающее потери. В бою исправный дрон становится фундаментом для сохранения жизней и успеха наступления.\n\nВаше участие — это реальный шанс дать бойцам обзор с высоты, заблаговременно обнаружить врага и приблизить победу. Поддержка означает спасенные жизни и успешно выполненные задачи. Объединяя усилия, мы обеспечим наших защитников всем необходимым для выполнения их сложной миссии.\n\nСобрано 228.477₽ / 1.600.000₽\n\nРеквизит для помощи: \n\n🫡Помочь нашим воинам можно через сервис Т-Банк(имеется оплата по СБП):\nhttps://pay.cloudtips.ru/p/8719472c",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82430"
+  },
+  {
     "id": "tg-950960a6e84babbb",
     "place": null,
     "region": "Ростовская область",
