@@ -1,16 +1,16 @@
 {
-  "total_events": 1398,
-  "with_place": 1057,
-  "with_coordinates": 693,
+  "total_events": 1401,
+  "with_place": 1060,
+  "with_coordinates": 695,
   "coordinate_coverage_pct": 49.6,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Краснодарский край",
-      "events": 226,
-      "with_coordinates": 199,
-      "coverage_pct": 88.1
+      "events": 229,
+      "with_coordinates": 201,
+      "coverage_pct": 87.8
     },
     {
       "region": "Воронежская область",

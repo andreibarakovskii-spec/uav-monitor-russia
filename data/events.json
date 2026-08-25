@@ -1,5 +1,47 @@
 [
   {
+    "id": "tg-c7fa707d9a2cf33b",
+    "place": "Геленджик",
+    "region": "Краснодарский край",
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-08-25T10:11:32+00:00",
+    "text": "Геленджик, Туапсе и в направлении Сочи, Краснодарский край - опасность по БПЛА. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82422",
+    "lat": 44.5611,
+    "lon": 38.0768
+  },
+  {
+    "id": "tg-9a67b27c9bd71783",
+    "place": "Адлер",
+    "region": "Краснодарский край",
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-08-25T10:10:39+00:00",
+    "text": "Сочи, Адлер, Краснодарский край - опасность по БПЛА. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82421",
+    "lat": 43.4289,
+    "lon": 39.9239
+  },
+  {
+    "id": "tg-3fd4714d71f25dfc",
+    "place": "Республика Адыгея",
+    "region": "Краснодарский край",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-08-25T10:10:37+00:00",
+    "text": "Краснодарский край \nРеспублика Адыгея \nОпасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85404",
+    "lat": null,
+    "lon": null
+  },
+  {
     "id": "tg-bbeaad75283aac7b",
     "place": "По остальным регионам пока тихо.",
     "region": null,
