@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-25T16:43:16.129083+00:00",
-  "incoming": 94,
-  "total": 1421,
+  "updated_at": "2026-08-25T17:18:17.884527+00:00",
+  "incoming": 95,
+  "total": 1422,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -50,15 +50,15 @@
     },
     "locatorru": {
       "ok": true,
-      "events": 17,
+      "events": 18,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 17,
+      "with_bpla": 18,
       "filtered_noise": 0,
-      "parsed": 17,
+      "parsed": 18,
       "region_from_channel": 0,
       "place_found": 5,
       "place_geocoded": 3

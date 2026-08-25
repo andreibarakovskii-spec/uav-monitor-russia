@@ -1,5 +1,17 @@
 [
   {
+    "id": "tg-fdc84b50c0a75cde",
+    "place": null,
+    "region": null,
+    "source": "@locatorru",
+    "status": "fix",
+    "published_at": "2026-08-25T17:07:17+00:00",
+    "text": "Предварительно ожидается массовый запуск БПЛА в направлении Белгородской области, Воронежской области, Ростовской области и далее в тыловые регионы.\n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82435"
+  },
+  {
     "id": "tg-2276cfcd0972aa83",
     "place": "Белгородский район",
     "region": null,
