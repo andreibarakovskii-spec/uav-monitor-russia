@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-25T08:00:25.589377+00:00",
-  "incoming": 93,
+  "updated_at": "2026-08-25T09:02:00.011628+00:00",
+  "incoming": 92,
   "total": 1397,
   "sources": {
     "nn52signal": {
@@ -35,17 +35,17 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 9,
+      "events": 8,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 17,
+      "with_bpla": 16,
       "filtered_noise": 8,
-      "parsed": 9,
+      "parsed": 8,
       "region_from_channel": 0,
-      "place_found": 6,
+      "place_found": 5,
       "place_geocoded": 4
     },
     "locatorru": {
@@ -71,8 +71,8 @@
       "source_type": "regional-network",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 15,
-      "filtered_noise": 0,
+      "with_bpla": 16,
+      "filtered_noise": 1,
       "parsed": 15,
       "region_from_channel": 0,
       "place_found": 3,
