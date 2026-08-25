@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-25T00:00:12.851367+00:00",
+  "generated_at": "2026-08-25T01:47:53.202969+00:00",
   "archive_delay_hours": 24,
-  "total_events": 1357,
-  "archived_events": 1179,
+  "total_events": 1371,
+  "archived_events": 1186,
   "regions": {
     "Краснодарский край": 173,
     "Воронежская область": 166,
     "Нижегородская область": 88,
+    "Ростовская область": 76,
     "Москва и Московская область": 74,
-    "Ростовская область": 69,
     "Тульская область": 48,
     "Орловская область": 48,
     "Ставропольский край": 39,
@@ -43,9 +43,9 @@
     "ХМАО": 1
   },
   "sources": {
-    "@vrv_radar": 373,
-    "@locatorru": 308,
-    "@radarrussiia": 256,
+    "@vrv_radar": 377,
+    "@locatorru": 309,
+    "@radarrussiia": 258,
     "@radar_voronezh": 60,
     "@RDFradar": 55,
     "@nn52signal": 51,
@@ -56,10 +56,10 @@
     "@tatalert": 9
   },
   "statuses": {
-    "fix": 565,
-    "alert": 361,
+    "fix": 566,
+    "alert": 362,
     "cancel": 144,
-    "defense": 109
+    "defense": 114
   },
   "timeline": {
     "2026-07-23": 1,
@@ -70,29 +70,10 @@
     "2026-08-20": 25,
     "2026-08-21": 25,
     "2026-08-22": 581,
-    "2026-08-23": 527
+    "2026-08-23": 527,
+    "2026-08-24": 7
   },
   "historical_pairs": [
-    {
-      "from": "Воронеж",
-      "to": "Воронеж",
-      "from_region": "Воронежская область",
-      "to_region": "Воронежская область",
-      "distance_km": 0.0,
-      "time_difference_minutes": 0.1,
-      "from_time": "2026-08-22T21:27:27+00:00",
-      "to_time": "2026-08-22T21:27:31+00:00"
-    },
-    {
-      "from": "Воронеж",
-      "to": "Воронеж",
-      "from_region": "Воронежская область",
-      "to_region": "Воронежская область",
-      "distance_km": 0.0,
-      "time_difference_minutes": 0.4,
-      "from_time": "2026-08-22T21:27:31+00:00",
-      "to_time": "2026-08-22T21:27:56+00:00"
-    },
     {
       "from": "Воронеж",
       "to": "Воронеж",
@@ -2072,6 +2053,26 @@
       "time_difference_minutes": 0.5,
       "from_time": "2026-08-23T23:42:31+00:00",
       "to_time": "2026-08-23T23:43:03+00:00"
+    },
+    {
+      "from": "Каменск-Шахтинский",
+      "to": "Каменск-Шахтинский",
+      "from_region": "Ростовская область",
+      "to_region": "Ростовская область",
+      "distance_km": 0.0,
+      "time_difference_minutes": 24.1,
+      "from_time": "2026-08-24T00:54:56+00:00",
+      "to_time": "2026-08-24T01:19:04+00:00"
+    },
+    {
+      "from": "Каменск-Шахтинский",
+      "to": "Каменск-Шахтинский",
+      "from_region": "Ростовская область",
+      "to_region": "Ростовская область",
+      "distance_km": 0.0,
+      "time_difference_minutes": 1.4,
+      "from_time": "2026-08-24T01:19:04+00:00",
+      "to_time": "2026-08-24T01:20:27+00:00"
     }
   ],
   "note": "Archived descriptive analysis only; excludes observations newer than 24 hours."

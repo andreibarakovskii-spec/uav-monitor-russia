@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-08-25T00:00:12.590504+00:00",
-  "incoming": 75,
-  "total": 1357,
+  "updated_at": "2026-08-25T01:47:52.941596+00:00",
+  "incoming": 90,
+  "total": 1371,
   "sources": {
     "nn52signal": {
       "ok": true,
-      "events": 0,
+      "events": 8,
       "error": null,
       "configured_region": "Нижегородская область",
       "source_type": "regional",
-      "message_blocks": 1,
-      "with_text": 0,
-      "with_bpla": 0,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 8,
       "filtered_noise": 0,
-      "parsed": 0,
-      "region_from_channel": 0,
-      "place_found": 0,
+      "parsed": 8,
+      "region_from_channel": 4,
+      "place_found": 7,
       "place_geocoded": 0
     },
     "radar_nizhniinovgorod": {
@@ -41,27 +41,27 @@
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 14,
-      "filtered_noise": 5,
+      "with_bpla": 15,
+      "filtered_noise": 6,
       "parsed": 9,
       "region_from_channel": 0,
       "place_found": 7,
-      "place_geocoded": 4
+      "place_geocoded": 5
     },
     "locatorru": {
       "ok": true,
-      "events": 18,
+      "events": 17,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 18,
+      "with_bpla": 17,
       "filtered_noise": 0,
-      "parsed": 18,
+      "parsed": 17,
       "region_from_channel": 0,
-      "place_found": 7,
-      "place_geocoded": 7
+      "place_found": 4,
+      "place_geocoded": 4
     },
     "vrv_radar": {
       "ok": true,
@@ -76,7 +76,7 @@
       "parsed": 12,
       "region_from_channel": 0,
       "place_found": 12,
-      "place_geocoded": 3
+      "place_geocoded": 4
     },
     "radar_voronezh": {
       "ok": true,
@@ -110,18 +110,18 @@
     },
     "RDFradar": {
       "ok": true,
-      "events": 0,
+      "events": 8,
       "error": null,
       "configured_region": "Москва и Московская область",
       "source_type": "regional",
-      "message_blocks": 1,
-      "with_text": 0,
-      "with_bpla": 0,
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 8,
       "filtered_noise": 0,
-      "parsed": 0,
-      "region_from_channel": 0,
-      "place_found": 0,
-      "place_geocoded": 0
+      "parsed": 8,
+      "region_from_channel": 6,
+      "place_found": 8,
+      "place_geocoded": 3
     },
     "radar_tatarstann": {
       "ok": true,
