@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-25T15:49:42.987638+00:00",
-  "incoming": 95,
+  "updated_at": "2026-08-25T16:43:16.129083+00:00",
+  "incoming": 94,
   "total": 1421,
   "sources": {
     "nn52signal": {
@@ -155,16 +155,16 @@
     },
     "tatalert": {
       "ok": true,
-      "events": 4,
+      "events": 3,
       "error": null,
       "configured_region": "Республика Татарстан",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 6,
+      "with_bpla": 5,
       "filtered_noise": 2,
-      "parsed": 4,
-      "region_from_channel": 3,
+      "parsed": 3,
+      "region_from_channel": 2,
       "place_found": 1,
       "place_geocoded": 0
     }
