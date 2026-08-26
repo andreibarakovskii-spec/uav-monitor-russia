@@ -1,16 +1,16 @@
 {
-  "total_events": 1816,
-  "with_place": 1323,
-  "with_coordinates": 796,
-  "coordinate_coverage_pct": 43.8,
+  "total_events": 1822,
+  "with_place": 1327,
+  "with_coordinates": 799,
+  "coordinate_coverage_pct": 43.9,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Краснодарский край",
-      "events": 241,
-      "with_coordinates": 203,
-      "coverage_pct": 84.2
+      "events": 244,
+      "with_coordinates": 205,
+      "coverage_pct": 84.0
     },
     {
       "region": "Воронежская область",
@@ -62,9 +62,9 @@
     },
     {
       "region": "Республика Татарстан",
-      "events": 43,
-      "with_coordinates": 21,
-      "coverage_pct": 48.8
+      "events": 45,
+      "with_coordinates": 22,
+      "coverage_pct": 48.9
     },
     {
       "region": "Ставропольский край",
@@ -127,16 +127,16 @@
       "coverage_pct": 100.0
     },
     {
+      "region": "Смоленская область",
+      "events": 20,
+      "with_coordinates": 15,
+      "coverage_pct": 75.0
+    },
+    {
       "region": "Тверская область",
       "events": 19,
       "with_coordinates": 5,
       "coverage_pct": 26.3
-    },
-    {
-      "region": "Смоленская область",
-      "events": 19,
-      "with_coordinates": 15,
-      "coverage_pct": 78.9
     },
     {
       "region": "Владимирская область",

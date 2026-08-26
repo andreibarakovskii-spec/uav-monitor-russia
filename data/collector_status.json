@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T05:38:59.060426+00:00",
-  "incoming": 104,
-  "total": 1816,
+  "updated_at": "2026-08-26T06:19:39.914303+00:00",
+  "incoming": 107,
+  "total": 1822,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -35,18 +35,18 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 9,
+      "events": 10,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 17,
-      "filtered_noise": 8,
-      "parsed": 9,
+      "filtered_noise": 7,
+      "parsed": 10,
       "region_from_channel": 0,
-      "place_found": 2,
-      "place_geocoded": 0
+      "place_found": 3,
+      "place_geocoded": 1
     },
     "locatorru": {
       "ok": true,
@@ -60,8 +60,8 @@
       "filtered_noise": 0,
       "parsed": 18,
       "region_from_channel": 0,
-      "place_found": 6,
-      "place_geocoded": 3
+      "place_found": 7,
+      "place_geocoded": 4
     },
     "vrv_radar": {
       "ok": true,
@@ -75,7 +75,7 @@
       "filtered_noise": 0,
       "parsed": 18,
       "region_from_channel": 0,
-      "place_found": 5,
+      "place_found": 6,
       "place_geocoded": 0
     },
     "radar_voronezh": {
@@ -125,18 +125,18 @@
     },
     "radar_tatarstann": {
       "ok": true,
-      "events": 8,
+      "events": 9,
       "error": null,
       "configured_region": "Республика Татарстан",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 14,
-      "filtered_noise": 6,
-      "parsed": 8,
-      "region_from_channel": 7,
-      "place_found": 8,
-      "place_geocoded": 7
+      "filtered_noise": 5,
+      "parsed": 9,
+      "region_from_channel": 8,
+      "place_found": 9,
+      "place_geocoded": 8
     },
     "radar_tatarstan": {
       "ok": true,
@@ -155,16 +155,16 @@
     },
     "tatalert": {
       "ok": true,
-      "events": 4,
+      "events": 5,
       "error": null,
       "configured_region": "Республика Татарстан",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 6,
+      "with_bpla": 7,
       "filtered_noise": 2,
-      "parsed": 4,
-      "region_from_channel": 3,
+      "parsed": 5,
+      "region_from_channel": 4,
       "place_found": 1,
       "place_geocoded": 0
     }
