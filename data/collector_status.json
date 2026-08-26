@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T10:46:59.785945+00:00",
+  "updated_at": "2026-08-26T11:34:35.819083+00:00",
   "incoming": 100,
-  "total": 1838,
+  "total": 1839,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -56,12 +56,12 @@
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 17,
-      "filtered_noise": 1,
+      "with_bpla": 18,
+      "filtered_noise": 2,
       "parsed": 16,
       "region_from_channel": 0,
-      "place_found": 6,
-      "place_geocoded": 4
+      "place_found": 7,
+      "place_geocoded": 5
     },
     "vrv_radar": {
       "ok": true,
