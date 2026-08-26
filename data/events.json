@@ -1,5 +1,77 @@
 [
   {
+    "id": "tg-c10661554d521b5a",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-26T09:51:13+00:00",
+    "text": "Ростовская область\nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/90193"
+  },
+  {
+    "id": "tg-44349401b4ec6cc7",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-26T09:49:40+00:00",
+    "text": "Ростовская область\nОтбой опасности по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85669"
+  },
+  {
+    "id": "tg-45db4a5ecdfea0f8",
+    "place": null,
+    "region": null,
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-08-26T09:49:39+00:00",
+    "text": "южная часть Ростовской области - опасность по БПЛА.   📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82579"
+  },
+  {
+    "id": "tg-95519597a8f873e7",
+    "place": null,
+    "region": null,
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-08-26T09:42:03+00:00",
+    "text": "Южная часть Ростовской области - опасность по БПЛА. \n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/90192"
+  },
+  {
+    "id": "tg-aee25e9e3a671209",
+    "place": null,
+    "region": null,
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-08-26T09:41:04+00:00",
+    "text": "южная часть Ростовской области - опасность по БПЛА. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82578"
+  },
+  {
+    "id": "tg-644149404ae88058",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-08-26T09:37:03+00:00",
+    "text": "Ростовская область\nОпасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85668"
+  },
+  {
     "id": "tg-1fd5c216253a9534",
     "place": "Республика Адыгея",
     "region": null,

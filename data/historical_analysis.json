@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-26T09:04:45.392954+00:00",
+  "generated_at": "2026-08-26T09:59:11.757228+00:00",
   "archive_delay_hours": 24,
-  "total_events": 1831,
-  "archived_events": 1397,
+  "total_events": 1837,
+  "archived_events": 1398,
   "regions": {
     "Краснодарский край": 226,
     "Воронежская область": 178,
@@ -46,7 +46,7 @@
   },
   "sources": {
     "@vrv_radar": 451,
-    "@locatorru": 385,
+    "@locatorru": 386,
     "@radarrussiia": 307,
     "@radar_voronezh": 65,
     "@nn52signal": 56,
@@ -59,7 +59,7 @@
   },
   "statuses": {
     "fix": 602,
-    "alert": 471,
+    "alert": 472,
     "cancel": 204,
     "defense": 120
   },
@@ -74,7 +74,7 @@
     "2026-08-22": 581,
     "2026-08-23": 527,
     "2026-08-24": 178,
-    "2026-08-25": 40
+    "2026-08-25": 41
   },
   "historical_pairs": [
     {
