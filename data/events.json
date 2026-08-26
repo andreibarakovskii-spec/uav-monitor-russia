@@ -1,5 +1,19 @@
 [
   {
+    "id": "tg-bd1c4a1128c88bbf",
+    "place": "Республика Адыгея",
+    "region": "Краснодарский край",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-08-26T09:59:15+00:00",
+    "text": "Краснодарский край\nРеспублика Адыгея\nОпасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85670",
+    "lat": null,
+    "lon": null
+  },
+  {
     "id": "tg-c10661554d521b5a",
     "place": null,
     "region": "Ростовская область",

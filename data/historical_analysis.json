@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-26T09:59:11.757228+00:00",
+  "generated_at": "2026-08-26T10:47:00.093162+00:00",
   "archive_delay_hours": 24,
-  "total_events": 1837,
-  "archived_events": 1398,
+  "total_events": 1838,
+  "archived_events": 1405,
   "regions": {
-    "Краснодарский край": 226,
+    "Краснодарский край": 230,
     "Воронежская область": 178,
-    "Ростовская область": 122,
+    "Ростовская область": 125,
     "Нижегородская область": 96,
     "Москва и Московская область": 74,
     "Орловская область": 51,
@@ -45,9 +45,9 @@
     "Ульяновская область": 1
   },
   "sources": {
-    "@vrv_radar": 451,
-    "@locatorru": 386,
-    "@radarrussiia": 307,
+    "@vrv_radar": 453,
+    "@locatorru": 389,
+    "@radarrussiia": 309,
     "@radar_voronezh": 65,
     "@nn52signal": 56,
     "@RDFradar": 55,
@@ -59,7 +59,7 @@
   },
   "statuses": {
     "fix": 602,
-    "alert": 472,
+    "alert": 479,
     "cancel": 204,
     "defense": 120
   },
@@ -74,19 +74,9 @@
     "2026-08-22": 581,
     "2026-08-23": 527,
     "2026-08-24": 178,
-    "2026-08-25": 41
+    "2026-08-25": 48
   },
   "historical_pairs": [
-    {
-      "from": "Липецк",
-      "to": "Воронеж",
-      "from_region": "Липецкая область",
-      "to_region": "Воронежская область",
-      "distance_km": 108.9,
-      "time_difference_minutes": 2.5,
-      "from_time": "2026-08-22T22:00:39+00:00",
-      "to_time": "2026-08-22T22:03:07+00:00"
-    },
     {
       "from": "Воронеж",
       "to": "Тамбов",
@@ -2076,6 +2066,16 @@
       "time_difference_minutes": 0.2,
       "from_time": "2026-08-25T00:23:43+00:00",
       "to_time": "2026-08-25T00:23:58+00:00"
+    },
+    {
+      "from": "Адлер",
+      "to": "Геленджик",
+      "from_region": "Краснодарский край",
+      "to_region": "Краснодарский край",
+      "distance_km": 194.1,
+      "time_difference_minutes": 0.9,
+      "from_time": "2026-08-25T10:10:39+00:00",
+      "to_time": "2026-08-25T10:11:32+00:00"
     }
   ],
   "note": "Archived descriptive analysis only; excludes observations newer than 24 hours."

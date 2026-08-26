@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-26T09:59:11.458382+00:00",
+  "updated_at": "2026-08-26T10:46:59.785945+00:00",
   "incoming": 100,
-  "total": 1837,
+  "total": 1838,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -75,7 +75,7 @@
       "filtered_noise": 1,
       "parsed": 17,
       "region_from_channel": 0,
-      "place_found": 4,
+      "place_found": 5,
       "place_geocoded": 1
     },
     "radar_voronezh": {
