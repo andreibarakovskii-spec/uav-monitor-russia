@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-08-26T04:49:14.382693+00:00",
-  "incoming": 95,
-  "total": 1797,
+  "updated_at": "2026-08-26T05:38:59.060426+00:00",
+  "incoming": 104,
+  "total": 1816,
   "sources": {
     "nn52signal": {
       "ok": true,
-      "events": 7,
+      "events": 8,
       "error": null,
       "configured_region": "Нижегородская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 7,
+      "with_bpla": 8,
       "filtered_noise": 0,
-      "parsed": 7,
+      "parsed": 8,
       "region_from_channel": 5,
-      "place_found": 7,
+      "place_found": 8,
       "place_geocoded": 2
     },
     "radar_nizhniinovgorod": {
@@ -35,17 +35,17 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 6,
+      "events": 9,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 17,
-      "filtered_noise": 11,
-      "parsed": 6,
+      "filtered_noise": 8,
+      "parsed": 9,
       "region_from_channel": 0,
-      "place_found": 3,
+      "place_found": 2,
       "place_geocoded": 0
     },
     "locatorru": {
@@ -65,18 +65,18 @@
     },
     "vrv_radar": {
       "ok": true,
-      "events": 13,
+      "events": 18,
       "error": null,
       "configured_region": "Россия",
       "source_type": "regional-network",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 17,
-      "filtered_noise": 4,
-      "parsed": 13,
+      "with_bpla": 18,
+      "filtered_noise": 0,
+      "parsed": 18,
       "region_from_channel": 0,
-      "place_found": 7,
-      "place_geocoded": 3
+      "place_found": 5,
+      "place_geocoded": 0
     },
     "radar_voronezh": {
       "ok": true,
@@ -119,7 +119,7 @@
       "with_bpla": 18,
       "filtered_noise": 3,
       "parsed": 15,
-      "region_from_channel": 15,
+      "region_from_channel": 14,
       "place_found": 13,
       "place_geocoded": 10
     },
