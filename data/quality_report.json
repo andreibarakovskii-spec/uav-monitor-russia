@@ -1,16 +1,16 @@
 {
-  "total_events": 1786,
-  "with_place": 1315,
+  "total_events": 1793,
+  "with_place": 1320,
   "with_coordinates": 796,
-  "coordinate_coverage_pct": 44.6,
+  "coordinate_coverage_pct": 44.4,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Краснодарский край",
-      "events": 240,
+      "events": 241,
       "with_coordinates": 203,
-      "coverage_pct": 84.6
+      "coverage_pct": 84.2
     },
     {
       "region": "Воронежская область",
@@ -20,21 +20,21 @@
     },
     {
       "region": "Без региона",
-      "events": 173,
+      "events": 175,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Нижегородская область",
-      "events": 152,
+      "events": 153,
       "with_coordinates": 33,
-      "coverage_pct": 21.7
+      "coverage_pct": 21.6
     },
     {
       "region": "Ростовская область",
-      "events": 147,
+      "events": 148,
       "with_coordinates": 29,
-      "coverage_pct": 19.7
+      "coverage_pct": 19.6
     },
     {
       "region": "Москва и Московская область",
@@ -61,16 +61,16 @@
       "coverage_pct": 22.4
     },
     {
+      "region": "Республика Татарстан",
+      "events": 43,
+      "with_coordinates": 21,
+      "coverage_pct": 48.8
+    },
+    {
       "region": "Ставропольский край",
       "events": 43,
       "with_coordinates": 0,
       "coverage_pct": 0.0
-    },
-    {
-      "region": "Республика Татарстан",
-      "events": 42,
-      "with_coordinates": 21,
-      "coverage_pct": 50.0
     },
     {
       "region": "Рязанская область",
@@ -97,16 +97,16 @@
       "coverage_pct": 62.1
     },
     {
+      "region": "Волгоградская область",
+      "events": 26,
+      "with_coordinates": 20,
+      "coverage_pct": 76.9
+    },
+    {
       "region": "Саратовская область",
       "events": 25,
       "with_coordinates": 18,
       "coverage_pct": 72.0
-    },
-    {
-      "region": "Волгоградская область",
-      "events": 25,
-      "with_coordinates": 20,
-      "coverage_pct": 80.0
     },
     {
       "region": "Белгородская область",
