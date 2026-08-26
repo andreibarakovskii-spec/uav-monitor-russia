@@ -1,8 +1,8 @@
 {
-  "total_events": 1793,
+  "total_events": 1797,
   "with_place": 1320,
   "with_coordinates": 796,
-  "coordinate_coverage_pct": 44.4,
+  "coordinate_coverage_pct": 44.3,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -20,7 +20,7 @@
     },
     {
       "region": "Без региона",
-      "events": 175,
+      "events": 178,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -74,9 +74,9 @@
     },
     {
       "region": "Рязанская область",
-      "events": 35,
+      "events": 36,
       "with_coordinates": 3,
-      "coverage_pct": 8.6
+      "coverage_pct": 8.3
     },
     {
       "region": "Брянская область",
