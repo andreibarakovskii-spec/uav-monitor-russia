@@ -1,5 +1,57 @@
 [
   {
+    "id": "tg-ffd7e537e707f931",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-26T14:09:32+00:00",
+    "text": "Ростовская область\nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/90200"
+  },
+  {
+    "id": "tg-644138e94218145b",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-26T14:09:13+00:00",
+    "text": "Ростовская область\nОтбой опасности по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85677"
+  },
+  {
+    "id": "tg-36d99902286699a2",
+    "place": "Сочи",
+    "region": "Краснодарский край",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-26T13:49:39+00:00",
+    "text": "Сочи и близлежащие \nКраснодарский край\nОтбой опасности по БПЛА\nОпасность на территории края сохраняется\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/90199",
+    "lat": 43.5855,
+    "lon": 39.7231
+  },
+  {
+    "id": "tg-6b951480a3bbcfee",
+    "place": "Сочи",
+    "region": "Краснодарский край",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-26T13:43:59+00:00",
+    "text": "Сочи и близлежащие \nКраснодарский край\nОтбой опасности по БПЛА\nОпасность на территории края сохраняется",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85676",
+    "lat": 43.5855,
+    "lon": 39.7231
+  },
+  {
     "id": "tg-b95d196c0a66d5a3",
     "place": "Новороссийск",
     "region": "Краснодарский край",
