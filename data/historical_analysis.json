@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-25T23:53:52.649948+00:00",
+  "generated_at": "2026-08-26T01:41:46.307642+00:00",
   "archive_delay_hours": 24,
-  "total_events": 1725,
-  "archived_events": 1353,
+  "total_events": 1767,
+  "archived_events": 1371,
   "regions": {
-    "Краснодарский край": 213,
+    "Краснодарский край": 224,
     "Воронежская область": 173,
-    "Ростовская область": 117,
+    "Ростовская область": 120,
     "Нижегородская область": 91,
     "Москва и Московская область": 74,
     "Орловская область": 51,
@@ -45,9 +45,9 @@
     "Ульяновская область": 1
   },
   "sources": {
-    "@vrv_radar": 434,
-    "@locatorru": 367,
-    "@radarrussiia": 302,
+    "@vrv_radar": 436,
+    "@locatorru": 382,
+    "@radarrussiia": 303,
     "@radar_voronezh": 63,
     "@RDFradar": 55,
     "@nn52signal": 54,
@@ -58,8 +58,8 @@
     "@tatalert": 10
   },
   "statuses": {
-    "fix": 592,
-    "alert": 455,
+    "fix": 601,
+    "alert": 464,
     "cancel": 187,
     "defense": 119
   },
@@ -73,19 +73,10 @@
     "2026-08-21": 25,
     "2026-08-22": 581,
     "2026-08-23": 527,
-    "2026-08-24": 174
+    "2026-08-24": 178,
+    "2026-08-25": 14
   },
   "historical_pairs": [
-    {
-      "from": "Ефремов",
-      "to": "Липецк",
-      "from_region": "Тульская область",
-      "to_region": "Липецкая область",
-      "distance_km": 115.5,
-      "time_difference_minutes": 0.3,
-      "from_time": "2026-08-22T22:00:19+00:00",
-      "to_time": "2026-08-22T22:00:39+00:00"
-    },
     {
       "from": "Липецк",
       "to": "Воронеж",
@@ -2075,6 +2066,16 @@
       "time_difference_minutes": 0.7,
       "from_time": "2026-08-24T23:38:06+00:00",
       "to_time": "2026-08-24T23:38:48+00:00"
+    },
+    {
+      "from": "Краснодар",
+      "to": "Краснодар",
+      "from_region": "Краснодарский край",
+      "to_region": "Краснодарский край",
+      "distance_km": 0.0,
+      "time_difference_minutes": 0.2,
+      "from_time": "2026-08-25T00:23:43+00:00",
+      "to_time": "2026-08-25T00:23:58+00:00"
     }
   ],
   "note": "Archived descriptive analysis only; excludes observations newer than 24 hours."
