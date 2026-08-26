@@ -1,5 +1,31 @@
 [
   {
+    "id": "tg-1fd5c216253a9534",
+    "place": "Республика Адыгея",
+    "region": null,
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-08-26T09:01:25+00:00",
+    "text": "Республика Адыгея\nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/90191",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-ae489ccca305a9a4",
+    "place": null,
+    "region": "Воронежская область",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-08-26T08:13:53+00:00",
+    "text": "Воронежская область\nОтбой опасности по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85666"
+  },
+  {
     "id": "tg-901a97cbe40f6969",
     "place": "Республика Адыгея",
     "region": "Краснодарский край",

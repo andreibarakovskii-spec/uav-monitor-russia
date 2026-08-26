@@ -1,6 +1,6 @@
 {
-  "total_events": 1829,
-  "with_place": 1331,
+  "total_events": 1831,
+  "with_place": 1332,
   "with_coordinates": 802,
   "coordinate_coverage_pct": 43.8,
   "suspicious_place_values": 0,
@@ -14,13 +14,13 @@
     },
     {
       "region": "Воронежская область",
-      "events": 215,
+      "events": 216,
       "with_coordinates": 186,
-      "coverage_pct": 86.5
+      "coverage_pct": 86.1
     },
     {
       "region": "Без региона",
-      "events": 180,
+      "events": 181,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
