@@ -1,5 +1,57 @@
 [
   {
+    "id": "tg-c3eedc0c15c49abc",
+    "place": null,
+    "region": "Нижегородская область",
+    "source": "@locatorru",
+    "status": "cancel",
+    "published_at": "2026-08-26T07:19:55+00:00",
+    "text": "Нижегородская область - отбой опасности по БПЛА. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82574"
+  },
+  {
+    "id": "tg-f726349d9f1fd0ce",
+    "place": "Ростов-на-Дону",
+    "region": "Ростовская область",
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-08-26T07:16:25+00:00",
+    "text": "Таганрогский залив, Лакедемоновка, Красный Десант, Новобессергеневка, Беглица, Золотая Коса, Красный Десант, Таганрог, Бессергеновка, Семибалки, Круглое, Кагальник, Азов, Кулешовка, Ростов-на-Дону, Батайск, Новобатайск, Зерноград, Егорлыкская, Сальск и близлежащие, Ростовская область - опасность по БПЛА от Азовского моря. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82573",
+    "lat": 47.2357,
+    "lon": 39.7015
+  },
+  {
+    "id": "tg-cc1d3cd82533b34c",
+    "place": null,
+    "region": "Белгородская область",
+    "source": "@locatorru",
+    "status": "fix",
+    "published_at": "2026-08-26T06:51:55+00:00",
+    "text": "Красная Яруга, Ракитное, Белгородская область - пролёты БПЛА от госграницы в тыл в сторону стыка: Курской области, Орловской области, Липецкой области, Воронежской области. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/82572"
+  },
+  {
+    "id": "tg-d697763cfa1704cd",
+    "place": "Геленджик",
+    "region": "Краснодарский край",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-08-26T06:24:18+00:00",
+    "text": "Геленджик и близлежащие\nКраснодарский край\nОпасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/85663",
+    "lat": 44.5611,
+    "lon": 38.0768
+  },
+  {
     "id": "tg-fe437b91721e0d49",
     "place": null,
     "region": "Смоленская область",
