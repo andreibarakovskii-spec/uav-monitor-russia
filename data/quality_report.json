@@ -1,16 +1,16 @@
 {
-  "total_events": 2325,
-  "with_place": 1604,
-  "with_coordinates": 927,
+  "total_events": 2337,
+  "with_place": 1611,
+  "with_coordinates": 933,
   "coordinate_coverage_pct": 39.9,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Краснодарский край",
-      "events": 291,
-      "with_coordinates": 227,
-      "coverage_pct": 78.0
+      "events": 295,
+      "with_coordinates": 231,
+      "coverage_pct": 78.3
     },
     {
       "region": "Воронежская область",
@@ -20,15 +20,15 @@
     },
     {
       "region": "Без региона",
-      "events": 244,
+      "events": 245,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Нижегородская область",
-      "events": 199,
+      "events": 200,
       "with_coordinates": 39,
-      "coverage_pct": 19.6
+      "coverage_pct": 19.5
     },
     {
       "region": "Ростовская область",
@@ -38,8 +38,8 @@
     },
     {
       "region": "Москва и Московская область",
-      "events": 159,
-      "with_coordinates": 78,
+      "events": 161,
+      "with_coordinates": 79,
       "coverage_pct": 49.1
     },
     {
@@ -56,9 +56,9 @@
     },
     {
       "region": "Калужская область",
-      "events": 70,
-      "with_coordinates": 16,
-      "coverage_pct": 22.9
+      "events": 71,
+      "with_coordinates": 17,
+      "coverage_pct": 23.9
     },
     {
       "region": "Республика Татарстан",
@@ -68,9 +68,9 @@
     },
     {
       "region": "Брянская область",
-      "events": 51,
+      "events": 52,
       "with_coordinates": 29,
-      "coverage_pct": 56.9
+      "coverage_pct": 55.8
     },
     {
       "region": "Ставропольский край",
@@ -217,6 +217,12 @@
       "coverage_pct": 0.0
     },
     {
+      "region": "Кировская область",
+      "events": 5,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
       "region": "ХМАО",
       "events": 5,
       "with_coordinates": 0,
@@ -225,12 +231,6 @@
     {
       "region": "Карачаево-Черкесская Республика",
       "events": 4,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Кировская область",
-      "events": 3,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-29T10:21:36.588176+00:00",
+  "generated_at": "2026-08-29T15:13:46.698000+00:00",
   "archive_delay_hours": 24,
-  "total_events": 2325,
-  "archived_events": 2179,
+  "total_events": 2337,
+  "archived_events": 2191,
   "regions": {
     "Краснодарский край": 270,
-    "Воронежская область": 261,
-    "Нижегородская область": 187,
+    "Воронежская область": 262,
+    "Нижегородская область": 190,
     "Ростовская область": 186,
-    "Москва и Московская область": 144,
+    "Москва и Московская область": 151,
     "Орловская область": 97,
     "Тульская область": 86,
     "Калужская область": 63,
@@ -46,21 +46,21 @@
   },
   "sources": {
     "@vrv_radar": 715,
-    "@locatorru": 640,
-    "@radarrussiia": 415,
-    "@nn52signal": 121,
-    "@RDFradar": 103,
-    "@radar_voronezh": 86,
-    "@radar_nizhniinovgorod": 27,
+    "@locatorru": 641,
+    "@radarrussiia": 417,
+    "@nn52signal": 123,
+    "@RDFradar": 108,
+    "@radar_voronezh": 87,
+    "@radar_nizhniinovgorod": 28,
     "@radar_tatarstan": 23,
     "@radar_tatarstann": 20,
     "@tatalert": 16,
     "@radar_peterburg": 13
   },
   "statuses": {
-    "fix": 939,
-    "alert": 749,
-    "cancel": 312,
+    "fix": 944,
+    "alert": 752,
+    "cancel": 316,
     "defense": 179
   },
   "timeline": {
@@ -77,49 +77,9 @@
     "2026-08-25": 376,
     "2026-08-26": 269,
     "2026-08-27": 111,
-    "2026-08-28": 66
+    "2026-08-28": 78
   },
   "historical_pairs": [
-    {
-      "from": "Орск",
-      "to": "Туапсе",
-      "from_region": "Оренбургская область",
-      "to_region": "Краснодарский край",
-      "distance_km": 1647.9,
-      "time_difference_minutes": 2.9,
-      "from_time": "2026-08-23T02:59:57+00:00",
-      "to_time": "2026-08-23T03:02:50+00:00"
-    },
-    {
-      "from": "Череповец",
-      "to": "Адлер",
-      "from_region": "Вологодская область",
-      "to_region": "Краснодарский край",
-      "distance_km": 1751.0,
-      "time_difference_minutes": 0.6,
-      "from_time": "2026-08-23T03:21:09+00:00",
-      "to_time": "2026-08-23T03:21:43+00:00"
-    },
-    {
-      "from": "Адлер",
-      "to": "Череповец",
-      "from_region": "Краснодарский край",
-      "to_region": "Вологодская область",
-      "distance_km": 1751.0,
-      "time_difference_minutes": 0.4,
-      "from_time": "2026-08-23T03:21:43+00:00",
-      "to_time": "2026-08-23T03:22:05+00:00"
-    },
-    {
-      "from": "Череповец",
-      "to": "Череповец",
-      "from_region": "Вологодская область",
-      "to_region": "Вологодская область",
-      "distance_km": 0.0,
-      "time_difference_minutes": 3.1,
-      "from_time": "2026-08-23T03:22:05+00:00",
-      "to_time": "2026-08-23T03:25:10+00:00"
-    },
     {
       "from": "Череповец",
       "to": "Череповец",
@@ -2079,6 +2039,46 @@
       "time_difference_minutes": 1.4,
       "from_time": "2026-08-28T09:33:31+00:00",
       "to_time": "2026-08-28T09:34:57+00:00"
+    },
+    {
+      "from": "Ступино",
+      "to": "Ступино",
+      "from_region": "Москва и Московская область",
+      "to_region": "Москва и Московская область",
+      "distance_km": 0.0,
+      "time_difference_minutes": 3.4,
+      "from_time": "2026-08-28T13:25:40+00:00",
+      "to_time": "2026-08-28T13:29:06+00:00"
+    },
+    {
+      "from": "Ступино",
+      "to": "Домодедово",
+      "from_region": "Москва и Московская область",
+      "to_region": "Москва и Московская область",
+      "distance_km": 62.6,
+      "time_difference_minutes": 16.4,
+      "from_time": "2026-08-28T13:29:06+00:00",
+      "to_time": "2026-08-28T13:45:28+00:00"
+    },
+    {
+      "from": "Домодедово",
+      "to": "Воскресенск",
+      "from_region": "Москва и Московская область",
+      "to_region": "Москва и Московская область",
+      "distance_km": 57.5,
+      "time_difference_minutes": 1.1,
+      "from_time": "2026-08-28T13:45:28+00:00",
+      "to_time": "2026-08-28T13:46:34+00:00"
+    },
+    {
+      "from": "Воскресенск",
+      "to": "Домодедово",
+      "from_region": "Москва и Московская область",
+      "to_region": "Москва и Московская область",
+      "distance_km": 57.5,
+      "time_difference_minutes": 5.2,
+      "from_time": "2026-08-28T13:46:34+00:00",
+      "to_time": "2026-08-28T13:51:45+00:00"
     }
   ],
   "note": "Archived descriptive analysis only; excludes observations newer than 24 hours."
