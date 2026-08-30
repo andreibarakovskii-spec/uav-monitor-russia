@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-29T23:32:30.576549+00:00",
-  "incoming": 110,
-  "total": 2444,
+  "updated_at": "2026-08-30T01:43:18.507212+00:00",
+  "incoming": 116,
+  "total": 2497,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -35,18 +35,18 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 4,
+      "events": 6,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 19,
-      "filtered_noise": 15,
-      "parsed": 4,
+      "with_bpla": 20,
+      "filtered_noise": 14,
+      "parsed": 6,
       "region_from_channel": 0,
-      "place_found": 1,
-      "place_geocoded": 0
+      "place_found": 4,
+      "place_geocoded": 2
     },
     "locatorru": {
       "ok": true,
@@ -60,23 +60,23 @@
       "filtered_noise": 0,
       "parsed": 19,
       "region_from_channel": 0,
-      "place_found": 5,
-      "place_geocoded": 5
+      "place_found": 10,
+      "place_geocoded": 9
     },
     "vrv_radar": {
       "ok": true,
-      "events": 18,
+      "events": 17,
       "error": null,
       "configured_region": "Россия",
       "source_type": "regional-network",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 18,
-      "filtered_noise": 0,
-      "parsed": 18,
+      "with_bpla": 19,
+      "filtered_noise": 2,
+      "parsed": 17,
       "region_from_channel": 0,
-      "place_found": 18,
-      "place_geocoded": 3
+      "place_found": 17,
+      "place_geocoded": 1
     },
     "radar_voronezh": {
       "ok": true,
@@ -95,33 +95,33 @@
     },
     "radar_peterburg": {
       "ok": true,
-      "events": 5,
+      "events": 8,
       "error": null,
       "configured_region": "Санкт-Петербург и Ленинградская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 9,
-      "filtered_noise": 4,
-      "parsed": 5,
+      "with_bpla": 18,
+      "filtered_noise": 10,
+      "parsed": 8,
       "region_from_channel": 0,
-      "place_found": 2,
-      "place_geocoded": 2
+      "place_found": 6,
+      "place_geocoded": 4
     },
     "RDFradar": {
       "ok": true,
-      "events": 14,
+      "events": 16,
       "error": null,
       "configured_region": "Москва и Московская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 18,
-      "filtered_noise": 4,
-      "parsed": 14,
-      "region_from_channel": 11,
+      "with_bpla": 19,
+      "filtered_noise": 3,
+      "parsed": 16,
+      "region_from_channel": 14,
       "place_found": 10,
-      "place_geocoded": 0
+      "place_geocoded": 2
     },
     "radar_tatarstann": {
       "ok": true,
