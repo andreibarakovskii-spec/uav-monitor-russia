@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-04T20:58:29.378896+00:00",
-  "incoming": 111,
-  "total": 4105,
+  "updated_at": "2026-09-04T22:58:58.137002+00:00",
+  "incoming": 109,
+  "total": 4115,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -20,17 +20,17 @@
     },
     "radar_nizhniinovgorod": {
       "ok": true,
-      "events": 12,
+      "events": 11,
       "error": null,
       "configured_region": "Нижегородская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 13,
+      "with_bpla": 12,
       "filtered_noise": 1,
-      "parsed": 12,
+      "parsed": 11,
       "region_from_channel": 0,
-      "place_found": 12,
+      "place_found": 11,
       "place_geocoded": 0
     },
     "radarrussiia": {
@@ -41,12 +41,12 @@
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 19,
-      "filtered_noise": 12,
+      "with_bpla": 18,
+      "filtered_noise": 11,
       "parsed": 7,
       "region_from_channel": 0,
       "place_found": 6,
-      "place_geocoded": 4
+      "place_geocoded": 3
     },
     "locatorru": {
       "ok": true,
@@ -60,7 +60,7 @@
       "filtered_noise": 0,
       "parsed": 17,
       "region_from_channel": 0,
-      "place_found": 8,
+      "place_found": 9,
       "place_geocoded": 7
     },
     "vrv_radar": {
@@ -75,23 +75,23 @@
       "filtered_noise": 4,
       "parsed": 15,
       "region_from_channel": 0,
-      "place_found": 14,
-      "place_geocoded": 9
+      "place_found": 12,
+      "place_geocoded": 7
     },
     "radar_voronezh": {
       "ok": true,
-      "events": 9,
+      "events": 8,
       "error": null,
       "configured_region": "Воронежская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 16,
+      "with_bpla": 15,
       "filtered_noise": 7,
-      "parsed": 9,
+      "parsed": 8,
       "region_from_channel": 0,
-      "place_found": 9,
-      "place_geocoded": 9
+      "place_found": 8,
+      "place_geocoded": 8
     },
     "radar_peterburg": {
       "ok": true,
@@ -101,8 +101,8 @@
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 15,
-      "filtered_noise": 7,
+      "with_bpla": 14,
+      "filtered_noise": 6,
       "parsed": 8,
       "region_from_channel": 0,
       "place_found": 3,
