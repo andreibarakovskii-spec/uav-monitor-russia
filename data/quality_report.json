@@ -1,28 +1,28 @@
 {
-  "total_events": 3983,
-  "with_place": 2646,
-  "with_coordinates": 1334,
+  "total_events": 4025,
+  "with_place": 2683,
+  "with_coordinates": 1350,
   "coordinate_coverage_pct": 33.5,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Москва и Московская область",
-      "events": 486,
-      "with_coordinates": 160,
-      "coverage_pct": 32.9
+      "events": 510,
+      "with_coordinates": 175,
+      "coverage_pct": 34.3
     },
     {
       "region": "Без региона",
-      "events": 426,
+      "events": 427,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Краснодарский край",
-      "events": 412,
-      "with_coordinates": 311,
-      "coverage_pct": 75.5
+      "events": 414,
+      "with_coordinates": 312,
+      "coverage_pct": 75.4
     },
     {
       "region": "Воронежская область",
@@ -32,9 +32,9 @@
     },
     {
       "region": "Нижегородская область",
-      "events": 261,
+      "events": 263,
       "with_coordinates": 40,
-      "coverage_pct": 15.3
+      "coverage_pct": 15.2
     },
     {
       "region": "Ростовская область",
@@ -44,27 +44,27 @@
     },
     {
       "region": "Калужская область",
-      "events": 203,
+      "events": 210,
       "with_coordinates": 63,
-      "coverage_pct": 31.0
+      "coverage_pct": 30.0
     },
     {
       "region": "Орловская область",
-      "events": 168,
+      "events": 170,
       "with_coordinates": 19,
-      "coverage_pct": 11.3
+      "coverage_pct": 11.2
     },
     {
       "region": "Тульская область",
-      "events": 162,
+      "events": 163,
       "with_coordinates": 69,
-      "coverage_pct": 42.6
+      "coverage_pct": 42.3
     },
     {
       "region": "Брянская область",
-      "events": 108,
+      "events": 109,
       "with_coordinates": 43,
-      "coverage_pct": 39.8
+      "coverage_pct": 39.4
     },
     {
       "region": "Республика Татарстан",
@@ -74,9 +74,9 @@
     },
     {
       "region": "Рязанская область",
-      "events": 73,
+      "events": 75,
       "with_coordinates": 6,
-      "coverage_pct": 8.2
+      "coverage_pct": 8.0
     },
     {
       "region": "Липецкая область",
