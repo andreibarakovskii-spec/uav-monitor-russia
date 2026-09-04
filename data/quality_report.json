@@ -1,28 +1,28 @@
 {
-  "total_events": 4079,
-  "with_place": 2722,
-  "with_coordinates": 1370,
-  "coordinate_coverage_pct": 33.6,
+  "total_events": 4105,
+  "with_place": 2742,
+  "with_coordinates": 1384,
+  "coordinate_coverage_pct": 33.7,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Москва и Московская область",
-      "events": 533,
+      "events": 535,
       "with_coordinates": 185,
-      "coverage_pct": 34.7
-    },
-    {
-      "region": "Без региона",
-      "events": 431,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
+      "coverage_pct": 34.6
     },
     {
       "region": "Краснодарский край",
-      "events": 425,
-      "with_coordinates": 320,
-      "coverage_pct": 75.3
+      "events": 439,
+      "with_coordinates": 334,
+      "coverage_pct": 76.1
+    },
+    {
+      "region": "Без региона",
+      "events": 432,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
     },
     {
       "region": "Воронежская область",
@@ -38,21 +38,21 @@
     },
     {
       "region": "Ростовская область",
-      "events": 245,
+      "events": 246,
       "with_coordinates": 44,
-      "coverage_pct": 18.0
+      "coverage_pct": 17.9
     },
     {
       "region": "Калужская область",
-      "events": 214,
+      "events": 215,
       "with_coordinates": 64,
-      "coverage_pct": 29.9
+      "coverage_pct": 29.8
     },
     {
       "region": "Орловская область",
-      "events": 171,
+      "events": 173,
       "with_coordinates": 19,
-      "coverage_pct": 11.1
+      "coverage_pct": 11.0
     },
     {
       "region": "Тульская область",
@@ -134,21 +134,21 @@
     },
     {
       "region": "Ярославская область",
-      "events": 41,
+      "events": 43,
       "with_coordinates": 4,
-      "coverage_pct": 9.8
+      "coverage_pct": 9.3
+    },
+    {
+      "region": "Владимирская область",
+      "events": 42,
+      "with_coordinates": 12,
+      "coverage_pct": 28.6
     },
     {
       "region": "Оренбургская область",
       "events": 41,
       "with_coordinates": 25,
       "coverage_pct": 61.0
-    },
-    {
-      "region": "Владимирская область",
-      "events": 39,
-      "with_coordinates": 12,
-      "coverage_pct": 30.8
     },
     {
       "region": "Тверская область",
