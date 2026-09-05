@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-05T09:17:03.622430+00:00",
-  "incoming": 105,
-  "total": 4132,
+  "updated_at": "2026-09-05T12:57:53.012816+00:00",
+  "incoming": 101,
+  "total": 4133,
   "sources": {
     "nn52signal": {
       "ok": true,
@@ -14,8 +14,8 @@
       "with_bpla": 8,
       "filtered_noise": 0,
       "parsed": 8,
-      "region_from_channel": 5,
-      "place_found": 6,
+      "region_from_channel": 4,
+      "place_found": 7,
       "place_geocoded": 1
     },
     "radar_nizhniinovgorod": {
@@ -50,18 +50,18 @@
     },
     "locatorru": {
       "ok": true,
-      "events": 16,
+      "events": 11,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 16,
+      "with_bpla": 11,
       "filtered_noise": 0,
-      "parsed": 16,
+      "parsed": 11,
       "region_from_channel": 0,
-      "place_found": 7,
-      "place_geocoded": 4
+      "place_found": 4,
+      "place_geocoded": 1
     },
     "vrv_radar": {
       "ok": true,
@@ -140,31 +140,31 @@
     },
     "radar_tatarstan": {
       "ok": true,
-      "events": 7,
+      "events": 9,
+      "error": null,
+      "configured_region": "Республика Татарстан",
+      "source_type": "regional",
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 9,
+      "filtered_noise": 0,
+      "parsed": 9,
+      "region_from_channel": 8,
+      "place_found": 6,
+      "place_geocoded": 3
+    },
+    "tatalert": {
+      "ok": true,
+      "events": 4,
       "error": null,
       "configured_region": "Республика Татарстан",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 7,
-      "filtered_noise": 0,
-      "parsed": 7,
-      "region_from_channel": 6,
-      "place_found": 4,
-      "place_geocoded": 3
-    },
-    "tatalert": {
-      "ok": true,
-      "events": 5,
-      "error": null,
-      "configured_region": "Республика Татарстан",
-      "source_type": "regional",
-      "message_blocks": 20,
-      "with_text": 20,
-      "with_bpla": 8,
       "filtered_noise": 3,
-      "parsed": 5,
-      "region_from_channel": 5,
+      "parsed": 4,
+      "region_from_channel": 4,
       "place_found": 1,
       "place_geocoded": 1
     }
