@@ -1,6 +1,6 @@
 {
-  "total_events": 4124,
-  "with_place": 2749,
+  "total_events": 4130,
+  "with_place": 2751,
   "with_coordinates": 1386,
   "coordinate_coverage_pct": 33.6,
   "suspicious_place_values": 0,
@@ -8,19 +8,19 @@
   "region_quality": [
     {
       "region": "Москва и Московская область",
-      "events": 536,
+      "events": 537,
       "with_coordinates": 185,
       "coverage_pct": 34.5
     },
     {
       "region": "Краснодарский край",
-      "events": 442,
+      "events": 443,
       "with_coordinates": 335,
-      "coverage_pct": 75.8
+      "coverage_pct": 75.6
     },
     {
       "region": "Без региона",
-      "events": 434,
+      "events": 436,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -62,9 +62,9 @@
     },
     {
       "region": "Брянская область",
-      "events": 111,
+      "events": 112,
       "with_coordinates": 43,
-      "coverage_pct": 38.7
+      "coverage_pct": 38.4
     },
     {
       "region": "Республика Татарстан",
@@ -109,16 +109,16 @@
       "coverage_pct": 36.4
     },
     {
+      "region": "Белгородская область",
+      "events": 53,
+      "with_coordinates": 20,
+      "coverage_pct": 37.7
+    },
+    {
       "region": "Саратовская область",
       "events": 53,
       "with_coordinates": 22,
       "coverage_pct": 41.5
-    },
-    {
-      "region": "Белгородская область",
-      "events": 52,
-      "with_coordinates": 20,
-      "coverage_pct": 38.5
     },
     {
       "region": "Пензенская область",
