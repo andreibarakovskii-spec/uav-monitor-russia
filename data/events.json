@@ -1,5 +1,67 @@
 [
   {
+    "id": "tg-2b0fcd9123f4b212",
+    "place": null,
+    "region": null,
+    "source": "@locatorru",
+    "status": "defense",
+    "published_at": "2026-09-05T17:34:05+00:00",
+    "text": "С 08:00 до 20:00 силами противовоздушной обороны было уничтожено 6 БПЛА над территориями Белгородской, Курской, Ростовской областей и Республики Крым.\n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/83892"
+  },
+  {
+    "id": "tg-155f8ed967db5874",
+    "place": null,
+    "region": "Белгородская область",
+    "source": "@locatorru",
+    "status": "fix",
+    "published_at": "2026-09-05T17:24:39+00:00",
+    "text": "Клименково, Ровеньский район, Белгородская область - возможно БПЛА в сторону Россошь, Воронежская область.\n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/83891"
+  },
+  {
+    "id": "tg-e6ccc1a7143ca5cd",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@radarrussiia",
+    "status": "cancel",
+    "published_at": "2026-09-05T17:15:22+00:00",
+    "text": "Ростовская область\nОтбой опасности по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/91947"
+  },
+  {
+    "id": "tg-4480100725c45470",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@vrv_radar",
+    "status": "cancel",
+    "published_at": "2026-09-05T16:49:43+00:00",
+    "text": "Ростовская область\nОтбой опасности по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/88024"
+  },
+  {
+    "id": "tg-d3bfe2c1608ddaa7",
+    "place": "По другим регинам всё спокойно.",
+    "region": null,
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-09-05T16:38:35+00:00",
+    "text": "В приграничных районах Брянской области Белгородской области, Курской области - опасность по БПЛА сохраняется.\n\nПо другим регинам всё спокойно. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/83890",
+    "lat": null,
+    "lon": null
+  },
+  {
     "id": "tg-11056f2deb2add76",
     "place": null,
     "region": "Ростовская область",
