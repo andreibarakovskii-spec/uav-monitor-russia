@@ -1,8 +1,8 @@
 {
-  "total_events": 4130,
-  "with_place": 2751,
+  "total_events": 4132,
+  "with_place": 2752,
   "with_coordinates": 1386,
-  "coordinate_coverage_pct": 33.6,
+  "coordinate_coverage_pct": 33.5,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -20,7 +20,7 @@
     },
     {
       "region": "Без региона",
-      "events": 436,
+      "events": 438,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
