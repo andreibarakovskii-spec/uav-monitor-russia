@@ -1,5 +1,29 @@
 [
   {
+    "id": "tg-11056f2deb2add76",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-09-05T14:26:19+00:00",
+    "text": "Ростовская область\nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/91946"
+  },
+  {
+    "id": "tg-8eccb8d3aacf85b2",
+    "place": null,
+    "region": "Ростовская область",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-09-05T14:19:50+00:00",
+    "text": "Ростовская область\nОпасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/88023"
+  },
+  {
     "id": "tg-69d617527d84ffb0",
     "place": "Обстановка спокойная",
     "region": "Нижегородская область",

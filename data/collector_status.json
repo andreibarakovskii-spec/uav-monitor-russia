@@ -1,21 +1,21 @@
 {
-  "updated_at": "2026-09-05T12:57:53.012816+00:00",
-  "incoming": 101,
-  "total": 4133,
+  "updated_at": "2026-09-05T15:57:19.027659+00:00",
+  "incoming": 99,
+  "total": 4135,
   "sources": {
     "nn52signal": {
       "ok": true,
-      "events": 8,
+      "events": 7,
       "error": null,
       "configured_region": "Нижегородская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 8,
+      "with_bpla": 7,
       "filtered_noise": 0,
-      "parsed": 8,
+      "parsed": 7,
       "region_from_channel": 4,
-      "place_found": 7,
+      "place_found": 6,
       "place_geocoded": 1
     },
     "radar_nizhniinovgorod": {
@@ -35,15 +35,15 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 6,
+      "events": 7,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 17,
+      "with_bpla": 18,
       "filtered_noise": 11,
-      "parsed": 6,
+      "parsed": 7,
       "region_from_channel": 0,
       "place_found": 3,
       "place_geocoded": 1
@@ -75,7 +75,7 @@
       "filtered_noise": 1,
       "parsed": 14,
       "region_from_channel": 0,
-      "place_found": 6,
+      "place_found": 5,
       "place_geocoded": 2
     },
     "radar_voronezh": {
@@ -140,17 +140,17 @@
     },
     "radar_tatarstan": {
       "ok": true,
-      "events": 9,
+      "events": 7,
       "error": null,
       "configured_region": "Республика Татарстан",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 9,
+      "with_bpla": 7,
       "filtered_noise": 0,
-      "parsed": 9,
-      "region_from_channel": 8,
-      "place_found": 6,
+      "parsed": 7,
+      "region_from_channel": 6,
+      "place_found": 4,
       "place_geocoded": 3
     },
     "tatalert": {

@@ -1,5 +1,5 @@
 {
-  "total_events": 4133,
+  "total_events": 4135,
   "with_place": 2753,
   "with_coordinates": 1386,
   "coordinate_coverage_pct": 33.5,
@@ -38,9 +38,9 @@
     },
     {
       "region": "Ростовская область",
-      "events": 248,
+      "events": 250,
       "with_coordinates": 45,
-      "coverage_pct": 18.1
+      "coverage_pct": 18.0
     },
     {
       "region": "Калужская область",
