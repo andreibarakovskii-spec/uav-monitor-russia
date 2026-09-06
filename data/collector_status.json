@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-09-06T20:42:54.260491+00:00",
-  "incoming": 104,
-  "total": 4448,
+  "updated_at": "2026-09-06T22:24:46.116871+00:00",
+  "incoming": 103,
+  "total": 4493,
   "sources": {
     "nn52signal": {
       "ok": true,
-      "events": 7,
+      "events": 8,
       "error": null,
       "configured_region": "Нижегородская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 7,
+      "with_bpla": 8,
       "filtered_noise": 0,
-      "parsed": 7,
-      "region_from_channel": 2,
-      "place_found": 5,
-      "place_geocoded": 0
+      "parsed": 8,
+      "region_from_channel": 4,
+      "place_found": 7,
+      "place_geocoded": 1
     },
     "radar_nizhniinovgorod": {
       "ok": true,
@@ -35,33 +35,33 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 3,
+      "events": 4,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 20,
-      "filtered_noise": 17,
-      "parsed": 3,
+      "filtered_noise": 16,
+      "parsed": 4,
       "region_from_channel": 0,
       "place_found": 1,
       "place_geocoded": 0
     },
     "locatorru": {
       "ok": true,
-      "events": 20,
+      "events": 18,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 20,
+      "with_bpla": 18,
       "filtered_noise": 0,
-      "parsed": 20,
+      "parsed": 18,
       "region_from_channel": 0,
-      "place_found": 12,
-      "place_geocoded": 12
+      "place_found": 7,
+      "place_geocoded": 6
     },
     "vrv_radar": {
       "ok": true,
@@ -75,23 +75,23 @@
       "filtered_noise": 0,
       "parsed": 20,
       "region_from_channel": 0,
-      "place_found": 14,
+      "place_found": 17,
       "place_geocoded": 0
     },
     "radar_voronezh": {
       "ok": true,
-      "events": 1,
+      "events": 0,
       "error": null,
       "configured_region": "Воронежская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 20,
-      "filtered_noise": 19,
-      "parsed": 1,
+      "filtered_noise": 20,
+      "parsed": 0,
       "region_from_channel": 0,
-      "place_found": 1,
-      "place_geocoded": 1
+      "place_found": 0,
+      "place_geocoded": 0
     },
     "radar_peterburg": {
       "ok": true,
