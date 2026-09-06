@@ -1,8 +1,8 @@
 {
-  "total_events": 4341,
-  "with_place": 2886,
-  "with_coordinates": 1439,
-  "coordinate_coverage_pct": 33.1,
+  "total_events": 4354,
+  "with_place": 2893,
+  "with_coordinates": 1446,
+  "coordinate_coverage_pct": 33.2,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -13,16 +13,16 @@
       "coverage_pct": 34.3
     },
     {
-      "region": "Без региона",
-      "events": 461,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
+      "region": "Краснодарский край",
+      "events": 471,
+      "with_coordinates": 354,
+      "coverage_pct": 75.2
     },
     {
-      "region": "Краснодарский край",
-      "events": 459,
-      "with_coordinates": 347,
-      "coverage_pct": 75.6
+      "region": "Без региона",
+      "events": 462,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
     },
     {
       "region": "Воронежская область",
