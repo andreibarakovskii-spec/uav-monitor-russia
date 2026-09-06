@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-06T04:19:11.626000+00:00",
+  "generated_at": "2026-09-06T08:48:13.634253+00:00",
   "archive_delay_hours": 24,
-  "total_events": 4313,
-  "archived_events": 4128,
+  "total_events": 4341,
+  "archived_events": 4132,
   "regions": {
-    "Москва и Московская область": 536,
+    "Москва и Московская область": 537,
     "Краснодарский край": 443,
     "Воронежская область": 395,
     "Нижегородская область": 265,
@@ -46,9 +46,9 @@
   },
   "sources": {
     "@vrv_radar": 1360,
-    "@locatorru": 1188,
+    "@locatorru": 1191,
     "@radarrussiia": 733,
-    "@RDFradar": 379,
+    "@RDFradar": 380,
     "@nn52signal": 172,
     "@radar_voronezh": 132,
     "@radar_nizhniinovgorod": 39,
@@ -58,10 +58,10 @@
     "@tatalert": 26
   },
   "statuses": {
-    "fix": 1668,
+    "fix": 1670,
     "alert": 1525,
-    "cancel": 633,
-    "defense": 302
+    "cancel": 634,
+    "defense": 303
   },
   "timeline": {
     "2026-07-23": 1,
@@ -85,7 +85,7 @@
     "2026-09-02": 330,
     "2026-09-03": 315,
     "2026-09-04": 318,
-    "2026-09-05": 5
+    "2026-09-05": 9
   },
   "historical_pairs": [
     {

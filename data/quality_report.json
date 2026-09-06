@@ -1,16 +1,22 @@
 {
-  "total_events": 4313,
-  "with_place": 2877,
+  "total_events": 4341,
+  "with_place": 2886,
   "with_coordinates": 1439,
-  "coordinate_coverage_pct": 33.4,
+  "coordinate_coverage_pct": 33.1,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Москва и Московская область",
-      "events": 539,
+      "events": 542,
       "with_coordinates": 186,
-      "coverage_pct": 34.5
+      "coverage_pct": 34.3
+    },
+    {
+      "region": "Без региона",
+      "events": 461,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
     },
     {
       "region": "Краснодарский край",
@@ -19,46 +25,40 @@
       "coverage_pct": 75.6
     },
     {
-      "region": "Без региона",
-      "events": 456,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
       "region": "Воронежская область",
-      "events": 436,
+      "events": 437,
       "with_coordinates": 288,
-      "coverage_pct": 66.1
+      "coverage_pct": 65.9
     },
     {
       "region": "Ростовская область",
-      "events": 279,
+      "events": 280,
       "with_coordinates": 51,
-      "coverage_pct": 18.3
+      "coverage_pct": 18.2
     },
     {
       "region": "Нижегородская область",
-      "events": 271,
+      "events": 275,
       "with_coordinates": 40,
-      "coverage_pct": 14.8
+      "coverage_pct": 14.5
     },
     {
       "region": "Калужская область",
-      "events": 222,
+      "events": 223,
       "with_coordinates": 64,
-      "coverage_pct": 28.8
+      "coverage_pct": 28.7
     },
     {
       "region": "Орловская область",
-      "events": 188,
+      "events": 189,
       "with_coordinates": 22,
-      "coverage_pct": 11.7
+      "coverage_pct": 11.6
     },
     {
       "region": "Тульская область",
-      "events": 173,
+      "events": 174,
       "with_coordinates": 74,
-      "coverage_pct": 42.8
+      "coverage_pct": 42.5
     },
     {
       "region": "Брянская область",
@@ -73,28 +73,28 @@
       "coverage_pct": 44.0
     },
     {
-      "region": "Липецкая область",
-      "events": 82,
-      "with_coordinates": 30,
-      "coverage_pct": 36.6
+      "region": "Рязанская область",
+      "events": 84,
+      "with_coordinates": 8,
+      "coverage_pct": 9.5
     },
     {
-      "region": "Рязанская область",
-      "events": 81,
-      "with_coordinates": 8,
-      "coverage_pct": 9.9
+      "region": "Липецкая область",
+      "events": 83,
+      "with_coordinates": 30,
+      "coverage_pct": 36.1
     },
     {
       "region": "Волгоградская область",
-      "events": 80,
+      "events": 81,
       "with_coordinates": 23,
-      "coverage_pct": 28.7
+      "coverage_pct": 28.4
     },
     {
       "region": "Тамбовская область",
-      "events": 71,
+      "events": 72,
       "with_coordinates": 26,
-      "coverage_pct": 36.6
+      "coverage_pct": 36.1
     },
     {
       "region": "Смоленская область",
@@ -122,9 +122,9 @@
     },
     {
       "region": "Пензенская область",
-      "events": 53,
+      "events": 54,
       "with_coordinates": 3,
-      "coverage_pct": 5.7
+      "coverage_pct": 5.6
     },
     {
       "region": "Ставропольский край",
@@ -134,9 +134,9 @@
     },
     {
       "region": "Ярославская область",
-      "events": 45,
+      "events": 46,
       "with_coordinates": 4,
-      "coverage_pct": 8.9
+      "coverage_pct": 8.7
     },
     {
       "region": "Владимирская область",
@@ -158,15 +158,15 @@
     },
     {
       "region": "Вологодская область",
-      "events": 35,
+      "events": 36,
       "with_coordinates": 13,
-      "coverage_pct": 37.1
+      "coverage_pct": 36.1
     },
     {
       "region": "Курская область",
-      "events": 33,
+      "events": 34,
       "with_coordinates": 21,
-      "coverage_pct": 63.6
+      "coverage_pct": 61.8
     },
     {
       "region": "Ульяновская область",
@@ -182,7 +182,7 @@
     },
     {
       "region": "Ивановская область",
-      "events": 23,
+      "events": 24,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
