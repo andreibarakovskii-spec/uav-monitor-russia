@@ -1,7 +1,7 @@
 {
-  "total_events": 4664,
-  "with_place": 3066,
-  "with_coordinates": 1507,
+  "total_events": 4680,
+  "with_place": 3074,
+  "with_coordinates": 1513,
   "coordinate_coverage_pct": 32.3,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
@@ -14,15 +14,15 @@
     },
     {
       "region": "Без региона",
-      "events": 504,
+      "events": 506,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Краснодарский край",
-      "events": 493,
-      "with_coordinates": 367,
-      "coverage_pct": 74.4
+      "events": 502,
+      "with_coordinates": 372,
+      "coverage_pct": 74.1
     },
     {
       "region": "Воронежская область",
@@ -32,9 +32,9 @@
     },
     {
       "region": "Ростовская область",
-      "events": 291,
-      "with_coordinates": 54,
-      "coverage_pct": 18.6
+      "events": 294,
+      "with_coordinates": 55,
+      "coverage_pct": 18.7
     },
     {
       "region": "Нижегородская область",
@@ -50,7 +50,7 @@
     },
     {
       "region": "Орловская область",
-      "events": 201,
+      "events": 202,
       "with_coordinates": 22,
       "coverage_pct": 10.9
     },
@@ -224,7 +224,7 @@
     },
     {
       "region": "ХМАО",
-      "events": 6,
+      "events": 7,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
