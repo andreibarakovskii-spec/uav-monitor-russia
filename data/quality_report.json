@@ -1,28 +1,28 @@
 {
-  "total_events": 4858,
-  "with_place": 3183,
-  "with_coordinates": 1562,
-  "coordinate_coverage_pct": 32.2,
+  "total_events": 4877,
+  "with_place": 3193,
+  "with_coordinates": 1567,
+  "coordinate_coverage_pct": 32.1,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Москва и Московская область",
-      "events": 547,
+      "events": 551,
       "with_coordinates": 187,
-      "coverage_pct": 34.2
-    },
-    {
-      "region": "Без региона",
-      "events": 514,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
+      "coverage_pct": 33.9
     },
     {
       "region": "Краснодарский край",
-      "events": 512,
-      "with_coordinates": 375,
-      "coverage_pct": 73.2
+      "events": 516,
+      "with_coordinates": 378,
+      "coverage_pct": 73.3
+    },
+    {
+      "region": "Без региона",
+      "events": 516,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
     },
     {
       "region": "Воронежская область",
@@ -32,9 +32,9 @@
     },
     {
       "region": "Ростовская область",
-      "events": 330,
+      "events": 331,
       "with_coordinates": 62,
-      "coverage_pct": 18.8
+      "coverage_pct": 18.7
     },
     {
       "region": "Нижегородская область",
@@ -44,9 +44,9 @@
     },
     {
       "region": "Калужская область",
-      "events": 231,
-      "with_coordinates": 64,
-      "coverage_pct": 27.7
+      "events": 234,
+      "with_coordinates": 65,
+      "coverage_pct": 27.8
     },
     {
       "region": "Орловская область",
@@ -68,9 +68,9 @@
     },
     {
       "region": "Брянская область",
-      "events": 120,
-      "with_coordinates": 46,
-      "coverage_pct": 38.3
+      "events": 123,
+      "with_coordinates": 47,
+      "coverage_pct": 38.2
     },
     {
       "region": "Тамбовская область",
@@ -164,9 +164,9 @@
     },
     {
       "region": "Курская область",
-      "events": 37,
+      "events": 39,
       "with_coordinates": 23,
-      "coverage_pct": 62.2
+      "coverage_pct": 59.0
     },
     {
       "region": "Вологодская область",
