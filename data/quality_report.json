@@ -1,28 +1,28 @@
 {
   "total_events": 5000,
-  "with_place": 3117,
-  "with_coordinates": 1383,
-  "coordinate_coverage_pct": 27.7,
+  "with_place": 3105,
+  "with_coordinates": 1377,
+  "coordinate_coverage_pct": 27.5,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Без региона",
-      "events": 607,
+      "events": 615,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Краснодарский край",
-      "events": 557,
-      "with_coordinates": 390,
-      "coverage_pct": 70.0
+      "events": 552,
+      "with_coordinates": 385,
+      "coverage_pct": 69.7
     },
     {
       "region": "Москва и Московская область",
-      "events": 530,
+      "events": 529,
       "with_coordinates": 168,
-      "coverage_pct": 31.7
+      "coverage_pct": 31.8
     },
     {
       "region": "Воронежская область",
@@ -38,15 +38,15 @@
     },
     {
       "region": "Нижегородская область",
-      "events": 319,
-      "with_coordinates": 47,
-      "coverage_pct": 14.7
+      "events": 310,
+      "with_coordinates": 46,
+      "coverage_pct": 14.8
     },
     {
       "region": "Калужская область",
-      "events": 252,
+      "events": 253,
       "with_coordinates": 70,
-      "coverage_pct": 27.8
+      "coverage_pct": 27.7
     },
     {
       "region": "Орловская область",
@@ -56,15 +56,15 @@
     },
     {
       "region": "Республика Татарстан",
-      "events": 171,
-      "with_coordinates": 70,
-      "coverage_pct": 40.9
+      "events": 175,
+      "with_coordinates": 71,
+      "coverage_pct": 40.6
     },
     {
       "region": "Тульская область",
-      "events": 158,
+      "events": 161,
       "with_coordinates": 70,
-      "coverage_pct": 44.3
+      "coverage_pct": 43.5
     },
     {
       "region": "Брянская область",
@@ -97,16 +97,16 @@
       "coverage_pct": 7.7
     },
     {
+      "region": "Пензенская область",
+      "events": 86,
+      "with_coordinates": 2,
+      "coverage_pct": 2.3
+    },
+    {
       "region": "Липецкая область",
       "events": 85,
       "with_coordinates": 21,
       "coverage_pct": 24.7
-    },
-    {
-      "region": "Пензенская область",
-      "events": 85,
-      "with_coordinates": 2,
-      "coverage_pct": 2.4
     },
     {
       "region": "Смоленская область",
@@ -116,21 +116,21 @@
     },
     {
       "region": "Белгородская область",
-      "events": 66,
-      "with_coordinates": 11,
-      "coverage_pct": 16.7
+      "events": 65,
+      "with_coordinates": 10,
+      "coverage_pct": 15.4
+    },
+    {
+      "region": "Ульяновская область",
+      "events": 56,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
     },
     {
       "region": "Санкт-Петербург и Ленинградская область",
       "events": 54,
       "with_coordinates": 22,
       "coverage_pct": 40.7
-    },
-    {
-      "region": "Ульяновская область",
-      "events": 53,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
     },
     {
       "region": "Ставропольский край",
@@ -140,9 +140,9 @@
     },
     {
       "region": "Ярославская область",
-      "events": 45,
+      "events": 44,
       "with_coordinates": 4,
-      "coverage_pct": 8.9
+      "coverage_pct": 9.1
     },
     {
       "region": "Курская область",
@@ -170,7 +170,7 @@
     },
     {
       "region": "Самарская область",
-      "events": 36,
+      "events": 37,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -200,7 +200,7 @@
     },
     {
       "region": "Кировская область",
-      "events": 19,
+      "events": 18,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -223,13 +223,13 @@
       "coverage_pct": 0.0
     },
     {
-      "region": "Костромская область",
-      "events": 9,
+      "region": "Карачаево-Черкесская Республика",
+      "events": 6,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
-      "region": "Карачаево-Черкесская Республика",
+      "region": "Костромская область",
       "events": 6,
       "with_coordinates": 0,
       "coverage_pct": 0.0
