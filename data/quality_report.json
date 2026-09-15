@@ -8,14 +8,14 @@
   "region_quality": [
     {
       "region": "Без региона",
-      "events": 600,
+      "events": 599,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Краснодарский край",
-      "events": 549,
-      "with_coordinates": 346,
+      "events": 551,
+      "with_coordinates": 347,
       "coverage_pct": 63.0
     },
     {
@@ -44,8 +44,8 @@
     },
     {
       "region": "Республика Татарстан",
-      "events": 281,
-      "with_coordinates": 140,
+      "events": 279,
+      "with_coordinates": 139,
       "coverage_pct": 49.8
     },
     {
@@ -74,9 +74,9 @@
     },
     {
       "region": "Брянская область",
-      "events": 136,
+      "events": 137,
       "with_coordinates": 36,
-      "coverage_pct": 26.5
+      "coverage_pct": 26.3
     },
     {
       "region": "Пензенская область",
