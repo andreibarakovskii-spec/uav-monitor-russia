@@ -1,40 +1,40 @@
 {
   "total_events": 5000,
-  "with_place": 3046,
-  "with_coordinates": 1301,
-  "coordinate_coverage_pct": 26.0,
+  "with_place": 3047,
+  "with_coordinates": 1303,
+  "coordinate_coverage_pct": 26.1,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Без региона",
-      "events": 604,
+      "events": 602,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Краснодарский край",
-      "events": 559,
+      "events": 562,
       "with_coordinates": 352,
-      "coverage_pct": 63.0
+      "coverage_pct": 62.6
     },
     {
       "region": "Москва и Московская область",
-      "events": 472,
+      "events": 474,
       "with_coordinates": 135,
-      "coverage_pct": 28.6
+      "coverage_pct": 28.5
     },
     {
       "region": "Воронежская область",
-      "events": 469,
-      "with_coordinates": 220,
-      "coverage_pct": 46.9
+      "events": 464,
+      "with_coordinates": 218,
+      "coverage_pct": 47.0
     },
     {
       "region": "Ростовская область",
-      "events": 319,
-      "with_coordinates": 73,
-      "coverage_pct": 22.9
+      "events": 322,
+      "with_coordinates": 77,
+      "coverage_pct": 23.9
     },
     {
       "region": "Республика Татарстан",
@@ -44,7 +44,7 @@
     },
     {
       "region": "Нижегородская область",
-      "events": 255,
+      "events": 254,
       "with_coordinates": 25,
       "coverage_pct": 9.8
     },
@@ -68,15 +68,15 @@
     },
     {
       "region": "Брянская область",
-      "events": 147,
+      "events": 149,
       "with_coordinates": 41,
-      "coverage_pct": 27.9
+      "coverage_pct": 27.5
     },
     {
       "region": "Волгоградская область",
-      "events": 147,
+      "events": 144,
       "with_coordinates": 19,
-      "coverage_pct": 12.9
+      "coverage_pct": 13.2
     },
     {
       "region": "Пензенская область",
@@ -103,16 +103,16 @@
       "coverage_pct": 20.0
     },
     {
-      "region": "Белгородская область",
-      "events": 80,
-      "with_coordinates": 16,
-      "coverage_pct": 20.0
-    },
-    {
       "region": "Ульяновская область",
       "events": 80,
       "with_coordinates": 0,
       "coverage_pct": 0.0
+    },
+    {
+      "region": "Белгородская область",
+      "events": 79,
+      "with_coordinates": 16,
+      "coverage_pct": 20.3
     },
     {
       "region": "Рязанская область",
@@ -122,9 +122,9 @@
     },
     {
       "region": "Смоленская область",
-      "events": 73,
+      "events": 75,
       "with_coordinates": 9,
-      "coverage_pct": 12.3
+      "coverage_pct": 12.0
     },
     {
       "region": "Самарская область",
