@@ -1,6 +1,6 @@
 {
   "total_events": 5000,
-  "with_place": 3048,
+  "with_place": 3046,
   "with_coordinates": 1301,
   "coordinate_coverage_pct": 26.0,
   "suspicious_place_values": 0,
@@ -8,15 +8,15 @@
   "region_quality": [
     {
       "region": "Без региона",
-      "events": 602,
+      "events": 604,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Краснодарский край",
-      "events": 558,
+      "events": 559,
       "with_coordinates": 352,
-      "coverage_pct": 63.1
+      "coverage_pct": 63.0
     },
     {
       "region": "Москва и Московская область",
@@ -26,15 +26,15 @@
     },
     {
       "region": "Воронежская область",
-      "events": 471,
+      "events": 469,
       "with_coordinates": 220,
-      "coverage_pct": 46.7
+      "coverage_pct": 46.9
     },
     {
       "region": "Ростовская область",
-      "events": 324,
+      "events": 319,
       "with_coordinates": 73,
-      "coverage_pct": 22.5
+      "coverage_pct": 22.9
     },
     {
       "region": "Республика Татарстан",
@@ -44,15 +44,15 @@
     },
     {
       "region": "Нижегородская область",
-      "events": 256,
+      "events": 255,
       "with_coordinates": 25,
       "coverage_pct": 9.8
     },
     {
       "region": "Калужская область",
-      "events": 245,
+      "events": 248,
       "with_coordinates": 62,
-      "coverage_pct": 25.3
+      "coverage_pct": 25.0
     },
     {
       "region": "Орловская область",
@@ -67,16 +67,16 @@
       "coverage_pct": 36.8
     },
     {
+      "region": "Брянская область",
+      "events": 147,
+      "with_coordinates": 41,
+      "coverage_pct": 27.9
+    },
+    {
       "region": "Волгоградская область",
       "events": 147,
       "with_coordinates": 19,
       "coverage_pct": 12.9
-    },
-    {
-      "region": "Брянская область",
-      "events": 146,
-      "with_coordinates": 41,
-      "coverage_pct": 28.1
     },
     {
       "region": "Пензенская область",
@@ -122,9 +122,9 @@
     },
     {
       "region": "Смоленская область",
-      "events": 72,
+      "events": 73,
       "with_coordinates": 9,
-      "coverage_pct": 12.5
+      "coverage_pct": 12.3
     },
     {
       "region": "Самарская область",
