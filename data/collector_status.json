@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-09-21T23:40:17.194175+00:00",
-  "incoming": 104,
+  "updated_at": "2026-09-22T01:54:45.999610+00:00",
+  "incoming": 105,
   "total": 5000,
   "sources": {
     "nn52signal": {
       "ok": true,
-      "events": 11,
+      "events": 12,
       "error": null,
       "configured_region": "Нижегородская область",
       "source_type": "regional",
-      "message_blocks": 17,
-      "with_text": 17,
-      "with_bpla": 11,
+      "message_blocks": 19,
+      "with_text": 19,
+      "with_bpla": 12,
       "filtered_noise": 0,
-      "parsed": 11,
-      "region_from_channel": 8,
-      "place_found": 9,
-      "place_geocoded": 3
+      "parsed": 12,
+      "region_from_channel": 9,
+      "place_found": 10,
+      "place_geocoded": 4
     },
     "radar_nizhniinovgorod": {
       "ok": true,
@@ -35,18 +35,18 @@
     },
     "radarrussiia": {
       "ok": true,
-      "events": 5,
+      "events": 8,
       "error": null,
       "configured_region": "Россия",
       "source_type": "national",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 20,
-      "filtered_noise": 15,
-      "parsed": 5,
+      "with_bpla": 16,
+      "filtered_noise": 8,
+      "parsed": 8,
       "region_from_channel": 0,
-      "place_found": 4,
-      "place_geocoded": 1
+      "place_found": 6,
+      "place_geocoded": 2
     },
     "locatorru": {
       "ok": true,
@@ -60,38 +60,38 @@
       "filtered_noise": 0,
       "parsed": 20,
       "region_from_channel": 0,
-      "place_found": 6,
-      "place_geocoded": 6
+      "place_found": 4,
+      "place_geocoded": 3
     },
     "vrv_radar": {
       "ok": true,
-      "events": 19,
+      "events": 11,
       "error": null,
       "configured_region": "Россия",
       "source_type": "regional-network",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 19,
-      "filtered_noise": 0,
-      "parsed": 19,
+      "with_bpla": 14,
+      "filtered_noise": 3,
+      "parsed": 11,
       "region_from_channel": 0,
-      "place_found": 17,
-      "place_geocoded": 0
+      "place_found": 10,
+      "place_geocoded": 2
     },
     "radar_voronezh": {
       "ok": true,
-      "events": 3,
+      "events": 6,
       "error": null,
       "configured_region": "Воронежская область",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
-      "with_bpla": 16,
-      "filtered_noise": 13,
-      "parsed": 3,
+      "with_bpla": 17,
+      "filtered_noise": 11,
+      "parsed": 6,
       "region_from_channel": 0,
-      "place_found": 3,
-      "place_geocoded": 3
+      "place_found": 6,
+      "place_geocoded": 6
     },
     "radar_peterburg": {
       "ok": true,
@@ -140,33 +140,33 @@
     },
     "radar_tatarstan": {
       "ok": true,
-      "events": 10,
+      "events": 11,
+      "error": null,
+      "configured_region": "Республика Татарстан",
+      "source_type": "regional",
+      "message_blocks": 20,
+      "with_text": 20,
+      "with_bpla": 12,
+      "filtered_noise": 1,
+      "parsed": 11,
+      "region_from_channel": 10,
+      "place_found": 9,
+      "place_geocoded": 3
+    },
+    "tatalert": {
+      "ok": true,
+      "events": 6,
       "error": null,
       "configured_region": "Республика Татарстан",
       "source_type": "regional",
       "message_blocks": 20,
       "with_text": 20,
       "with_bpla": 11,
-      "filtered_noise": 1,
-      "parsed": 10,
-      "region_from_channel": 9,
-      "place_found": 8,
-      "place_geocoded": 2
-    },
-    "tatalert": {
-      "ok": true,
-      "events": 5,
-      "error": null,
-      "configured_region": "Республика Татарстан",
-      "source_type": "regional",
-      "message_blocks": 20,
-      "with_text": 20,
-      "with_bpla": 10,
       "filtered_noise": 5,
-      "parsed": 5,
-      "region_from_channel": 5,
-      "place_found": 2,
-      "place_geocoded": 2
+      "parsed": 6,
+      "region_from_channel": 6,
+      "place_found": 3,
+      "place_geocoded": 3
     }
   }
 }
