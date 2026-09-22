@@ -1,8 +1,8 @@
 {
   "total_events": 5000,
-  "with_place": 3115,
-  "with_coordinates": 1400,
-  "coordinate_coverage_pct": 28.0,
+  "with_place": 3124,
+  "with_coordinates": 1407,
+  "coordinate_coverage_pct": 28.1,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
@@ -14,9 +14,9 @@
     },
     {
       "region": "Краснодарский край",
-      "events": 549,
-      "with_coordinates": 345,
-      "coverage_pct": 62.8
+      "events": 559,
+      "with_coordinates": 352,
+      "coverage_pct": 63.0
     },
     {
       "region": "Воронежская область",
@@ -26,9 +26,9 @@
     },
     {
       "region": "Москва и Московская область",
-      "events": 442,
+      "events": 437,
       "with_coordinates": 192,
-      "coverage_pct": 43.4
+      "coverage_pct": 43.9
     },
     {
       "region": "Ростовская область",
@@ -56,9 +56,9 @@
     },
     {
       "region": "Тульская область",
-      "events": 186,
+      "events": 185,
       "with_coordinates": 79,
-      "coverage_pct": 42.5
+      "coverage_pct": 42.7
     },
     {
       "region": "Орловская область",
@@ -133,16 +133,16 @@
       "coverage_pct": 7.7
     },
     {
-      "region": "Владимирская область",
-      "events": 44,
-      "with_coordinates": 6,
-      "coverage_pct": 13.6
-    },
-    {
       "region": "Курская область",
       "events": 43,
       "with_coordinates": 14,
       "coverage_pct": 32.6
+    },
+    {
+      "region": "Владимирская область",
+      "events": 41,
+      "with_coordinates": 6,
+      "coverage_pct": 14.6
     },
     {
       "region": "Ярославская область",
@@ -157,16 +157,16 @@
       "coverage_pct": 0.0
     },
     {
-      "region": "Ивановская область",
-      "events": 34,
-      "with_coordinates": 8,
-      "coverage_pct": 23.5
-    },
-    {
       "region": "Ставропольский край",
       "events": 33,
       "with_coordinates": 0,
       "coverage_pct": 0.0
+    },
+    {
+      "region": "Ивановская область",
+      "events": 33,
+      "with_coordinates": 8,
+      "coverage_pct": 24.2
     },
     {
       "region": "Кировская область",
