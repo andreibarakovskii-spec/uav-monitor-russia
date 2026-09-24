@@ -1,14 +1,14 @@
 {
   "total_events": 5000,
-  "with_place": 3114,
-  "with_coordinates": 1386,
+  "with_place": 3113,
+  "with_coordinates": 1385,
   "coordinate_coverage_pct": 27.7,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Без региона",
-      "events": 613,
+      "events": 614,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -26,9 +26,9 @@
     },
     {
       "region": "Москва и Московская область",
-      "events": 370,
-      "with_coordinates": 170,
-      "coverage_pct": 45.9
+      "events": 367,
+      "with_coordinates": 167,
+      "coverage_pct": 45.5
     },
     {
       "region": "Ростовская область",
@@ -110,9 +110,9 @@
     },
     {
       "region": "Белгородская область",
-      "events": 82,
-      "with_coordinates": 21,
-      "coverage_pct": 25.6
+      "events": 83,
+      "with_coordinates": 22,
+      "coverage_pct": 26.5
     },
     {
       "region": "Ульяновская область",
@@ -134,9 +134,9 @@
     },
     {
       "region": "Курская область",
-      "events": 43,
-      "with_coordinates": 13,
-      "coverage_pct": 30.2
+      "events": 44,
+      "with_coordinates": 14,
+      "coverage_pct": 31.8
     },
     {
       "region": "Ярославская область",
