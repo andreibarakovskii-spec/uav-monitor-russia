@@ -1,22 +1,22 @@
 {
   "total_events": 5000,
-  "with_place": 3087,
-  "with_coordinates": 1419,
+  "with_place": 3091,
+  "with_coordinates": 1420,
   "coordinate_coverage_pct": 28.4,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Без региона",
-      "events": 597,
+      "events": 598,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Краснодарский край",
-      "events": 592,
-      "with_coordinates": 360,
-      "coverage_pct": 60.8
+      "events": 591,
+      "with_coordinates": 362,
+      "coverage_pct": 61.3
     },
     {
       "region": "Воронежская область",
@@ -32,13 +32,13 @@
     },
     {
       "region": "Ростовская область",
-      "events": 358,
-      "with_coordinates": 107,
+      "events": 354,
+      "with_coordinates": 106,
       "coverage_pct": 29.9
     },
     {
       "region": "Нижегородская область",
-      "events": 313,
+      "events": 312,
       "with_coordinates": 56,
       "coverage_pct": 17.9
     },
@@ -50,9 +50,9 @@
     },
     {
       "region": "Калужская область",
-      "events": 198,
+      "events": 201,
       "with_coordinates": 19,
-      "coverage_pct": 9.6
+      "coverage_pct": 9.5
     },
     {
       "region": "Орловская область",
@@ -62,9 +62,9 @@
     },
     {
       "region": "Тульская область",
-      "events": 177,
+      "events": 176,
       "with_coordinates": 74,
-      "coverage_pct": 41.8
+      "coverage_pct": 42.0
     },
     {
       "region": "Брянская область",
@@ -85,16 +85,16 @@
       "coverage_pct": 33.0
     },
     {
+      "region": "Белгородская область",
+      "events": 90,
+      "with_coordinates": 22,
+      "coverage_pct": 24.4
+    },
+    {
       "region": "Рязанская область",
       "events": 89,
       "with_coordinates": 7,
       "coverage_pct": 7.9
-    },
-    {
-      "region": "Белгородская область",
-      "events": 88,
-      "with_coordinates": 22,
-      "coverage_pct": 25.0
     },
     {
       "region": "Пензенская область",
@@ -128,9 +128,9 @@
     },
     {
       "region": "Смоленская область",
-      "events": 63,
+      "events": 64,
       "with_coordinates": 4,
-      "coverage_pct": 6.3
+      "coverage_pct": 6.2
     },
     {
       "region": "Ставропольский край",
