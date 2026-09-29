@@ -1,21 +1,21 @@
 {
   "total_events": 5000,
-  "with_place": 3080,
-  "with_coordinates": 1422,
+  "with_place": 3079,
+  "with_coordinates": 1420,
   "coordinate_coverage_pct": 28.4,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Без региона",
-      "events": 608,
+      "events": 607,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Краснодарский край",
-      "events": 595,
-      "with_coordinates": 363,
+      "events": 592,
+      "with_coordinates": 361,
       "coverage_pct": 61.0
     },
     {
@@ -50,15 +50,15 @@
     },
     {
       "region": "Калужская область",
-      "events": 210,
+      "events": 211,
       "with_coordinates": 20,
       "coverage_pct": 9.5
     },
     {
       "region": "Тульская область",
-      "events": 193,
+      "events": 194,
       "with_coordinates": 79,
-      "coverage_pct": 40.9
+      "coverage_pct": 40.7
     },
     {
       "region": "Орловская область",
@@ -68,9 +68,9 @@
     },
     {
       "region": "Брянская область",
-      "events": 161,
+      "events": 163,
       "with_coordinates": 54,
-      "coverage_pct": 33.5
+      "coverage_pct": 33.1
     },
     {
       "region": "Волгоградская область",

@@ -1,5 +1,55 @@
 [
   {
+    "id": "tg-0804dba8dc55820f",
+    "place": null,
+    "region": "Калужская область",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-09-29T02:37:40+00:00",
+    "text": "Калужская область \nОпасность по БПЛА повторно",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/94138"
+  },
+  {
+    "id": "tg-508739b8f6f40c44",
+    "place": null,
+    "region": "Тульская область",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-09-29T02:27:59+00:00",
+    "text": "Тульская область \nОпасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/94137"
+  },
+  {
+    "id": "tg-cae42d4bd3a92b2b",
+    "place": "29/09/2026 03:25 МСК.",
+    "region": "Брянская область",
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-09-29T00:25:53+00:00",
+    "text": "29/09/2026 03:25 МСК.\n\nОпасность по БПЛА сохраняется:\n\n🔻Брянская область;\n🔻Смоленская область;\n🔻Калужская область;\n🔻Курская область;\n🔻Орловская область;\n🔻Белгородская область;\n🔻Краснодарский край;\n🔻Ростовская область. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/87500",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-9b008d2259bdbc8d",
+    "place": null,
+    "region": "Брянская область",
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-09-29T00:13:16+00:00",
+    "text": "Брянская область - опасность по БПЛА сохраняется. Особое внимание ж/д, депо.\n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/87499"
+  },
+  {
     "id": "tg-76d9e17c9b9895ad",
     "place": null,
     "region": "Ростовская область",
@@ -66106,57 +66156,5 @@
     "source_url": "https://t.me/vrv_radar/88811",
     "lat": 43.5855,
     "lon": 39.7231
-  },
-  {
-    "id": "tg-ffadc9a6fe0e714b",
-    "place": "Геленджик",
-    "region": "Краснодарский край",
-    "source": "@radarrussiia",
-    "status": "defense",
-    "published_at": "2026-09-08T17:31:34+00:00",
-    "text": "Геленджик \nКраснодарский край\nЕще сбитие БПЛА\nМеры безопасности\n\n❗️Радар по всей России - @radarrussiia\n🌐 Обход белых списков - @Internet_Boost_bot",
-    "confirmations": 1,
-    "approximate": true,
-    "source_url": "https://t.me/radarrussiia/92468",
-    "lat": 44.5611,
-    "lon": 38.0768
-  },
-  {
-    "id": "tg-7b3c52041c8a6976",
-    "place": null,
-    "region": null,
-    "source": "@locatorru",
-    "status": "defense",
-    "published_at": "2026-09-08T17:30:39+00:00",
-    "text": "С 08:00 до 20:00 силами противовоздушной обороны было уничтожено 107 БПЛА над территориями Белгородской, Брянской, Калужской, Курской, Орловской, Ростовской областей, Краснодарского края, Московского региона, Республики Крым и над акваторией Черного моря.\n\n📡Локатор России - @locatorru",
-    "confirmations": 1,
-    "approximate": true,
-    "source_url": "https://t.me/locatorru/84338"
-  },
-  {
-    "id": "tg-bc729d9d852141ee",
-    "place": "Геленджик",
-    "region": "Краснодарский край",
-    "source": "@vrv_radar",
-    "status": "defense",
-    "published_at": "2026-09-08T17:29:16+00:00",
-    "text": "Геленджик \nКраснодарский край\nЕще сбитие БПЛА\nМеры безопасности",
-    "confirmations": 1,
-    "approximate": true,
-    "source_url": "https://t.me/vrv_radar/88809",
-    "lat": 44.5611,
-    "lon": 38.0768
-  },
-  {
-    "id": "tg-6fe633b7661e4823",
-    "place": null,
-    "region": "Краснодарский край",
-    "source": "@locatorru",
-    "status": "alert",
-    "published_at": "2026-09-08T17:26:22+00:00",
-    "text": "Ачуево, Голубая Нива, Петровская, Полтавская, Славянск-на-Кубани, Краснодарский край - опасность по БПЛА с моря. \n\n📡Локатор России - @locatorru",
-    "confirmations": 1,
-    "approximate": true,
-    "source_url": "https://t.me/locatorru/84337"
   }
 ]
