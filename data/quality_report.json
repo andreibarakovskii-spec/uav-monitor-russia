@@ -1,34 +1,34 @@
 {
   "total_events": 5000,
-  "with_place": 3040,
-  "with_coordinates": 1343,
-  "coordinate_coverage_pct": 26.9,
+  "with_place": 3032,
+  "with_coordinates": 1340,
+  "coordinate_coverage_pct": 26.8,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Без региона",
-      "events": 619,
+      "events": 618,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Москва и Московская область",
-      "events": 554,
-      "with_coordinates": 227,
-      "coverage_pct": 41.0
+      "events": 553,
+      "with_coordinates": 226,
+      "coverage_pct": 40.9
     },
     {
       "region": "Воронежская область",
-      "events": 484,
-      "with_coordinates": 239,
-      "coverage_pct": 49.4
+      "events": 490,
+      "with_coordinates": 241,
+      "coverage_pct": 49.2
     },
     {
       "region": "Краснодарский край",
-      "events": 476,
-      "with_coordinates": 294,
-      "coverage_pct": 61.8
+      "events": 470,
+      "with_coordinates": 290,
+      "coverage_pct": 61.7
     },
     {
       "region": "Нижегородская область",
@@ -38,9 +38,9 @@
     },
     {
       "region": "Ростовская область",
-      "events": 275,
+      "events": 276,
       "with_coordinates": 72,
-      "coverage_pct": 26.2
+      "coverage_pct": 26.1
     },
     {
       "region": "Калужская область",
@@ -56,15 +56,15 @@
     },
     {
       "region": "Республика Татарстан",
-      "events": 217,
+      "events": 216,
       "with_coordinates": 105,
-      "coverage_pct": 48.4
+      "coverage_pct": 48.6
     },
     {
       "region": "Орловская область",
-      "events": 182,
+      "events": 187,
       "with_coordinates": 24,
-      "coverage_pct": 13.2
+      "coverage_pct": 12.8
     },
     {
       "region": "Брянская область",
@@ -73,16 +73,16 @@
       "coverage_pct": 34.7
     },
     {
-      "region": "Рязанская область",
-      "events": 102,
-      "with_coordinates": 10,
-      "coverage_pct": 9.8
-    },
-    {
       "region": "Белгородская область",
       "events": 100,
       "with_coordinates": 21,
       "coverage_pct": 21.0
+    },
+    {
+      "region": "Рязанская область",
+      "events": 99,
+      "with_coordinates": 10,
+      "coverage_pct": 10.1
     },
     {
       "region": "Липецкая область",
@@ -103,16 +103,16 @@
       "coverage_pct": 11.0
     },
     {
+      "region": "Тамбовская область",
+      "events": 80,
+      "with_coordinates": 25,
+      "coverage_pct": 31.2
+    },
+    {
       "region": "Самарская область",
       "events": 80,
       "with_coordinates": 0,
       "coverage_pct": 0.0
-    },
-    {
-      "region": "Тамбовская область",
-      "events": 79,
-      "with_coordinates": 25,
-      "coverage_pct": 31.6
     },
     {
       "region": "Саратовская область",
@@ -134,9 +134,9 @@
     },
     {
       "region": "Курская область",
-      "events": 55,
+      "events": 57,
       "with_coordinates": 18,
-      "coverage_pct": 32.7
+      "coverage_pct": 31.6
     },
     {
       "region": "Астраханская область",
@@ -157,16 +157,16 @@
       "coverage_pct": 15.9
     },
     {
+      "region": "Тверская область",
+      "events": 30,
+      "with_coordinates": 1,
+      "coverage_pct": 3.3
+    },
+    {
       "region": "Оренбургская область",
       "events": 29,
       "with_coordinates": 3,
       "coverage_pct": 10.3
-    },
-    {
-      "region": "Тверская область",
-      "events": 29,
-      "with_coordinates": 1,
-      "coverage_pct": 3.4
     },
     {
       "region": "Ивановская область",
@@ -182,13 +182,13 @@
     },
     {
       "region": "Чувашская Республика",
-      "events": 22,
+      "events": 21,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Вологодская область",
-      "events": 18,
+      "events": 16,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -206,7 +206,7 @@
     },
     {
       "region": "Кировская область",
-      "events": 12,
+      "events": 11,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
