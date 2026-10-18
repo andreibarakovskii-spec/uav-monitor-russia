@@ -1,5 +1,17 @@
 [
   {
+    "id": "tg-f0281b3cc524178e",
+    "place": null,
+    "region": "Белгородская область",
+    "source": "@locatorru",
+    "status": "fix",
+    "published_at": "2026-10-18T11:38:55+00:00",
+    "text": "Бирюч, Старый Хутор, Валуйский район, Белгородская область - разведывательный БПЛА «Шарк».\n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/90975"
+  },
+  {
     "id": "tg-c1ae2ffbb1c73e62",
     "place": null,
     "region": "Краснодарский край",
@@ -65770,20 +65782,6 @@
     "confirmations": 1,
     "approximate": true,
     "source_url": "https://t.me/radarrussiia/95887",
-    "lat": null,
-    "lon": null
-  },
-  {
-    "id": "tg-2de3edec45af9056",
-    "place": "Селтинский район",
-    "region": null,
-    "source": "@vrv_radar",
-    "status": "alert",
-    "published_at": "2026-09-24T23:17:09+00:00",
-    "text": "Селтинский район\nСюмсинский район\nВавожский район\nУвинский район\nРеспублика Удмуртия\nОпасность по БПЛА",
-    "confirmations": 1,
-    "approximate": true,
-    "source_url": "https://t.me/vrv_radar/93512",
     "lat": null,
     "lon": null
   }
