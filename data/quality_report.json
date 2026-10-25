@@ -1,20 +1,20 @@
 {
   "total_events": 5000,
-  "with_place": 2913,
-  "with_coordinates": 1249,
-  "coordinate_coverage_pct": 25.0,
+  "with_place": 2916,
+  "with_coordinates": 1247,
+  "coordinate_coverage_pct": 24.9,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Москва и Московская область",
       "events": 729,
-      "with_coordinates": 246,
-      "coverage_pct": 33.7
+      "with_coordinates": 244,
+      "coverage_pct": 33.5
     },
     {
       "region": "Без региона",
-      "events": 715,
+      "events": 712,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -26,9 +26,9 @@
     },
     {
       "region": "Краснодарский край",
-      "events": 309,
-      "with_coordinates": 160,
-      "coverage_pct": 51.8
+      "events": 311,
+      "with_coordinates": 159,
+      "coverage_pct": 51.1
     },
     {
       "region": "Нижегородская область",
@@ -50,15 +50,15 @@
     },
     {
       "region": "Республика Татарстан",
-      "events": 174,
-      "with_coordinates": 96,
-      "coverage_pct": 55.2
+      "events": 177,
+      "with_coordinates": 97,
+      "coverage_pct": 54.8
     },
     {
       "region": "Ростовская область",
-      "events": 170,
+      "events": 169,
       "with_coordinates": 47,
-      "coverage_pct": 27.6
+      "coverage_pct": 27.8
     },
     {
       "region": "Брянская область",
@@ -68,15 +68,15 @@
     },
     {
       "region": "Орловская область",
-      "events": 146,
+      "events": 148,
       "with_coordinates": 20,
-      "coverage_pct": 13.7
+      "coverage_pct": 13.5
     },
     {
       "region": "Смоленская область",
-      "events": 140,
+      "events": 139,
       "with_coordinates": 13,
-      "coverage_pct": 9.3
+      "coverage_pct": 9.4
     },
     {
       "region": "Белгородская область",
@@ -170,7 +170,7 @@
     },
     {
       "region": "Астраханская область",
-      "events": 33,
+      "events": 31,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -194,19 +194,19 @@
     },
     {
       "region": "Кировская область",
-      "events": 24,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
-      "region": "Ставропольский край",
-      "events": 17,
+      "events": 25,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Чувашская Республика",
       "events": 17,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
+      "region": "Ставропольский край",
+      "events": 16,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
