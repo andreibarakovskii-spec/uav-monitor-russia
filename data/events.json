@@ -1,5 +1,57 @@
 [
   {
+    "id": "tg-51833e63bca9ec36",
+    "place": "Обстановка спокойная",
+    "region": "Нижегородская область",
+    "source": "@nn52signal",
+    "status": "fix",
+    "published_at": "2026-11-07T15:12:47+00:00",
+    "text": "Нижегородская область\n\nОбстановка спокойная\nУгроз нет\nДвижения от ГГ нет, противник накапливает силы\nК ночи ожидаем активизации запусков вражеских БПЛА.\n\nПри изменении обстановки сообщим дополнительно.",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/nn52signal/46045",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-69cd890e4fe4e579",
+    "place": "Активность FPV-дронов на высоком уровне.",
+    "region": null,
+    "source": "@locatorru",
+    "status": "alert",
+    "published_at": "2026-11-07T12:45:35+00:00",
+    "text": "Приграничные районы Курской области, Брянской области, Белгородской области - опасность по БПЛА. \nАктивность FPV-дронов на высоком уровне. \n\n📡Локатор России - @locatorru",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/locatorru/94240",
+    "lat": null,
+    "lon": null
+  },
+  {
+    "id": "tg-ea1124a9a3be0612",
+    "place": null,
+    "region": "Орловская область",
+    "source": "@radarrussiia",
+    "status": "alert",
+    "published_at": "2026-11-07T11:48:05+00:00",
+    "text": "Орловская область\nОпасность по БПЛА\n\n❗️Радар по всей России - @radarrussiia\n📲 Наш канал в МАХ - \nhttps://max.ru/join/radarrussiia",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/radarrussiia/102986"
+  },
+  {
+    "id": "tg-434e75101a14c02d",
+    "place": null,
+    "region": "Орловская область",
+    "source": "@vrv_radar",
+    "status": "alert",
+    "published_at": "2026-11-07T11:34:46+00:00",
+    "text": "Орловская область\nОпасность по БПЛА",
+    "confirmations": 1,
+    "approximate": true,
+    "source_url": "https://t.me/vrv_radar/106183"
+  },
+  {
     "id": "tg-9ea611c2db9834d5",
     "place": null,
     "region": null,
@@ -65288,57 +65340,5 @@
     "source_url": "https://t.me/RDFradar/15187",
     "lat": null,
     "lon": null
-  },
-  {
-    "id": "tg-2d3276c8414bcc48",
-    "place": "Рассказово",
-    "region": "Тамбовская область",
-    "source": "@locatorru",
-    "status": "alert",
-    "published_at": "2026-10-15T22:06:19+00:00",
-    "text": "Котовск, Рассказово, Платоновка, Тамбов, Тамбовская область - опасность по БПЛА.\n\n📡Локатор России - @locatorru",
-    "confirmations": 1,
-    "approximate": true,
-    "source_url": "https://t.me/locatorru/90337",
-    "lat": 52.6716,
-    "lon": 41.874
-  },
-  {
-    "id": "tg-d1c1d447bea2691a",
-    "place": "Солнечногорский ГО",
-    "region": "Москва и Московская область",
-    "source": "@RDFradar",
-    "status": "fix",
-    "published_at": "2026-10-15T22:05:42+00:00",
-    "text": "Солнечногорский ГО\nот 2 БПЛА по вашему направлению",
-    "confirmations": 1,
-    "approximate": true,
-    "source_url": "https://t.me/RDFradar/15186",
-    "lat": null,
-    "lon": null
-  },
-  {
-    "id": "tg-d9702ca6b0884587",
-    "place": null,
-    "region": "Москва и Московская область",
-    "source": "@RDFradar",
-    "status": "fix",
-    "published_at": "2026-10-15T22:05:04+00:00",
-    "text": "❗️Продолжаются пролеты БПЛА, в том числе реактивные в направлении Московской области. Много.\nСоблюдайте меры безопасности",
-    "confirmations": 1,
-    "approximate": true,
-    "source_url": "https://t.me/RDFradar/15185"
-  },
-  {
-    "id": "tg-c6478b2159d78e74",
-    "place": null,
-    "region": "Ярославская область",
-    "source": "@locatorru",
-    "status": "fix",
-    "published_at": "2026-10-15T22:04:42+00:00",
-    "text": "Переславль, Ярославская область - предварительно прошёл 1 БПЛА со стороны Александров, Владимирской области.\n\n📡Локатор России - @locatorru",
-    "confirmations": 1,
-    "approximate": true,
-    "source_url": "https://t.me/locatorru/90336"
   }
 ]

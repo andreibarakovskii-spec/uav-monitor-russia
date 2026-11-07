@@ -1,14 +1,14 @@
 {
   "total_events": 5000,
   "with_place": 2671,
-  "with_coordinates": 1074,
+  "with_coordinates": 1073,
   "coordinate_coverage_pct": 21.5,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Без региона",
-      "events": 714,
+      "events": 715,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -20,15 +20,15 @@
     },
     {
       "region": "Москва и Московская область",
-      "events": 539,
+      "events": 537,
       "with_coordinates": 180,
-      "coverage_pct": 33.4
+      "coverage_pct": 33.5
     },
     {
       "region": "Нижегородская область",
-      "events": 292,
+      "events": 293,
       "with_coordinates": 47,
-      "coverage_pct": 16.1
+      "coverage_pct": 16.0
     },
     {
       "region": "Краснодарский край",
@@ -38,9 +38,9 @@
     },
     {
       "region": "Орловская область",
-      "events": 198,
+      "events": 200,
       "with_coordinates": 16,
-      "coverage_pct": 8.1
+      "coverage_pct": 8.0
     },
     {
       "region": "Тульская область",
@@ -104,9 +104,9 @@
     },
     {
       "region": "Тамбовская область",
-      "events": 99,
-      "with_coordinates": 21,
-      "coverage_pct": 21.2
+      "events": 98,
+      "with_coordinates": 20,
+      "coverage_pct": 20.4
     },
     {
       "region": "Пензенская область",
@@ -152,9 +152,9 @@
     },
     {
       "region": "Ярославская область",
-      "events": 60,
+      "events": 59,
       "with_coordinates": 8,
-      "coverage_pct": 13.3
+      "coverage_pct": 13.6
     },
     {
       "region": "Новгородская область",
