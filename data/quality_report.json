@@ -1,7 +1,7 @@
 {
   "total_events": 5000,
-  "with_place": 2624,
-  "with_coordinates": 1020,
+  "with_place": 2621,
+  "with_coordinates": 1019,
   "coordinate_coverage_pct": 20.4,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
@@ -20,9 +20,9 @@
     },
     {
       "region": "Москва и Московская область",
-      "events": 487,
+      "events": 485,
       "with_coordinates": 151,
-      "coverage_pct": 31.0
+      "coverage_pct": 31.1
     },
     {
       "region": "Нижегородская область",
@@ -38,15 +38,15 @@
     },
     {
       "region": "Орловская область",
-      "events": 208,
+      "events": 210,
       "with_coordinates": 18,
-      "coverage_pct": 8.7
+      "coverage_pct": 8.6
     },
     {
       "region": "Ростовская область",
-      "events": 189,
+      "events": 191,
       "with_coordinates": 25,
-      "coverage_pct": 13.2
+      "coverage_pct": 13.1
     },
     {
       "region": "Калужская область",
@@ -56,9 +56,9 @@
     },
     {
       "region": "Тульская область",
-      "events": 187,
+      "events": 185,
       "with_coordinates": 51,
-      "coverage_pct": 27.3
+      "coverage_pct": 27.6
     },
     {
       "region": "Белгородская область",
@@ -110,13 +110,13 @@
     },
     {
       "region": "Санкт-Петербург и Ленинградская область",
-      "events": 92,
-      "with_coordinates": 26,
-      "coverage_pct": 28.3
+      "events": 87,
+      "with_coordinates": 25,
+      "coverage_pct": 28.7
     },
     {
       "region": "Волгоградская область",
-      "events": 81,
+      "events": 85,
       "with_coordinates": 1,
       "coverage_pct": 1.2
     },
@@ -170,7 +170,7 @@
     },
     {
       "region": "Владимирская область",
-      "events": 27,
+      "events": 28,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
