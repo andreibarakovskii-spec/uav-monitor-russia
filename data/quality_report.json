@@ -1,22 +1,22 @@
 {
   "total_events": 5000,
   "with_place": 2636,
-  "with_coordinates": 1017,
+  "with_coordinates": 1014,
   "coordinate_coverage_pct": 20.3,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Без региона",
-      "events": 660,
+      "events": 658,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Москва и Московская область",
-      "events": 545,
+      "events": 544,
       "with_coordinates": 175,
-      "coverage_pct": 32.1
+      "coverage_pct": 32.2
     },
     {
       "region": "Воронежская область",
@@ -32,21 +32,21 @@
     },
     {
       "region": "Краснодарский край",
-      "events": 269,
+      "events": 270,
       "with_coordinates": 102,
-      "coverage_pct": 37.9
+      "coverage_pct": 37.8
     },
     {
       "region": "Ростовская область",
-      "events": 245,
+      "events": 248,
       "with_coordinates": 35,
-      "coverage_pct": 14.3
+      "coverage_pct": 14.1
     },
     {
       "region": "Калужская область",
-      "events": 193,
+      "events": 195,
       "with_coordinates": 40,
-      "coverage_pct": 20.7
+      "coverage_pct": 20.5
     },
     {
       "region": "Орловская область",
@@ -74,9 +74,9 @@
     },
     {
       "region": "Брянская область",
-      "events": 136,
+      "events": 138,
       "with_coordinates": 40,
-      "coverage_pct": 29.4
+      "coverage_pct": 29.0
     },
     {
       "region": "Смоленская область",
@@ -86,9 +86,9 @@
     },
     {
       "region": "Рязанская область",
-      "events": 119,
+      "events": 118,
       "with_coordinates": 13,
-      "coverage_pct": 10.9
+      "coverage_pct": 11.0
     },
     {
       "region": "Волгоградская область",
@@ -104,15 +104,15 @@
     },
     {
       "region": "Липецкая область",
-      "events": 104,
-      "with_coordinates": 27,
-      "coverage_pct": 26.0
+      "events": 101,
+      "with_coordinates": 24,
+      "coverage_pct": 23.8
     },
     {
       "region": "Тамбовская область",
-      "events": 92,
+      "events": 91,
       "with_coordinates": 16,
-      "coverage_pct": 17.4
+      "coverage_pct": 17.6
     },
     {
       "region": "Саратовская область",
