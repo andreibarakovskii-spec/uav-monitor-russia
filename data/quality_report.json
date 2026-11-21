@@ -1,14 +1,14 @@
 {
   "total_events": 5000,
-  "with_place": 2604,
-  "with_coordinates": 994,
+  "with_place": 2600,
+  "with_coordinates": 993,
   "coordinate_coverage_pct": 19.9,
   "suspicious_place_values": 0,
   "suspicious_examples": [],
   "region_quality": [
     {
       "region": "Без региона",
-      "events": 645,
+      "events": 644,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -20,27 +20,27 @@
     },
     {
       "region": "Воронежская область",
-      "events": 505,
-      "with_coordinates": 268,
-      "coverage_pct": 53.1
+      "events": 514,
+      "with_coordinates": 270,
+      "coverage_pct": 52.5
     },
     {
       "region": "Краснодарский край",
-      "events": 303,
-      "with_coordinates": 114,
-      "coverage_pct": 37.6
+      "events": 309,
+      "with_coordinates": 116,
+      "coverage_pct": 37.5
     },
     {
       "region": "Нижегородская область",
-      "events": 269,
+      "events": 265,
       "with_coordinates": 29,
-      "coverage_pct": 10.8
+      "coverage_pct": 10.9
     },
     {
       "region": "Ростовская область",
-      "events": 259,
+      "events": 263,
       "with_coordinates": 31,
-      "coverage_pct": 12.0
+      "coverage_pct": 11.8
     },
     {
       "region": "Калужская область",
@@ -56,9 +56,9 @@
     },
     {
       "region": "Республика Татарстан",
-      "events": 184,
-      "with_coordinates": 83,
-      "coverage_pct": 45.1
+      "events": 178,
+      "with_coordinates": 78,
+      "coverage_pct": 43.8
     },
     {
       "region": "Тульская область",
@@ -68,9 +68,9 @@
     },
     {
       "region": "Белгородская область",
-      "events": 148,
+      "events": 149,
       "with_coordinates": 17,
-      "coverage_pct": 11.5
+      "coverage_pct": 11.4
     },
     {
       "region": "Смоленская область",
@@ -80,9 +80,9 @@
     },
     {
       "region": "Брянская область",
-      "events": 123,
+      "events": 125,
       "with_coordinates": 33,
-      "coverage_pct": 26.8
+      "coverage_pct": 26.4
     },
     {
       "region": "Пензенская область",
@@ -91,16 +91,16 @@
       "coverage_pct": 9.5
     },
     {
-      "region": "Рязанская область",
-      "events": 115,
-      "with_coordinates": 13,
-      "coverage_pct": 11.3
-    },
-    {
       "region": "Липецкая область",
       "events": 114,
       "with_coordinates": 24,
       "coverage_pct": 21.1
+    },
+    {
+      "region": "Рязанская область",
+      "events": 114,
+      "with_coordinates": 13,
+      "coverage_pct": 11.4
     },
     {
       "region": "Волгоградская область",
@@ -110,9 +110,9 @@
     },
     {
       "region": "Санкт-Петербург и Ленинградская область",
-      "events": 94,
+      "events": 97,
       "with_coordinates": 27,
-      "coverage_pct": 28.7
+      "coverage_pct": 27.8
     },
     {
       "region": "Тамбовская область",
@@ -128,39 +128,39 @@
     },
     {
       "region": "Тверская область",
-      "events": 76,
+      "events": 77,
       "with_coordinates": 12,
-      "coverage_pct": 15.8
+      "coverage_pct": 15.6
     },
     {
       "region": "Ульяновская область",
-      "events": 65,
+      "events": 62,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Самарская область",
-      "events": 65,
+      "events": 58,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
     {
       "region": "Курская область",
-      "events": 52,
+      "events": 53,
       "with_coordinates": 14,
-      "coverage_pct": 26.9
+      "coverage_pct": 26.4
+    },
+    {
+      "region": "Новгородская область",
+      "events": 44,
+      "with_coordinates": 2,
+      "coverage_pct": 4.5
     },
     {
       "region": "Ставропольский край",
       "events": 43,
       "with_coordinates": 0,
       "coverage_pct": 0.0
-    },
-    {
-      "region": "Новгородская область",
-      "events": 42,
-      "with_coordinates": 2,
-      "coverage_pct": 4.8
     },
     {
       "region": "Ярославская область",
@@ -181,12 +181,6 @@
       "coverage_pct": 0.0
     },
     {
-      "region": "Кировская область",
-      "events": 28,
-      "with_coordinates": 0,
-      "coverage_pct": 0.0
-    },
-    {
       "region": "Вологодская область",
       "events": 27,
       "with_coordinates": 3,
@@ -195,6 +189,12 @@
     {
       "region": "Карачаево-Черкесская Республика",
       "events": 26,
+      "with_coordinates": 0,
+      "coverage_pct": 0.0
+    },
+    {
+      "region": "Кировская область",
+      "events": 24,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
@@ -212,7 +212,7 @@
     },
     {
       "region": "Чувашская Республика",
-      "events": 21,
+      "events": 18,
       "with_coordinates": 0,
       "coverage_pct": 0.0
     },
